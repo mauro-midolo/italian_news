@@ -1,4 +1,4 @@
-# 🇮🇹 italian_news
+# 🇮🇹 Italian News
 
 > Rassegna stampa generata e aggiornata **ogni giorno** da un'intelligenza artificiale.
 > Due edizioni: una nazionale/internazionale e una locale.
