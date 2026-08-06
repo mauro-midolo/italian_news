@@ -1,0 +1,106 @@
+name: Rassegna stampa giornaliera
+
+on:
+  schedule:
+    # GitHub Actions usa UTC: 04:30 UTC = 06:30 in ora legale (CEST),
+    # 05:30 UTC = 06:30 in ora solare (CET). Lo step "Controllo orario
+    # italiano" scarta l'esecuzione sbagliata a seconda del periodo.
+    - cron: "30 4 * * *"
+    - cron: "30 5 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: rassegna-giornaliera
+  cancel-in-progress: false
+
+jobs:
+  rassegna:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+      id-token: write
+
+    steps:
+      - name: Controllo orario italiano
+        id: orario
+        run: |
+          ORA=$(TZ="Europe/Rome" date +%H)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Esecuzione manuale: procedo."
+            echo "esegui=true" >> "$GITHUB_OUTPUT"
+          elif [ "$ORA" = "06" ]; then
+            echo "In Italia sono le 06:30: procedo."
+            echo "esegui=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "In Italia sono le $ORA: esecuzione saltata."
+            echo "esegui=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout repository
+        if: steps.orario.outputs.esegui == 'true'
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Genera la rassegna con Claude
+        if: steps.orario.outputs.esegui == 'true'
+        uses: anthropics/claude-code-action@v1.0.183
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            Sei il redattore automatico del repository italian_news.
+            Oggi è il giorno indicato dal comando `date` sulla macchina.
+
+            Devi riscrivere COMPLETAMENTE da zero due file Markdown, cercando
+            sul web le notizie più rilevanti delle ultime 24 ore.
+
+            ## 1. `news_global.md`
+            Le principali notizie italiane e internazionali della giornata.
+            Da 8 a 12 notizie, ordinate per rilevanza e raggruppate per
+            sezione: Politica, Economia, Estero, Cronaca, Scienza e
+            tecnologia, Cultura e sport. Ometti le sezioni senza notizie.
+
+            ## 2. `news_san_lazzaro_di_savena.md`
+            Le notizie riguardanti il comune di San Lazzaro di Savena (BO) e,
+            se scarseggiano, l'area metropolitana di Bologna. Da 4 a 8
+            notizie: cronaca locale, decisioni dell'amministrazione comunale,
+            viabilità, eventi e iniziative in programma.
+
+            ## Formato di entrambi i file
+            - Titolo di primo livello con il nome dell'edizione e la data in
+              formato esteso italiano (es. "Giovedì 6 agosto 2026").
+            - Ogni notizia: titolo di terzo livello, seguito da un riassunto
+              di 2-4 frasi e da un link alla fonte originale.
+            - In fondo, una riga che ricorda che il testo è generato
+              automaticamente da un'intelligenza artificiale e non è
+              verificato da un redattore umano.
+
+            ## Regole redazionali
+            - Scrivi in italiano, con tono sobrio e informativo.
+            - Riassumi sempre con parole tue: non copiare frasi dagli
+              articoli originali e non riportare virgolettati estesi.
+            - Cita solo notizie che hai effettivamente trovato tramite
+              ricerca web, con la relativa fonte. Non inventare NULLA:
+              se non trovi abbastanza notizie locali, scrivine meno.
+            - Mantieni un registro neutrale sui temi politicamente
+              controversi: riporta i fatti, non prendere posizione.
+            - Limitati a scrivere i due file: non modificare altro nel
+              repository e non eseguire comandi git.
+          claude_args: |
+            --model claude-sonnet-5
+            --max-turns 40
+            --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Bash(date*)"
+
+      - name: Pubblica la rassegna
+        if: steps.orario.outputs.esegui == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news_global.md news_san_lazzaro_di_savena.md
+          if git diff --staged --quiet; then
+            echo "Nessuna modifica da pubblicare."
+          else
+            git commit -m "Rassegna del $(TZ='Europe/Rome' date +%d/%m/%Y)"
+            git push
+          fi
