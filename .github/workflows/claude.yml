@@ -2,49 +2,28 @@ name: Rassegna stampa giornaliera
 
 on:
   schedule:
-    # GitHub Actions usa UTC: 04:30 UTC = 06:30 in ora legale (CEST),
-    # 05:30 UTC = 06:30 in ora solare (CET). Lo step "Controllo orario
-    # italiano" scarta l'esecuzione sbagliata a seconda del periodo.
     - cron: "30 4 * * *"
-    - cron: "30 5 * * *"
   workflow_dispatch:
 
 concurrency:
   group: rassegna-giornaliera
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   rassegna:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     permissions:
       contents: write
       id-token: write
 
     steps:
-      - name: Controllo orario italiano
-        id: orario
-        run: |
-          ORA=$(TZ="Europe/Rome" date +%H)
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "Esecuzione manuale: procedo."
-            echo "esegui=true" >> "$GITHUB_OUTPUT"
-          elif [ "$ORA" = "06" ]; then
-            echo "In Italia sono le 06:30: procedo."
-            echo "esegui=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "In Italia sono le $ORA: esecuzione saltata."
-            echo "esegui=false" >> "$GITHUB_OUTPUT"
-          fi
-
       - name: Checkout repository
-        if: steps.orario.outputs.esegui == 'true'
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
       - name: Genera la rassegna con Claude
-        if: steps.orario.outputs.esegui == 'true'
         uses: anthropics/claude-code-action@v1.0.183
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -93,7 +72,6 @@ jobs:
             --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Bash(date*)"
 
       - name: Pubblica la rassegna
-        if: steps.orario.outputs.esegui == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
