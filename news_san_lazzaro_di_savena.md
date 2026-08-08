@@ -1,24 +1,29 @@
-# Notizie di San Lazzaro di Savena – Venerdì 7 agosto 2026
+# Notizie di San Lazzaro di Savena – Sabato 8 agosto 2026
 
-### Lavori sulla SP28 "Croce dell'Idice", senso unico alternato fino all'8 agosto
-Sulla provinciale 28 "Croce dell'Idice", tra San Lazzaro di Savena e Castenaso, restano in vigore fino all'8 agosto le limitazioni al traffico legate al riassetto della rete elettrica ad alta tensione nell'area bolognese. Nei tratti interessati, dalle 7:30 alle 17:30 dei giorni feriali, la velocità è ridotta a 30 km/h e la circolazione avviene a senso unico alternato regolato da impianto semaforico o movieri. La Città Metropolitana di Bologna invita gli automobilisti a prestare attenzione e a mettere in conto possibili rallentamenti negli orari di punta.
+### Lutto in Consiglio comunale, addio al consigliere Alberto Malavolti
+Alberto Malavolti, 45 anni, consigliere comunale di San Lazzaro eletto nel giugno 2024 nelle liste di Fratelli d'Italia, è stato trovato morto lunedì 3 agosto nell'area verde del complesso residenziale in cui viveva. Lascia la moglie e due figli piccoli; sull'episodio è stata disposta l'autopsia. I funerali si sono svolti giovedì 6 agosto nella chiesa parrocchiale di San Lazzaro, con la partecipazione di numerosi cittadini e dell'amministrazione comunale.
 
-Fonte: [Città Metropolitana di Bologna](https://www.cittametropolitana.bo.it/portale/Engine/RAServePG.php/P/3854510010100)
+Fonte: [BolognaToday](https://www.bolognatoday.it/politica/morto-alberto-malavolti-san-lazzaro-consigliere-fdi.html)
 
-### Bilancio comunale, oltre 5 milioni di euro per la sicurezza del territorio
-Il Comune di San Lazzaro ha approvato per il 2026 un pacchetto di investimenti sulla sicurezza idraulica e stradale che prevede 2,4 milioni di euro per interventi sul Rio Brolo, un milione per il Rio Pontebuco, 800mila euro per il consolidamento del ponte di via Emilia sull'Idice e circa 500mila euro per la manutenzione della viabilità comunale. In primavera alcuni consiglieri di opposizione avevano però chiesto chiarimenti all'amministrazione sui tempi di effettiva disponibilità delle risorse destinate al Rio Brolo, segnalando ritardi rispetto agli annunci iniziali.
+### Inaugurati i nuovi spazi della Casa della Comunità, investimento da 3,8 milioni
+Il 30 luglio sono stati inaugurati i nuovi spazi della Casa della Comunità di via della Repubblica, frutto di un investimento di quasi 3,8 milioni di euro tra fondi PNRR e risorse statali. L'intervento ha rifunzionalizzato oltre 3.200 metri quadrati, potenziando ambulatori specialistici, punto prelievi, diagnostica radiologica e riabilitazione, con presenza medica sulle 24 ore e infermieristica per l'intera settimana. L'amministrazione ha annunciato un secondo intervento da 2,2 milioni di euro nelle prossime settimane, per un investimento complessivo di circa 6 milioni.
 
-Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/comunicati-stampa/ok-al-bilancio-oltre-5-milioni-di-euro-per-la-sicurezza-del-territorio) e [Zazoom](https://www.zazoom.it/2026-05-27/dove-sono-i-24-milioni-per-il-rio-brolo/19257447/)
+Fonte: [BolognaToday](https://www.bolognatoday.it/attualita/casa-della-comunita-san-lazzaro.html)
 
-### Ondata di calore, in arrivo un miglioramento tra sabato e lunedì
-Anche l'area di San Lazzaro e Bologna resta interessata dall'ondata di calore che da settimane porta temperature superiori alla media stagionale, con punte fino a 40 gradi nelle zone interne. Le previsioni indicano un cambiamento tra sabato 8 e lunedì 10 agosto, quando infiltrazioni di aria più umida di origine atlantica dovrebbero portare instabilità, rovesci temporaleschi e un calo delle temperature di alcuni gradi, pur restando i valori sopra la norma stagionale.
+### Si è chiusa la 194ª Fiera di San Lazzaro
+Dal 30 luglio al 2 agosto si è svolta la 194ª edizione della storica Fiera di San Lazzaro, tra gli appuntamenti estivi più seguiti della città, con spettacoli musicali, mercato, degustazioni di prodotti tipici e visite guidate al Parco dei Gessi. In parallelo, nel Parco della Resistenza si è tenuta la rassegna culturale Resisdance, che ha animato le serate dell'evento.
 
-Fonte: [Il Resto del Carlino](https://www.ilrestodelcarlino.it/meteo/tregua-caldo-estremo-goaspgh2)
+Fonte: [BolognaToday](https://www.bolognatoday.it/eventi/fiera-di-san-lazzaro-2026.html)
 
-### Proseguono i centri estivi comunali "Il Sole in città"
-Continuano fino alla fine di agosto le attività dei centri estivi promossi dal Comune di San Lazzaro di Savena nell'ambito del progetto "Il Sole in Città", che offre proposte ricreative ed educative per bambini e ragazzi durante la pausa scolastica. Tra le iniziative comunali figurano il centro "Voliamo con la Fantasia", dedicato ai bambini dai 3 ai 5 anni, ed "E...State con Noi", per la fascia 6-11 anni, accanto ai centri estivi privati convenzionati con il Comune.
+### Viabilità, proseguono i cantieri per il rifacimento di diverse strade cittadine
+Sono in corso lavori di rifacimento del manto stradale su via Aldo Moro, via Mario Conti, via Martiri di Pizzocalvo, via Gaibola, via Russo, via Piombarola, via Montebello, via Firenze, via Palazzetti e via Galletta, con modifiche alla viabilità segnalate sul posto. Via Andreoli resta chiusa al traffico fino a metà agosto per interventi sui cavi elettrici, mentre via Castel de' Britti è stata recentemente interessata da lavori di allacciamento alle reti idrica e del gas.
 
-Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/argomenti/scuola-ed-educazione/centri-e-servizi-estivi-2026)
+Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/avvisi/lavori-in-corso)
+
+### Bologna Estate, il cartellone di eventi prosegue fino a fine agosto
+Il programma "Bologna Estate", che coinvolge anche l'area metropolitana attorno a San Lazzaro, propone nei prossimi giorni diversi appuntamenti: questa sera al Parco San Pellegrino una maratona di Silent Cinema dedicata a Twin Peaks, nel weekend visite guidate alla mostra "Queen. The Last Tour" e il 10 agosto la tradizionale "Notte delle stelle cadenti" al velodromo di Pianoro. Seguiranno serate di cinema e musica in Piazza Maggiore a metà mese.
+
+Fonte: [BolognaToday](https://www.bolognatoday.it/eventi/bologna-estate-calendario-7-20-agosto-2026.html)
 
 ---
 
