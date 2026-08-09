@@ -1,59 +1,69 @@
-# Rassegna Globale – Sabato 8 agosto 2026
+# Rassegna Globale – Domenica 9 agosto 2026
 
-### Sant'Anna di Stazzema, il governo si prepara all'82° anniversario della strage
-Il 12 agosto ricorrerà l'82° anniversario dell'eccidio nazifascista di Sant'Anna di Stazzema, in cui furono uccise 560 persone, in gran parte donne, anziani e bambini. L'orazione ufficiale della cerimonia sarà affidata all'ex premier Giuseppe Conte, mentre le conclusioni spetteranno al vicepremier e ministro degli Esteri Antonio Tajani, che porterà il saluto dell'esecutivo. Il sito, che ha da poco ottenuto il Marchio del Patrimonio Europeo, si prepara ad accogliere autorità e cittadini per le celebrazioni.
+### Italia-Spagna, scontro sui controlli alle frontiere dopo la crisi di Ceuta
+Da sabato 8 agosto la Spagna ha esteso a sette scali aeroportuali, oltre a Madrid e Barcellona, i controlli a campione sui viaggiatori in arrivo dall'Italia, come ritorsione per il ripristino italiano dei controlli temporanei alle frontiere interne aeree e marittime con la Spagna, deciso il 1° agosto dopo l'afflusso di migranti a Ceuta. Madrid aveva posto un ultimatum per la revoca dei controlli entro oggi, pena l'adozione di misure di risposta proporzionate, ma Roma ha respinto l'imposizione e conferma la sospensione di Schengen almeno fino al 15 agosto. Entrambi i governi definiscono la misura temporanea, con verifiche a campione che proseguiranno fino al 7 settembre.
 
-Fonte: [Gonews.it](https://www.gonews.it/2026/08/07/santanna-di-stazzema-ricorda-l82-anniversario-della-strage-nazifascista/)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/2026/08/08/scontro-tra-madrid-e-roma-controlli-per-chi-arriva-dallitalia_e1e69c4c-d542-4017-9b18-a8364b7a5587.html)
 
-### Caso Roggero, Gratteri: "Fu un'esecuzione, non legittima difesa"
-Il procuratore di Napoli Nicola Gratteri è tornato sul caso del gioielliere Mario Roggero, condannato a quasi 15 anni per aver ucciso due rapinatori, definendo l'accaduto un'esecuzione e non un atto di legittima difesa. Il magistrato ha criticato la campagna politica per ottenere la grazia, ricordando che si tratta di una prerogativa esclusiva del Presidente della Repubblica. Il caso continua a dividere la politica italiana, dopo la visita in carcere del vicepremier Salvini a sostegno di Roggero.
+### Marcinelle, 70 anni dalla strage: polemica per il gesto della Fgtb verso le istituzioni
+L'8 agosto si sono svolte le celebrazioni per il 70° anniversario della tragedia mineraria di Marcinelle, in cui morirono 262 lavoratori, 136 dei quali italiani; la premier Meloni ha inviato un messaggio video ricordando l'istituzione della Giornata europea per le vittime sul lavoro. La cerimonia al Bois du Cazier è stata segnata da polemiche: alcuni rappresentanti del sindacato belga Fgtb hanno voltato le spalle mentre il presidente del Senato La Russa leggeva il messaggio del capo dello Stato Mattarella, gesto che Meloni ha definito grave e irrispettoso verso le istituzioni. Mattarella, nel suo messaggio, ha richiamato la necessità che la gestione dei flussi migratori rispetti la dignità delle persone.
 
-Fonte: [TargatoCn.it](https://www.targatocn.it/2026/08/04/leggi-notizia/argomenti/attualita/articolo/gratteri-sul-caso-roggero-fu-unesecuzione-non-legittima-difesa-e-il-pressing-politico-sulla-g.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/08/meloni-grave-e-vergognoso-gesto-cgil-a-commemorazione-marcinelle_657d2bac-f5d4-4bca-9816-4ba26e8fcf00.html)
 
-### Piazza Affari, il Ftse Mib aggiorna il record sopra i 54.000 punti
-Venerdì 7 agosto il Ftse Mib ha toccato la soglia dei 54.000 punti, un nuovo massimo storico trainato dall'ottima performance del settore bancario, prima di un lieve ripiegamento nel finale di seduta. L'indice milanese conferma così il trend di crescita che caratterizza la Borsa italiana dall'inizio dell'estate.
+### Intesa Sanpaolo, utile semestrale record a 5,56 miliardi
+Il gruppo bancario ha chiuso il primo semestre 2026 con un utile netto di 5,56 miliardi di euro, in crescita del 6,5% sullo stesso periodo dell'anno precedente, grazie soprattutto alla crescita delle commissioni nette e a un cost/income ratio ai minimi storici del 35,9%. Il consiglio di amministrazione ha rivisto al rialzo la guidance sull'intero esercizio, stimando ora un utile netto 2026 superiore ai 10 miliardi di euro. La banca ha inoltre registrato un ROE annualizzato al 20%, tra i migliori del settore bancario europeo.
 
-Fonte: [MilanoFinanza](https://www.milanofinanza.it/investimenti-trading/ftse-mib-al-test-dei-54-000-punti-202608071106247796)
+Fonte: [LaPresse](https://www.lapresse.it/economia/2026/07/29/intesa-sanpaolo-utile-netto-sale-a-56-miliardi-nel-primo-semestre-65/)
 
-### Stati Uniti, crollo a sorpresa dell'occupazione a luglio
-I dati sul mercato del lavoro americano relativi a luglio segnalano una perdita netta di 23mila posti, a fronte di attese per un aumento di circa 80mila unità, con una revisione al ribasso di oltre 100mila posti per i due mesi precedenti. Il tasso di disoccupazione è comunque sceso al 4,1%. La Federal Reserve, che ha lasciato i tassi invariati, resta cauta per le pressioni inflazionistiche legate ai prezzi dell'energia connesse al conflitto con l'Iran.
+### PIL 2026 a più velocità: Bolzano vola, frena la Valle d'Aosta
+Secondo la mappa economica elaborata da Confesercenti e diffusa l'8 agosto, la crescita del PIL 2026 procede a ritmi molto diversi tra le regioni italiane, con il Trentino-Alto Adige in testa (+1,5%) e Bolzano prima tra le città (+1,8%), mentre la Valle d'Aosta è l'unica regione in contrazione (-0,1%). Lo spread tra BTP decennali e Bund tedeschi si è mantenuto stabile intorno ai 77 punti base, con il rendimento del BTP italiano sceso al 3,89%, e l'inflazione media nazionale resta sotto la soglia del 3%.
 
-Fonte: [Borsa Italiana - Radiocor](https://www.borsaitaliana.it/borsa/notizie/radiocor/economia/dettaglio/usa-rapporto-occupazione-debole-ma-fed-guardera--l-inflazione-prima-di-decidere-sui-tassi-nRC_07082026_1841_526964703.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/08/confesercenti-la-mappa-del-pil-2026-prima-bolzano-18-frena-valle-daosta_b274d58e-8389-49e2-aa90-5bd6441a4458.html)
 
-### Mar Caspio, l'Iran accusa l'Ucraina per l'attacco a una nave mercantile
-Teheran ha definito "deliberato" l'attacco che il 26 luglio ha colpito una propria nave mercantile nel Mar Caspio, causando una vittima, e ne attribuisce la responsabilità a Kiev. L'Ucraina sostiene di colpire imbarcazioni impiegate nel trasporto di materiale militare tra Iran e Russia; secondo il ministro degli Esteri iraniano Araghchi, la controparte ucraina avrebbe definito l'episodio non intenzionale, senza però escludere una richiesta di risarcimento per i danni.
+### Turchia, Arabia Saudita e Pakistan firmano un patto di difesa reciproca
+Il presidente turco Erdogan, il principe ereditario saudita Mohammed bin Salman e il premier pakistano Shehbaz Sharif hanno firmato il 7 agosto un accordo che prevede come un attacco armato contro uno dei tre paesi sia considerato un attacco contro tutti. L'intesa, basata sul principio della deterrenza collettiva, punta a rafforzare la cooperazione in sicurezza, industria della difesa e lotta al terrorismo, in un momento di forte tensione regionale legato al conflitto in corso tra Stati Uniti e Iran. Gli analisti sottolineano che non si tratta di un'alleanza in stile NATO, ma di un passo politicamente significativo tra tre potenze musulmane di peso regionale.
 
-Fonte: [Agi.it](https://www.agi.it/estero/news/2026-08-03/iran-ucraina-mar-caspio-38358846/)
+Fonte: [Al Jazeera](https://www.aljazeera.com/news/2026/8/7/turkiye-saudi-arabi-pakistan-sign-joint-defence-agreement-whats-in-it)
 
-### Migranti, riesplode la crisi a Ceuta: von der Leyen rassicura sull'UE
-Un massiccio afflusso di migranti dal Marocco verso l'exclave spagnola di Ceuta ha riacceso la crisi migratoria in Europa. La presidente della Commissione UE Ursula von der Leyen ha dichiarato che la gran parte di chi è entrato illegalmente è già rientrata in Marocco e che nessuno ha raggiunto la Spagna continentale o il resto dell'Unione, proponendo di rafforzare con Madrid i sistemi di allerta precoce e il sostegno tecnico-finanziario a Rabat.
+### Kiev, attacco russo con droni su Brovary: tre morti, tra cui un bambino
+Nella notte tra il 7 e l'8 agosto la regione di Kiev è stata colpita da un nuovo attacco russo con droni, che nel distretto di Brovary ha causato tre vittime, tra cui un bambino, proseguendo la serie di raid che nei giorni precedenti aveva già provocato vittime multiple nella capitale e nei sobborghi. L'area era già stata colpita pesantemente il 4 e il 5 agosto da un massiccio bombardamento con missili balistici e droni contro Kiev e le zone limitrofe di Bucha e Fastiv.
 
-Fonte: [Euronews](https://www.euronews.com/my-europe/2026/08/01/not-a-single-person-reached-mainland-spain-or-the-rest-of-the-eu-says-von-der-leyen)
+Fonte: [Epoch Times Italia](https://www.epochtimes.it/attacco-a-brovary-vicino-a-kiev-8-persone-trovate-morte-su-una-piattaforma-ferroviaria-234910.html)
 
-### Caldo estremo, sabato da bollino rosso in tutta Italia: asfalto fino a 62°C
-Oggi, sabato 8 agosto, tutte le 27 città monitorate dal ministero della Salute risultano in bollino rosso, il livello massimo di allerta per il caldo. Le rilevazioni segnalano temperature dell'asfalto fino a 62 gradi e punte di 48 gradi alla centralina di Napoli, nell'ambito della quarta ondata di calore dell'estate che sta interessando l'intero bacino del Mediterraneo.
+### Il super tifone Dolphin colpisce Okinawa e punta verso la Cina
+Il tifone Dolphin, che in 36 ore è passato alla categoria di super tifone con venti fino a 280 km/h, si è abbattuto sabato sulla prefettura giapponese di Okinawa, ferendo sei persone e lasciando senza corrente oltre 50mila edifici; danni sono stati segnalati anche a Kyushu, area già colpita da un terremoto di magnitudo 7.1 la settimana precedente. Il ciclone è atteso tra il 9 e il 10 agosto sulla costa orientale cinese, tra Shanghai e il Fujian, con piogge intense e venti forti.
 
-Fonte: [Meteo.it](https://www.meteo.it/notizie/caldo-estremo-in-italia-27-citta-da-bollino-rosso-asfalto-fino-a-62deg-e-punte-di-48deg-alla-stazione-di-napoli-1d9aac17)
+Fonte: [Sky TG24](https://tg24.sky.it/mondo/2026/08/05/tifone-dolphin-giappone-cina)
 
-### Esodo estivo, oggi bollino nero sulle strade italiane
-Il weekend del 7-9 agosto è tra i più trafficati dell'estate, con oltre 25 milioni di spostamenti di veicoli previsti e sabato 8 agosto segnato come giornata da bollino nero. Sono in vigore i divieti di circolazione per i mezzi pesanti, con fasce orarie di blocco che coprono gran parte della giornata odierna e proseguono anche domenica.
+### Stati Uniti, un miliardo di dollari di aiuti alla sicurezza per la Colombia
+Il Dipartimento di Stato americano ha annunciato il 7 agosto l'intenzione di destinare un miliardo di dollari in assistenza alla sicurezza per il governo del neopresidente colombiano Abelardo de la Espriella, insediatosi lo stesso giorno alla presenza di una delegazione statunitense. Il pacchetto prevede cooperazione militare, contrasto al narcotraffico ed eradicazione delle coltivazioni di coca, ma la sua erogazione definitiva dipenderà dall'approvazione del Congresso americano.
 
-Fonte: [Sky TG24](https://tg24.sky.it/cronaca/2026/08/07/traffico-bollino-nero-sabato-8-agosto)
+Fonte: [Euronews](https://www.euronews.com/2026/08/08/us-intends-to-send-1-billion-in-aid-to-colombia-following-de-la-espriellas-inauguration)
 
-### Bresciano, muore la ciclista travolta da un automobilista sotto l'effetto di droghe
-Michela Tengattini, 34 anni, di Capriolo, è morta il 7 agosto dopo due settimane di agonia in seguito all'investimento subito mentre pedalava insieme al compagno e alla figlia di tre anni. L'automobilista che l'ha travolta è risultato positivo all'uso di sostanze stupefacenti.
+### Bari, incidente sulla provinciale 88: muore una donna, sei feriti
+Nella serata dell'8 agosto un incidente stradale sulla provinciale 88 tra Giovinazzo e Bitonto, nel Barese, ha causato la morte di una donna di circa 70 anni e il ferimento di altre sei persone. L'episodio si inserisce nel weekend da bollino nero per il traffico, con oltre 25 milioni di spostamenti di veicoli previsti tra il 7 e il 9 agosto sulla rete stradale italiana.
 
-Fonte: [Informatore Orobico](https://www.informatoreorobico.it/2026/08/07/adro-morta-dopo-due-settimane-di-agonia-la-donna-travolta-da-un-bergamasco-drogato-mentre-era-bici/)
+Fonte: [Vivere Puglia](https://www.viverepuglia.it/2026-08-08)
 
-### Allarme sovraffollamento nello spazio: 18mila satelliti in orbita bassa
-Un esperto ha lanciato l'allarme sui rischi legati agli oltre 18mila satelliti oggi presenti in orbita bassa terrestre, con decine di migliaia di nuovi lanci previsti nei prossimi anni. Nella sola costellazione Starlink si registra in media una manovra di avvicinamento pericoloso ogni undici minuti, con ogni satellite costretto a diverse manovre evasive l'anno; gli esperti richiamano il rischio della cosiddetta sindrome di Kessler, la reazione a catena di collisioni che potrebbe rendere inutilizzabili intere fasce orbitali.
+### Firenze capitale della ricerca spaziale con il congresso COSPAR 2026
+Fino al 9 agosto tremila scienziati provenienti da 75 paesi sono riuniti alla Fortezza da Basso di Firenze per l'assemblea scientifica del Committee on Space Research, il principale appuntamento mondiale su esplorazione e scienze spaziali. Tra i temi discussi figurano astrofisica, buchi neri e onde gravitazionali, esplorazione planetaria, megacostellazioni satellitari e l'uso dell'intelligenza artificiale nella ricerca spaziale.
 
-Fonte: [Euronews Italia](https://it.euronews.com/my-europe/2026/08/06/18-mila-satelliti-sopra-le-nostre-teste-lo-spazio-rischia-il-sovraffollamento-servono-rego)
+Fonte: [La Nazione](https://www.lanazione.it/firenze/cronaca/firenze-capitale-della-ricerca-spaziale-3000-scienziati-riuniti-alla-fortezza-da-basso-ba934896)
 
-### Europei di nuoto, l'Italia resta al comando del medagliere degli sport acquatici
-Agli Europei di sport acquatici di Parigi, in corso fino al 16 agosto, l'Italia mantiene la testa del medagliere con venti medaglie complessive, davanti a Germania e Gran Bretagna. Nella giornata di venerdì Ginevra Taddeucci ha conquistato il bronzo nella 3 km di nuoto di fondo, mentre la squadra azzurra continua a raccogliere risultati positivi in più discipline della rassegna continentale.
+### Per la prima volta l'intelligenza artificiale progetta virus sintetici funzionanti
+Un gruppo di ricercatori ha utilizzato modelli di intelligenza artificiale addestrati su sequenze di DNA per progettare interi genomi di batteriofagi, virus che infettano i batteri, generando migliaia di sequenze candidate tra cui circa 300 sono state effettivamente riprodotte in laboratorio e si sono dimostrate funzionanti. Il codice genetico di virus pericolosi per l'uomo era stato escluso dall'addestramento per ridurre i rischi, ma lo studio apre interrogativi urgenti sulla biosicurezza, poiché la capacità tecnica di assemblare genomi virali con l'IA generativa è ormai disponibile mentre le regole per gestirla in sicurezza sono ancora da definire.
 
-Fonte: [OA Sport](https://www.oasport.it/2026/08/medagliere-sport-acquatici-europei-2026-risultati-ori-argenti-e-bronzi/)
+Fonte: [Il Fatto Quotidiano](https://www.ilfattoquotidiano.it/2026/08/07/intelligenza-artificiale-batteriofagi-sintetici-genomi-notizie/8473517/)
+
+### Scoperto un relitto romano al largo di Mazara del Vallo
+Al largo delle coste di Mazara del Vallo, a circa tre miglia dalla riva e 46 metri di profondità, è stato individuato un relitto romano databile tra il II e il I secolo a.C., contenente centinaia di anfore di tipo Dressel 1A e due ceppi d'ancora in piombo. Il ritrovamento, avvenuto grazie alla segnalazione di privati cittadini e verificato dal Nucleo Carabinieri Tutela Patrimonio Culturale insieme alla Soprintendenza del Mare della Sicilia, è stato definito dal ministro della Cultura Alessandro Giuli una delle più importanti scoperte archeologiche subacquee degli ultimi anni.
+
+Fonte: [LaPresse](https://www.lapresse.it/cultura/2026/08/08/relitto-romano-scoperto-al-largo-di-mazara-del-vallo-centinaia-di-anfore/)
+
+### Coppa Italia, il Catania elimina il Vicenza ai rigori nel primo turno
+Nel weekend di apertura della Coppa Italia di Serie C, disputato tra sabato 8 e domenica 9 agosto, il Catania ha eliminato il Vicenza dopo che i tempi regolamentari si erano chiusi sull'1-1, imponendosi 4-3 ai calci di rigore. Tra le altre gare del turno figurano Ascoli-Potenza, giocata sabato, e Arezzo-Union Brescia e Benevento-Ravenna in programma domenica.
+
+Fonte: [Calciomercato.com](https://www.calciomercato.com/liste/calciomercato-live-tutte-le-notizie-della-settimana-3-9-agosto-2026/bltea6fe386a975ec1e)
 
 ---
 

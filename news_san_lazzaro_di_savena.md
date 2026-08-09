@@ -1,27 +1,22 @@
-# Notizie di San Lazzaro di Savena – Sabato 8 agosto 2026
+# Notizie di San Lazzaro di Savena – Domenica 9 agosto 2026
 
-### Lutto in Consiglio comunale, addio al consigliere Alberto Malavolti
-Alberto Malavolti, 45 anni, consigliere comunale di San Lazzaro eletto nel giugno 2024 nelle liste di Fratelli d'Italia, è stato trovato morto lunedì 3 agosto nell'area verde del complesso residenziale in cui viveva. Lascia la moglie e due figli piccoli; sull'episodio è stata disposta l'autopsia. I funerali si sono svolti giovedì 6 agosto nella chiesa parrocchiale di San Lazzaro, con la partecipazione di numerosi cittadini e dell'amministrazione comunale.
+### Caldo estremo, San Lazzaro nella morsa del bollino rosso
+Anche per le prossime 48 ore il ministero della Salute conferma il bollino rosso, il livello massimo di allerta caldo, per l'area di Bologna e San Lazzaro di Savena, con temperature che possono raggiungere i 39 gradi e una percezione ancora più elevata per l'umidità. L'ondata di calore interessa l'intera provincia, dalle zone urbane alla pianura fino alla collina, aumentando il rischio di malori soprattutto per anziani, bambini e persone fragili.
 
-Fonte: [BolognaToday](https://www.bolognatoday.it/politica/morto-alberto-malavolti-san-lazzaro-consigliere-fdi.html)
+Fonte: [BolognaToday](https://www.bolognatoday.it/meteo/caldo-senza-tregua-bologna-resta-in-bollino-rosso-si-sfiorano-i-40-gradi.html)
 
-### Inaugurati i nuovi spazi della Casa della Comunità, investimento da 3,8 milioni
-Il 30 luglio sono stati inaugurati i nuovi spazi della Casa della Comunità di via della Repubblica, frutto di un investimento di quasi 3,8 milioni di euro tra fondi PNRR e risorse statali. L'intervento ha rifunzionalizzato oltre 3.200 metri quadrati, potenziando ambulatori specialistici, punto prelievi, diagnostica radiologica e riabilitazione, con presenza medica sulle 24 ore e infermieristica per l'intera settimana. L'amministrazione ha annunciato un secondo intervento da 2,2 milioni di euro nelle prossime settimane, per un investimento complessivo di circa 6 milioni.
+### Weekend da bollino nero sulle strade, traffico intenso anche sull'A14
+Il weekend del 7-9 agosto è tra i più trafficati dell'estate sulla rete stradale che attraversa il Bolognese, con l'A14 Bologna-Taranto tra le direttrici più critiche insieme all'A1: sabato 8 agosto è stato segnato da bollino nero, il livello massimo di criticità di Viabilità Italia, con code e rallentamenti diffusi e divieti di circolazione per i mezzi pesanti in vigore anche nella giornata odierna.
 
-Fonte: [BolognaToday](https://www.bolognatoday.it/attualita/casa-della-comunita-san-lazzaro.html)
-
-### Si è chiusa la 194ª Fiera di San Lazzaro
-Dal 30 luglio al 2 agosto si è svolta la 194ª edizione della storica Fiera di San Lazzaro, tra gli appuntamenti estivi più seguiti della città, con spettacoli musicali, mercato, degustazioni di prodotti tipici e visite guidate al Parco dei Gessi. In parallelo, nel Parco della Resistenza si è tenuta la rassegna culturale Resisdance, che ha animato le serate dell'evento.
-
-Fonte: [BolognaToday](https://www.bolognatoday.it/eventi/fiera-di-san-lazzaro-2026.html)
+Fonte: [alVolante.it](https://www.alvolante.it/news/traffico-incubo-bollino-nero-weekend-7-9-agosto-2026-416289)
 
 ### Viabilità, proseguono i cantieri per il rifacimento di diverse strade cittadine
-Sono in corso lavori di rifacimento del manto stradale su via Aldo Moro, via Mario Conti, via Martiri di Pizzocalvo, via Gaibola, via Russo, via Piombarola, via Montebello, via Firenze, via Palazzetti e via Galletta, con modifiche alla viabilità segnalate sul posto. Via Andreoli resta chiusa al traffico fino a metà agosto per interventi sui cavi elettrici, mentre via Castel de' Britti è stata recentemente interessata da lavori di allacciamento alle reti idrica e del gas.
+A San Lazzaro restano in corso i lavori di rifacimento del manto stradale su via Aldo Moro, via Mario Conti, via Martiri di Pizzocalvo, via Gaibola, via Russo, via Piombarola, via Montebello, via Firenze, via Palazzetti e via Galletta, con modifiche alla viabilità segnalate sul posto. Via Andreoli resta chiusa al traffico fino a metà agosto per lavori sui cavi elettrici, mentre nei giorni scorsi via Castel de' Britti è stata interessata da interventi di allacciamento alle reti idrica e del gas.
 
 Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/avvisi/lavori-in-corso)
 
-### Bologna Estate, il cartellone di eventi prosegue fino a fine agosto
-Il programma "Bologna Estate", che coinvolge anche l'area metropolitana attorno a San Lazzaro, propone nei prossimi giorni diversi appuntamenti: questa sera al Parco San Pellegrino una maratona di Silent Cinema dedicata a Twin Peaks, nel weekend visite guidate alla mostra "Queen. The Last Tour" e il 10 agosto la tradizionale "Notte delle stelle cadenti" al velodromo di Pianoro. Seguiranno serate di cinema e musica in Piazza Maggiore a metà mese.
+### Bologna Estate, nel weekend la Notte di San Lorenzo e la mostra su Queen
+Il cartellone di "Bologna Estate", che coinvolge anche l'area metropolitana attorno a San Lazzaro, propone nel fine settimana visite guidate alla mostra "Queen. The Last Tour" presso il Museo internazionale e biblioteca della musica di Bologna, accompagnate dal curatore dell'esposizione. Il 10 agosto è in programma la tradizionale Notte di San Lorenzo, con l'osservazione delle stelle cadenti in diversi punti dell'area bolognese, tra cui il velodromo di Pianoro.
 
 Fonte: [BolognaToday](https://www.bolognatoday.it/eventi/bologna-estate-calendario-7-20-agosto-2026.html)
 
