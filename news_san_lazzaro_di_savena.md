@@ -1,22 +1,22 @@
-# Notizie di San Lazzaro di Savena – Domenica 9 agosto 2026
+# Notizie di San Lazzaro di Savena – Martedì 11 agosto 2026
 
-### Caldo estremo, San Lazzaro nella morsa del bollino rosso
-Anche per le prossime 48 ore il ministero della Salute conferma il bollino rosso, il livello massimo di allerta caldo, per l'area di Bologna e San Lazzaro di Savena, con temperature che possono raggiungere i 39 gradi e una percezione ancora più elevata per l'umidità. L'ondata di calore interessa l'intera provincia, dalle zone urbane alla pianura fino alla collina, aumentando il rischio di malori soprattutto per anziani, bambini e persone fragili.
+### Caldo estremo, allerta rossa confermata anche per oggi
+Il ministero della Salute ha inserito Bologna tra le città in bollino rosso anche per l'11 agosto, il livello massimo dell'allerta caldo, con temperature che sfiorano i 38-39 gradi nelle zone di pianura che comprendono San Lazzaro di Savena. L'ondata di calore, tra le più intense della stagione, dovrebbe proseguire almeno fino a Ferragosto, con un'attenuazione solo parziale nel weekend; l'Ausl raccomanda particolare prudenza per anziani, bambini e persone fragili.
 
-Fonte: [BolognaToday](https://www.bolognatoday.it/meteo/caldo-senza-tregua-bologna-resta-in-bollino-rosso-si-sfiorano-i-40-gradi.html)
+Fonte: [Bologna 2000](https://www.bologna2000.com/2026/08/10/ondata-di-calore-a-bologna-allerta-fino-al-12-agosto-attivati-i-servizi-sanitari/)
 
-### Weekend da bollino nero sulle strade, traffico intenso anche sull'A14
-Il weekend del 7-9 agosto è tra i più trafficati dell'estate sulla rete stradale che attraversa il Bolognese, con l'A14 Bologna-Taranto tra le direttrici più critiche insieme all'A1: sabato 8 agosto è stato segnato da bollino nero, il livello massimo di criticità di Viabilità Italia, con code e rallentamenti diffusi e divieti di circolazione per i mezzi pesanti in vigore anche nella giornata odierna.
+### Viabilità, inaugurata la nuova rotonda tra via Bellaria e via Fratelli Canova
+Il 1° agosto è stata aperta al traffico la nuova rotatoria, denominata "Rotonda del Dono", all'incrocio tra via Bellaria, via Fratelli Canova, via Rio Polo e via Altura, al confine tra San Lazzaro e Bologna. L'opera, realizzata da Rete Ferroviaria Italiana con un investimento di due milioni di euro nell'ambito delle misure di mitigazione per la linea alta velocità Bologna-Firenze, ha eliminato due incroci semaforizzati e rappresenta il nuovo accesso principale all'ospedale Bellaria.
 
-Fonte: [alVolante.it](https://www.alvolante.it/news/traffico-incubo-bollino-nero-weekend-7-9-agosto-2026-416289)
+Fonte: [RFI](https://www.rfi.it/it/news-e-media/comunicati-stampa-e-news/2026/8/1/rfi----san-lazzaro--bo--inaugurata-la-nuova-rotatoria-di-via-bel.html)
 
-### Viabilità, proseguono i cantieri per il rifacimento di diverse strade cittadine
-A San Lazzaro restano in corso i lavori di rifacimento del manto stradale su via Aldo Moro, via Mario Conti, via Martiri di Pizzocalvo, via Gaibola, via Russo, via Piombarola, via Montebello, via Firenze, via Palazzetti e via Galletta, con modifiche alla viabilità segnalate sul posto. Via Andreoli resta chiusa al traffico fino a metà agosto per lavori sui cavi elettrici, mentre nei giorni scorsi via Castel de' Britti è stata interessata da interventi di allacciamento alle reti idrica e del gas.
+### Notte di San Lorenzo, l'osservazione delle stelle cadenti prosegue fino al picco del 12-13 agosto
+Il picco delle Perseidi è atteso nella notte tra il 12 e il 13 agosto, ma anche nelle sere del 10 e dell'11 sarà possibile osservare numerose scie luminose, soprattutto dopo la mezzanotte. Tra i punti di osservazione consigliati nell'area metropolitana bolognese figurano Villa Spada, con il suo panorama sulle colline, e diverse iniziative pubbliche organizzate nei comuni limitrofi a San Lazzaro.
 
-Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/avvisi/lavori-in-corso)
+Fonte: [BolognaToday](https://www.bolognatoday.it/guida/stelle-cadenti-san-lorenzo-dove-guardarle-2026.html)
 
-### Bologna Estate, nel weekend la Notte di San Lorenzo e la mostra su Queen
-Il cartellone di "Bologna Estate", che coinvolge anche l'area metropolitana attorno a San Lazzaro, propone nel fine settimana visite guidate alla mostra "Queen. The Last Tour" presso il Museo internazionale e biblioteca della musica di Bologna, accompagnate dal curatore dell'esposizione. Il 10 agosto è in programma la tradizionale Notte di San Lorenzo, con l'osservazione delle stelle cadenti in diversi punti dell'area bolognese, tra cui il velodromo di Pianoro.
+### Bologna Estate, nel cartellone di metà agosto cinema in piazza e Ferragosto alle Serre
+Fino al 14 agosto prosegue ogni sera "Sotto le Stelle del Cinema" in piazza Maggiore, mentre il 15 agosto è in programma "Ferragosto alle Serre" con musica dal vivo a Le Serre dei Giardini Margherita. Il cartellone di "Bologna Estate", che coinvolge anche l'area metropolitana attorno a San Lazzaro, propone inoltre fino al 9 agosto le ultime visite guidate alla mostra "Queen. The Last Tour" al Museo internazionale e biblioteca della musica.
 
 Fonte: [BolognaToday](https://www.bolognatoday.it/eventi/bologna-estate-calendario-7-20-agosto-2026.html)
 
