@@ -1,59 +1,49 @@
-# Rassegna Globale – Martedì 11 agosto 2026
+# Rassegna Globale – Mercoledì 12 agosto 2026
 
-### Estero: terremoto in Colombia, il bilancio sale a oltre 130 morti
-Il sisma di magnitudo 7.4 che ha colpito la Colombia lunedì mattina ha provocato oltre 130 morti e più di 570 feriti, con Pereira la città più colpita. Cinque capoluoghi dipartimentali, tra cui Cali e Quibdó, restano in stato di massima allerta, con decine di edifici crollati e squadre di soccorso ancora al lavoro tra le macerie, incluso l'ospedale universitario di Cali dove alcuni pazienti di terapia intensiva risultano ancora sotto le macerie. Gli Stati Uniti hanno annunciato un primo pacchetto di aiuti da 15,5 milioni di dollari.
+### Politica: Meloni esclude un rimpasto e traccia l'agenda di settembre
+In un'intervista al settimanale "Chi" in edicola da oggi, la presidente del Consiglio Giorgia Meloni ha escluso modifiche alla squadra di governo dopo la pausa estiva, indicando come priorità dell'autunno l'alleggerimento del carico fiscale, il sostegno al potere d'acquisto e la stabilizzazione dell'occupazione. Nell'intervista la premier ha anche parlato della conciliazione tra impegni di governo e vita privata come madre.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/2026/08/11/oltre-130-morti-nel-terremoto-che-ha-sconvolto-la-colombia_b8993c64-8170-44cc-a748-df2f5a05150e.html)
+Fonte: [Adnkronos](https://www.adnkronos.com/politica/governo-meloni-escludo-rimpasti-a-settembre-tra-priorita-alleggerire-le-tasse_6Iwbfqpx3b2PgdH7OtPUCD)
 
-### Estero: nuovo attacco russo su Zaporizhzhia, cinque morti
-Nella notte tra il 10 e l'11 agosto la Russia ha colpito Zaporizhzhia con missili e bombe plananti, causando cinque morti e circa venti feriti e danneggiando edifici residenziali; un'esplosione è stata segnalata anche a Kiev. L'attacco si inserisce nell'intensificazione della campagna missilistica russa dell'estate 2026, in un contesto di carenza di sistemi di difesa aerea ucraini.
+### Estero: sale a oltre 240 morti il bilancio del terremoto in Colombia
+Il presidente colombiano Abelardo De La Espriella ha firmato l'11 agosto il decreto di disastro nazionale dopo il sisma di magnitudo 7.4 che ha colpito il Chocó e le regioni limitrofe due giorni fa. Il bilancio delle vittime ha superato le 240 unità, con oltre 2.000 dispersi e centinaia di edifici crollati, mentre proseguono i soccorsi a Pereira e Cali; Messico e Nazioni Unite hanno reso disponibili aiuti in attesa della richiesta formale del governo colombiano.
 
-Fonte: [Kyiv Independent](https://kyivindependent.com/explosions-rock-kyiv-zaporizhzhia-as-russian-ballistic-missiles-strike-cities-across-ukraine/)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/2026/08/11/il-bilancio-delle-vittime-del-terremoto-in-colombia-sale-a-240_ba8dce6c-b9af-482a-b745-3b78bcb26d81.html)
 
-### Politica: Meloni incontra Salvini, Tajani e Lupi prima della pausa estiva
-Il 5 agosto la presidente del Consiglio Giorgia Meloni ha riunito a casa propria i vicepremier Matteo Salvini e Antonio Tajani insieme al leader di Noi Moderati Maurizio Lupi per fare il punto sui provvedimenti in scadenza e sulle priorità dell'azione di governo dopo la pausa estiva. Tra i temi discussi figurano la legge di bilancio, la riforma della legge elettorale con l'introduzione delle preferenze, la spesa energetica e militare e le misure sulla giustizia; l'emendamento unitario di centrodestra sulla legge elettorale è atteso in Senato il 1° settembre.
+### Estero: nuovi raid russi su Zaporizhzhia e Kiev, almeno nove morti
+Nella notte tra il 10 e l'11 agosto la Russia ha colpito Zaporizhzhia con missili balistici nordcoreani, missili Zircon e bombe plananti, causando sei morti e diciannove feriti e danneggiando edifici residenziali; altre tre vittime sono state registrate a Kiev, colpita nella zona di Zhuliany. Il presidente Zelensky ha denunciato l'intensificarsi degli attacchi mirati alle infrastrutture civili nel pieno dell'estate.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/05/meloni-vede-tajani-salvini-e-lupi-punto-prima-della-pausa-estiva_907592dd-654c-45cc-806f-2f74e63e63fd.html)
+Fonte: [Adnkronos](https://www.adnkronos.com/internazionale/esteri/guerra-ucraina-russia-ultime-news-oggi_1exlR77qeZiwG2uA57MPzL)
 
-### Economia: petrolio in forte rialzo sulle tensioni nello Stretto di Hormuz
-Il greggio ha registrato un'ulteriore impennata il 10 agosto, con il WTI in rialzo del 4,26% a 81,51 dollari al barile e il Brent del 4,24% a 87,09 dollari, sui timori legati alla riapertura dello Stretto di Hormuz, da cui transita circa un quinto del petrolio mondiale. I rincari si sono già riflessi sui carburanti, con la benzina che ha toccato un nuovo massimo per il 2026 a 1,97 euro al litro.
+### Economia: spread Btp-Bund sale a 80 punti, mercati europei senza direzione
+Il rendimento del Btp decennale ha toccato il 4% l'11 agosto, con lo spread sul Bund tedesco salito a 80 punti base dai 78 della vigilia. Le borse europee restano incerte in attesa di sviluppi sulle tensioni nello Stretto di Hormuz e di dati macroeconomici statunitensi; a Piazza Affari si segnala la debolezza di Stellantis, in calo del 2,8%.
 
-Fonte: [SoldiOnline](https://www.soldionline.it/notizie/forex-commodities/petrolio-nuova-fiammata-wti-426-e-brent-424-su-hormuz)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/11/borsa-leuropa-resta-incerta-in-attesa-dei-dati-usa-il-btp-tocca_efcb42c6-8195-4ff0-8cb4-afd94dc54634.html)
 
-### Economia: spread Btp-Bund stabile intorno ai 78 punti
-Lo spread tra i titoli di Stato italiani decennali e i Bund tedeschi ha chiuso il 10 agosto a 78 punti base, con il rendimento del Btp salito al 3,96%, in un mese caratterizzato da oscillazioni contenute tra i 75 e i 79 punti. Il mercato obbligazionario italiano mostra quindi una relativa stabilità nonostante le tensioni geopolitiche internazionali.
+### Cronaca: caldo record, 19 città in bollino rosso
+L'ondata di calore in corso, la più lunga dell'estate 2026, mantiene 19 città italiane su 27 monitorate in allerta massima anche il 12 agosto, con temperature superiori di 7-8 gradi alla media stagionale. Il ministero della Salute raccomanda prudenza per anziani, bambini e persone fragili; una prima attenuazione è attesa non prima del 17-18 agosto.
 
-Fonte: [Il Sole 24 Ore](https://www.ilsole24ore.com/art/btp-spread-leggero-rialzo-78-punti-sale-rendimento-396percento-AJw58Vj)
-
-### Cronaca: arrestato Valter Lavitola per l'attentato al giornalista Ranucci
-I carabinieri hanno arrestato il 10 agosto l'ex direttore de L'Avanti Valter Lavitola, ritenuto il mandante dell'attentato dinamitardo compiuto lo scorso ottobre davanti all'abitazione del conduttore di Report Sigfrido Ranucci a Pomezia. L'accusa, coordinata dal procuratore di Roma Francesco Lo Voi, ipotizza il reato di strage aggravato dal metodo mafioso; secondo il gip l'obiettivo sarebbe stato accrescere la popolarità di Ranucci per favorire un suo ingresso in politica. È ancora in corso la ricerca di un secondo indagato, ritenuto latitante in Africa.
-
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/10/valter-lavitola-arrestato-per-lattentato-a-ranucci-_06df5fcd-1e88-4397-938f-9738782e7e29.html)
+Fonte: [Adnkronos](https://www.adnkronos.com/cronaca/caldo-record-italia-quando-finisce_5KRQiEBVjsOOQHKb8712Dz)
 
 ### Cronaca: nuova scossa ai Campi Flegrei, resta alta la tensione
-Nella notte tra il 9 e il 10 agosto una nuova scossa di magnitudo 3.0 è stata registrata nell'area dei Campi Flegrei, dopo lo sciame sismico di fine luglio culminato nel sisma di magnitudo 4.7, il più forte in oltre quarant'anni nella zona. Restano sfollate circa 350 persone appartenenti a 144 famiglie, mentre i vigili del fuoco hanno completato circa 1.200 interventi di verifica sugli edifici della zona rossa.
+Nella notte tra il 9 e il 10 agosto una scossa di magnitudo 3.0 è stata registrata nell'area flegrea, dopo lo sciame sismico di fine luglio culminato nel sisma di magnitudo 4.7 del 31 luglio, il più forte in oltre quarant'anni nella zona. A Pozzuoli restano attive centinaia di ordinanze di sgombero per oltre duemila persone, mentre proseguono le verifiche tecniche sugli edifici della zona rossa.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/02/terremoto-ai-campi-flegrei-riaperto-il-porto-di-pozzuoli.-terminato-lo-sciame-sismico_aae7adb6-4ca6-43e9-9ec7-e96237f7651b.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/10/campi-flegrei-convocata-una-riunione-di-aggiornamento-del-centro-coordinamento-soccorsi_abec09f4-8b10-4cf5-b2cf-1d017a7b5e2d.html)
 
-### Scienza e tecnologia: mercoledì l'eclissi solare totale attraversa l'Europa
-Il 12 agosto un'eclissi solare totale percorrerà una stretta fascia che va dall'Islanda alla Spagna settentrionale e alle Baleari, dove sarà visibile la fase di totalità in città come La Coruña, Saragozza e Palma di Maiorca. In Italia sarà osservabile solo la fase parziale, con le percentuali di copertura più alte nel Nord-Ovest e in Sardegna, dove a Ventimiglia si sfiorerà il 96%; per l'osservazione in sicurezza sono necessari occhiali certificati ISO 12312-2.
+### Cronaca: auto urta un jet privato sulla pista di Linate
+Il 10 agosto un veicolo di handling ha urtato il muso di un jet privato durante una manovra a terra all'aeroporto di Milano Linate, senza causare feriti. Due voli in arrivo sono stati dirottati su Malpensa e Orio al Serio per consentire le verifiche di sicurezza, con ritardi rientrati nel giro di circa mezz'ora.
 
-Fonte: [Sky TG24](https://tg24.sky.it/scienze/2026/08/07/eclissi-solare-agosto-come-vederla)
+Fonte: [Il Post](https://www.ilpost.it/2026/08/10/milano-linate-ritardi-incidente/)
 
-### Cultura: un anno senza Pippo Baudo, il ricordo della figlia Tiziana
-Alla vigilia del primo anniversario della morte del conduttore, avvenuta il 16 agosto 2025, la figlia Tiziana ha affidato all'ANSA una lettera in cui ricorda momenti privati del padre, dalle gare di nuoto in vacanza alle colazioni con ricotta calda e arance a Militello in Val di Catania, città natale di Baudo che gli dedicherà un libro celebrativo.
+### Scienza e tecnologia: eclissi solare parziale visibile in Italia al tramonto
+Oggi 12 agosto un'eclissi solare, totale in una fascia che va dalla Groenlandia alla Spagna settentrionale, sarà osservabile in Italia solo in forma parziale tra le 19:27 e le 20:35, con il picco di copertura che supera il 90% del disco solare nel Nord-Ovest e in Sardegna nord-occidentale e scende fino al 10% in Salento. Per l'osservazione in sicurezza sono necessari occhiali certificati e un orizzonte occidentale libero da ostacoli.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/cultura/2026/08/10/gare-di-nuoto-ricotta-calda-e-arance-tiziana-baudo-ricorda-papa-pippo_eb72d76b-97bf-4143-a85b-62d44de35dd3.html)
+Fonte: [Focus](https://www.focus.it/scienza/scienze/eclissi-di-sole-del-12-agosto-2026-7-cose-poco-note-da-sapere-prima-di-guardare-il-cielo)
 
-### Sport: doppietta italiana nel getto del peso agli Europei di atletica
-Agli Europei di atletica di Birmingham, Leonardo Fabbri ha conquistato l'oro nel getto del peso con una misura di 22,31 metri, davanti al connazionale Zane Weir, argento con 21,12 metri; il bronzo è andato allo svedese Wictor Petersson. Per Fabbri si tratta della conferma del titolo continentale vinto nel 2024 a Roma.
+### Sport: calciomercato, Molina alla Roma e Inter vicina a Spence
+Nella giornata dell'11 agosto la Roma ha chiuso l'arrivo del difensore Nahuel Molina, di ritorno in Italia dopo l'esperienza all'Udinese, mentre l'Inter è in dirittura d'arrivo con il Tottenham per l'esterno Djed Spence. Il Napoli cede Romelu Lukaku al Fenerbahce, la Juventus attende la cessione di Suzuki al Psg per prendere in prestito il portiere giapponese e il Milan tratta con il Porto per Santiago Gimenez.
 
-Fonte: [Il Messaggero](https://www.ilmessaggero.it/sport/altrisport/fabbri_oro_lancio_peso_europei_atletica-9701097.html)
-
-### Sport: Razzetti d'argento nei 400 misti agli Europei di nuoto
-Alberto Razzetti ha aperto il medagliere azzurro agli Europei di nuoto di Parigi conquistando l'argento nei 400 misti, chiudendo in 4'10"40 alle spalle del russo Ilia Borodin, autore del nuovo record della manifestazione in 4'08"17; il bronzo è andato al britannico Max Litchfield. Per Razzetti è un ritorno sul podio continentale dopo l'oro di Roma 2022 e l'argento di Budapest 2021.
-
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/sport/nuoto/2026/08/10/europei-di-nuoto-razzetti-argento-nei-400-misti_a1d63a4c-2410-4fea-8594-ca5f76136ba0.html)
+Fonte: [Fanpage](https://www.fanpage.it/sport/live/calciomercato-11-agosto-2026/)
 
 ---
 
