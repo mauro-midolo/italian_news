@@ -1,52 +1,52 @@
-# Rassegna Globale – Giovedì 13 agosto 2026
+# Rassegna Globale – Venerdì 14 agosto 2026
 
-### Politica: al via il cantiere della Legge di Bilancio 2027, ultima della legislatura
-Il governo Meloni ha avviato il confronto sulla manovra 2027, l'ultima di questa legislatura, con Forza Italia che rilancia la flat tax incrementale estesa alle partite Iva e Fratelli d'Italia che punta a portare l'aliquota Irpef intermedia dal 35 al 33%. Due le scadenze chiave prima di conoscere i contenuti definitivi: il 22 settembre, con la certificazione del rapporto deficit/Pil 2025, e il 15 ottobre, termine per l'invio a Bruxelles del Documento programmatico di bilancio.
+### Politica: Piantedosi, lo stop a Schengen con la Spagna non sarà revocato prima di Ferragosto
+Il ministro dell'Interno Matteo Piantedosi ha confermato che la sospensione temporanea di Schengen nei confronti della Spagna, attivata circa due settimane fa dopo la crisi migratoria di Ceuta, resterà in vigore almeno fino al 15 agosto e comunque solo finché non saranno esclusi rischi di sicurezza legati a possibili infiltrazioni jihadiste segnalate dall'intelligence. Il ministro ha citato un calo degli sbarchi del 55% da gennaio e un quasi raddoppio dei rimpatri, mentre Madrid ha replicato di aver già sottoposto a controllo oltre tremila viaggiatori in arrivo dall'Italia.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/12/taglio-dellirpef-contratti-energia-parte-la-corsa-alla-manovra_96423bc7-1e66-485b-86b9-4306b10501ae.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/13/piantedosi-revocheremo-lo-stop-a-schengen-solo-con-la-fine-totale-dei-rischi_09eb6109-df15-4976-a0db-203b1027ebbb.html)
 
-### Cronaca: Valter Lavitola confessa di essere il mandante dell'attentato a Ranucci
-Interrogato per oltre cinque ore nel carcere di Rebibbia, Valter Lavitola ha ammesso di aver organizzato l'esplosione davanti all'abitazione del giornalista Sigfrido Ranucci, sostenendo di averlo fatto per indurre le autorità ad aumentargli la scorta. Il legale di Ranucci ha definito la ricostruzione un "delirante teatro della follia", ricordando che il conduttore vive sotto protezione dal 2021 per minacce di morte vagliate dal Viminale.
+### Economia: Trump impone dazi fino al 100% sull'importazione di droni
+Il presidente statunitense Donald Trump ha firmato un ordine esecutivo che introduce tariffe del 100% sui droni importati di maggiori dimensioni o dotati di capacità considerate sensibili per la sicurezza nazionale, come l'imaging termico, e del 25% sui modelli più piccoli. La Casa Bianca giustifica la misura con la necessità di proteggere la base industriale della difesa statunitense, in un pacchetto che colpisce anche componenti critici usati nella produzione dei velivoli.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/12/lavitola-confessa-sono-io-il-mandante-dellattentato-a-ranucci-lho-fatto-per-il-suo_e8edc1a3-d60b-43a0-b6c3-3350795f8935.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/14/trump-impone-tariffe-del-100-sulle-importazioni-di-droni_eb121873-2eda-4095-9b5d-c1b48bdd6341.html)
 
-### Cronaca: eruzione dell'Etna, aeroporto di Catania chiuso fino a venerdì notte
-L'attività esplosiva del vulcano, in corso dai primi giorni di agosto con una nuova bocca eruttiva apertasi il 9 agosto nella Valle del Bove, continua a produrre nubi di cenere che hanno raggiunto anche Malta e la Libia. Lo scalo di Fontanarossa resta chiuso fino alle 2 di venerdì 14 agosto, con circa 700 voli cancellati o dirottati su Comiso e Palermo dall'inizio della crisi.
+### Economia: spread Btp-Bund in leggero calo, mercati cauti
+Lo spread tra Btp e Bund a dieci anni ha chiuso ieri a 76,4 punti base, in lieve calo rispetto ai 77,5 dell'apertura, con il rendimento del titolo italiano al 3,89%. Sui mercati resta l'attenzione verso i dati macroeconomici statunitensi e verso l'evoluzione delle tensioni commerciali legate alla nuova stagione di dazi promossa dall'amministrazione Trump.
 
-Fonte: [Today.it](https://www.today.it/attualita/eruzione-etna-stop-voli-aeroporto-catania-14-agosto.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/13/lo-spread-tra-btp-e-bund-chiude-in-lieve-calo-a-764-punti-base_6fb0229a-32e2-4b1a-b028-779cbb208a01.html)
 
-### Cronaca: temporali e nubifragi colpiscono il Sud dopo settimane di caldo estremo
-Un violento nubifragio ha causato danni diffusi in Campania, tra Sannio, Valle dell'Irno, area vesuviana e Costiera Amalfitana, con alberi caduti, auto danneggiate e strade temporaneamente impraticabili che hanno richiesto centinaia di interventi dei vigili del fuoco. La Protezione civile ha diramato un'allerta gialla per temporali su Sicilia centro-meridionale, Campania, Calabria e Sardegna anche per la giornata odierna.
+### Estero: Kiev propone a Mosca una tregua sugli attacchi a obiettivi civili nel Mar Nero
+Secondo fonti citate da Reuters, l'Ucraina ha trasmesso alla Russia, tramite un intermediario, una proposta per sospendere reciprocamente gli attacchi contro obiettivi civili nel Mar Nero, senza ricevere finora risposta da Mosca. Le due parti hanno colpito ripetutamente nelle ultime settimane le spedizioni di grano e le infrastrutture portuali lungo la rotta, con timori crescenti per possibili ripercussioni sui prezzi alimentari mondiali.
 
-Fonte: [Torresette News](https://www.torresette.news/24-news/2026/08/13/rassegna-stampa-di-giovedi-13-agosto-nubifragi-sull-italia-tensione-internazionale-e-azzurri-protagonisti-nel-nuoto)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/13/media-kiev-ha-proposto-a-mosca-una-tregua-su-obiettivi-civili-nel-mar_7d56a14e-c16c-45d6-a7a3-e183196b6593.html)
 
-### Economia: energia alle stelle, prezzo dell'elettricità quasi raddoppiato in un anno
-Il prezzo unico nazionale dell'energia elettrica ha sfiorato 0,21 €/kWh in alcune giornate di agosto, con una media mensile provvisoria intorno a 0,19 €/kWh, circa il 32% in più rispetto a luglio e quasi il 73% in più sull'agosto 2025. Tra le cause principali, la tensione sul mercato del gas legata alle vicende in Iran, la siccità che ha ridotto la produzione idroelettrica italiana e la chiusura di alcune centrali nucleari francesi.
+### Cronaca: esplosione e incendio nello stabilimento di munizioni Knds Ammo a Colleferro
+Un'esplosione seguita da un incendio ha colpito ieri pomeriggio il reparto di pressatura polveri dello stabilimento ex Simmel Difesa, oggi Knds Ammo, a Colleferro, in provincia di Roma, dove si producono munizioni di medio e grande calibro e propellenti per uso aerospaziale. L'onda d'urto è stata avvertita fino a oltre trenta chilometri di distanza, rompendo vetri nelle abitazioni vicine, ma i 24 dipendenti presenti sono stati tutti evacuati senza feriti; la procura di Velletri ha aperto un'indagine per incendio colposo, escludendo al momento piste dolose.
 
-Fonte: [Switcho](https://www.switcho.it/blog/luce-gas/psv-agosto-2026)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/13/incendio-ed-esplosione-in-stabilimento-ex-simmel-difesa-a-colleferro_48352b9e-df7d-42d5-8aa4-69d8249fb02e.html)
 
-### Economia: spread stabile, borse asiatiche in rialzo dopo i dati Usa sull'inflazione
-Lo spread tra Btp e Bund resta stabile intorno a 78-79 punti base, mentre le borse asiatiche guadagnano quasi l'1% trainate dai titoli tecnologici dopo un report sull'inflazione statunitense che ha attenuato i timori di un rialzo dei tassi della Federal Reserve. I future indicano un'apertura positiva anche per i listini europei.
+### Cronaca: Etna, l'aeroporto di Catania resta chiuso fino a stamattina
+L'eruzione dell'Etna, in corso da una settimana con emissioni continue di cenere vulcanica, ha costretto la società di gestione a prolungare ulteriormente lo stop dei voli a Fontanarossa fino alle 8 di venerdì mattina, portando a oltre 700 i voli cancellati e a circa centomila i passeggeri coinvolti dall'inizio della crisi. L'Ingv ha chiarito che, pur riuscendo a individuare l'inizio delle eruzioni, non è al momento possibile prevederne la durata.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/13/borsa-asia-in-rialzo-con-i-tecnologici-vola-seul_05a2e9f9-a791-4510-a019-10c785a93897.html)
+Fonte: [Dire](https://www.dire.it/13-08-2026/1262078-etna-aeroporto-catania-chiuso-fino-a-ferragosto-invg-durata-delleruzione-imprevedibile/)
 
-### Estero: bilancio missilistico in calo per l'Ucraina, allarme di Zelensky
-Zelensky denuncia che Kiev dispone solo di un decimo degli intercettori necessari a fermare la nuova ondata di attacchi missilistici balistici russi, penuria attribuita anche all'assorbimento di scorte causato dalla crisi tra Stati Uniti e Iran. Secondo l'Onu, luglio è stato il mese più letale per i civili ucraini dall'aprile 2022, mentre un attacco ucraino al porto russo di Novorossiysk ha causato tre morti e colpito quattro navi da guerra.
+### Cronaca: Cortina d'Ampezzo vara un'ordinanza contro il "turismo cafone"
+Il sindaco di Cortina d'Ampezzo ha firmato un provvedimento in vigore fino al 15 ottobre che introduce sanzioni da 25 a 500 euro per comportamenti come bivaccare in strada, mangiare o lavarsi negli spazi pubblici e circolare a torso nudo nel centro della località, dopo segnalazioni di turisti che hanno dormito in sacchi a pelo sulle panchine o piantato tende nelle aree verdi. L'amministrazione ha precisato che la misura non punisce la normale presenza turistica, ma le condotte che generano degrado o intralcio.
 
-Fonte: [Adnkronos](https://www.adnkronos.com/internazionale/esteri/ucraina-russia-ultime-news-oggi-13-agosto-guerra_3r9qz8z0leLTp6TedvESIR)
+Fonte: [Il Messaggero](https://www.ilmessaggero.it/italia/turisti_cafoni_cortina_nuove_regole_ordinanza_cosa_cambia-9706473.html)
 
-### Estero: tribunale di Damasco condanna a morte in contumacia Bashar al-Assad
-Un tribunale siriano, insediato dal nuovo governo guidato da Ahmed al-Sharaa, ha condannato in contumacia l'ex presidente Bashar al-Assad per omicidio premeditato, tortura, arresti arbitrari e crimini contro l'umanità. Assad, che vive in Russia sotto la protezione del Cremlino dalla caduta del suo regime due anni fa, è stato giudicato insieme al fratello Maher e ad altri ex vertici del regime deposto.
+### Scienza e tecnologia: Firenze ospita il convegno mondiale COSPAR 2026, individuato un terzo pianeta attorno a Beta Pictoris
+Da oggi Firenze accoglie l'edizione 2026 del COSPAR, il convegno internazionale dedicato a planetologia, geologia planetaria e medicina aerospaziale, con la partecipazione dei principali ricercatori mondiali del settore spaziale. Tra i risultati scientifici discussi figura l'individuazione, dopo un decennio di osservazioni, di un terzo pianeta in orbita attorno alla stella Beta Pictoris, oltre a nuovi studi sugli effetti della microgravità sul metabolismo cerebrale condotti su modelli animali in orbita.
 
-Fonte: [Il Fatto Quotidiano](https://www.ilfattoquotidiano.it/2026/08/11/assad-condanna-morte-siria-notizie/8476607/)
+Fonte: [Adnkronos](https://www.adnkronos.com/tecnologia/cospar-2026-ultime-scoperte-su-giove-acqua-lunare-e-neuroscienze-spaziali_11Jn1r6sLd3tIgwTnzhuKs)
 
-### Cultura e sport: Sara Curtis nella storia, record del mondo nei 50 dorso a Parigi
-Nella semifinale degli Europei di nuoto di Parigi, la diciannovenne piemontese Sara Curtis ha nuotato i 50 dorso in 26"63, migliorando di 23 centesimi il precedente record mondiale e diventando la prima donna europea sotto i 27 secondi sulla distanza. Circa un'ora dopo ha contribuito anche all'argento della staffetta 4x100 stile libero femminile, con un nuovo record italiano.
+### Cultura e sport: Sara Curtis oro agli Europei di nuoto e secondo record del mondo in due giorni
+Nella finale dei 50 dorso agli Europei di nuoto di Parigi, la diciannovenne Sara Curtis ha vinto la medaglia d'oro in 26"56, migliorando ulteriormente il record del mondo che lei stessa aveva stabilito il giorno precedente in semifinale. È la prima nuotatrice italiana a laurearsi campionessa europea in questa specialità e il suo secondo record mondiale in due giorni di gara.
 
-Fonte: [SwimSwam](https://swimswam.com/sara-curtis-nella-storia-record-mondiale-nei-50-dorso-in-26-63/)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/sport/nuoto/2026/08/13/europei-nuoto-sara-curtis-oro-e-altro-record-del-mondo-nei_280a0466-2e25-4757-b52d-00dacd230453.html)
 
-### Cultura e sport: calciomercato, Inter chiude per Spence, Roma vicina a Luis Henrique
-L'Inter ha definito l'arrivo di Djed Spence dal Tottenham per circa 30 milioni di euro più bonus, mentre la Roma è in dirittura d'arrivo per Luis Henrique e sonda l'Arsenal per Martinelli. La Juventus tratta con il Bologna per Lucumí ed è vicina a Suzuki in prestito dal Psg, la Lazio ha chiuso per Frattesi e tenta il colpo Icardi, mentre il Milan discute il mercato con la dirigenza a Milanello.
+### Cultura e sport: calciomercato, Frattesi verso la Lazio con visite mediche in giornata
+La trattativa che porta Davide Frattesi dall'Inter alla Lazio entra nella fase conclusiva, con le visite mediche del centrocampista in programma proprio oggi e la formula del prestito oneroso con obbligo di riscatto condizionato. Nel resto del mercato, il portiere della Juventus Michele Di Gregorio è in uscita verso il Valencia per circa 15 milioni di euro, mentre l'attaccante Evan Ferguson, rientrato al Brighton dopo il prestito infruttuoso alla Roma, è seguito dal Genoa.
 
 Fonte: [Fanpage](https://www.fanpage.it/sport/live/calciomercato-13-agosto-2026/)
 

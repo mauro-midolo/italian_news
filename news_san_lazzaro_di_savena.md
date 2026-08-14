@@ -1,24 +1,24 @@
-# Notizie di San Lazzaro di Savena – Giovedì 13 agosto 2026
+# Notizie di San Lazzaro di Savena – Venerdì 14 agosto 2026
 
-### Caldo, l'allerta prosegue anche se le temperature iniziano a scendere
-A San Lazzaro e nell'area metropolitana bolognese le previsioni indicano ancora una giornata calda, con punte intorno ai 33 gradi, in lieve calo rispetto ai quasi 38-40 gradi dei giorni scorsi. L'Ausl di Bologna mantiene attivo il sistema di interventi a tutela della popolazione fragile, con il numero verde dedicato e il progetto e-Care per gli anziani soli, in attesa dell'attenuazione dell'ondata di calore prevista non prima del 17-18 agosto.
+### Meteo, giornata ancora calda ma la tregua arriva a Ferragosto
+A San Lazzaro e nell'area metropolitana bolognese oggi sono attesi ampio soleggiamento e punte di 35 gradi, con Bologna inserita tra le città interessate dal bollino giallo di livello 1 per le ondate di calore. Dopo oltre dieci giorni di caldo intenso, le previsioni indicano un'attenuazione proprio a partire da Ferragosto, con temperature in progressivo calo nei giorni successivi.
 
-Fonte: [Azienda USL di Bologna](https://www.ausl.bologna.it/ufficio-stampa/archivio-comunicati-stampa/comunicati-stampa/1ae4425820724e20bc66e41f811cda8b)
+Fonte: [BolognaToday](https://www.bolognatoday.it/meteo/caldo-bologna-tregua-previsioni-ferragosto-15-agosto-2026.html)
 
-### Viabilità, firmato il protocollo per il Passante di Bologna: prevista una nuova tangenziale a San Lazzaro
-Il protocollo d'intesa siglato al Ministero delle Infrastrutture lo scorso 23 luglio prevede investimenti per 2,5 miliardi di euro, con l'ampliamento della tangenziale a tre corsie nel tratto tra l'uscita 3 e San Lazzaro di Savena. I primi cantieri sono attesi nei primi mesi del 2027 e il piano complessivo include 109 ettari di nuove aree verdi e circa 34.000 nuovi alberi lungo il tracciato.
+### Viabilità, tangenziale chiusa stanotte allo svincolo 8 Fiera verso San Lazzaro
+Per consentire lavori di manutenzione ai viadotti, la tangenziale di Bologna ha chiuso dalle 0 alle 5 di questa notte l'entrata dello svincolo 8 Fiera in direzione San Lazzaro di Savena e A14 Bologna-Taranto, insieme allo svincolo 8 bis Viale Europa per chi proviene da Casalecchio di Reno/A1. Autostrade per l'Italia ha indicato percorsi alternativi tramite gli svincoli limitrofi, con aggiornamenti diffusi anche tramite radio e pannelli a messaggio variabile.
 
-Fonte: [BolognaToday](https://www.bolognatoday.it/politica/passante-bologna-accordo-quarta-corsia-a14.html)
+Fonte: [Autostrade per l'Italia](https://www.autostrade.it/it/comunicazione-e-media/comunicati-stampa-viabilita/-/bulletin/view/b5091e01-46e6-4e70-80d7-80bce55841d5)
 
-### Eventi, torna il mercato contadino di via Repubblica
-Ogni mercoledì mattina, nella Ztl tra il Municipio e Parco 2 Agosto, produttori agricoli locali vendono frutta, verdura, carne, formaggi, pane e vino a chilometro zero. Il prossimo appuntamento è previsto per il 19 agosto, seguito da un ultimo mercato del mese il 26 agosto.
+### Eventi, a Ferragosto la finale della Cicala d'Oro ai Teatri di Vita
+Nell'ambito del festival "Cuor Leggero", in corso dal 12 al 15 agosto ai Teatri di Vita di Bologna, la serata di Ferragosto ospita la finale della quinta edizione del concorso di stand-up comedy "La Cicala d'Oro", dedicata quest'anno al tema dell'intelligenza artificiale. Tre comici emergenti si contenderanno il premio davanti a una giuria, in una serata condotta da Vito e da Eva Robin's, aperta anche ai residenti dell'area metropolitana attorno a San Lazzaro.
 
-Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/vivere-san-lazzaro-di-savena/eventi/mercati/mercato-contadino-di-via-repubblica-1)
+Fonte: [Bolognaestate](https://www.bolognaestate.it/mappa-rassegne-bolognaestate/la-cicala-d-oro-2026)
 
-### Eventi, a Ferragosto musica alle Serre dei Giardini Margherita
-Il 15 agosto, nell'ambito della rassegna estiva "Le Serre d'Estate", i Giardini Margherita di Bologna ospitano "Ferragosto alle Serre" con la musica del dj e producer Filibalou, oltre a stand gastronomici, in un appuntamento aperto anche ai residenti dell'area metropolitana attorno a San Lazzaro.
+### Eventi, sui colli bolognesi torna lo spettacolo immersivo di Spazio Franco
+Il Fienile Fluò, sui colli a ridosso dell'area metropolitana bolognese, ospita nei giorni di Ferragosto "Miscele d'Aria Factory" di Spazio Franco, un'opera sonora immersiva che unisce musica dal vivo e performance in uno spazio rurale recuperato, tra le proposte della rassegna estiva del Comune di Bologna pensate anche per chi resta in città e nei dintorni durante le vacanze.
 
-Fonte: [Cultura Bologna](https://www.culturabologna.it/lang/en/objects/le-serre-d-estate-2026)
+Fonte: [Bologna Welcome](https://www.bolognawelcome.com/it/blog/cosa-fare-a-ferragosto-a-bologna-e-dintorni)
 
 ---
 
