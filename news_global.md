@@ -1,54 +1,59 @@
-# Rassegna Globale – Venerdì 14 agosto 2026
+# Rassegna Globale – Sabato 15 agosto 2026
 
-### Politica: Piantedosi, lo stop a Schengen con la Spagna non sarà revocato prima di Ferragosto
-Il ministro dell'Interno Matteo Piantedosi ha confermato che la sospensione temporanea di Schengen nei confronti della Spagna, attivata circa due settimane fa dopo la crisi migratoria di Ceuta, resterà in vigore almeno fino al 15 agosto e comunque solo finché non saranno esclusi rischi di sicurezza legati a possibili infiltrazioni jihadiste segnalate dall'intelligence. Il ministro ha citato un calo degli sbarchi del 55% da gennaio e un quasi raddoppio dei rimpatri, mentre Madrid ha replicato di aver già sottoposto a controllo oltre tremila viaggiatori in arrivo dall'Italia.
+### Politica: gelo diplomatico tra Roma e Berlino sui migranti "dublinanti"
+La Germania ha annunciato che dal 19 agosto avvierà i primi rimpatri verso l'Italia dei cosiddetti "dublinanti", i richiedenti asilo transitati in Italia e poi arrivati in territorio tedesco, a partire dal caso di una cittadina somala di 22 anni. Il governo italiano contesta la linea di Berlino, sostenendo che gli accordi bilaterali del 2025 abbiano azzerato le posizioni di chi è arrivato prima del 12 giugno 2026, data di entrata in vigore del nuovo patto europeo su asilo e immigrazione. La vicenda si somma alle tensioni già aperte con la Spagna sulla questione Schengen.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/13/piantedosi-revocheremo-lo-stop-a-schengen-solo-con-la-fine-totale-dei-rischi_09eb6109-df15-4976-a0db-203b1027ebbb.html)
+Fonte: [Il Fatto Quotidiano](https://www.ilfattoquotidiano.it/2026/08/12/dublinanti-germania-italia-accordi-notizie/8477284/)
 
-### Economia: Trump impone dazi fino al 100% sull'importazione di droni
-Il presidente statunitense Donald Trump ha firmato un ordine esecutivo che introduce tariffe del 100% sui droni importati di maggiori dimensioni o dotati di capacità considerate sensibili per la sicurezza nazionale, come l'imaging termico, e del 25% sui modelli più piccoli. La Casa Bianca giustifica la misura con la necessità di proteggere la base industriale della difesa statunitense, in un pacchetto che colpisce anche componenti critici usati nella produzione dei velivoli.
+### Politica: Schengen, allerta a Ceuta nel giorno di Ferragosto
+Il ministro dell'Interno Matteo Piantedosi e il vicepremier Antonio Tajani hanno ribadito che la sospensione dei controlli di frontiera con la Spagna, disposta dopo l'afflusso di decine di migliaia di persone a Ceuta, non sarà rivista prima del 15 agosto e comunque solo a rischio sicurezza completamente escluso. Le autorità spagnole temono possibili nuovi arrivi proprio nella giornata odierna, mentre dai controlli già effettuati risultano tre arresti e 21 respingimenti verso la Spagna.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/14/trump-impone-tariffe-del-100-sulle-importazioni-di-droni_eb121873-2eda-4095-9b5d-c1b48bdd6341.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/13/piantedosi-revocheremo-stop-schengen-solo-con-la-fine-totale-dei-rischi_10d4e59b-a485-4738-b109-2809501399e5.html)
 
-### Economia: spread Btp-Bund in leggero calo, mercati cauti
-Lo spread tra Btp e Bund a dieci anni ha chiuso ieri a 76,4 punti base, in lieve calo rispetto ai 77,5 dell'apertura, con il rendimento del titolo italiano al 3,89%. Sui mercati resta l'attenzione verso i dati macroeconomici statunitensi e verso l'evoluzione delle tensioni commerciali legate alla nuova stagione di dazi promossa dall'amministrazione Trump.
+### Economia: Meloni, "l'economia italiana tiene bene", si punta all'uscita dalla procedura d'infrazione Ue
+In un'intervista a Milano Finanza, la presidente del Consiglio Giorgia Meloni ha tracciato un bilancio positivo dei conti pubblici, citando una crescita acquisita dello 0,8% per il 2026 e un aumento del Pil pro capite di circa 4.500 euro rispetto al 2022. La premier ha rivendicato il calo dello spread e la riduzione del rapporto deficit/Pil dall'8,1% al 3,1%, ritenendo così vicina l'uscita dalla procedura d'infrazione europea, e ha annunciato per il prossimo biennio 14 miliardi di euro destinati a calmierare i prezzi dell'energia.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/13/lo-spread-tra-btp-e-bund-chiude-in-lieve-calo-a-764-punti-base_6fb0229a-32e2-4b1a-b028-779cbb208a01.html)
+Fonte: [Sky TG24](https://tg24.sky.it/politica/2026/08/14/meloni-economia-italiana-intervista)
 
-### Estero: Kiev propone a Mosca una tregua sugli attacchi a obiettivi civili nel Mar Nero
-Secondo fonti citate da Reuters, l'Ucraina ha trasmesso alla Russia, tramite un intermediario, una proposta per sospendere reciprocamente gli attacchi contro obiettivi civili nel Mar Nero, senza ricevere finora risposta da Mosca. Le due parti hanno colpito ripetutamente nelle ultime settimane le spedizioni di grano e le infrastrutture portuali lungo la rotta, con timori crescenti per possibili ripercussioni sui prezzi alimentari mondiali.
+### Economia: turismo, agosto da record e Italia davanti a Spagna e Francia
+Il ministero del Turismo stima per il periodo luglio-agosto circa 172 milioni di presenze, con gli stranieri oltre il 50% del totale, e un tasso di occupazione alberghiera che a Ferragosto dovrebbe toccare il 72%, superiore a quello registrato nei principali paesi concorrenti europei. Tra le regioni con la crescita più marcata nei piccoli comuni figurano Calabria, Abruzzo e Piemonte, mentre il settore alberghiero conferma un incremento della domanda straniera rispetto alla stagione 2025.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/13/media-kiev-ha-proposto-a-mosca-una-tregua-su-obiettivi-civili-nel-mar_7d56a14e-c16c-45d6-a7a3-e183196b6593.html)
+Fonte: [Il Tempo](https://www.iltempo.it/attualita/2026/08/13/news/turismo-italiano-estate-da-record-agosto-meglio-di-spagna-e-francia-report-ministero-48849756/)
 
-### Cronaca: esplosione e incendio nello stabilimento di munizioni Knds Ammo a Colleferro
-Un'esplosione seguita da un incendio ha colpito ieri pomeriggio il reparto di pressatura polveri dello stabilimento ex Simmel Difesa, oggi Knds Ammo, a Colleferro, in provincia di Roma, dove si producono munizioni di medio e grande calibro e propellenti per uso aerospaziale. L'onda d'urto è stata avvertita fino a oltre trenta chilometri di distanza, rompendo vetri nelle abitazioni vicine, ma i 24 dipendenti presenti sono stati tutti evacuati senza feriti; la procura di Velletri ha aperto un'indagine per incendio colposo, escludendo al momento piste dolose.
+### Estero: droni ucraini colpiscono il porto russo di Ust-Luga
+Un attacco con decine di droni ha provocato un incendio nella notte tra il 13 e il 14 agosto al terminal petrolifero di Ust-Luga, il principale scalo russo sul Mar Baltico, per il sesto raid dall'inizio dell'anno contro l'impianto. Le autorità della regione di Leningrad hanno riferito di aver abbattuto 54 droni e di non aver registrato vittime, mentre le fiamme sono state domate in mattinata; l'infrastruttura è un nodo chiave per l'export russo di greggio e prodotti raffinati verso i mercati internazionali.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/13/incendio-ed-esplosione-in-stabilimento-ex-simmel-difesa-a-colleferro_48352b9e-df7d-42d5-8aa4-69d8249fb02e.html)
+Fonte: [Kyiv Post](https://www.kyivpost.com/post/82322)
 
-### Cronaca: Etna, l'aeroporto di Catania resta chiuso fino a stamattina
-L'eruzione dell'Etna, in corso da una settimana con emissioni continue di cenere vulcanica, ha costretto la società di gestione a prolungare ulteriormente lo stop dei voli a Fontanarossa fino alle 8 di venerdì mattina, portando a oltre 700 i voli cancellati e a circa centomila i passeggeri coinvolti dall'inizio della crisi. L'Ingv ha chiarito che, pur riuscendo a individuare l'inizio delle eruzioni, non è al momento possibile prevederne la durata.
+### Estero: Gaza, incertezza sul piano di disarmo di Hamas mentre proseguono i raid israeliani
+A pochi giorni dall'annuncio di un'intesa sul disarmo progressivo di Hamas mediata dal Board of Peace, la sua attuazione resta bloccata: Hamas condiziona i primi passi al ritiro israeliano dai territori occupati, mentre il governo di Benjamin Netanyahu esclude ritirate prima del disarmo completo. Nel frattempo l'esercito israeliano ha continuato le operazioni militari nella Striscia, con un'ulteriore uccisione di un comandante di Hamas a Khan Younis nei giorni scorsi.
 
-Fonte: [Dire](https://www.dire.it/13-08-2026/1262078-etna-aeroporto-catania-chiuso-fino-a-ferragosto-invg-durata-delleruzione-imprevedibile/)
+Fonte: [Al Jazeera](https://www.aljazeera.com/news/2026/8/11/palestine-weekly-netanyahu-hedges-on-gaza-roadmap)
 
-### Cronaca: Cortina d'Ampezzo vara un'ordinanza contro il "turismo cafone"
-Il sindaco di Cortina d'Ampezzo ha firmato un provvedimento in vigore fino al 15 ottobre che introduce sanzioni da 25 a 500 euro per comportamenti come bivaccare in strada, mangiare o lavarsi negli spazi pubblici e circolare a torso nudo nel centro della località, dopo segnalazioni di turisti che hanno dormito in sacchi a pelo sulle panchine o piantato tende nelle aree verdi. L'amministrazione ha precisato che la misura non punisce la normale presenza turistica, ma le condotte che generano degrado o intralcio.
+### Cronaca: Sicilia, esalazioni tossiche in un depuratore: morti un operaio e un soccorritore del 118
+Nel depuratore comunale di San Vito Lo Capo, in provincia di Trapani, un operaio di 45 anni è morto per le esalazioni sprigionate dai reflui mentre tentava di sostituire una pompa guasta. Nel tentativo di soccorrerlo ha perso la vita anche un operatore del 118 di 63 anni, colto a sua volta dai fumi tossici durante il massaggio cardiaco. L'impianto, mai collaudato dalla costruzione nel 2010, era già stato sequestrato nel 2016 dopo anomalie certificate da Arpa.
 
-Fonte: [Il Messaggero](https://www.ilmessaggero.it/italia/turisti_cafoni_cortina_nuove_regole_ordinanza_cosa_cambia-9706473.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/13/esalazioni-da-un-depuratore-morti-un-operaio-e-un-soccorritore_fe212b0c-7c45-435f-8fe9-4fa861c6cfce.html)
 
-### Scienza e tecnologia: Firenze ospita il convegno mondiale COSPAR 2026, individuato un terzo pianeta attorno a Beta Pictoris
-Da oggi Firenze accoglie l'edizione 2026 del COSPAR, il convegno internazionale dedicato a planetologia, geologia planetaria e medicina aerospaziale, con la partecipazione dei principali ricercatori mondiali del settore spaziale. Tra i risultati scientifici discussi figura l'individuazione, dopo un decennio di osservazioni, di un terzo pianeta in orbita attorno alla stella Beta Pictoris, oltre a nuovi studi sugli effetti della microgravità sul metabolismo cerebrale condotti su modelli animali in orbita.
+### Cronaca: Puglia, rissa tra giovani a Trani: 18enne muore accoltellato
+Un diciottenne di Andria è morto nella notte dopo essere stato colpito alla schiena durante uno scontro tra due gruppi di giovani in piazza Papa Giovanni XXIII a Trani. Il ragazzo è deceduto in ospedale a Bisceglie poche ore dopo il ferimento; un diciassettenne si è successivamente presentato ai carabinieri insieme al proprio legale, ammettendo la responsabilità del gesto e sostenendo di non avere avuto intenzione di uccidere.
 
-Fonte: [Adnkronos](https://www.adnkronos.com/tecnologia/cospar-2026-ultime-scoperte-su-giove-acqua-lunare-e-neuroscienze-spaziali_11Jn1r6sLd3tIgwTnzhuKs)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/13/rissa-tra-giovani-a-trani-18enne-muore-accoltellato_bcb72b07-ffe0-42d3-b36e-b05af291a9be.html)
 
-### Cultura e sport: Sara Curtis oro agli Europei di nuoto e secondo record del mondo in due giorni
-Nella finale dei 50 dorso agli Europei di nuoto di Parigi, la diciannovenne Sara Curtis ha vinto la medaglia d'oro in 26"56, migliorando ulteriormente il record del mondo che lei stessa aveva stabilito il giorno precedente in semifinale. È la prima nuotatrice italiana a laurearsi campionessa europea in questa specialità e il suo secondo record mondiale in due giorni di gara.
+### Cronaca: attentato a Ranucci, il gip nega i domiciliari a Lavitola
+Il giudice per le indagini preliminari di Roma ha respinto la richiesta di arresti domiciliari per Valter Lavitola, che si è autoaccusato di essere il mandante dell'attentato subito dal giornalista Sigfrido Ranucci nell'ottobre 2025 a Pomezia. Il gip ha ritenuto le sue dichiarazioni generiche e prive di riscontri concreti, evidenziando il rischio di inquinamento delle prove; la difesa ha annunciato ricorso al Tribunale del Riesame.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/sport/nuoto/2026/08/13/europei-nuoto-sara-curtis-oro-e-altro-record-del-mondo-nei_280a0466-2e25-4757-b52d-00dacd230453.html)
+Fonte: [Sky TG24](https://tg24.sky.it/cronaca/2026/08/13/attentato-ranucci-lavitola-ultime-notizie)
 
-### Cultura e sport: calciomercato, Frattesi verso la Lazio con visite mediche in giornata
-La trattativa che porta Davide Frattesi dall'Inter alla Lazio entra nella fase conclusiva, con le visite mediche del centrocampista in programma proprio oggi e la formula del prestito oneroso con obbligo di riscatto condizionato. Nel resto del mercato, il portiere della Juventus Michele Di Gregorio è in uscita verso il Valencia per circa 15 milioni di euro, mentre l'attaccante Evan Ferguson, rientrato al Brighton dopo il prestito infruttuoso alla Roma, è seguito dal Genoa.
+### Scienza e tecnologia: OpenAI verso l'Ipo, fatturato 2026 oltre i 40 miliardi di dollari
+Secondo le proiezioni interne diffuse in questi giorni, OpenAI dovrebbe chiudere il 2026 con ricavi superiori ai 40 miliardi di dollari, raddoppiando il ritmo di crescita registrato alla fine del 2025. Il dato rafforza i piani della società per una quotazione a Wall Street, in un momento in cui anche altri attori del settore, dalla cinese DeepSeek ad Apple, muovono passi rilevanti sul fronte dei modelli linguistici e degli assistenti basati su intelligenza artificiale.
 
-Fonte: [Fanpage](https://www.fanpage.it/sport/live/calciomercato-13-agosto-2026/)
+Fonte: [ANSA](https://www.ansa.it/canale_tecnologia/notizie/tecnologia/2026/08/14/il-fatturato-2026-di-openai-oltre-i-40-miliardi-in-vista-dellipo_efbab5e7-f39a-4f4a-8254-cd8cc8801b60.html)
+
+### Cultura e sport: Coppa Italia, si riparte da Torino-Carrarese
+Prende ufficialmente il via questa sera la nuova stagione calcistica italiana con i trentaduesimi di finale di Coppa Italia: al Grande Torino i granata di Ignazio Abate ospitano la Carrarese neopromossa in Serie B, guidata da Gabriele Cioffi. Nello stesso turno sono in programma altre sfide tra formazioni di Serie A, B e C, con diverse partite trasmesse in chiaro e in streaming.
+
+Fonte: [TorinoToday](https://www.torinotoday.it/sport/calcio/coppa-italia-torino-carrarese-dove-vederla-tv-biglietti-formazioni.html)
 
 ---
 

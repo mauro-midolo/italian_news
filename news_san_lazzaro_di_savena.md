@@ -1,24 +1,34 @@
-# Notizie di San Lazzaro di Savena – Venerdì 14 agosto 2026
+# Notizie di San Lazzaro di Savena – Sabato 15 agosto 2026
 
-### Meteo, giornata ancora calda ma la tregua arriva a Ferragosto
-A San Lazzaro e nell'area metropolitana bolognese oggi sono attesi ampio soleggiamento e punte di 35 gradi, con Bologna inserita tra le città interessate dal bollino giallo di livello 1 per le ondate di calore. Dopo oltre dieci giorni di caldo intenso, le previsioni indicano un'attenuazione proprio a partire da Ferragosto, con temperature in progressivo calo nei giorni successivi.
+### Cronaca locale, calato il sipario sulla 194ª Fiera di San Lazzaro
+Si è conclusa nei giorni scorsi la Fiera di San Lazzaro, giunta alla 194ª edizione, che dal 30 luglio al 2 agosto ha animato il centro cittadino con musica, degustazioni e iniziative per famiglie. La manifestazione, tra le più longeve dell'area metropolitana bolognese, ha coinciso quest'anno anche con il festival culturale Resisdance al Parco della Resistenza.
+
+Fonte: [BolognaToday](https://www.bolognatoday.it/eventi/fiera-di-san-lazzaro-2026.html)
+
+### Amministrazione, oltre 5 milioni di euro dal bilancio 2026 per la sicurezza idraulica
+Il bilancio comunale per il 2026 destina circa 2,4 milioni di euro alla messa in sicurezza del Rio Brolo e un milione al Rio Pontebuco, oltre a 800mila euro per il consolidamento del ponte di via Emilia sull'Idice. L'amministrazione ha indicato la sicurezza del territorio, insieme alla mobilità sostenibile, come priorità di spesa per l'anno in corso, dopo gli episodi di dissesto idrogeologico che negli anni scorsi hanno colpito i corsi d'acqua minori del comune.
+
+Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/comunicati-stampa/ok-al-bilancio-oltre-5-milioni-di-euro-per-la-sicurezza-del-territorio)
+
+### Amministrazione, prosegue l'estensione della raccolta differenziata porta a porta
+Il Comune, in collaborazione con Hera, sta ampliando l'area servita dal porta a porta, con consegna a domicilio di Carta Smeraldo e nuovi contenitori per le famiglie che vi rientrano e una raccolta dell'organico portata a tre giorni alla settimana. È inoltre in programma l'apertura, entro la fine del 2026, di un nuovo centro di raccolta differenziata in via Emilia, realizzato anche con fondi del Pnrr.
+
+Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/comunicati-stampa/a-san-lazzaro-di-savena-arriva-la-nuova-raccolta-differenziata)
+
+### Eventi, l'Arena Understars di via Emilia 92 prosegue fino a inizio settembre
+Continua sotto il portico del Palazzo Comunale la rassegna cinematografica estiva "Arena Understars – Il cinema in corte", con proiezioni serali alle 21.30 in programma fino al 5 settembre. Tra i titoli in cartellone nelle prossime settimane figurano anteprime come "Fammi il piacere" di Reem Kherici e "Calle Malaga", oltre a diversi film già usciti nelle sale nel corso dell'estate.
+
+Fonte: [Cinema Teatro Galliera](https://www.cinemateatrogalliera.it/arena-via-emilia-92/)
+
+### Viabilità, weekend di controesodo con l'A14 nodo critico nell'area bolognese
+Con Ferragosto che cade di sabato, il fine settimana concentra partenze e primi rientri lungo l'A14, l'arteria che attraversa San Lazzaro di Savena collegando l'area metropolitana bolognese alla Riviera romagnola. Le maggiori criticità sono attese da domenica, con l'avvio del controesodo verso Bologna e le altre città del Centro-Nord; Autostrade per l'Italia raccomanda, per chi può scegliere l'orario, di preferire la fascia serale.
+
+Fonte: [alVolante.it](https://www.alvolante.it/news/traffico-ferragosto-2026-bollino-rosso-partenze-si-ma-anche-primi-rientri-416441)
+
+### Meteo, la tregua dal caldo arriva davvero nel giorno di Ferragosto
+Dopo oltre dieci giorni di caldo intenso, Bologna e San Lazzaro passano oggi al bollino giallo, con un'attenuazione più decisa rispetto alle punte di 35 gradi registrate nei giorni scorsi. Le previsioni indicano un ulteriore calo delle temperature nei prossimi giorni, dopo la quarta ondata di calura dell'estate che ha interessato l'Emilia-Romagna insieme a gran parte del Paese.
 
 Fonte: [BolognaToday](https://www.bolognatoday.it/meteo/caldo-bologna-tregua-previsioni-ferragosto-15-agosto-2026.html)
-
-### Viabilità, tangenziale chiusa stanotte allo svincolo 8 Fiera verso San Lazzaro
-Per consentire lavori di manutenzione ai viadotti, la tangenziale di Bologna ha chiuso dalle 0 alle 5 di questa notte l'entrata dello svincolo 8 Fiera in direzione San Lazzaro di Savena e A14 Bologna-Taranto, insieme allo svincolo 8 bis Viale Europa per chi proviene da Casalecchio di Reno/A1. Autostrade per l'Italia ha indicato percorsi alternativi tramite gli svincoli limitrofi, con aggiornamenti diffusi anche tramite radio e pannelli a messaggio variabile.
-
-Fonte: [Autostrade per l'Italia](https://www.autostrade.it/it/comunicazione-e-media/comunicati-stampa-viabilita/-/bulletin/view/b5091e01-46e6-4e70-80d7-80bce55841d5)
-
-### Eventi, a Ferragosto la finale della Cicala d'Oro ai Teatri di Vita
-Nell'ambito del festival "Cuor Leggero", in corso dal 12 al 15 agosto ai Teatri di Vita di Bologna, la serata di Ferragosto ospita la finale della quinta edizione del concorso di stand-up comedy "La Cicala d'Oro", dedicata quest'anno al tema dell'intelligenza artificiale. Tre comici emergenti si contenderanno il premio davanti a una giuria, in una serata condotta da Vito e da Eva Robin's, aperta anche ai residenti dell'area metropolitana attorno a San Lazzaro.
-
-Fonte: [Bolognaestate](https://www.bolognaestate.it/mappa-rassegne-bolognaestate/la-cicala-d-oro-2026)
-
-### Eventi, sui colli bolognesi torna lo spettacolo immersivo di Spazio Franco
-Il Fienile Fluò, sui colli a ridosso dell'area metropolitana bolognese, ospita nei giorni di Ferragosto "Miscele d'Aria Factory" di Spazio Franco, un'opera sonora immersiva che unisce musica dal vivo e performance in uno spazio rurale recuperato, tra le proposte della rassegna estiva del Comune di Bologna pensate anche per chi resta in città e nei dintorni durante le vacanze.
-
-Fonte: [Bologna Welcome](https://www.bolognawelcome.com/it/blog/cosa-fare-a-ferragosto-a-bologna-e-dintorni)
 
 ---
 
