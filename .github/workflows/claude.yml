@@ -39,6 +39,7 @@ jobs:
             Da 8 a 12 notizie, ordinate per rilevanza e raggruppate per
             sezione: Politica, Economia, Estero, Cronaca, Scienza e
             tecnologia, Cultura e sport. Ometti le sezioni senza notizie.
+            Non voglio informazioni sul calcio a meno che non si tratti dei mondiali.
 
             ## 2. `news_san_lazzaro_di_savena.md`
             Le notizie riguardanti il comune di San Lazzaro di Savena (BO) e,
