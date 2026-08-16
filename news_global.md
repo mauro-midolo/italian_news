@@ -1,59 +1,64 @@
-# Rassegna Globale – Sabato 15 agosto 2026
+# Rassegna Globale – Domenica 16 agosto 2026
 
-### Politica: gelo diplomatico tra Roma e Berlino sui migranti "dublinanti"
-La Germania ha annunciato che dal 19 agosto avvierà i primi rimpatri verso l'Italia dei cosiddetti "dublinanti", i richiedenti asilo transitati in Italia e poi arrivati in territorio tedesco, a partire dal caso di una cittadina somala di 22 anni. Il governo italiano contesta la linea di Berlino, sostenendo che gli accordi bilaterali del 2025 abbiano azzerato le posizioni di chi è arrivato prima del 12 giugno 2026, data di entrata in vigore del nuovo patto europeo su asilo e immigrazione. La vicenda si somma alle tensioni già aperte con la Spagna sulla questione Schengen.
+### Politica: Tajani apre alle preferenze nella riforma della legge elettorale
+Il vicepremier e ministro degli Esteri Antonio Tajani, intervenendo al Caffè della Versiliana, si è detto favorevole all'introduzione delle preferenze abbinate al capolista bloccato nella riforma della legge elettorale, definendo il tema un dettaglio rispetto all'obiettivo principale di garantire stabilità di governo. Ha inoltre smentito l'esistenza di tensioni interne alla maggioranza di centrodestra sulla questione.
 
-Fonte: [Il Fatto Quotidiano](https://www.ilfattoquotidiano.it/2026/08/12/dublinanti-germania-italia-accordi-notizie/8477284/)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/02/tajani-sulla-legge-elettorale-si-alle-preferenze-col-capolista-bloccato_f5620b4c-5f49-41a6-8089-46a58e73a832.html)
 
-### Politica: Schengen, allerta a Ceuta nel giorno di Ferragosto
-Il ministro dell'Interno Matteo Piantedosi e il vicepremier Antonio Tajani hanno ribadito che la sospensione dei controlli di frontiera con la Spagna, disposta dopo l'afflusso di decine di migliaia di persone a Ceuta, non sarà rivista prima del 15 agosto e comunque solo a rischio sicurezza completamente escluso. Le autorità spagnole temono possibili nuovi arrivi proprio nella giornata odierna, mentre dai controlli già effettuati risultano tre arresti e 21 respingimenti verso la Spagna.
+### Politica: Cassazione conferma la condanna di Mario Roggero, riacceso il dibattito sulla legittima difesa
+La Corte di Cassazione ha respinto il ricorso del gioielliere piemontese Mario Roggero, rendendo definitiva la condanna a 14 anni e 9 mesi per l'uccisione di due rapinatori nel 2021 a Gallo d'Alba, pena già ridotta rispetto ai 17 anni stabiliti in primo grado. Il caso, tornato al centro del dibattito politico sul tema della legittima difesa, potrebbe ora approdare alla Corte europea dei diritti dell'uomo, secondo quanto annunciato dai legali di Roggero.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/13/piantedosi-revocheremo-stop-schengen-solo-con-la-fine-totale-dei-rischi_10d4e59b-a485-4738-b109-2809501399e5.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/07/15/uccise-due-banditi-condannato-in-via-definitiva-il-gioielliere-mario-roggero.-lui_7451dd1c-0381-4287-ad63-09fea9ade74c.html)
 
-### Economia: Meloni, "l'economia italiana tiene bene", si punta all'uscita dalla procedura d'infrazione Ue
-In un'intervista a Milano Finanza, la presidente del Consiglio Giorgia Meloni ha tracciato un bilancio positivo dei conti pubblici, citando una crescita acquisita dello 0,8% per il 2026 e un aumento del Pil pro capite di circa 4.500 euro rispetto al 2022. La premier ha rivendicato il calo dello spread e la riduzione del rapporto deficit/Pil dall'8,1% al 3,1%, ritenendo così vicina l'uscita dalla procedura d'infrazione europea, e ha annunciato per il prossimo biennio 14 miliardi di euro destinati a calmierare i prezzi dell'energia.
+### Economia: Istat, il Pil italiano cresce dello 0,2% nel secondo trimestre
+Secondo la stima preliminare diffusa dall'Istat, il prodotto interno lordo è aumentato dello 0,2% rispetto al trimestre precedente e dell'1% su base annua, portando la crescita acquisita per il 2026 allo 0,8%. A trainare l'economia sono stati soprattutto i servizi, mentre agricoltura e industria hanno pesato in negativo; la domanda interna resta positiva, quella estera netta negativa.
 
-Fonte: [Sky TG24](https://tg24.sky.it/politica/2026/08/14/meloni-economia-italiana-intervista)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/flash/2026/07/30/-istat-il-pil-cresce-dello-02-nel-secondo-trimestre-_c2af5e74-c41f-489c-af1e-f2ee1539d0cc.html)
 
-### Economia: turismo, agosto da record e Italia davanti a Spagna e Francia
-Il ministero del Turismo stima per il periodo luglio-agosto circa 172 milioni di presenze, con gli stranieri oltre il 50% del totale, e un tasso di occupazione alberghiera che a Ferragosto dovrebbe toccare il 72%, superiore a quello registrato nei principali paesi concorrenti europei. Tra le regioni con la crescita più marcata nei piccoli comuni figurano Calabria, Abruzzo e Piemonte, mentre il settore alberghiero conferma un incremento della domanda straniera rispetto alla stagione 2025.
+### Economia: lo spread BTP-Bund torna sopra i 78 punti
+Il differenziale di rendimento tra i titoli di Stato italiani a dieci anni e i Bund tedeschi è salito a 78,1 punti base, in aumento rispetto alla chiusura precedente, con il rendimento del BTP arrivato al 3,98%. Nella stessa seduta sono saliti anche i rendimenti del Bund tedesco e del titolo francese, in un contesto di generale cautela sui mercati obbligazionari europei.
 
-Fonte: [Il Tempo](https://www.iltempo.it/attualita/2026/08/13/news/turismo-italiano-estate-da-record-agosto-meglio-di-spagna-e-francia-report-ministero-48849756/)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/14/lo-spread-tra-btp-e-bund-tedeschi-chiude-in-rialzo-sopra-i-78-punti_4fd983be-3a7e-4b59-abac-c4468b66f10c.html)
 
-### Estero: droni ucraini colpiscono il porto russo di Ust-Luga
-Un attacco con decine di droni ha provocato un incendio nella notte tra il 13 e il 14 agosto al terminal petrolifero di Ust-Luga, il principale scalo russo sul Mar Baltico, per il sesto raid dall'inizio dell'anno contro l'impianto. Le autorità della regione di Leningrad hanno riferito di aver abbattuto 54 droni e di non aver registrato vittime, mentre le fiamme sono state domate in mattinata; l'infrastruttura è un nodo chiave per l'export russo di greggio e prodotti raffinati verso i mercati internazionali.
+### Estero: Netanyahu respinge il piano Usa per il disarmo di Hamas a Gaza
+Il primo ministro israeliano Benjamin Netanyahu ha respinto il piano in 15 punti proposto dal Board of Peace, sostenuto dall'amministrazione statunitense, che prevedeva il disarmo progressivo di Hamas e un parallelo ritiro israeliano da Gaza. Netanyahu ha ribadito che le forze armate israeliane resteranno sulla cosiddetta "Linea Gialla" fino al disarmo completo del movimento palestinese e ha escluso la nascita di uno Stato palestinese finché resterà alla guida del governo.
 
-Fonte: [Kyiv Post](https://www.kyivpost.com/post/82322)
+Fonte: [Il Post](https://www.ilpost.it/2026/08/09/netanyahu-rifiuta-piano-trump-gaza/)
 
-### Estero: Gaza, incertezza sul piano di disarmo di Hamas mentre proseguono i raid israeliani
-A pochi giorni dall'annuncio di un'intesa sul disarmo progressivo di Hamas mediata dal Board of Peace, la sua attuazione resta bloccata: Hamas condiziona i primi passi al ritiro israeliano dai territori occupati, mentre il governo di Benjamin Netanyahu esclude ritirate prima del disarmo completo. Nel frattempo l'esercito israeliano ha continuato le operazioni militari nella Striscia, con un'ulteriore uccisione di un comandante di Hamas a Khan Younis nei giorni scorsi.
+### Estero: nuova ondata di attacchi russi su diverse regioni ucraine
+Nella notte tra il 14 e il 15 agosto la Russia ha colpito con missili e droni obiettivi in numerose regioni dell'Ucraina, tra cui Donbass, Sumy, Kharkiv, Zaporizhzhia, Odessa e Chernihiv. Un bambino di tre mesi è morto a Marhanets, nella regione di Dnipropetrovsk, in un attacco contro un edificio residenziale, mentre le forze russe risultano concentrare la pressione militare sulle città chiave di Sloviansk e Kramatorsk nel Donbass.
 
-Fonte: [Al Jazeera](https://www.aljazeera.com/news/2026/8/11/palestine-weekly-netanyahu-hedges-on-gaza-roadmap)
+Fonte: [Sky TG24](https://tg24.sky.it/mondo/2026/08/15/guerra-ucraina-russia-ultime-notizie-diretta)
 
-### Cronaca: Sicilia, esalazioni tossiche in un depuratore: morti un operaio e un soccorritore del 118
-Nel depuratore comunale di San Vito Lo Capo, in provincia di Trapani, un operaio di 45 anni è morto per le esalazioni sprigionate dai reflui mentre tentava di sostituire una pompa guasta. Nel tentativo di soccorrerlo ha perso la vita anche un operatore del 118 di 63 anni, colto a sua volta dai fumi tossici durante il massaggio cardiaco. L'impianto, mai collaudato dalla costruzione nel 2010, era già stato sequestrato nel 2016 dopo anomalie certificate da Arpa.
+### Estero: Nigel Farage rivince il seggio di Clacton-on-Sea
+Il leader di Reform UK Nigel Farage ha vinto l'elezione suppletiva nel collegio inglese di Clacton-on-Sea con oltre il 62% dei voti, superando come principale sfidante il candidato satirico "Count Binface" dopo che i maggiori partiti tradizionali avevano scelto di non presentare candidati per protesta. Il voto era stato indetto dopo le dimissioni dello stesso Farage, che si è così ricandidato nel proprio collegio.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/13/esalazioni-da-un-depuratore-morti-un-operaio-e-un-soccorritore_fe212b0c-7c45-435f-8fe9-4fa861c6cfce.html)
+Fonte: [Il Post](https://www.ilpost.it/2026/08/14/nigel-farage-vince-elezioni-suppletive-clacton/)
 
-### Cronaca: Puglia, rissa tra giovani a Trani: 18enne muore accoltellato
-Un diciottenne di Andria è morto nella notte dopo essere stato colpito alla schiena durante uno scontro tra due gruppi di giovani in piazza Papa Giovanni XXIII a Trani. Il ragazzo è deceduto in ospedale a Bisceglie poche ore dopo il ferimento; un diciassettenne si è successivamente presentato ai carabinieri insieme al proprio legale, ammettendo la responsabilità del gesto e sostenendo di non avere avuto intenzione di uccidere.
+### Cronaca: rissa a Trani, 18enne muore accoltellato
+Un diciottenne di Andria è morto nella notte tra il 12 e il 13 agosto dopo essere stato colpito alla schiena durante uno scontro tra due gruppi di giovani in zona pineta a Trani. Un diciassettenne si è successivamente presentato ai carabinieri insieme al proprio legale, ammettendo la responsabilità del gesto ma sostenendo di essere stato a sua volta aggredito da più persone, una delle quali armata.
 
 Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/13/rissa-tra-giovani-a-trani-18enne-muore-accoltellato_bcb72b07-ffe0-42d3-b36e-b05af291a9be.html)
 
-### Cronaca: attentato a Ranucci, il gip nega i domiciliari a Lavitola
-Il giudice per le indagini preliminari di Roma ha respinto la richiesta di arresti domiciliari per Valter Lavitola, che si è autoaccusato di essere il mandante dell'attentato subito dal giornalista Sigfrido Ranucci nell'ottobre 2025 a Pomezia. Il gip ha ritenuto le sue dichiarazioni generiche e prive di riscontri concreti, evidenziando il rischio di inquinamento delle prove; la difesa ha annunciato ricorso al Tribunale del Riesame.
+### Cronaca: esplosione nello stabilimento di munizioni di Colleferro
+Una violenta esplosione ha colpito il 13 agosto il reparto "Pressatura Polveri" dello stabilimento KNDS Ammo Italy, ex Simmel Difesa, a Colleferro, in provincia di Roma, con il boato avvertito fino a 30 chilometri di distanza. Non si sono registrati feriti poiché l'esplosione è avvenuta durante un periodo di chiusura aziendale; sono intervenuti vigili del fuoco, carabinieri e protezione civile, mentre le autorità hanno escluso fin da subito la pista dolosa.
 
-Fonte: [Sky TG24](https://tg24.sky.it/cronaca/2026/08/13/attentato-ranucci-lavitola-ultime-notizie)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/13/incendio-ed-esplosione-in-stabilimento-ex-simmel-difesa-a-colleferro_48352b9e-df7d-42d5-8aa4-69d8249fb02e.html)
 
-### Scienza e tecnologia: OpenAI verso l'Ipo, fatturato 2026 oltre i 40 miliardi di dollari
-Secondo le proiezioni interne diffuse in questi giorni, OpenAI dovrebbe chiudere il 2026 con ricavi superiori ai 40 miliardi di dollari, raddoppiando il ritmo di crescita registrato alla fine del 2025. Il dato rafforza i piani della società per una quotazione a Wall Street, in un momento in cui anche altri attori del settore, dalla cinese DeepSeek ad Apple, muovono passi rilevanti sul fronte dei modelli linguistici e degli assistenti basati su intelligenza artificiale.
+### Cronaca: weekend di Ferragosto segnato da diversi decessi in mare
+Tra la vigilia e il giorno di Ferragosto si sono registrati diversi decessi in acqua lungo le coste italiane: a Milano Marittima due uomini sono morti nonostante l'intervento dei bagnini, mentre altri casi di malore fatale in mare sono stati segnalati a Otranto e Santa Maria di Leuca. A Ortona, in provincia di Chieti, due ragazzi di 11 e 14 anni sono invece annegati nonostante il mare mosso.
 
-Fonte: [ANSA](https://www.ansa.it/canale_tecnologia/notizie/tecnologia/2026/08/14/il-fatturato-2026-di-openai-oltre-i-40-miliardi-in-vista-dellipo_efbab5e7-f39a-4f4a-8254-cd8cc8801b60.html)
+Fonte: [Ravennaedintorni.it](https://www.ravennaedintorni.it/cronaca/2026/08/15/vigilia-di-ferragosto-tragica-a-milano-marittima-due-morti-in-mare/)
 
-### Cultura e sport: Coppa Italia, si riparte da Torino-Carrarese
-Prende ufficialmente il via questa sera la nuova stagione calcistica italiana con i trentaduesimi di finale di Coppa Italia: al Grande Torino i granata di Ignazio Abate ospitano la Carrarese neopromossa in Serie B, guidata da Gabriele Cioffi. Nello stesso turno sono in programma altre sfide tra formazioni di Serie A, B e C, con diverse partite trasmesse in chiaro e in streaming.
+### Cultura e sport: Europei di atletica, l'Italia chiude al primo posto nel medagliere
+Agli Europei di atletica leggera di Birmingham, conclusisi il 16 agosto, l'Italia ha conquistato il primo posto nel medagliere con 17 medaglie complessive, di cui otto ori. Tra i protagonisti figurano Nadia Battocletti, autrice della doppietta nei 5000 e 10000 metri, Gianmarco Tamberi nel salto in alto, Leonardo Fabbri nel peso e Massimo Stano nella marcia.
 
-Fonte: [TorinoToday](https://www.torinotoday.it/sport/calcio/coppa-italia-torino-carrarese-dove-vederla-tv-biglietti-formazioni.html)
+Fonte: [Fanpage](https://www.fanpage.it/sport/altri-sport/il-medagliere-degli-europei-di-atletica-2026-aggiornata-la-posizione-dellitalia-e-la-classifica-completa/)
+
+### Cultura e sport: svelato il programma della Mostra del Cinema di Venezia
+È stato presentato il programma dell'83ª Mostra Internazionale d'Arte Cinematografica di Venezia, in calendario al Lido dal 2 al 12 settembre sotto la direzione di Alberto Barbera. La rassegna prevede 88 lungometraggi tra concorso e sezioni collaterali, con il film di apertura "Ink" di Danny Boyle e la presenza attesa di ospiti internazionali come George Clooney.
+
+Fonte: [Il Messaggero](https://www.ilmessaggero.it/schede/festival_cinema_venezia_2026_programma_film_conduttori_ospiti_george_clooney_oasis_nanni_moretti-9697407.html)
 
 ---
 
