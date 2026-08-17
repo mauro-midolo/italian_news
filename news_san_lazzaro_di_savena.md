@@ -1,34 +1,34 @@
-# Notizie di San Lazzaro di Savena – Domenica 16 agosto 2026
+# Notizie di San Lazzaro di Savena – Lunedì 17 agosto 2026
 
-### Cronaca locale: calato il sipario sulla 194ª Fiera di San Lazzaro
-Si è conclusa il 2 agosto la 194ª edizione della Fiera di San Lazzaro di Savena, che dal 30 luglio ha animato con musica, degustazioni e spettacoli piazza Bracci, il Parco 2 Agosto e il cortile del municipio. Tra gli ospiti della kermesse, una delle più longeve dell'area metropolitana bolognese, sono saliti sul palco la cantante Tosca e Rossella Cappadone in un tributo a Ornella Vanoni; l'edizione dello scorso anno aveva richiamato circa 100mila persone.
+### Viabilità: inaugurata la "Rotonda del Dono" al confine con Bologna
+Sabato 1° agosto è stata inaugurata la nuova rotatoria all'incrocio tra via Bellaria, via Fratelli Canova, via Rio Polo e via Altura, al confine tra Bologna e San Lazzaro di Savena. L'opera, finanziata con circa 2 milioni di euro da RFI, elimina i semafori della zona e modifica l'accesso all'ospedale Bellaria; su proposta dell'amministrazione è stata dedicata alle associazioni di volontariato e a chi dedica tempo ed energie alla comunità, da cui il nome "Rotonda del Dono".
+
+Fonte: [BolognaToday](https://www.bolognatoday.it/cronaca/rotonda-dono-nuovo-accesso-ospedale-bellaria-bologna.html)
+
+### Amministrazione: raddoppiano gli spazi della Casa della Comunità
+Il 30 luglio sono stati inaugurati in via della Repubblica i nuovi spazi della Casa della Comunità di San Lazzaro, frutto di un intervento da 3,8 milioni di euro tra fondi Pnrr e risorse statali, all'interno di un progetto complessivo da circa 6 milioni. I lavori hanno riqualificato oltre 3.200 metri quadrati tra spazi esistenti e nuove costruzioni, con l'obiettivo di potenziare riabilitazione, diagnostica per immagini, prelievi e nuovi ambulatori specialistici.
+
+Fonte: [BolognaToday](https://www.bolognatoday.it/attualita/casa-della-comunita-san-lazzaro.html)
+
+### Cronaca locale: sorpreso sull'A13 con quasi 50 chili di marijuana
+L'8 agosto un cinquantottenne italiano è stato arrestato all'altezza di San Lazzaro di Savena mentre transitava sull'autostrada A13 come corriere della droga, con addosso quasi 50 chilogrammi di marijuana. L'uomo è stato fermato dalle forze dell'ordine nell'ambito dei controlli sul traffico di stupefacenti lungo l'asse autostradale bolognese.
+
+Fonte: [Gaiaitalia](https://bologna.gaiaitalia.com/2026/08/08/in-a13-con-quasi-50-chili-di-marijuana-arrestato-corriere-della-droga/)
+
+### Eventi: calato il sipario sulla 194ª Fiera di San Lazzaro
+Si è conclusa il 2 agosto la 194ª edizione della Fiera di San Lazzaro, che dal 30 luglio ha animato con musica, degustazioni e spettacoli il centro cittadino, richiamando nell'edizione precedente circa 100mila visitatori. Tra gli ospiti della kermesse, una delle manifestazioni estive più longeve dell'area metropolitana bolognese, si sono esibiti la cantante Tosca e il musicista Federico Poggipollini.
 
 Fonte: [BolognaToday](https://www.bolognatoday.it/eventi/fiera-di-san-lazzaro-2026.html)
 
-### Eventi: Resisdance, rassegna culturale al Parco della Resistenza
-In contemporanea con la Fiera, dal 30 luglio al 2 agosto si è tenuta la quinta edizione di Resisdance, rassegna culturale ospitata al Parco della Resistenza che si conferma ormai un appuntamento fisso dell'estate sanlazzarese.
+### Eventi in programma: prosegue "Vivere San Lazzaro Estate", a settembre trekking urbano e gite in bici
+Continua fino a settembre il cartellone "Vivere San Lazzaro Estate", che unisce musica, sport, cinema e cultura in diversi luoghi della città grazie alla collaborazione con associazioni culturali e artistiche del territorio. Per il mese di settembre il programma prevede in particolare escursioni di trekking urbano e in bicicletta alla scoperta degli angoli meno noti della città.
 
-Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/argomenti/turismo/grandi-eventi)
+Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/argomenti/vivere-san-lazzaro-estate)
 
-### Eventi: San Lazzaro ha ospitato gli Europei di bowling per sordi
-Dal 29 giugno al 12 luglio San Lazzaro di Savena ha ospitato la tredicesima edizione dei Campionati Europei di Bowling per sordi, organizzati dalla Federazione Sport Sordi Italia: è stata la prima volta della manifestazione in Emilia-Romagna. Hanno partecipato circa cento atleti in rappresentanza di diciotto Paesi, con l'Italia che ha conquistato sette medaglie complessive.
+### Amministrazione: aperte le iscrizioni ai nidi d'infanzia comunali e convenzionati
+Il Comune ha pubblicato il bando di iscrizione ai nidi d'infanzia comunali e privati convenzionati per l'anno educativo 2026/2027, rivolto alle famiglie residenti con bambini in età da asilo nido. Le domande di iscrizione possono essere presentate entro la fine di agosto secondo le modalità indicate nel bando pubblicato sul sito del Comune.
 
-Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/comunicati-stampa/diciotto-paesi-cento-atlete-e-atleti-e-due-settimane-di-gare-a-san-lazzaro-arrivano-i-campionati-europei-di-bowling-per-sordi)
-
-### Amministrazione: cantiere alla Ponticella per la riqualificazione ambientale
-È in corso tra via Brizzi e via Edera un intervento da 1,5 milioni di euro, finanziato con fondi europei del POR FESR, per la riqualificazione ambientale e idraulica del quartiere Ponticella: previste nuove alberature, la desasfaltatura di alcune aree e una gestione più naturale delle acque piovane per contrastare le isole di calore urbane.
-
-Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/comunicati-stampa/nuovi-alberi-e-meno-asfalto-partiti-i-lavori-alla-ponticella)
-
-### Amministrazione: nel bilancio 2026 oltre 5 milioni per la sicurezza del territorio
-Il Comune ha destinato nel bilancio di previsione 2026 oltre 5 milioni di euro alla sicurezza idraulica e alla messa in sicurezza del territorio, tra cui interventi sul Rio Brolo e sul Rio Pontebuco, individuando la prevenzione del dissesto idrogeologico come una delle priorità di spesa insieme alla mobilità sostenibile.
-
-Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/comunicati-stampa/ok-al-bilancio-oltre-5-milioni-di-euro-per-la-sicurezza-del-territorio)
-
-### Viabilità: lavori stradali interessano diverse vie del comune
-Nel corso di luglio e agosto il Comune ha eseguito lavori di ripavimentazione su numerose strade, tra cui via Aldo Moro, via Mario Conti, via Gaibola e via Montebello, mentre via Andreoli è rimasta chiusa al traffico fino a metà agosto per interventi sui cavi elettrici. Ulteriori cantieri hanno interessato via Castel de' Britti per gli allacci alla rete idrica e del gas.
-
-Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/avvisi/lavori-in-corso)
+Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/argomenti/scuola-ed-educazione/iscrizioni-e-graduatorie/bando-nidi-d-infanzia/bando-nidi-di-infanzia-2026-2027/@@download/file)
 
 ---
 

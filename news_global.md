@@ -1,64 +1,64 @@
-# Rassegna Globale – Domenica 16 agosto 2026
+# Rassegna Globale – Lunedì 17 agosto 2026
 
-### Politica: Tajani apre alle preferenze nella riforma della legge elettorale
-Il vicepremier e ministro degli Esteri Antonio Tajani, intervenendo al Caffè della Versiliana, si è detto favorevole all'introduzione delle preferenze abbinate al capolista bloccato nella riforma della legge elettorale, definendo il tema un dettaglio rispetto all'obiettivo principale di garantire stabilità di governo. Ha inoltre smentito l'esistenza di tensioni interne alla maggioranza di centrodestra sulla questione.
+### Politica: legge elettorale e Rai, da settembre lo sprint delle Camere
+Il Parlamento, in pausa estiva, si prepara a una ripresa intensa a settembre su due dossier caldi: la riforma della legge elettorale, con il nodo delle preferenze ancora aperto e l'incognita del voto segreto a Montecitorio, e la governance Rai, con Forza Italia orientata sul nome di Simona Agnese per la presidenza. L'obiettivo della maggioranza è chiudere l'iter della legge elettorale alla Camera entro la fine del mese.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/02/tajani-sulla-legge-elettorale-si-alle-preferenze-col-capolista-bloccato_f5620b4c-5f49-41a6-8089-46a58e73a832.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/16/legge-elettorale-e-rai-da-settembre-lo-sprint-delle-camere_90daf4e6-8acb-4b09-bf63-f18f88a90ff2.html)
 
-### Politica: Cassazione conferma la condanna di Mario Roggero, riacceso il dibattito sulla legittima difesa
-La Corte di Cassazione ha respinto il ricorso del gioielliere piemontese Mario Roggero, rendendo definitiva la condanna a 14 anni e 9 mesi per l'uccisione di due rapinatori nel 2021 a Gallo d'Alba, pena già ridotta rispetto ai 17 anni stabiliti in primo grado. Il caso, tornato al centro del dibattito politico sul tema della legittima difesa, potrebbe ora approdare alla Corte europea dei diritti dell'uomo, secondo quanto annunciato dai legali di Roggero.
+### Politica: Piantedosi, lo stop a Schengen con la Spagna resterà finché durano i rischi
+Il ministro dell'Interno Matteo Piantedosi ha ribadito che la sospensione dei controlli di frontiera con la Spagna, motivata da possibili infiltrazioni legate al terrorismo, sarà revocata solo a rischio azzerato. La premier Giorgia Meloni ha rilanciato sui social la linea del governo sulla difesa dei confini, mentre il Viminale ha reso noti i primi dati sui respingimenti applicati dai controlli rafforzati.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/07/15/uccise-due-banditi-condannato-in-via-definitiva-il-gioielliere-mario-roggero.-lui_7451dd1c-0381-4287-ad63-09fea9ade74c.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/13/piantedosi-revocheremo-lo-stop-a-schengen-solo-con-la-fine-totale-dei-rischi_09eb6109-df15-4976-a0db-203b1027ebbb.html)
 
-### Economia: Istat, il Pil italiano cresce dello 0,2% nel secondo trimestre
-Secondo la stima preliminare diffusa dall'Istat, il prodotto interno lordo è aumentato dello 0,2% rispetto al trimestre precedente e dell'1% su base annua, portando la crescita acquisita per il 2026 allo 0,8%. A trainare l'economia sono stati soprattutto i servizi, mentre agricoltura e industria hanno pesato in negativo; la domanda interna resta positiva, quella estera netta negativa.
+### Economia: il debito pubblico italiano tocca un nuovo record, oltre 3.200 miliardi
+Secondo i dati di Bankitalia relativi a giugno, il debito pubblico ha superato per la prima volta i 3.200 miliardi di euro, attestandosi a circa 3.207 miliardi: un incremento di 26,2 miliardi rispetto al mese precedente e di circa 136 miliardi su base annua. L'aumento riflette soprattutto il fabbisogno delle amministrazioni pubbliche e la crescita delle disponibilità liquide del Tesoro.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/flash/2026/07/30/-istat-il-pil-cresce-dello-02-nel-secondo-trimestre-_c2af5e74-c41f-489c-af1e-f2ee1539d0cc.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/14/bankitalia-nuovo-record-del-debito-a-giugno-supera-i-3.200-miliardi_2e0698e6-edfc-4c8e-9cce-c81af7428d4a.html)
 
-### Economia: lo spread BTP-Bund torna sopra i 78 punti
-Il differenziale di rendimento tra i titoli di Stato italiani a dieci anni e i Bund tedeschi è salito a 78,1 punti base, in aumento rispetto alla chiusura precedente, con il rendimento del BTP arrivato al 3,98%. Nella stessa seduta sono saliti anche i rendimenti del Bund tedesco e del titolo francese, in un contesto di generale cautela sui mercati obbligazionari europei.
+### Economia: il Pil dell'Eurozona cresce dello 0,4%, l'Italia rallenta allo 0,2%
+Secondo la stima preliminare di Eurostat, nel secondo trimestre il prodotto interno lordo è aumentato dello 0,4% nell'area euro e dello 0,5% nell'Unione europea rispetto al trimestre precedente. L'Italia si è fermata a +0,2%, in rallentamento rispetto al +0,3% del primo trimestre, allineandosi alle performance più deboli tra le grandi economie insieme a Germania e Francia.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/14/lo-spread-tra-btp-e-bund-tedeschi-chiude-in-rialzo-sopra-i-78-punti_4fd983be-3a7e-4b59-abac-c4468b66f10c.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/14/nelleurozona-il-pil-sale-dello-04-nel-secondo-trimestre_1cb86fe1-2974-48d0-b4ed-07dc90cb8155.html)
 
-### Estero: Netanyahu respinge il piano Usa per il disarmo di Hamas a Gaza
-Il primo ministro israeliano Benjamin Netanyahu ha respinto il piano in 15 punti proposto dal Board of Peace, sostenuto dall'amministrazione statunitense, che prevedeva il disarmo progressivo di Hamas e un parallelo ritiro israeliano da Gaza. Netanyahu ha ribadito che le forze armate israeliane resteranno sulla cosiddetta "Linea Gialla" fino al disarmo completo del movimento palestinese e ha escluso la nascita di uno Stato palestinese finché resterà alla guida del governo.
+### Estero: notte di attacchi incrociati tra Russia e Ucraina, centinaia di droni abbattuti
+Nella notte tra sabato e domenica l'Ucraina ha lanciato una delle offensive aeree più massicce dall'inizio del conflitto, con centinaia di droni diretti verso Mosca; la difesa russa ne ha rivendicati centinaia intercettati, mentre un velivolo russo è stato abbattuto da un caccia Nato al confine con la Romania. La Russia ha risposto con nuovi raid su Kiev e altre città ucraine, causando vittime da entrambe le parti.
 
-Fonte: [Il Post](https://www.ilpost.it/2026/08/09/netanyahu-rifiuta-piano-trump-gaza/)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/2026/08/16/ucraina-pioggia-di-droni-su-mosca.-uno-russo-abbattuto-da-un-caccia-nato-in-romania_11aaae52-1c29-461e-b386-8f7c58516060.html)
 
-### Estero: nuova ondata di attacchi russi su diverse regioni ucraine
-Nella notte tra il 14 e il 15 agosto la Russia ha colpito con missili e droni obiettivi in numerose regioni dell'Ucraina, tra cui Donbass, Sumy, Kharkiv, Zaporizhzhia, Odessa e Chernihiv. Un bambino di tre mesi è morto a Marhanets, nella regione di Dnipropetrovsk, in un attacco contro un edificio residenziale, mentre le forze russe risultano concentrare la pressione militare sulle città chiave di Sloviansk e Kramatorsk nel Donbass.
+### Estero: Netanyahu respinge il piano Usa su Gaza, missione di Kushner in Medio Oriente
+Il premier israeliano Benjamin Netanyahu ha confermato il rifiuto del piano in 15 punti proposto dagli Stati Uniti per il disarmo di Hamas e il ritiro israeliano da Gaza, ribadendo che l'Idf non lascerà le posizioni attuali finché il movimento palestinese non sarà disarmato. Il consigliere della Casa Bianca Jared Kushner, insieme all'inviato del Board of Peace Nickolay Mladenov, è atteso in Israele ed Egitto nei prossimi giorni per provare a superare lo stallo.
 
-Fonte: [Sky TG24](https://tg24.sky.it/mondo/2026/08/15/guerra-ucraina-russia-ultime-notizie-diretta)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/08/10/media-netanyahu-da-una-chance-a-piano-gaza-idf-si-sta-ritirando_15d26f9f-e5af-432d-b33c-27d184f2e625.html)
 
-### Estero: Nigel Farage rivince il seggio di Clacton-on-Sea
-Il leader di Reform UK Nigel Farage ha vinto l'elezione suppletiva nel collegio inglese di Clacton-on-Sea con oltre il 62% dei voti, superando come principale sfidante il candidato satirico "Count Binface" dopo che i maggiori partiti tradizionali avevano scelto di non presentare candidati per protesta. Il voto era stato indetto dopo le dimissioni dello stesso Farage, che si è così ricandidato nel proprio collegio.
+### Estero: bus di pellegrini polacchi si ribalta in Ungheria, 12 morti
+Un pullman immatricolato in Polonia, con a bordo un gruppo di pellegrini di ritorno dal santuario di Medjugorje, si è ribaltato nella notte sull'autostrada M3 ungherese, a est di Budapest. Il bilancio è di 12 morti e almeno 10 feriti gravi; l'autista, fermato dalle autorità, si sarebbe addormentato alla guida.
 
-Fonte: [Il Post](https://www.ilpost.it/2026/08/14/nigel-farage-vince-elezioni-suppletive-clacton/)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/2026/08/16/un-autobus-si-e-ribaltato-in-ungheria-12-morti-e-almeno-10-feriti-gravi_5001cba0-3baa-4f28-ac05-d5fcd612dc4f.html)
 
-### Cronaca: rissa a Trani, 18enne muore accoltellato
-Un diciottenne di Andria è morto nella notte tra il 12 e il 13 agosto dopo essere stato colpito alla schiena durante uno scontro tra due gruppi di giovani in zona pineta a Trani. Un diciassettenne si è successivamente presentato ai carabinieri insieme al proprio legale, ammettendo la responsabilità del gesto ma sostenendo di essere stato a sua volta aggredito da più persone, una delle quali armata.
+### Cronaca: furto al museo di Messina, rubate quattro opere di Antonello da Messina
+Nella serata di Ferragosto, ignoti sono riusciti a introdursi nelle sale del Museo Regionale Interdisciplinare di Messina eludendo i sistemi di allarme, portando via quattro opere attribuite ad Antonello da Messina, tra cui tre tavole del celebre Polittico di San Gregorio. Sono in corso le indagini di carabinieri e polizia scientifica per ricostruire la dinamica del colpo.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/13/rissa-tra-giovani-a-trani-18enne-muore-accoltellato_bcb72b07-ffe0-42d3-b36e-b05af291a9be.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/16/furto-al-museo-rubate-opere-di-antonello-da-messina_d316b5fe-3a2d-489a-8f6a-544d5566e684.html)
 
-### Cronaca: esplosione nello stabilimento di munizioni di Colleferro
-Una violenta esplosione ha colpito il 13 agosto il reparto "Pressatura Polveri" dello stabilimento KNDS Ammo Italy, ex Simmel Difesa, a Colleferro, in provincia di Roma, con il boato avvertito fino a 30 chilometri di distanza. Non si sono registrati feriti poiché l'esplosione è avvenuta durante un periodo di chiusura aziendale; sono intervenuti vigili del fuoco, carabinieri e protezione civile, mentre le autorità hanno escluso fin da subito la pista dolosa.
+### Cronaca: dopo settimane di caldo torna il maltempo, allerta gialla in tredici regioni
+Dopo un lungo periodo di caldo intenso, da lunedì sono previsti rovesci e temporali su gran parte della penisola, a partire da Lombardia, Trentino-Alto Adige, Veneto ed Emilia-Romagna per estendersi poi a Toscana, Umbria, Marche e Abruzzo. La Protezione civile ha diramato un'allerta gialla per rischio meteo-idrogeologico in tredici regioni, segnalando possibili grandinate e forti raffiche di vento.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/13/incendio-ed-esplosione-in-stabilimento-ex-simmel-difesa-a-colleferro_48352b9e-df7d-42d5-8aa4-69d8249fb02e.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/16/ore-contate-per-il-grande-caldo-adesso-e-allerta-temporali_4b75af74-fc23-4f1f-a498-a90254266237.html)
 
-### Cronaca: weekend di Ferragosto segnato da diversi decessi in mare
-Tra la vigilia e il giorno di Ferragosto si sono registrati diversi decessi in acqua lungo le coste italiane: a Milano Marittima due uomini sono morti nonostante l'intervento dei bagnini, mentre altri casi di malore fatale in mare sono stati segnalati a Otranto e Santa Maria di Leuca. A Ortona, in provincia di Chieti, due ragazzi di 11 e 14 anni sono invece annegati nonostante il mare mosso.
+### Scienza e tecnologia: scoperto il pianeta più debole mai fotografato dalla Terra
+Un team internazionale ha individuato Beta Pictoris d, terzo pianeta noto del sistema della stella Beta Pictoris, a circa 63 anni luce dalla Terra: è cento volte meno luminoso del compagno Beta Pictoris b e ha almeno il doppio della massa di Giove. Il corpo celeste era già presente nei dati raccolti undici anni fa dal telescopio Webb, ma era rimasto nascosto dal bagliore di un altro oggetto del sistema; la scoperta è stata confermata in modo indipendente dal Very Large Telescope.
 
-Fonte: [Ravennaedintorni.it](https://www.ravennaedintorni.it/cronaca/2026/08/15/vigilia-di-ferragosto-tragica-a-milano-marittima-due-morti-in-mare/)
+Fonte: [ANSA](https://www.ansa.it/canale_scienza/notizie/spazio_astronomia/2026/08/13/il-pianeta-piu-debole-mai-fotografato-dalla-terra_fa526615-1520-43b9-9355-f297e1e919f0.html)
 
 ### Cultura e sport: Europei di atletica, l'Italia chiude al primo posto nel medagliere
-Agli Europei di atletica leggera di Birmingham, conclusisi il 16 agosto, l'Italia ha conquistato il primo posto nel medagliere con 17 medaglie complessive, di cui otto ori. Tra i protagonisti figurano Nadia Battocletti, autrice della doppietta nei 5000 e 10000 metri, Gianmarco Tamberi nel salto in alto, Leonardo Fabbri nel peso e Massimo Stano nella marcia.
+Nell'ultima giornata degli Europei di atletica leggera di Birmingham, l'Italia ha conquistato l'oro nel salto in lungo femminile con Larissa Iapichino e nella 4x400 maschile, chiudendo la manifestazione al primo posto nel medagliere davanti alla Gran Bretagna. Bronzo anche per la 4x400 femminile, a coronamento di una spedizione che ha visto gli azzurri protagonisti in più discipline.
 
-Fonte: [Fanpage](https://www.fanpage.it/sport/altri-sport/il-medagliere-degli-europei-di-atletica-2026-aggiornata-la-posizione-dellitalia-e-la-classifica-completa/)
+Fonte: [ANSA](https://ansa.it/sito/notizie/sport/2026/08/16/oro-nella-4x400-e-nel-lungo-con-iapichino-capolavoro-degli-azzurri_c9866f9d-ce58-4315-bcce-98ae9a01c293.html)
 
-### Cultura e sport: svelato il programma della Mostra del Cinema di Venezia
-È stato presentato il programma dell'83ª Mostra Internazionale d'Arte Cinematografica di Venezia, in calendario al Lido dal 2 al 12 settembre sotto la direzione di Alberto Barbera. La rassegna prevede 88 lungometraggi tra concorso e sezioni collaterali, con il film di apertura "Ink" di Danny Boyle e la presenza attesa di ospiti internazionali come George Clooney.
+### Cultura e sport: Locarno, Pardo d'oro al film rumeno "You Don't Belong Here"
+Si è conclusa la 79ª edizione del Festival del Film di Locarno: il Pardo d'oro è andato al regista rumeno Florin Șerban per "You Don't Belong Here", mentre Monica Bellucci ha ricevuto il premio come migliore attrice per l'interpretazione di una madre siciliana nel film "Ketticè" di Giovanni Tortorici. La giuria, presieduta da Fabrice Du Welz, ha premiato la forza della sceneggiatura e la singolarità della visione del film vincitore.
 
-Fonte: [Il Messaggero](https://www.ilmessaggero.it/schede/festival_cinema_venezia_2026_programma_film_conduttori_ospiti_george_clooney_oasis_nanni_moretti-9697407.html)
+Fonte: [Hollywood Reporter](https://www.hollywoodreporter.com/movies/movie-news/locarno-2026-awards-winners-monica-bellucci-hong-sang-soo-1236673771/)
 
 ---
 
