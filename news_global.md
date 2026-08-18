@@ -1,65 +1,59 @@
-# Rassegna Globale – Lunedì 17 agosto 2026
+# Rassegna Globale – Martedì 18 agosto 2026
 
-### Politica: legge elettorale e Rai, da settembre lo sprint delle Camere
-Il Parlamento, in pausa estiva, si prepara a una ripresa intensa a settembre su due dossier caldi: la riforma della legge elettorale, con il nodo delle preferenze ancora aperto e l'incognita del voto segreto a Montecitorio, e la governance Rai, con Forza Italia orientata sul nome di Simona Agnese per la presidenza. L'obiettivo della maggioranza è chiudere l'iter della legge elettorale alla Camera entro la fine del mese.
+### Politica: Pd e Psoe contro la premier danese Frederiksen per l'asse con Meloni su Ceuta
+Il responsabile Esteri del Pd Peppe Provenzano e il vicepresidente del Parlamento europeo Javi Lopez, esponente del Psoe, hanno scritto al presidente del Partito socialista europeo Stefan Lofven per contestare l'allineamento della premier danese Mette Frederiksen alle posizioni della presidente del Consiglio Giorgia Meloni sulla questione di Ceuta. Nella lettera i due esponenti socialisti denunciano una "solidarietà selettiva" e criticano l'adozione di una retorica che dipinge la migrazione come un'emergenza permanente, richiamando la sospensione di Schengen decisa da Roma nonostante l'assenza di libera circolazione tra Ceuta e l'Ue. La polemica si inserisce nel più ampio dibattito europeo sulle politiche migratorie, in un'estate segnata anche da un calo di circa il 40% degli sbarchi irregolari rispetto all'anno precedente.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/16/legge-elettorale-e-rai-da-settembre-lo-sprint-delle-camere_90daf4e6-8acb-4b09-bf63-f18f88a90ff2.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/17/pd-e-psoe-contro-frederiksen-inaccettabile-lasse-con-meloni-su-ceuta_71b05907-92e7-4a00-b392-2a71422e40a4.html)
 
-### Politica: Piantedosi, lo stop a Schengen con la Spagna resterà finché durano i rischi
-Il ministro dell'Interno Matteo Piantedosi ha ribadito che la sospensione dei controlli di frontiera con la Spagna, motivata da possibili infiltrazioni legate al terrorismo, sarà revocata solo a rischio azzerato. La premier Giorgia Meloni ha rilanciato sui social la linea del governo sulla difesa dei confini, mentre il Viminale ha reso noti i primi dati sui respingimenti applicati dai controlli rafforzati.
+### Economia: Meloni, "Mps non deve essere smembrata"
+In un'intervista a Milano Finanza, la premier Giorgia Meloni ha difeso il risanamento del Monte dei Paschi di Siena, definendolo oggi "un pezzo pregiato" del sistema bancario italiano, ed ha espresso l'auspicio che la banca non venga smembrata perdendo il proprio nome nell'ambito dell'operazione di acquisizione non sollecitata che coinvolge Intesa Sanpaolo, Unipol e Bper. Le opposizioni hanno reagito duramente: il Pd senese ha chiesto al governo di usare gli strumenti a disposizione per garantire l'unità dell'istituto, mentre il M5s ha domandato trasparenza sui contatti tra i funzionari coinvolti, ricordando che la banca è stata risanata con ingenti risorse pubbliche. Il dossier tornerà al centro dell'attenzione con un vertice tra Regione Toscana e il ministro dell'Economia Giorgetti il 20 agosto e un consiglio comunale dedicato a Siena il 2 settembre.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/13/piantedosi-revocheremo-lo-stop-a-schengen-solo-con-la-fine-totale-dei-rischi_09eb6109-df15-4976-a0db-203b1027ebbb.html)
+Fonte: [Milano Finanza](https://www.milanofinanza.it/news/le-parole-di-giorgia-meloni-a-milano-finanza-riaccendono-il-dibattito-su-mps-le-opposizioni-il-governo-202608151024311881)
 
-### Economia: il debito pubblico italiano tocca un nuovo record, oltre 3.200 miliardi
-Secondo i dati di Bankitalia relativi a giugno, il debito pubblico ha superato per la prima volta i 3.200 miliardi di euro, attestandosi a circa 3.207 miliardi: un incremento di 26,2 miliardi rispetto al mese precedente e di circa 136 miliardi su base annua. L'aumento riflette soprattutto il fabbisogno delle amministrazioni pubbliche e la crescita delle disponibilità liquide del Tesoro.
+### Economia: lo spread BTP-Bund chiude in rialzo a 79 punti
+Dopo un'apertura in lieve calo a 77 punti base, lo spread tra BTP e Bund decennali ha chiuso la seduta del 17 agosto in rialzo a 79 punti, con il rendimento del titolo di Stato italiano salito al 4,01%. Il movimento riflette l'andamento dei mercati obbligazionari europei nella settimana di Ferragosto, in un contesto di scambi ridotti.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/14/bankitalia-nuovo-record-del-debito-a-giugno-supera-i-3.200-miliardi_2e0698e6-edfc-4c8e-9cce-c81af7428d4a.html)
+Fonte: [Il Sole 24 Ore](https://www.ilsole24ore.com/art/btp-spread-chiude-rialzo-79-punti-rendimento-decennale-sale-401percento-AJY8XJo)
 
-### Economia: il Pil dell'Eurozona cresce dello 0,4%, l'Italia rallenta allo 0,2%
-Secondo la stima preliminare di Eurostat, nel secondo trimestre il prodotto interno lordo è aumentato dello 0,4% nell'area euro e dello 0,5% nell'Unione europea rispetto al trimestre precedente. L'Italia si è fermata a +0,2%, in rallentamento rispetto al +0,3% del primo trimestre, allineandosi alle performance più deboli tra le grandi economie insieme a Germania e Francia.
+### Estero: notte di attacchi con droni tra Ucraina e Russia, feriti a Kharkiv
+Tra il 17 e il 18 agosto l'Ucraina ha lanciato circa 620 droni contro la regione di Mosca, di cui secondo fonti russe solo 180 sarebbero stati intercettati; danni sono stati segnalati a Kolomna, dove ha preso fuoco un padiglione commerciale. Un raid russo notturno su Izium, nella regione di Kharkiv, ha invece ferito cinque persone, tra cui un bambino di nove anni, secondo il governatore locale Oleh Syniehubov. Sul piano diplomatico Mosca ha minacciato "conseguenze" contro il Regno Unito per l'uso di droni britannici da parte di Kiev, mentre il ministro degli Esteri russo Lavrov ha ribadito il sostegno reciproco con la Corea del Nord.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/14/nelleurozona-il-pil-sale-dello-04-nel-secondo-trimestre_1cb86fe1-2974-48d0-b4ed-07dc90cb8155.html)
+Fonte: [Sky TG24](https://tg24.sky.it/mondo/2026/08/18/guerra-ucraina-russia-ultime-notizie-diretta)
 
-### Estero: notte di attacchi incrociati tra Russia e Ucraina, centinaia di droni abbattuti
-Nella notte tra sabato e domenica l'Ucraina ha lanciato una delle offensive aeree più massicce dall'inizio del conflitto, con centinaia di droni diretti verso Mosca; la difesa russa ne ha rivendicati centinaia intercettati, mentre un velivolo russo è stato abbattuto da un caccia Nato al confine con la Romania. La Russia ha risposto con nuovi raid su Kiev e altre città ucraine, causando vittime da entrambe le parti.
+### Estero: Gaza, Kushner a Gerusalemme per il piano Usa sul disarmo di Hamas
+L'inviato della Casa Bianca Jared Kushner e i rappresentanti del Board of Peace hanno incontrato il 17 agosto il premier israeliano Netanyahu, che ha accettato di istituire due gruppi di lavoro su smilitarizzazione della Striscia e servizi sanitari. Resta aperto il nodo della sequenza: Washington chiede che Hamas consegni le armi a una forza di stabilizzazione internazionale prima del ritiro israeliano, mentre Hamas si oppone a questo ordine e Israele si mostra scettico sulla reale disponibilità del movimento a disarmare. Trump ha dichiarato che sarebbe preferibile evitare nuovi attacchi israeliani su Gaza, sostenendo che Hamas avrebbe già accettato di deporre le armi; nel governo israeliano il ministro di estrema destra Ben Gvir si oppone a limitazioni sugli attacchi mirati.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/2026/08/16/ucraina-pioggia-di-droni-su-mosca.-uno-russo-abbattuto-da-un-caccia-nato-in-romania_11aaae52-1c29-461e-b386-8f7c58516060.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/2026/08/17/i-media-per-netanyahu-primo-passo-a-gaza-la-consegna-delle-armi-di-hamas_7f6899dd-4aec-4394-9792-a2c99c8c9de5.html)
 
-### Estero: Netanyahu respinge il piano Usa su Gaza, missione di Kushner in Medio Oriente
-Il premier israeliano Benjamin Netanyahu ha confermato il rifiuto del piano in 15 punti proposto dagli Stati Uniti per il disarmo di Hamas e il ritiro israeliano da Gaza, ribadendo che l'Idf non lascerà le posizioni attuali finché il movimento palestinese non sarà disarmato. Il consigliere della Casa Bianca Jared Kushner, insieme all'inviato del Board of Peace Nickolay Mladenov, è atteso in Israele ed Egitto nei prossimi giorni per provare a superare lo stallo.
+### Cronaca: eruzione dell'Etna, ancora limitazioni ai voli sull'aeroporto di Catania
+Nella bocca effusiva apertasi in Valle del Bove, tra 2.200 e 2.350 metri di quota, la colata lavica risulta in fase di raffreddamento secondo l'Ingv, ma resta attiva a quote più basse con flussi fino a circa 1.600-1.900 metri. Il cratere di Voragine ha invece prodotto un'intensa attività esplosiva con una colonna di cenere alta circa 6.000 metri, dispersa verso sud-est fino a ricoprire Catania e i comuni limitrofi. Per effetto della cenere l'aeroporto di Catania mantiene chiuso il settore aereo B1 e limita gli arrivi a dieci aerei l'ora fino a mezzogiorno del 18 agosto, senza restrizioni alle partenze.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/08/10/media-netanyahu-da-una-chance-a-piano-gaza-idf-si-sta-ritirando_15d26f9f-e5af-432d-b33c-27d184f2e625.html)
+Fonte: [Sky TG24](https://tg24.sky.it/cronaca/2026/08/17/eruzione-etna-voli-aerei-ultime-notizie)
 
-### Estero: bus di pellegrini polacchi si ribalta in Ungheria, 12 morti
-Un pullman immatricolato in Polonia, con a bordo un gruppo di pellegrini di ritorno dal santuario di Medjugorje, si è ribaltato nella notte sull'autostrada M3 ungherese, a est di Budapest. Il bilancio è di 12 morti e almeno 10 feriti gravi; l'autista, fermato dalle autorità, si sarebbe addormentato alla guida.
+### Cronaca: maltempo, due escursionisti uccisi da fulmini in un giorno
+Un turista statunitense di 30 anni è morto colpito da un fulmine in una zona vietata alle pendici dell'Etna, mentre un quarantaduenne residente a Tubre, disperso da domenica, è stato trovato senza vita a circa 2.600 metri sul Piz Starlex, in Alto Adige, anch'egli colpito da un fulmine durante la discesa. Lo stesso giorno un ventenne è annegato nel Lecchese durante un temporale improvviso, mentre sulla costa livornese sono stati registrati 21.000 fulmini in sei ore; a Firenze un albero abbattuto da un fulmine ha chiuso viale Machiavelli e a Cremona un tornado ha danneggiato tetti e provocato blackout. Il 17 agosto tredici regioni italiane erano sotto allerta meteo gialla.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/2026/08/16/un-autobus-si-e-ribaltato-in-ungheria-12-morti-e-almeno-10-feriti-gravi_5001cba0-3baa-4f28-ac05-d5fcd612dc4f.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/17/allerta-temporali-due-turisti-uccisi-da-fulmini-in-un-giorno_fea0b2dc-2e29-4c81-9595-7ac085073a70.html)
 
-### Cronaca: furto al museo di Messina, rubate quattro opere di Antonello da Messina
-Nella serata di Ferragosto, ignoti sono riusciti a introdursi nelle sale del Museo Regionale Interdisciplinare di Messina eludendo i sistemi di allarme, portando via quattro opere attribuite ad Antonello da Messina, tra cui tre tavole del celebre Polittico di San Gregorio. Sono in corso le indagini di carabinieri e polizia scientifica per ricostruire la dinamica del colpo.
+### Scienza e tecnologia: scoperta una necropoli romana con 25 tombe a Ferento, nel Viterbese
+Nella zona di Casalaccio, tra Viterbo e Vitorchiano, gli archeologi hanno riportato alla luce 25 sepolture databili tra il V secolo a.C. e il II secolo d.C., tra cui sette tombe a camera e diciotto a fossa, con sarcofagi in peperino, urne in tufo, monete e resti ossei, incluso il cranio di un uro. Il ritrovamento è avvenuto nell'ambito di uno scavo di archeologia preventiva condotto tra il 2024 e il 2025 in vista dell'installazione di un cavo elettrico ad alta tensione di Terna, su un'area di circa 600 metri quadrati. Il sito, gestito dalla Soprintendenza per la provincia di Viterbo, è stato posto sotto tutela dal ministero della Cultura.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/16/furto-al-museo-rubate-opere-di-antonello-da-messina_d316b5fe-3a2d-489a-8f6a-544d5566e684.html)
+Fonte: [TusciaWeb](https://www.tusciaweb.eu/2026/08/ferento-scoperta-vasta-necropoli-25-tombe/)
 
-### Cronaca: dopo settimane di caldo torna il maltempo, allerta gialla in tredici regioni
-Dopo un lungo periodo di caldo intenso, da lunedì sono previsti rovesci e temporali su gran parte della penisola, a partire da Lombardia, Trentino-Alto Adige, Veneto ed Emilia-Romagna per estendersi poi a Toscana, Umbria, Marche e Abruzzo. La Protezione civile ha diramato un'allerta gialla per rischio meteo-idrogeologico in tredici regioni, segnalando possibili grandinate e forti raffiche di vento.
+### Scienza e tecnologia: nuovi indizi sul mistero dei "puntini rossi" osservati dal telescopio Webb
+Studi pubblicati a metà agosto propongono nuove ipotesi sui "little red dots", le sorgenti compatte, rosse e molto luminose individuate dal James Webb Space Telescope a partire dal 2022 e risalenti a quando l'universo aveva meno di un miliardo di anni. Secondo i ricercatori questi oggetti potrebbero in realtà nascondere intere galassie oppure corrispondere a un tipo particolare di stelle supermassicce, capaci di spiegare gli spettri insoliti e l'abbondanza di azoto osservata; resta comunque aperta anche l'ipotesi alternativa di buchi neri supermassicci attivi dal comportamento anomalo rispetto a quelli dell'universo vicino.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/16/ore-contate-per-il-grande-caldo-adesso-e-allerta-temporali_4b75af74-fc23-4f1f-a498-a90254266237.html)
+Fonte: [Space.com](https://www.space.com/astronomy/james-webb-space-telescope/inside-the-mystery-of-the-james-webb-space-telescopes-little-red-dots-and-how-they-might-be-evolving)
 
-### Scienza e tecnologia: scoperto il pianeta più debole mai fotografato dalla Terra
-Un team internazionale ha individuato Beta Pictoris d, terzo pianeta noto del sistema della stella Beta Pictoris, a circa 63 anni luce dalla Terra: è cento volte meno luminoso del compagno Beta Pictoris b e ha almeno il doppio della massa di Giove. Il corpo celeste era già presente nei dati raccolti undici anni fa dal telescopio Webb, ma era rimasto nascosto dal bagliore di un altro oggetto del sistema; la scoperta è stata confermata in modo indipendente dal Very Large Telescope.
+### Cultura e sport: Musetti supera Altmaier e avanza al Masters 1000 di Cincinnati
+Il 16 agosto l'azzurro Lorenzo Musetti, decima testa di serie, ha superato il tedesco Daniel Altmaier con il punteggio di 6-4, 6-2 al secondo turno del torneo Masters 1000 di Cincinnati, approdando al turno successivo del tabellone.
 
-Fonte: [ANSA](https://www.ansa.it/canale_scienza/notizie/spazio_astronomia/2026/08/13/il-pianeta-piu-debole-mai-fotografato-dalla-terra_fa526615-1520-43b9-9355-f297e1e919f0.html)
+Fonte: [Tennis Majors](https://www.tennismajors.com/atp/musetti-untroubled-on-cincinnati-debut-sets-up-meeting-with-seed-killer-zheng-858641.html)
 
-### Cultura e sport: Europei di atletica, l'Italia chiude al primo posto nel medagliere
-Nell'ultima giornata degli Europei di atletica leggera di Birmingham, l'Italia ha conquistato l'oro nel salto in lungo femminile con Larissa Iapichino e nella 4x400 maschile, chiudendo la manifestazione al primo posto nel medagliere davanti alla Gran Bretagna. Bronzo anche per la 4x400 femminile, a coronamento di una spedizione che ha visto gli azzurri protagonisti in più discipline.
+### Cultura e sport: Vingegaard chiude in anticipo la stagione per la frattura alla clavicola
+Il ciclista danese Jonas Vingegaard, del team Visma | Lease a Bike, ha annunciato il 17 agosto la fine anticipata della sua stagione 2026 a causa della frattura alla clavicola rimediata in una caduta nella quindicesima tappa dell'ultimo Tour de France, che ne rallenta il recupero. Il corridore ha dichiarato di voler concentrare le energie sulla preparazione della stagione 2027, dopo un'annata in cui ha già conquistato dodici vittorie, tra cui Parigi-Nizza, Volta a Catalunya e il Giro d'Italia.
 
-Fonte: [ANSA](https://ansa.it/sito/notizie/sport/2026/08/16/oro-nella-4x400-e-nel-lungo-con-iapichino-capolavoro-degli-azzurri_c9866f9d-ce58-4315-bcce-98ae9a01c293.html)
-
-### Cultura e sport: Locarno, Pardo d'oro al film rumeno "You Don't Belong Here"
-Si è conclusa la 79ª edizione del Festival del Film di Locarno: il Pardo d'oro è andato al regista rumeno Florin Șerban per "You Don't Belong Here", mentre Monica Bellucci ha ricevuto il premio come migliore attrice per l'interpretazione di una madre siciliana nel film "Ketticè" di Giovanni Tortorici. La giuria, presieduta da Fabrice Du Welz, ha premiato la forza della sceneggiatura e la singolarità della visione del film vincitore.
-
-Fonte: [Hollywood Reporter](https://www.hollywoodreporter.com/movies/movie-news/locarno-2026-awards-winners-monica-bellucci-hong-sang-soo-1236673771/)
+Fonte: [Eurosport](https://www.eurosport.it/ciclismo/stop-jonas-vingegaard-stagione-finita-dopo-la-frattura-alla-clavicola-non-posso-tornare-al-top-meglio-concentrarsi-sul-2027_sto23328848/story.shtml)
 
 ---
-
-*Questo articolo è stato generato automaticamente da un'intelligenza artificiale e non è stato verificato da un redattore umano.*
+*Questa rassegna è generata automaticamente da un'intelligenza artificiale e non è verificata da un redattore umano.*
