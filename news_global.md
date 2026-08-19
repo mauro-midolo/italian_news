@@ -1,59 +1,64 @@
-# Rassegna Globale – Martedì 18 agosto 2026
+# Rassegna Globale – Mercoledì 19 agosto 2026
 
-### Politica: Pd e Psoe contro la premier danese Frederiksen per l'asse con Meloni su Ceuta
-Il responsabile Esteri del Pd Peppe Provenzano e il vicepresidente del Parlamento europeo Javi Lopez, esponente del Psoe, hanno scritto al presidente del Partito socialista europeo Stefan Lofven per contestare l'allineamento della premier danese Mette Frederiksen alle posizioni della presidente del Consiglio Giorgia Meloni sulla questione di Ceuta. Nella lettera i due esponenti socialisti denunciano una "solidarietà selettiva" e criticano l'adozione di una retorica che dipinge la migrazione come un'emergenza permanente, richiamando la sospensione di Schengen decisa da Roma nonostante l'assenza di libera circolazione tra Ceuta e l'Ue. La polemica si inserisce nel più ampio dibattito europeo sulle politiche migratorie, in un'estate segnata anche da un calo di circa il 40% degli sbarchi irregolari rispetto all'anno precedente.
+### Politica: a 80 anni dalla strage di Vergarolla, Meloni: "un crimine ancora impunito"
+Nell'anniversario della strage di Vergarolla, avvenuta il 18 agosto 1946 su una spiaggia di Pola quando l'esplosione di ordigni bellici causò decine di morti tra i civili italiani presenti per una gara sportiva, la presidente del Consiglio Giorgia Meloni ha diffuso una dichiarazione ufficiale. Meloni ha ricordato come la vicenda, per decenni caduta nell'oblio, sia stata riportata alla memoria collettiva grazie all'impegno della comunità italiana di Pola, degli esuli e dei loro discendenti, definendo l'eccidio "un crimine ancora oggi impunito" e la ricerca della verità "la via maestra" per rendere giustizia alle vittime.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/17/pd-e-psoe-contro-frederiksen-inaccettabile-lasse-con-meloni-su-ceuta_71b05907-92e7-4a00-b392-2a71422e40a4.html)
+Fonte: [Governo.it](https://www.governo.it/it/articolo/80-anniversario-della-strage-di-vergarolla-dichiarazione-del-presidente-meloni/32492)
 
-### Economia: Meloni, "Mps non deve essere smembrata"
-In un'intervista a Milano Finanza, la premier Giorgia Meloni ha difeso il risanamento del Monte dei Paschi di Siena, definendolo oggi "un pezzo pregiato" del sistema bancario italiano, ed ha espresso l'auspicio che la banca non venga smembrata perdendo il proprio nome nell'ambito dell'operazione di acquisizione non sollecitata che coinvolge Intesa Sanpaolo, Unipol e Bper. Le opposizioni hanno reagito duramente: il Pd senese ha chiesto al governo di usare gli strumenti a disposizione per garantire l'unità dell'istituto, mentre il M5s ha domandato trasparenza sui contatti tra i funzionari coinvolti, ricordando che la banca è stata risanata con ingenti risorse pubbliche. Il dossier tornerà al centro dell'attenzione con un vertice tra Regione Toscana e il ministro dell'Economia Giorgetti il 20 agosto e un consiglio comunale dedicato a Siena il 2 settembre.
+### Economia: lo spread BTP-Bund chiude in rialzo a 81,6 punti
+Dopo un'apertura calma a 80,2 punti base, con il rendimento del BTP decennale al 4,04%, lo spread tra titoli di Stato italiani e tedeschi ha chiuso la seduta del 18 agosto in ulteriore rialzo a 81,6 punti, segnalando un lieve peggioramento del sentiment sui titoli italiani nel corso della giornata, in una settimana di scambi ancora ridotti dopo Ferragosto.
 
-Fonte: [Milano Finanza](https://www.milanofinanza.it/news/le-parole-di-giorgia-meloni-a-milano-finanza-riaccendono-il-dibattito-su-mps-le-opposizioni-il-governo-202608151024311881)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/18/lo-spread-tra-btp-e-bund-apre-calmo-a-80-punti-base_296d19d3-039f-4d09-a07d-f0a08081b7bd.html)
 
-### Economia: lo spread BTP-Bund chiude in rialzo a 79 punti
-Dopo un'apertura in lieve calo a 77 punti base, lo spread tra BTP e Bund decennali ha chiuso la seduta del 17 agosto in rialzo a 79 punti, con il rendimento del titolo di Stato italiano salito al 4,01%. Il movimento riflette l'andamento dei mercati obbligazionari europei nella settimana di Ferragosto, in un contesto di scambi ridotti.
+### Economia: verso la manovra 2027, il governo punta su taglio dell'Irpef e flessibilità Ue
+Il governo prepara l'agenda economica d'autunno puntando su un ulteriore taglio dell'Irpef per il ceto medio, con la riduzione dell'aliquota dal 43% al 33% per i redditi tra 50mila e 60mila euro, un intervento stimato in circa 1,2 miliardi di euro. La premier Giorgia Meloni conta sulle risorse aggiuntive derivanti dalla flessibilità concessa da Bruxelles su spesa energetica e per la difesa, che secondo le stime potrebbero valere complessivamente fino a circa 28-30 miliardi di euro in più anni, da destinare anche a contratti di lavoro e riduzione delle bollette.
 
-Fonte: [Il Sole 24 Ore](https://www.ilsole24ore.com/art/btp-spread-chiude-rialzo-79-punti-rendimento-decennale-sale-401percento-AJY8XJo)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/12/taglio-dellirpef-contratti-energia-parte-la-corsa-alla-manovra_1a9f596e-4780-4311-ae1e-69f13c02752d.html)
 
-### Estero: notte di attacchi con droni tra Ucraina e Russia, feriti a Kharkiv
-Tra il 17 e il 18 agosto l'Ucraina ha lanciato circa 620 droni contro la regione di Mosca, di cui secondo fonti russe solo 180 sarebbero stati intercettati; danni sono stati segnalati a Kolomna, dove ha preso fuoco un padiglione commerciale. Un raid russo notturno su Izium, nella regione di Kharkiv, ha invece ferito cinque persone, tra cui un bambino di nove anni, secondo il governatore locale Oleh Syniehubov. Sul piano diplomatico Mosca ha minacciato "conseguenze" contro il Regno Unito per l'uso di droni britannici da parte di Kiev, mentre il ministro degli Esteri russo Lavrov ha ribadito il sostegno reciproco con la Corea del Nord.
+### Estero: crisi nello Stretto di Hormuz, Trump rivendica l'area come "territorio Usa"
+Con la scadenza della tregua di 60 giorni tra Stati Uniti e Iran firmata a giugno, la tensione nello Stretto di Hormuz è tornata a salire. Gli Emirati Arabi Uniti hanno accusato Teheran di aver lanciato due missili balistici, entrambi caduti in mare, invitando la popolazione a mettersi al riparo; l'Iran ha smentito il lancio. Il presidente Usa Donald Trump ha pubblicato su Truth una mappa dello stretto con la scritta "nuovo territorio americano", ribadendo che il blocco navale resta pienamente in vigore, mentre il viceministro degli Esteri iraniano Kazem Gharibabadi ha replicato che l'illusione di Trump "verrà presto corretta"; il presidente turco Erdogan ha sollecitato Washington a riprendere i colloqui con Teheran.
 
-Fonte: [Sky TG24](https://tg24.sky.it/mondo/2026/08/18/guerra-ucraina-russia-ultime-notizie-diretta)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/08/18/emirati-liran-ha-lanciato-due-missili-balistici-finiti-in-mare.-trump-posta_1d2647f8-f2df-448f-836e-1c9871b298cc.html)
 
-### Estero: Gaza, Kushner a Gerusalemme per il piano Usa sul disarmo di Hamas
-L'inviato della Casa Bianca Jared Kushner e i rappresentanti del Board of Peace hanno incontrato il 17 agosto il premier israeliano Netanyahu, che ha accettato di istituire due gruppi di lavoro su smilitarizzazione della Striscia e servizi sanitari. Resta aperto il nodo della sequenza: Washington chiede che Hamas consegni le armi a una forza di stabilizzazione internazionale prima del ritiro israeliano, mentre Hamas si oppone a questo ordine e Israele si mostra scettico sulla reale disponibilità del movimento a disarmare. Trump ha dichiarato che sarebbe preferibile evitare nuovi attacchi israeliani su Gaza, sostenendo che Hamas avrebbe già accettato di deporre le armi; nel governo israeliano il ministro di estrema destra Ben Gvir si oppone a limitazioni sugli attacchi mirati.
+### Estero: raid israeliano su un aeroporto militare in Siria, protestano Usa e Turchia
+L'aviazione israeliana ha colpito con otto attacchi la pista dell'aeroporto militare dismesso di Abu Dhouhour, nella provincia siriana di Idlib, causando solo danni materiali. L'ufficio del premier Netanyahu ha rivendicato l'operazione sostenendo che Damasco stesse per violare gli accordi sullo status quo di sicurezza autorizzando il dispiegamento di truppe turche in una base aerea vicino Aleppo. Gli Stati Uniti, tramite l'inviato speciale Tom Barrack, hanno definito il raid "un'escalation non necessaria", mentre le Nazioni Unite e la Turchia hanno condannato l'attacco chiedendo a Israele di fermare ulteriori azioni militari.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/2026/08/17/i-media-per-netanyahu-primo-passo-a-gaza-la-consegna-delle-armi-di-hamas_7f6899dd-4aec-4394-9792-a2c99c8c9de5.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/2026/08/18/siria-raid-israele-su-aeroporto-militare.-usa-escalation-non-necessaria_af11b118-59a3-49f0-9aff-af5d61afa343.html)
 
-### Cronaca: eruzione dell'Etna, ancora limitazioni ai voli sull'aeroporto di Catania
-Nella bocca effusiva apertasi in Valle del Bove, tra 2.200 e 2.350 metri di quota, la colata lavica risulta in fase di raffreddamento secondo l'Ingv, ma resta attiva a quote più basse con flussi fino a circa 1.600-1.900 metri. Il cratere di Voragine ha invece prodotto un'intensa attività esplosiva con una colonna di cenere alta circa 6.000 metri, dispersa verso sud-est fino a ricoprire Catania e i comuni limitrofi. Per effetto della cenere l'aeroporto di Catania mantiene chiuso il settore aereo B1 e limita gli arrivi a dieci aerei l'ora fino a mezzogiorno del 18 agosto, senza restrizioni alle partenze.
+### Estero: un attacco russo uccide 10 persone nella regione di Kharkiv
+Un attacco missilistico russo sul villaggio di Pechenihy, nella regione di Kharkiv, ha ucciso almeno 10 persone e ferito altre otto, secondo il governatore regionale Oleg Synehubov; danneggiate una decina di abitazioni, un bar, un ufficio postale e diverse auto. Nella stessa notte l'Ucraina ha lanciato circa 620 droni contro l'area di Mosca, di cui la Russia sostiene di averne intercettati 180. Il presidente Zelensky ha promesso una risposta all'attacco.
 
-Fonte: [Sky TG24](https://tg24.sky.it/cronaca/2026/08/17/eruzione-etna-voli-aerei-ultime-notizie)
+Fonte: [Dire](https://www.dire.it/18-08-2026/1262455-un-attacco-russo-ha-ucciso-10-persone-a-kharkiv-zelensky-risponderemo/)
 
-### Cronaca: maltempo, due escursionisti uccisi da fulmini in un giorno
-Un turista statunitense di 30 anni è morto colpito da un fulmine in una zona vietata alle pendici dell'Etna, mentre un quarantaduenne residente a Tubre, disperso da domenica, è stato trovato senza vita a circa 2.600 metri sul Piz Starlex, in Alto Adige, anch'egli colpito da un fulmine durante la discesa. Lo stesso giorno un ventenne è annegato nel Lecchese durante un temporale improvviso, mentre sulla costa livornese sono stati registrati 21.000 fulmini in sei ore; a Firenze un albero abbattuto da un fulmine ha chiuso viale Machiavelli e a Cremona un tornado ha danneggiato tetti e provocato blackout. Il 17 agosto tredici regioni italiane erano sotto allerta meteo gialla.
+### Estero: Gaza, Kushner a Gerusalemme mentre si aggrava il bilancio degli attacchi israeliani
+L'inviato della Casa Bianca Jared Kushner ha proseguito i colloqui con il governo israeliano sul piano statunitense per il disarmo di Hamas, mentre sul terreno un raid israeliano su un caffè nei pressi del porto di Gaza City, mirato secondo l'esercito a comandanti delle forze speciali di Hamas riuniti in un incontro, ha causato sei morti e dieci feriti secondo fonti palestinesi. Hamas condiziona l'attuazione dell'accordo alla fine degli attacchi e al ritiro israeliano, mentre Netanyahu insiste sul disarmo completo del movimento prima di qualunque ritiro.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/17/allerta-temporali-due-turisti-uccisi-da-fulmini-in-un-giorno_fea0b2dc-2e29-4c81-9595-7ac085073a70.html)
+Fonte: [Al Jazeera](https://www.aljazeera.com/news/2026/8/2/israel-kills-five-in-gaza-despite-trumps-hamas-disarmament-plan)
 
-### Scienza e tecnologia: scoperta una necropoli romana con 25 tombe a Ferento, nel Viterbese
-Nella zona di Casalaccio, tra Viterbo e Vitorchiano, gli archeologi hanno riportato alla luce 25 sepolture databili tra il V secolo a.C. e il II secolo d.C., tra cui sette tombe a camera e diciotto a fossa, con sarcofagi in peperino, urne in tufo, monete e resti ossei, incluso il cranio di un uro. Il ritrovamento è avvenuto nell'ambito di uno scavo di archeologia preventiva condotto tra il 2024 e il 2025 in vista dell'installazione di un cavo elettrico ad alta tensione di Terna, su un'area di circa 600 metri quadrati. Il sito, gestito dalla Soprintendenza per la provincia di Viterbo, è stato posto sotto tutela dal ministero della Cultura.
+### Cronaca: colpo da 70-80 milioni al museo di Messina, rubate opere di Antonello da Messina
+Nella notte tra il 15 e il 16 agosto, mentre la città era raccolta in piazza Duomo per la processione della Vara, ignoti sono entrati nel Museo Regionale Accascina di Messina eludendo allarmi e misure di sicurezza. Sono state sottratte tre delle cinque tavole del Polittico di San Gregorio e una tavoletta bifronte con la Madonna col Bambino e un ritratto di Cristo, entrambe opere di Antonello da Messina, per un valore stimato dalla stampa tra i 70 e gli 80 milioni di euro; è stata aperta un'inchiesta interna oltre alle indagini della magistratura.
 
-Fonte: [TusciaWeb](https://www.tusciaweb.eu/2026/08/ferento-scoperta-vasta-necropoli-25-tombe/)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/16/furto-al-museo-rubate-opere-di-antonello-da-messina_d316b5fe-3a2d-489a-8f6a-544d5566e684.html)
 
-### Scienza e tecnologia: nuovi indizi sul mistero dei "puntini rossi" osservati dal telescopio Webb
-Studi pubblicati a metà agosto propongono nuove ipotesi sui "little red dots", le sorgenti compatte, rosse e molto luminose individuate dal James Webb Space Telescope a partire dal 2022 e risalenti a quando l'universo aveva meno di un miliardo di anni. Secondo i ricercatori questi oggetti potrebbero in realtà nascondere intere galassie oppure corrispondere a un tipo particolare di stelle supermassicce, capaci di spiegare gli spettri insoliti e l'abbondanza di azoto osservata; resta comunque aperta anche l'ipotesi alternativa di buchi neri supermassicci attivi dal comportamento anomalo rispetto a quelli dell'universo vicino.
+### Cronaca: donna di 72 anni uccisa a colpi di pietra in Calabria, indagato il marito
+A Corigliano-Rossano, in provincia di Cosenza, il corpo di Carmela Bifano, 72 anni, è stato trovato senza vita in un fondo agricolo con ferite alla testa compatibili con colpi di pietra. La Procura di Castrovillari ha disposto l'autopsia per accertare la dinamica dei fatti; gli investigatori stanno vagliando la posizione del marito della vittima, nell'ambito di un'indagine che si concentra sulla cerchia familiare.
 
-Fonte: [Space.com](https://www.space.com/astronomy/james-webb-space-telescope/inside-the-mystery-of-the-james-webb-space-telescopes-little-red-dots-and-how-they-might-be-evolving)
+Fonte: [ANSA](https://www.ansa.it/calabria/notizie/2026/08/18/anziana-uccisa-a-colpi-di-pietra-al-vaglio-la-posizione-del-marito_ca774799-d7ea-4c74-a3ad-2d188e4c7122.html)
 
-### Cultura e sport: Musetti supera Altmaier e avanza al Masters 1000 di Cincinnati
-Il 16 agosto l'azzurro Lorenzo Musetti, decima testa di serie, ha superato il tedesco Daniel Altmaier con il punteggio di 6-4, 6-2 al secondo turno del torneo Masters 1000 di Cincinnati, approdando al turno successivo del tabellone.
+### Scienza e tecnologia: confermata l'esistenza della stella compagna di Betelgeuse
+Un team guidato dall'astronomo francese Miguel Montargès ha ottenuto, tramite lo strumento Sphere del Very Large Telescope dell'Eso, l'immagine più nitida mai realizzata di Betelgeuse B, la debole stella compagna della supergigante rossa Betelgeuse, cercata per circa un secolo. L'oggetto, stimato in 2-3 masse solari, risulta più massiccio del previsto; la scoperta, pubblicata il 12 agosto, fornisce la prova più solida finora ottenuta dell'esistenza del sistema binario.
 
-Fonte: [Tennis Majors](https://www.tennismajors.com/atp/musetti-untroubled-on-cincinnati-debut-sets-up-meeting-with-seed-killer-zheng-858641.html)
+Fonte: [Space.com](https://www.space.com/astronomy/stars/betelgeuse-betelgeuse-astronomers-capture-clearest-image-yet-of-famous-stars-elusive-companion)
 
-### Cultura e sport: Vingegaard chiude in anticipo la stagione per la frattura alla clavicola
-Il ciclista danese Jonas Vingegaard, del team Visma | Lease a Bike, ha annunciato il 17 agosto la fine anticipata della sua stagione 2026 a causa della frattura alla clavicola rimediata in una caduta nella quindicesima tappa dell'ultimo Tour de France, che ne rallenta il recupero. Il corridore ha dichiarato di voler concentrare le energie sulla preparazione della stagione 2027, dopo un'annata in cui ha già conquistato dodici vittorie, tra cui Parigi-Nizza, Volta a Catalunya e il Giro d'Italia.
+### Cultura e sport: Palio di Siena, il Nicchio trionfa dopo 28 anni
+Il Palio dell'Assunta, disputato il 18 agosto dopo due rinvii per il maltempo, è stato vinto dalla Nobile Contrada del Nicchio con il cavallo Anda e Bola montato dal fantino Giovanni Atzeni, detto Tittia, che centra così il "cappotto" vincendo sia il Palio di luglio sia quello di agosto e conquista la tredicesima vittoria in carriera. Per il Nicchio si tratta del primo successo dal 1998; dopo la corsa Tittia è caduto da cavallo durante i festeggiamenti ed è stato portato in ospedale, restando comunque cosciente.
 
-Fonte: [Eurosport](https://www.eurosport.it/ciclismo/stop-jonas-vingegaard-stagione-finita-dopo-la-frattura-alla-clavicola-non-posso-tornare-al-top-meglio-concentrarsi-sul-2027_sto23328848/story.shtml)
+Fonte: [Sky TG24](https://tg24.sky.it/cronaca/2026/08/18/palio-siena-2026-vincitore)
+
+### Cultura e sport: Musetti batte Zheng e vola ai quarti di finale a Cincinnati
+Il 19 agosto l'azzurro Lorenzo Musetti ha superato in due set, 6-1 6-3, lo statunitense Michael Zheng al terzo turno del Masters 1000 di Cincinnati, ottenendo la sua seconda vittoria consecutiva in due set dopo quella su Altmaier e consolidando la propria posizione nella top 15 del ranking mondiale.
+
+Fonte: [Sky Sport](https://sport.sky.it/tennis/2026/08/18/musetti-zheng-atp-cincinnati-2026-risultato)
 
 ---
 *Questa rassegna è generata automaticamente da un'intelligenza artificiale e non è verificata da un redattore umano.*
