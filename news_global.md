@@ -1,64 +1,59 @@
-# Rassegna Globale – Mercoledì 19 agosto 2026
+# Rassegna Globale – Giovedì 20 agosto 2026
 
-### Politica: a 80 anni dalla strage di Vergarolla, Meloni: "un crimine ancora impunito"
-Nell'anniversario della strage di Vergarolla, avvenuta il 18 agosto 1946 su una spiaggia di Pola quando l'esplosione di ordigni bellici causò decine di morti tra i civili italiani presenti per una gara sportiva, la presidente del Consiglio Giorgia Meloni ha diffuso una dichiarazione ufficiale. Meloni ha ricordato come la vicenda, per decenni caduta nell'oblio, sia stata riportata alla memoria collettiva grazie all'impegno della comunità italiana di Pola, degli esuli e dei loro discendenti, definendo l'eccidio "un crimine ancora oggi impunito" e la ricerca della verità "la via maestra" per rendere giustizia alle vittime.
+### Politica: caso Roggero, la maggioranza spinge per la grazia mentre resta alta la tensione istituzionale
+Dopo la condanna definitiva a 14 anni e 9 mesi inflitta dalla Cassazione al gioielliere di Grinzane Cavour Mario Roggero per l'omicidio di due rapinatori in fuga, i capigruppo di Fratelli d'Italia, Lega e Forza Italia alla Camera e al Senato continuano la raccolta di firme per sollecitare la grazia presidenziale, dopo che il ministro della Giustizia Carlo Nordio ha avviato l'istruttoria su mandato della premier Giorgia Meloni. Il caso ha riacceso il dibattito sulla legittima difesa e ha generato frizioni istituzionali, con il Quirinale che ha ribadito come la decisione sulla grazia spetti in via esclusiva al capo dello Stato; l'Ordine degli avvocati di Asti ha definito la pressione della maggioranza un'interferenza sulla separazione dei poteri.
 
-Fonte: [Governo.it](https://www.governo.it/it/articolo/80-anniversario-della-strage-di-vergarolla-dichiarazione-del-presidente-meloni/32492)
+Fonte: [Cuneodice.it](https://www.cuneodice.it/attualita/alba-e-langhe/caso-roggero-si-scatena-il-mondo-della-politica-le-reazioni_124259.html)
 
-### Economia: lo spread BTP-Bund chiude in rialzo a 81,6 punti
-Dopo un'apertura calma a 80,2 punti base, con il rendimento del BTP decennale al 4,04%, lo spread tra titoli di Stato italiani e tedeschi ha chiuso la seduta del 18 agosto in ulteriore rialzo a 81,6 punti, segnalando un lieve peggioramento del sentiment sui titoli italiani nel corso della giornata, in una settimana di scambi ancora ridotti dopo Ferragosto.
+### Economia: Mps rinvia al 25 agosto l'incontro con la Toscana, si rincorrono le voci su Bpm e Banca Generali
+L'incontro tra il ministro dell'Economia Giancarlo Giorgetti e i rappresentanti di Regione Toscana, Comune e Provincia di Siena sul futuro di Banca Mps, inizialmente previsto per il 20 agosto su richiesta del presidente Eugenio Giani, è stato rinviato al 25. Sullo sfondo resta l'offerta pubblica di acquisto da 30,6 miliardi di euro lanciata da Intesa Sanpaolo su Mps: secondo indiscrezioni riprese dalla stampa economica, l'amministratore delegato Luigi Lovaglio starebbe valutando contromosse straordinarie, tra cui ipotesi di offerte su Banco Bpm e Banca Generali, senza che i due istituti abbiano confermato.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/18/lo-spread-tra-btp-e-bund-apre-calmo-a-80-punti-base_296d19d3-039f-4d09-a07d-f0a08081b7bd.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/19/mps-rinviato-al-25-agosto-incontro-fra-giorgetti-e-enti-locali_a59a9730-daf9-4077-9d1d-3c7e7e51407d.html)
 
-### Economia: verso la manovra 2027, il governo punta su taglio dell'Irpef e flessibilità Ue
-Il governo prepara l'agenda economica d'autunno puntando su un ulteriore taglio dell'Irpef per il ceto medio, con la riduzione dell'aliquota dal 43% al 33% per i redditi tra 50mila e 60mila euro, un intervento stimato in circa 1,2 miliardi di euro. La premier Giorgia Meloni conta sulle risorse aggiuntive derivanti dalla flessibilità concessa da Bruxelles su spesa energetica e per la difesa, che secondo le stime potrebbero valere complessivamente fino a circa 28-30 miliardi di euro in più anni, da destinare anche a contratti di lavoro e riduzione delle bollette.
+### Economia: Bankitalia, avanzo di conto corrente a 30,4 miliardi negli ultimi dodici mesi
+Nei dodici mesi terminati a giugno 2026 il saldo di conto corrente dell'Italia ha registrato un avanzo di 30,4 miliardi di euro, pari all'1,3% del Pil, in miglioramento rispetto ai 20,7 miliardi (0,9% del Pil) dell'anno precedente. Il dato, diffuso da Banca d'Italia, si accompagna alle dichiarazioni della presidente della Bce Christine Lagarde secondo cui l'economia europea "tiene" nonostante gli shock energetici, pur restando necessario rimuovere le barriere nazionali che frenano imprese e mercati finanziari del continente.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/12/taglio-dellirpef-contratti-energia-parte-la-corsa-alla-manovra_1a9f596e-4780-4311-ae1e-69f13c02752d.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/19/bankitalia-in-12-mesi-avanzo-corrente-a-304-miliardi-di-euro_6c844b2c-a7b8-4ee1-a87a-44fe3336e7f4.html)
 
-### Estero: crisi nello Stretto di Hormuz, Trump rivendica l'area come "territorio Usa"
-Con la scadenza della tregua di 60 giorni tra Stati Uniti e Iran firmata a giugno, la tensione nello Stretto di Hormuz è tornata a salire. Gli Emirati Arabi Uniti hanno accusato Teheran di aver lanciato due missili balistici, entrambi caduti in mare, invitando la popolazione a mettersi al riparo; l'Iran ha smentito il lancio. Il presidente Usa Donald Trump ha pubblicato su Truth una mappa dello stretto con la scritta "nuovo territorio americano", ribadendo che il blocco navale resta pienamente in vigore, mentre il viceministro degli Esteri iraniano Kazem Gharibabadi ha replicato che l'illusione di Trump "verrà presto corretta"; il presidente turco Erdogan ha sollecitato Washington a riprendere i colloqui con Teheran.
+### Estero: Trump annuncia una "guerra economica" contro l'Iran e minaccia chi aiuta Teheran
+Il presidente statunitense Donald Trump ha annunciato quella che ha definito "l'operazione economica più devastante mai condotta contro un Paese", parlando di "guerra economica e isolamento senza precedenti" nei confronti dell'Iran. Trump ha avvertito che qualunque Paese permetta alle proprie banche, imprese, aeroporti o enti governativi di offrire una via d'uscita a Teheran subirà "conseguenze economiche enormi", in un messaggio che sembra rivolto in particolare a Russia e Cina, accusate di aiutare l'Iran ad aggirare le sanzioni occidentali. L'annuncio arriva nel pieno delle tensioni riaccese nello Stretto di Hormuz dopo la scadenza della tregua di 60 giorni tra Washington e Teheran.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/08/18/emirati-liran-ha-lanciato-due-missili-balistici-finiti-in-mare.-trump-posta_1d2647f8-f2df-448f-836e-1c9871b298cc.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/2026/08/20/trump-guerra-economica-contro-liran.-e-minaccia-chi-aiuta-teheran_c07cd0bc-0506-4e98-8f87-170b8797e7d6.html)
 
-### Estero: raid israeliano su un aeroporto militare in Siria, protestano Usa e Turchia
-L'aviazione israeliana ha colpito con otto attacchi la pista dell'aeroporto militare dismesso di Abu Dhouhour, nella provincia siriana di Idlib, causando solo danni materiali. L'ufficio del premier Netanyahu ha rivendicato l'operazione sostenendo che Damasco stesse per violare gli accordi sullo status quo di sicurezza autorizzando il dispiegamento di truppe turche in una base aerea vicino Aleppo. Gli Stati Uniti, tramite l'inviato speciale Tom Barrack, hanno definito il raid "un'escalation non necessaria", mentre le Nazioni Unite e la Turchia hanno condannato l'attacco chiedendo a Israele di fermare ulteriori azioni militari.
+### Estero: Ucraina e Russia tornano al tavolo a Ginevra, nodo Donbass
+Le delegazioni di Kiev e Mosca si sono ritrovate in Svizzera, con la mediazione statunitense, per un nuovo round di negoziati sulla fine della guerra: il presidente ucraino Volodymyr Zelensky ha inviato una delegazione guidata dal capo dell'Ufficio presidenziale Kirill Budanov, mentre Vladimir Putin ha puntato sul negoziatore Vladimir Medinsky, affiancato dal capo dell'intelligence militare Igor Kostyukov. Il nodo principale resta la definizione dei confini nel Donbass, che la Russia rivendica per intero e che l'Ucraina non è disposta a cedere senza un referendum; l'Europa non siede al tavolo di Ginevra, ma Gran Bretagna, Francia e Germania lavorano a un formato negoziale parallelo a sostegno di Kiev.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/2026/08/18/siria-raid-israele-su-aeroporto-militare.-usa-escalation-non-necessaria_af11b118-59a3-49f0-9aff-af5d61afa343.html)
+Fonte: [Adnkronos](https://www.adnkronos.com/internazionale/esteri/guerra-ucraina-russia-piano-gran-bretagna-francia-germania-trump_5TJ2TNaKQmqA6R4M0D7hbX)
 
-### Estero: un attacco russo uccide 10 persone nella regione di Kharkiv
-Un attacco missilistico russo sul villaggio di Pechenihy, nella regione di Kharkiv, ha ucciso almeno 10 persone e ferito altre otto, secondo il governatore regionale Oleg Synehubov; danneggiate una decina di abitazioni, un bar, un ufficio postale e diverse auto. Nella stessa notte l'Ucraina ha lanciato circa 620 droni contro l'area di Mosca, di cui la Russia sostiene di averne intercettati 180. Il presidente Zelensky ha promesso una risposta all'attacco.
+### Estero: Gaza, Israele archivia l'inchiesta sulla morte di operatori umanitari, l'Australia protesta
+Israele ha chiuso senza rinvii a giudizio l'indagine penale sulla morte, in un raid a Gaza, dell'operatrice umanitaria australiana Zomi Frankcom e di alcuni colleghi. La ministra degli Esteri australiana Penny Wong si è detta "indignata" per la decisione, annunciando la convocazione dell'ambasciatore israeliano a Canberra e istruendo l'ambasciatore australiano in Israele a comunicare direttamente la posizione del governo. Sul fronte dei negoziati per il cessate il fuoco, Hamas ha accusato il premier israeliano Netanyahu di voler sabotare il piano di pace promosso dagli Stati Uniti, dopo un raid su Gaza City che avrebbe causato sette vittime palestinesi.
 
-Fonte: [Dire](https://www.dire.it/18-08-2026/1262455-un-attacco-russo-ha-ucciso-10-persone-a-kharkiv-zelensky-risponderemo/)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/20/archiviazione-per-morte-operatori-umanitari-a-gaza-australia-indignata_72096fda-a0db-4e19-8878-463ab6b55329.html)
 
-### Estero: Gaza, Kushner a Gerusalemme mentre si aggrava il bilancio degli attacchi israeliani
-L'inviato della Casa Bianca Jared Kushner ha proseguito i colloqui con il governo israeliano sul piano statunitense per il disarmo di Hamas, mentre sul terreno un raid israeliano su un caffè nei pressi del porto di Gaza City, mirato secondo l'esercito a comandanti delle forze speciali di Hamas riuniti in un incontro, ha causato sei morti e dieci feriti secondo fonti palestinesi. Hamas condiziona l'attuazione dell'accordo alla fine degli attacchi e al ritiro israeliano, mentre Netanyahu insiste sul disarmo completo del movimento prima di qualunque ritiro.
+### Cronaca: nuova ondata di calore, bollino arancione in cinque città
+Il bollettino del ministero della Salute segnala per il 20 agosto il bollino arancione (livello 2, rischio per le fasce di popolazione più vulnerabili) in cinque città italiane: Ancona, Bari, Bologna, Campobasso e Roma. Restano in bollino giallo altre tredici città, tra cui Brescia, Firenze, Palermo e Venezia, mentre solo otto capoluoghi si mantengono su livelli privi di rischio: la nuova impennata delle temperature arriva dopo una breve tregua post-Ferragosto.
 
-Fonte: [Al Jazeera](https://www.aljazeera.com/news/2026/8/2/israel-kills-five-in-gaza-despite-trumps-hamas-disarmament-plan)
+Fonte: [Adnkronos](https://www.adnkronos.com/cronaca/caldo-bollini-oggi-italia-la-mappa_5CFRnZg3cdNQhg5DTUyj1h)
 
-### Cronaca: colpo da 70-80 milioni al museo di Messina, rubate opere di Antonello da Messina
-Nella notte tra il 15 e il 16 agosto, mentre la città era raccolta in piazza Duomo per la processione della Vara, ignoti sono entrati nel Museo Regionale Accascina di Messina eludendo allarmi e misure di sicurezza. Sono state sottratte tre delle cinque tavole del Polittico di San Gregorio e una tavoletta bifronte con la Madonna col Bambino e un ritratto di Cristo, entrambe opere di Antonello da Messina, per un valore stimato dalla stampa tra i 70 e gli 80 milioni di euro; è stata aperta un'inchiesta interna oltre alle indagini della magistratura.
+### Cronaca: incidente stradale in Albania, muore una giovane sposa italiana in viaggio di nozze
+Sara Brugnatelli, 26 anni, di Brescia, è morta in un incidente stradale a Manza, circa 30 chilometri a ovest di Tirana, insieme al marito albanese Kleo Vrioni, 25 anni, e a un ragazzo di 15 anni. La coppia si era sposata pochi giorni prima e si trovava in viaggio di nozze; l'incidente è avvenuto poco dopo le due di notte e le cause sono ancora al vaglio delle autorità locali.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/16/furto-al-museo-rubate-opere-di-antonello-da-messina_d316b5fe-3a2d-489a-8f6a-544d5566e684.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/19/giovane-italiana-muore-in-un-incidente-in-albania-con-il-marito_dbab2731-da16-41ce-af11-0289d5b1e575.html)
 
-### Cronaca: donna di 72 anni uccisa a colpi di pietra in Calabria, indagato il marito
-A Corigliano-Rossano, in provincia di Cosenza, il corpo di Carmela Bifano, 72 anni, è stato trovato senza vita in un fondo agricolo con ferite alla testa compatibili con colpi di pietra. La Procura di Castrovillari ha disposto l'autopsia per accertare la dinamica dei fatti; gli investigatori stanno vagliando la posizione del marito della vittima, nell'ambito di un'indagine che si concentra sulla cerchia familiare.
+### Scienza e tecnologia: osservata per la prima volta un buco nero durante un'"indigestione cosmica"
+Un gruppo di ricerca, con il contributo di scienziati dell'Istituto Nazionale di Astrofisica di Roma e Palermo, ha osservato per la prima volta un buco nero mentre inghiotte il gas strappato a una stella compagna ed espelle contemporaneamente parte dello stesso materiale sotto forma di potenti getti e venti. Il risultato si deve alle osservazioni condotte con il Very Large Telescope dell'European Southern Observatory, in Cile, e aiuta a chiarire i meccanismi con cui i buchi neri regolano la propria crescita.
 
-Fonte: [ANSA](https://www.ansa.it/calabria/notizie/2026/08/18/anziana-uccisa-a-colpi-di-pietra-al-vaglio-la-posizione-del-marito_ca774799-d7ea-4c74-a3ad-2d188e4c7122.html)
+Fonte: [ANSA](https://www.ansa.it/canale_scienza/notizie/spazio_astronomia/2026/08/18/osservata-lindigestione-cosmica-di-un-buco-nero_01ab0f98-4733-4cd5-a285-2b34328dd91c.html)
 
-### Scienza e tecnologia: confermata l'esistenza della stella compagna di Betelgeuse
-Un team guidato dall'astronomo francese Miguel Montargès ha ottenuto, tramite lo strumento Sphere del Very Large Telescope dell'Eso, l'immagine più nitida mai realizzata di Betelgeuse B, la debole stella compagna della supergigante rossa Betelgeuse, cercata per circa un secolo. L'oggetto, stimato in 2-3 masse solari, risulta più massiccio del previsto; la scoperta, pubblicata il 12 agosto, fornisce la prova più solida finora ottenuta dell'esistenza del sistema binario.
+### Cultura e sport: al via a Taranto i XX Giochi del Mediterraneo
+Da domani 21 agosto e fino al 6 settembre Taranto ospita la ventesima edizione dei Giochi del Mediterraneo, la manifestazione multisportiva che riunisce gli atleti dei Paesi che si affacciano sul Mediterraneo in circa trenta discipline. L'evento arriva dopo un'estate positiva per lo sport azzurro, culminata nel primo posto dell'Italia nel medagliere degli Europei di atletica di Birmingham con 22 medaglie complessive.
 
-Fonte: [Space.com](https://www.space.com/astronomy/stars/betelgeuse-betelgeuse-astronomers-capture-clearest-image-yet-of-famous-stars-elusive-companion)
+Fonte: [Sky Sport](https://sport.sky.it/altri-sport/atletica/medagliere-europei-atletica-2026)
 
-### Cultura e sport: Palio di Siena, il Nicchio trionfa dopo 28 anni
-Il Palio dell'Assunta, disputato il 18 agosto dopo due rinvii per il maltempo, è stato vinto dalla Nobile Contrada del Nicchio con il cavallo Anda e Bola montato dal fantino Giovanni Atzeni, detto Tittia, che centra così il "cappotto" vincendo sia il Palio di luglio sia quello di agosto e conquista la tredicesima vittoria in carriera. Per il Nicchio si tratta del primo successo dal 1998; dopo la corsa Tittia è caduto da cavallo durante i festeggiamenti ed è stato portato in ospedale, restando comunque cosciente.
+### Cultura e sport: Pistoia capitale italiana del libro, ad agosto la lettura esce dalle biblioteche
+Prosegue il programma di Pistoia Capitale Italiana del Libro 2026, che per tutto il mese porta iniziative di lettura fuori dagli spazi tradizionali, tra piazze, borghi e paesaggi dell'Appennino pistoiese. Tra gli appuntamenti, il ciclo "Pagine all'aperto – Libri nel bosco" al Rifugio del Faggione delle Valli, nella Foresta dell'Acquerino, in programma nei sabati di agosto.
 
-Fonte: [Sky TG24](https://tg24.sky.it/cronaca/2026/08/18/palio-siena-2026-vincitore)
-
-### Cultura e sport: Musetti batte Zheng e vola ai quarti di finale a Cincinnati
-Il 19 agosto l'azzurro Lorenzo Musetti ha superato in due set, 6-1 6-3, lo statunitense Michael Zheng al terzo turno del Masters 1000 di Cincinnati, ottenendo la sua seconda vittoria consecutiva in due set dopo quella su Altmaier e consolidando la propria posizione nella top 15 del ranking mondiale.
-
-Fonte: [Sky Sport](https://sport.sky.it/tennis/2026/08/18/musetti-zheng-atp-cincinnati-2026-risultato)
+Fonte: [Tempo Libero Toscana](https://www.tempoliberotoscana.it/event/pistoia-capitale-italiana-del-libro-2026-ad-agosto-la-cultura-vive-tra-lettura-e-territorio/)
 
 ---
 *Questa rassegna è generata automaticamente da un'intelligenza artificiale e non è verificata da un redattore umano.*
