@@ -1,24 +1,29 @@
-# Notizie di San Lazzaro di Savena – Giovedì 20 agosto 2026
+# Notizie di San Lazzaro di Savena – Venerdì 21 agosto 2026
 
-### Cronaca locale: torna il caldo intenso, oggi Bologna passa a bollino arancione
-Come previsto nei giorni scorsi, il bollettino del ministero della Salute colloca oggi Bologna, e con essa l'area di San Lazzaro di Savena, in bollino arancione (livello 2), soglia che segnala un rischio concreto per la salute delle persone anziane, dei bambini piccoli e delle persone con patologie croniche. Si tratta di una delle sole cinque città italiane, insieme ad Ancona, Bari, Campobasso e Roma, a raggiungere oggi questo livello di allerta, dopo la breve tregua dalle temperature elevate registrata nei giorni successivi a Ferragosto.
+### Viabilità: inaugurata la "Rotonda del Dono" tra Bologna e San Lazzaro
+È stata inaugurata la nuova rotatoria all'incrocio tra via Bellaria, via Fratelli Canova, via Rio Polo e via Altura, al confine tra Bologna e San Lazzaro di Savena, realizzata da Rete Ferroviaria Italiana con un investimento di 2 milioni di euro nell'ambito delle opere di mitigazione legate alla linea Alta Velocità Bologna-Firenze. L'anello, del diametro di 40 metri, sostituisce due incroci semaforizzati e migliora l'accesso all'ospedale Bellaria e all'hospice pediatrico, grazie anche ai nuovi percorsi ciclopedonali. L'infrastruttura è stata intitolata "Rotonda del Dono" in omaggio al volontariato cittadino.
 
-Fonte: [Adnkronos](https://www.adnkronos.com/cronaca/caldo-bollini-oggi-italia-la-mappa_5CFRnZg3cdNQhg5DTUyj1h)
+Fonte: [BolognaToday](https://www.bolognatoday.it/attualita/rotonda-del-dono-san-lazzaro.html)
 
-### Amministrazione: la Casa della Comunità raddoppia, inaugurati i nuovi spazi da 3,8 milioni di euro
-Lo scorso 30 luglio sono stati inaugurati in via della Repubblica gli interventi di ampliamento e riqualificazione della Casa della Comunità di San Lazzaro di Savena, finanziati con circa 3,8 milioni di euro tra fondi Pnrr e risorse statali nell'ambito del Distretto sanitario Savena-Idice. Alla cerimonia, oltre alla sindaca Marilena Pillati, hanno partecipato il sindaco della Città metropolitana di Bologna Matteo Lepore e i vertici dell'Azienda Usl di Bologna; la struttura ampliata mette a disposizione dei cittadini nuovi spazi ambulatoriali e servizi di prossimità.
+### Amministrazione: il bilancio 2026 punta oltre 5 milioni di euro sulla sicurezza del territorio
+Il bilancio di previsione 2026 del Comune conferma la scelta dell'amministrazione della sindaca Marilena Pillati di concentrare gli investimenti su sicurezza del territorio, mobilità sostenibile e qualità dei servizi ai cittadini. Tra le voci principali figurano 2,4 milioni di euro per interventi sul Rio Brolo, un milione per il Rio Pontebuco e 800mila euro per il consolidamento del ponte di via Emilia sull'Idice, a cui si affiancano opere già finanziate come il riequilibrio ecologico del torrente Idice e la sistemazione idrogeologica della strada Casona.
 
-Fonte: [BolognaToday](https://www.bolognatoday.it/attualita/casa-della-comunita-san-lazzaro.html)
+Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/comunicati-stampa/ok-al-bilancio-oltre-5-milioni-di-euro-per-la-sicurezza-del-territorio)
 
-### Viabilità: dal 28 agosto lavori in via Emilia per un nuovo attraversamento pedonale
-Dal 28 agosto prenderanno il via i lavori per la realizzazione di un nuovo attraversamento pedonale su via Emilia, all'altezza del civico 257, tra le rotatorie di via Paolo Poggi e via Aldo Moro. Il cantiere comporterà il restringimento della carreggiata, il limite di velocità di 30 km/h in entrambi i sensi di marcia nei pressi dei lavori e il senso unico alternato, misure che resteranno in vigore fino al completamento dell'intervento.
+### Amministrazione: rifinanziati fino a fine 2026 gli incentivi Bike to Work
+Il Comune ha confermato fino al 31 dicembre 2026 il progetto regionale "Bike to Work", che premia con 20 centesimi a chilometro, fino a un massimo di 50 euro al mese, i dipendenti delle aziende del territorio che si spostano casa-lavoro in bicicletta. Il calcolo dei tragitti avviene tramite un'apposita app messa a disposizione dei lavoratori delle aziende aderenti, e possono aderire al progetto anche le imprese che non lo avevano ancora fatto.
 
-Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/aree-tematiche/il-comune/comunicazione/notizie/viabilita-dal-28-agosto-lavori-in-via-emilia)
+Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/notizie/bike-to-work-rifinanziati-fino-a-tutto-il-2026-gli-incentivi-per-gli-spostamenti-casa-lavoro-in-bicicletta)
 
-### Amministrazione: entro il 31 agosto la conferma anagrafica per i nidi d'infanzia
-Le famiglie che hanno ottenuto un posto nei nidi d'infanzia comunali e convenzionati per l'anno educativo 2026/2027 devono completare la registrazione anagrafica entro il 31 agosto presso l'ufficio Anagrafe del Comune. Chi non presenta la richiesta di residenza entro la scadenza rischia la cancellazione dalla graduatoria dei residenti e la conseguente revoca del posto assegnato.
+### Cronaca locale: allerta gialla nell'area metropolitana bolognese per temporali e vento
+Per la giornata di oggi è in vigore un'allerta meteo gialla che coinvolge anche San Lazzaro di Savena e il resto del territorio metropolitano di Bologna, per il rischio di temporali forti, raffiche di vento oltre i 70 km/h sul crinale appenninico, frane e rapide piene dei corsi d'acqua minori. Le prime piogge intense sono attese già dalle ore notturne, con possibili disagi alla viabilità locale.
 
-Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/argomenti/scuola-ed-educazione/iscrizioni-e-graduatorie/bando-nidi-d-infanzia)
+Fonte: [BolognaToday](https://www.bolognatoday.it/meteo/piogge-vento--allerta-gialla-21-agosto.html)
+
+### Eventi: prosegue l'Arena Understars, il cinema all'aperto di via Emilia 92
+Sotto il portico del Palazzo Comunale, in via Emilia 92, prosegue fino a settembre la rassegna Arena Understars, la programmazione di cinema all'aperto di San Lazzaro inserita nel cartellone di Bologna Estate. La rassegna dedica spazio soprattutto al cinema indipendente, alle produzioni d'autore e ai titoli meno convenzionali del panorama italiano e internazionale, con occasionali incursioni nel mainstream e alcuni incontri con registi e ospiti.
+
+Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/argomenti/cultura-e-tempo-libero/via-emilia-92)
 
 ---
 *Questa rassegna è generata automaticamente da un'intelligenza artificiale e non è verificata da un redattore umano.*
