@@ -69,7 +69,7 @@ jobs:
               repository e non eseguire comandi git.
           claude_args: |
             --model claude-sonnet-5
-            --max-turns 40
+            --max-turns 80
             --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Bash(date*)"
 
       - name: Pubblica la rassegna
