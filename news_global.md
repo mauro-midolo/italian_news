@@ -1,54 +1,59 @@
-# Rassegna Globale – Venerdì 21 agosto 2026
+# Rassegna Globale – Domenica 23 agosto 2026
 
-### Politica: Rai, cresce la tensione sul futuro di Report e del conduttore Ranucci
-I vertici Rai starebbero valutando la sospensione del conduttore di Report, Sigfrido Ranucci, coinvolto nella vicenda giudiziaria legata all'attentato subito nell'ottobre 2025, dopo la confessione dell'imprenditore Valter Lavitola indicato come mandante. Il leader del M5s Giuseppe Conte ha accusato l'esecutivo di voler colpire un programma scomodo, mentre l'amministratore delegato Rai Giampaolo Rossi ha respinto le critiche difendendo Report come patrimonio dell'azienda. Sul dossier pesano anche le pressioni della Lega, che ha chiesto apertamente l'allontanamento del conduttore, in attesa della relazione del comitato etico.
+### Politica: si allarga il caso dei "dublinanti", ora anche Finlandia e Svezia rimandano migranti in Italia
+Dopo Germania, Austria e Svizzera, anche Finlandia e Svezia hanno annunciato l'avvio dei trasferimenti verso l'Italia dei richiedenti asilo transitati per primo sul territorio italiano, applicando le nuove regole del Patto europeo su migrazione e asilo entrato in vigore a giugno. La segretaria del Pd Elly Schlein ha parlato di un "clamoroso boomerang" per il governo Meloni, che ad agosto aveva sospeso Schengen nei confronti della Spagna, mentre il leader M5s Giuseppe Conte ha ironizzato sui rimpatri che "funzionano, ma contro di noi". La Francia, diversamente dai partner nordici, ha fatto sapere di non voler per ora aderire ai trasferimenti verso Roma.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/19/il-legale-di-ranucci-ogni-decisione-della-rai-sarebbe-inquinata-da-falsita_9e5214d4-7af0-4f51-be6e-d173eae0f323.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/europa/2026/08/20/anche-la-svezia-trasferisce-i-migranti-in-italia-spagna-e-francia-no_f3081cbe-5518-4036-8bb9-84bc7317e174.html)
 
-### Politica: al via il Meeting di Rimini, ospite d'onore Papa Leone XIV
-Da oggi e fino al 26 agosto si tiene a Rimini il Meeting per l'amicizia fra i popoli organizzato da Comunione e Liberazione, che quest'anno ospita Papa Leone XIV, primo pontefice a partecipare alla kermesse dopo Giovanni Paolo II 44 anni fa. Il programma affronta temi come le crisi in Medio Oriente, Ucraina e Libano, l'intelligenza artificiale e le migrazioni, con la partecipazione del vicepremier Antonio Tajani e della presidente del Parlamento europeo Roberta Metsola; la premier Giorgia Meloni e i leader dell'opposizione non saranno presenti.
+### Politica: prosegue il Meeting di Rimini, oggi la messa presieduta dal cardinale Zuppi
+Dopo la storica visita di sabato di Papa Leone XIV, che ha incontrato malati e disabili in Cattedrale e presieduto una concelebrazione eucaristica al porto, il Meeting per l'amicizia fra i popoli prosegue oggi alla Fiera di Rimini con la messa domenicale celebrata dal presidente della Cei, cardinale Matteo Zuppi, insieme ai vescovi del territorio. Il programma della giornata prevede inoltre un concerto della Sicily Symphony Orchestra dedicato a Franco Battiato, nell'ambito di una settimana di incontri dedicata al tema "L'amor che move il sole e l'altre stelle".
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/19/torna-il-meeting-di-cl-la-grande-attesa-per-il-papa_dbbe36ed-c086-4842-9931-6736a6567083.html)
+Fonte: [RiminiToday](https://www.riminitoday.it/cronaca/cardinale-zuppi-messa-papa-leone-xiv-rimini.html)
 
-### Economia: Mps rilancia su Banco Bpm e Banca Generali per resistere all'opas di Intesa
-Il consiglio d'amministrazione di Monte dei Paschi ha approvato il piano dell'amministratore delegato Luigi Lovaglio per lanciare due offerte di scambio azionario su Banco Bpm e Banca Generali, nel tentativo di costruire un'alternativa industriale all'offerta pubblica da 30,6 miliardi di euro lanciata da Intesa Sanpaolo. Il piano prevede anche un dividendo straordinario da 4 miliardi di euro ed è stato approvato dalla maggioranza del consiglio, con l'astensione dei membri di minoranza. In Borsa hanno guadagnato sia Banco Bpm sia Banca Generali dopo l'annuncio.
+### Economia: carburanti alle stelle nel weekend di controesodo, gasolio a 2,20 euro in autostrada
+Nel primo fine settimana di controesodo dopo Ferragosto i prezzi dei carburanti hanno toccato nuovi massimi: in autostrada il gasolio self service è arrivato a 2,20 euro al litro e la benzina a oltre 2,08 euro, mentre sulla rete ordinaria i valori restano di poco inferiori. Secondo le associazioni dei consumatori, per le famiglie che rientrano dalle vacanze sulle percorrenze più lunghe la spesa fra carburante, pedaggi e soste può arrivare fino a 270 euro, anche in vista della scadenza del 25 agosto della proroga sul taglio delle accise per il diesel.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/20/iniziato-il-cda-di-mps-sul-tavolo-le-offerte-per-bpm-e-banca-generali_56e45912-721e-4db6-8006-04d4bc02cd39.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/22/non-si-arresta-la-corsa-dei-carburanti-il-gasolio-vola-a-2200-euro-al-litro_cdc06ad4-f758-41ef-83fe-8aa24b76fe3d.html)
 
-### Economia: ex Ilva, Meloni annuncia un tavolo di settembre sulla proposta di Federacciai
-Alla vigilia dei Giochi del Mediterraneo di Taranto, il presidente della Repubblica Sergio Mattarella e la premier Giorgia Meloni hanno ribadito l'impegno nazionale per il futuro della città e dello stabilimento ex Ilva. Meloni ha annunciato che il governo esaminerà a settembre la manifestazione d'interesse presentata da Federacciai, la cordata di quattordici aziende siderurgiche, definendo il mantenimento di una capacità produttiva nazionale di acciaio un obiettivo di rilievo nazionale.
+### Economia: conti correnti sempre più cari, spesa salita del 23% in dieci anni
+Uno studio di Adusbef segnala che il costo medio di gestione di un conto corrente in Italia è passato da 82,2 a 101,1 euro l'anno nell'arco di un decennio, un rincaro del 23% che pesa soprattutto su chi continua a operare allo sportello fisico, mentre i canali digitali restano relativamente più convenienti. Nel frattempo i depositi delle famiglie italiane hanno raggiunto la cifra record di 1.163 miliardi di euro al 31 maggio scorso.
 
-Fonte: [ANSA](https://www.ansa.it/puglia/notizie/speciali/xx_giochi_del_mediterraneo_taranto_2026/2026/08/20/mattarella-impegno-nazionale-per-taranto.-meloni-a-settembre-tavolo-sullex-ilva_d3ea0658-0341-48c1-a124-4ffd90ace1e6.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/22/e-caro-conto-corrente-la-spesa-e-salita-del-23-in-10-anni_3af4547a-b3f4-45eb-9109-63f870658de2.html)
 
-### Estero: Trump annuncia una "guerra economica" contro l'Iran
-Il presidente statunitense Donald Trump ha annunciato quella che ha definito l'operazione economica più dura mai condotta contro un Paese, minacciando sanzioni severe verso banche, imprese e governi che continuino a fare affari con Teheran. L'iniziativa arriva dopo la scadenza di una tregua di sessanta giorni tra Washington e l'Iran, in un contesto di forte tensione nello stretto di Hormuz, di fatto bloccato dall'inizio di marzo; il messaggio sembra rivolto in particolare a Russia e Cina, accusate di aiutare Teheran ad aggirare le sanzioni.
+### Estero: Trump definisce lo stretto di Hormuz "territorio americano", Teheran respinge la rivendicazione
+Il presidente statunitense Donald Trump ha ribadito di considerare ormai lo stretto di Hormuz, cruciale snodo petrolifero fra Iran e Oman, come "territorio americano", dopo aver diffuso nei giorni scorsi una mappa dell'area con l'etichetta "New U.S. Territory". Il viceministro degli Esteri iraniano Kazem Gharibabadi ha bollato le affermazioni come "deliranti fantasie", ribadendo che lo stretto "è stato, è e resterà iraniano". Le tensioni si inseriscono nel contesto del blocco navale statunitense in vigore dall'inizio dell'anno nell'area.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/2026/08/20/trump-guerra-economica-contro-liran.-e-minaccia-chi-aiuta-teheran_c07cd0bc-0506-4e98-8f87-170b8797e7d6.html)
+Fonte: [UPI](https://www.upi.com/Top_News/US/2026/08/22/trump-strait-hormuz-territory/3951787428417/)
 
-### Estero: massiccio attacco russo su Kiev, almeno 16 morti
-Un'ondata di missili e droni russi ha colpito nella notte diversi quartieri di Kiev, causando secondo gli ultimi bilanci almeno 16 morti e circa 40 feriti, con danni a edifici residenziali, un ospedale pediatrico e una scuola. Il presidente ucraino Volodymyr Zelensky ha denunciato l'attacco come premeditato da tempo, mentre Polonia e Romania hanno fatto alzare in volo propri caccia per scongiurare sconfinamenti nello spazio aereo alleato.
+### Estero: Ucraina, l'Onu segnala il bilancio di vittime civili più alto dall'inizio della guerra
+Le Nazioni Unite hanno reso noto che il numero di civili uccisi negli attacchi russi ha raggiunto il livello più alto dai primi mesi del conflitto, dopo un raid con droni che ha causato almeno 16 morti in un centro commerciale nell'Ucraina orientale. Funzionari tedeschi hanno denunciato un'intensificazione della strategia russa di colpire deliberatamente le infrastrutture civili, mentre Berlino ha annunciato 60 milioni di euro aggiuntivi fra aiuti umanitari e sostegno alla rete energetica e alla difesa antidrone ucraina. Kiev, a corto di intercettori, chiede intanto il via libera per usare droni collegati a Starlink contro i lanciatori russi fino a 200 km oltre il confine.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/europa/2026/08/20/massiccio-attacco-russo-su-kiev-12-morti-e-32-feriti_687531fd-cf89-4799-81ca-a97f956679a5.html)
+Fonte: [Sky TG24](https://tg24.sky.it/mondo/2026/08/22/guerra-ucraina-russia-ultime-notizie-diretta)
 
-### Cronaca: Palermo, bimba di 4 anni muore per sospetta difterite, non era vaccinata
-Una bambina di quattro anni è morta all'ospedale pediatrico Di Cristina di Palermo per una grave forma di difterite, dopo che i genitori avevano scelto di non sottoporla alla vaccinazione, obbligatoria in Italia, temendo senza fondamento scientifico un legame con l'autismo. La Procura ha disposto il sequestro della salma e l'autopsia per ricostruire la vicenda; un cuginetto coetaneo, ricoverato ma regolarmente vaccinato, non risulta in pericolo.
+### Cronaca: bollino rosso per il caldo oggi a Bari e Palermo
+Il bollettino del ministero della Salute sulle ondate di calore segnala per la giornata odierna il bollino rosso, il livello di allerta massimo, soltanto a Bari e Palermo, mentre le altre 25 città monitorate restano fra il livello verde e quello giallo. Il bollino rosso indica il rischio di effetti negativi sulla salute anche per la popolazione generale, oltre che per le fasce più fragili come anziani, bambini piccoli e persone con patologie croniche.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/20/bimba-di-4-anni-muore-per-sospetta-difterite-a-palermo_88e2de87-751a-4c96-bd7c-517ffd0ff4ff.html)
+Fonte: [Meteo.it](https://www.meteo.it/notizie/meteo-allerta-caldo-il-23-agosto-2026-in-italia-dove-57d094d)
 
-### Cronaca: torna a salire il livello di allerta caldo in alcune città
-Dopo una breve tregua post-Ferragosto, il bollettino del ministero della Salute segnala per oggi il bollino arancione, livello di rischio per le fasce più fragili della popolazione, a Bari, Campobasso, Palermo e Pescara. Le previsioni indicano un ulteriore peggioramento da domani, con il possibile ritorno del bollino rosso proprio a Bari e Palermo.
+### Cronaca: incidente mortale in moto nel sottopasso Lingotto a Torino
+Un uomo di 43 anni, Marco Buonovino, è morto venerdì pomeriggio nel sottopasso del Lingotto a Torino dopo essere caduto dalla moto su cui viaggiava insieme a un passeggero, nonostante i tentativi di rianimazione dei soccorritori. Il passeggero, un 38enne, è stato operato d'urgenza al Cto per gravi traumi al bacino e al femore, con prognosi di 90 giorni in assenza di complicazioni; il tratto stradale è stato chiuso per permettere i rilievi.
 
-Fonte: [Adnkronos](https://www.adnkronos.com/cronaca/caldo-bollini-oggi-italia-la-mappa_5CFRnZg3cdNQhg5DTUyj1h)
+Fonte: [TorinoToday](https://www.torinotoday.it/cronaca/incidente-stradale/sottopasso-lingotto-morto-21-agosto-2026-marco-buonovino.html)
 
-### Scienza e tecnologia: scoperta una fusione galattica primordiale nel cuore della Via Lattea
-Un gruppo di ricerca dell'Istituto Nazionale di Astrofisica ha individuato le tracce di una collisione galattica avvenuta circa due miliardi di anni dopo il Big Bang, circa 1,8 miliardi di anni prima del più noto impatto con la galassia Gaia-Enceladus, finora considerato il primo grande evento di fusione nella storia della Via Lattea. Il risultato si deve a un nuovo metodo, basato sui dati del telescopio spaziale Hubble, che misura con precisione età e composizione chimica degli ammassi globulari nelle regioni più interne della Galassia.
+### Scienza e tecnologia: scoperta una "Mega-Terra" a 87 anni luce dal Sistema solare
+Un gruppo di ricerca guidato dall'Università del Wisconsin-Madison ha individuato un pianeta roccioso, denominato GJ 523b, con una massa pari a 23 volte quella terrestre e un raggio 2,5 volte maggiore, a circa 87 anni luce dalla Terra. Il corpo celeste non rientra in nessuna delle categorie plentarie finora note ed è stato informalmente classificato come "Mega-Terra"; lo studio sarà pubblicato sull'Astronomical Journal.
 
-Fonte: [Media INAF](https://www.media.inaf.it/2026/08/17/vestigia-cuore-via-lattea/)
+Fonte: [ANSA](https://www.ansa.it/canale_scienza/notizie/spazio_astronomia/2026/08/21/scoperta-una-mega-terra-e-rocciosa-e-con-una-massa-23-volte-maggiore_946e4e1e-7f90-40f8-b9d3-f1e26a4cb6af.html)
 
-### Cultura e sport: al via a Taranto i XX Giochi del Mediterraneo
-Questa sera allo stadio Erasmo Iacovone prende il via la cerimonia di apertura dei Giochi del Mediterraneo, che fino al 3 settembre vedranno sfidarsi oltre 4.000 atleti di 26 Paesi in 29 discipline sportive, distribuite in più di venti comuni pugliesi. L'Italia schiera la delegazione più numerosa, con 497 atleti guidati dai portabandiera Filippo Tortu e Irma Testa; lo spettacolo inaugurale, intitolato "Il mito diventa futuro", vedrà tra i protagonisti Serena Brancale, Mietta e Al Bano.
+### Cultura e sport: Europei di volley femminile, l'Italia di Velasco vince ancora e resta a punteggio pieno
+La nazionale italiana di volley femminile guidata da Julio Velasco ha superato 3-0 anche il Montenegro allo Scandinavium di Göteborg, dopo aver aperto il torneo con un netto successo sulla Croazia. Le azzurre, trascinate da Egonu e Antropova, restano dunque a punteggio pieno nel proprio girone degli Europei 2026.
 
-Fonte: [Sportface](https://www.sportface.it/giochi-del-mediterraneo-taranto-2026/cerimonia-apertura-giochi-mediterraneo-taranto-2026-orario-tv-streaming/2826566)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/sport/pallavolo/2026/08/22/europei-pallavolo-altra-vittoria-per-le-azzurre-3-0-al-montenegro_dcc9bfab-29ae-4cb6-b7b4-7b92ea4620ba.html)
+
+### Cultura e sport: Giochi del Mediterraneo, l'Italia seconda nel medagliere dietro la Turchia
+Nella seconda giornata di gare dei XX Giochi del Mediterraneo di Taranto l'Italia ha conquistato un tris di ori, salendo al secondo posto nel medagliere generale alle spalle della Turchia, con buoni risultati soprattutto nel nuoto. La rassegna, che vede impegnati oltre 4.000 atleti di 26 Paesi fino al 3 settembre, prosegue con nuove finali in programma nelle prossime giornate in diversi comuni pugliesi.
+
+Fonte: [OA Sport](https://www.oasport.it/2026/08/medagliere-giochi-del-mediterraneo-2026-classifica-ori-argenti-e-bronzi/)
 
 ---
 *Questa rassegna è generata automaticamente da un'intelligenza artificiale e non è verificata da un redattore umano.*
