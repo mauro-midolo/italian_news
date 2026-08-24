@@ -1,59 +1,64 @@
-# Rassegna Globale – Domenica 23 agosto 2026
+# Rassegna Globale – Lunedì 24 agosto 2026
 
-### Politica: si allarga il caso dei "dublinanti", ora anche Finlandia e Svezia rimandano migranti in Italia
-Dopo Germania, Austria e Svizzera, anche Finlandia e Svezia hanno annunciato l'avvio dei trasferimenti verso l'Italia dei richiedenti asilo transitati per primo sul territorio italiano, applicando le nuove regole del Patto europeo su migrazione e asilo entrato in vigore a giugno. La segretaria del Pd Elly Schlein ha parlato di un "clamoroso boomerang" per il governo Meloni, che ad agosto aveva sospeso Schengen nei confronti della Spagna, mentre il leader M5s Giuseppe Conte ha ironizzato sui rimpatri che "funzionano, ma contro di noi". La Francia, diversamente dai partner nordici, ha fatto sapere di non voler per ora aderire ai trasferimenti verso Roma.
+### Politica: il Viminale ferma la nave Sea Watch 5, scontro con la ong
+Il ministro dell'Interno Matteo Piantedosi ha disposto un fermo amministrativo di 45 giorni e una multa di 7.500 euro per la nave Sea Watch 5, accusata di non aver rispettato gli obblighi di legge durante un soccorso effettuato il 13 agosto in acque internazionali. Il Viminale sostiene che le attività di ricerca e salvataggio debbano essere coordinate dalle autorità statali competenti e non gestite autonomamente dalle organizzazioni umanitarie. La ong tedesca ha respinto le accuse, definendo "fantasma" il centro di coordinamento libico e rivendicando di non voler collaborare con i trafficanti.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/europa/2026/08/20/anche-la-svezia-trasferisce-i-migranti-in-italia-spagna-e-francia-no_f3081cbe-5518-4036-8bb9-84bc7317e174.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/23/piantedosi-ferma-la-sea-watch-multa-e-stop-di-45-giorni_8571281d-be31-49fa-aafd-7f38479c2042.html)
 
-### Politica: prosegue il Meeting di Rimini, oggi la messa presieduta dal cardinale Zuppi
-Dopo la storica visita di sabato di Papa Leone XIV, che ha incontrato malati e disabili in Cattedrale e presieduto una concelebrazione eucaristica al porto, il Meeting per l'amicizia fra i popoli prosegue oggi alla Fiera di Rimini con la messa domenicale celebrata dal presidente della Cei, cardinale Matteo Zuppi, insieme ai vescovi del territorio. Il programma della giornata prevede inoltre un concerto della Sicily Symphony Orchestra dedicato a Franco Battiato, nell'ambito di una settimana di incontri dedicata al tema "L'amor che move il sole e l'altre stelle".
+### Politica: terremoto nel centrodestra calabrese, l'ex deputato di Forza Italia Giannetta passa con Vannacci
+In vista delle elezioni suppletive di fine settembre nel collegio di Reggio Calabria, l'ex parlamentare azzurro Domenico Giannetta ha lasciato Forza Italia per candidarsi con Futuro Nazionale, il partito del generale Roberto Vannacci. La scelta ha provocato la rottura con il presidente della Regione Calabria Roberto Occhiuto, che lo ha escluso dalla maggioranza, e le critiche del coordinatore regionale di Forza Italia Francesco Cannizzaro. Giannetta ha spiegato la decisione con la volontà di rappresentare in Parlamento gli interessi della Calabria.
 
-Fonte: [RiminiToday](https://www.riminitoday.it/cronaca/cardinale-zuppi-messa-papa-leone-xiv-rimini.html)
+Fonte: [CityNow](https://www.citynow.it/domenico-giannetta-futuro-nazionale-suppletive-reggio-calabria/)
 
-### Economia: carburanti alle stelle nel weekend di controesodo, gasolio a 2,20 euro in autostrada
-Nel primo fine settimana di controesodo dopo Ferragosto i prezzi dei carburanti hanno toccato nuovi massimi: in autostrada il gasolio self service è arrivato a 2,20 euro al litro e la benzina a oltre 2,08 euro, mentre sulla rete ordinaria i valori restano di poco inferiori. Secondo le associazioni dei consumatori, per le famiglie che rientrano dalle vacanze sulle percorrenze più lunghe la spesa fra carburante, pedaggi e soste può arrivare fino a 270 euro, anche in vista della scadenza del 25 agosto della proroga sul taglio delle accise per il diesel.
+### Economia: nuova proroga di due giorni per lo sconto sulle accise del gasolio
+Il ministro dell'Economia Giancarlo Giorgetti ha firmato un decreto che estende al 25 e 26 agosto, tramite il meccanismo delle accise mobili, la riduzione di 17 centesimi al litro sul prezzo del gasolio, in scadenza nella notte. La misura, finanziata con 20,8 milioni di euro di maggior gettito Iva registrato a luglio, non riguarda la benzina, il cui prezzo resta invariato. Il taglio era stato introdotto per contenere l'aumento dei prezzi dei carburanti nel periodo del controesodo estivo.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/22/non-si-arresta-la-corsa-dei-carburanti-il-gasolio-vola-a-2200-euro-al-litro_cdc06ad4-f758-41ef-83fe-8aa24b76fe3d.html)
+Fonte: [Virgilio Notizie](https://www.virgilio.it/notizie/sconto-sul-diesel-fino-al-26-agosto-con-le-accise-mobili-giorgetti-firma-il-decreto-caos-sulla-benzina-1778010)
 
-### Economia: conti correnti sempre più cari, spesa salita del 23% in dieci anni
-Uno studio di Adusbef segnala che il costo medio di gestione di un conto corrente in Italia è passato da 82,2 a 101,1 euro l'anno nell'arco di un decennio, un rincaro del 23% che pesa soprattutto su chi continua a operare allo sportello fisico, mentre i canali digitali restano relativamente più convenienti. Nel frattempo i depositi delle famiglie italiane hanno raggiunto la cifra record di 1.163 miliardi di euro al 31 maggio scorso.
+### Economia: Shein pronta allo sbarco in Borsa a Hong Kong dal 1° settembre
+Il colosso cinese della moda low cost avvierà le contrattazioni delle proprie azioni sul listino di Hong Kong dal 1° settembre, offrendo 280 milioni di titoli a un prezzo compreso fra 47,60 e 49,50 dollari di Hong Kong. L'operazione punta a raccogliere circa 1,5 miliardi di euro e a una valutazione di mercato fino a 23 miliardi di euro, e rappresenta una delle quotazioni più attese dell'anno nel settore del fast fashion.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/22/e-caro-conto-corrente-la-spesa-e-salita-del-23-in-10-anni_3af4547a-b3f4-45eb-9109-63f870658de2.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/24/shein-si-quotera-in-borsa-dal-1-settembre_7e06960e-3167-434a-9691-5d1b0d2c63f5.html)
 
-### Estero: Trump definisce lo stretto di Hormuz "territorio americano", Teheran respinge la rivendicazione
-Il presidente statunitense Donald Trump ha ribadito di considerare ormai lo stretto di Hormuz, cruciale snodo petrolifero fra Iran e Oman, come "territorio americano", dopo aver diffuso nei giorni scorsi una mappa dell'area con l'etichetta "New U.S. Territory". Il viceministro degli Esteri iraniano Kazem Gharibabadi ha bollato le affermazioni come "deliranti fantasie", ribadendo che lo stretto "è stato, è e resterà iraniano". Le tensioni si inseriscono nel contesto del blocco navale statunitense in vigore dall'inizio dell'anno nell'area.
+### Estero: piano di pace per l'Ucraina, i "volenterosi" si riuniscono a Kiev per l'indipendenza
+Nel giorno dell'anniversario dell'indipendenza ucraina, il presidente Volodymyr Zelensky ha presentato un piano di pace elaborato insieme a Stati Uniti e Unione Europea, mentre la Coalizione dei volenterosi si è riunita in formato misto nella capitale. Il premier britannico Andy Burnham, al suo primo viaggio internazionale dall'incarico, ha annunciato che Londra ha autorizzato la condivisione con Francia e Ucraina di informazioni classificate sui componenti dei missili Scalp, per accelerarne l'assemblaggio. Secondo il Wall Street Journal, intanto, la Russia starebbe conducendo esercitazioni nazionali per testare la propria capacità di gestire una nuova mobilitazione.
 
-Fonte: [UPI](https://www.upi.com/Top_News/US/2026/08/22/trump-strait-hormuz-territory/3951787428417/)
+Fonte: [Sky TG24](https://tg24.sky.it/mondo/2026/08/24/guerra-ucraina-russia-ultime-notizie-diretta)
 
-### Estero: Ucraina, l'Onu segnala il bilancio di vittime civili più alto dall'inizio della guerra
-Le Nazioni Unite hanno reso noto che il numero di civili uccisi negli attacchi russi ha raggiunto il livello più alto dai primi mesi del conflitto, dopo un raid con droni che ha causato almeno 16 morti in un centro commerciale nell'Ucraina orientale. Funzionari tedeschi hanno denunciato un'intensificazione della strategia russa di colpire deliberatamente le infrastrutture civili, mentre Berlino ha annunciato 60 milioni di euro aggiuntivi fra aiuti umanitari e sostegno alla rete energetica e alla difesa antidrone ucraina. Kiev, a corto di intercettori, chiede intanto il via libera per usare droni collegati a Starlink contro i lanciatori russi fino a 200 km oltre il confine.
+### Estero: due bambini morti a Krasnodar, colpiti da detriti di droni ucraini abbattuti
+Frammenti di droni ucraini intercettati dalla difesa antiaerea russa hanno colpito un asilo privato nella città russa di Krasnodar, causando la morte di due bambini e il ferimento di altri sette minori e due adulti; nelle vicinanze ha preso fuoco anche un deposito della società di e-commerce Ozon. È il terzo giorno consecutivo di attacchi contro le infrastrutture logistiche russe, nell'ambito della campagna ucraina contro i magazzini ritenuti funzionali al rifornimento dell'esercito di Mosca.
 
-Fonte: [Sky TG24](https://tg24.sky.it/mondo/2026/08/22/guerra-ucraina-russia-ultime-notizie-diretta)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/24/detriti-di-droni-ucraini-su-un-asilo-della-citta-russa-di-krasnodar-morti-2-bambini_bd0344a6-6c51-410e-ac89-f6e3a4932067.html)
 
-### Cronaca: bollino rosso per il caldo oggi a Bari e Palermo
-Il bollettino del ministero della Salute sulle ondate di calore segnala per la giornata odierna il bollino rosso, il livello di allerta massimo, soltanto a Bari e Palermo, mentre le altre 25 città monitorate restano fra il livello verde e quello giallo. Il bollino rosso indica il rischio di effetti negativi sulla salute anche per la popolazione generale, oltre che per le fasce più fragili come anziani, bambini piccoli e persone con patologie croniche.
+### Estero: Iran, il presidente Pezeshkian rivendica la tenuta del Paese mentre gli Usa preparano nuove sanzioni
+Nel discorso per la Settimana del Governo, il presidente iraniano Masoud Pezeshkian ha affermato che l'obiettivo del "nemico" era il collasso dell'Iran ma che questo non si è realizzato, ribadendo che Teheran non si arrenderà. Il segretario al Tesoro Usa Scott Bessent ha annunciato l'imminente varo di un nuovo pacchetto di sanzioni, definito la "più grande offensiva finanziaria" mai lanciata contro l'Iran, avvertendo i Paesi che collaborano con Teheran del rischio di isolamento globale. Il traffico navale nello stretto di Hormuz resta fortemente ridotto, con meno di 20 navi transitate nel fine settimana.
 
-Fonte: [Meteo.it](https://www.meteo.it/notizie/meteo-allerta-caldo-il-23-agosto-2026-in-italia-dove-57d094d)
+Fonte: [Sky TG24](https://tg24.sky.it/mondo/2026/08/24/usa-iran-accordo-guerra-trump-news-diretta)
 
-### Cronaca: incidente mortale in moto nel sottopasso Lingotto a Torino
-Un uomo di 43 anni, Marco Buonovino, è morto venerdì pomeriggio nel sottopasso del Lingotto a Torino dopo essere caduto dalla moto su cui viaggiava insieme a un passeggero, nonostante i tentativi di rianimazione dei soccorritori. Il passeggero, un 38enne, è stato operato d'urgenza al Cto per gravi traumi al bacino e al femore, con prognosi di 90 giorni in assenza di complicazioni; il tratto stradale è stato chiuso per permettere i rilievi.
+### Cronaca: Amatrice ricorda le vittime del terremoto, dieci anni dopo
+Alle 3:36 di notte, l'ora esatta del sisma che il 24 agosto 2016 devastò la cittadina in provincia di Rieti causando 239 vittime, le campane hanno suonato una volta per ogni persona morta e gli abitanti hanno sfilato in silenzio con le fiaccole intorno alla torre civica, uno dei pochi edifici rimasti in piedi. Nel pomeriggio è prevista una messa officiata dal cardinale Matteo Zuppi, con la partecipazione della presidente del Consiglio Giorgia Meloni.
 
-Fonte: [TorinoToday](https://www.torinotoday.it/cronaca/incidente-stradale/sottopasso-lingotto-morto-21-agosto-2026-marco-buonovino.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/24/amatrice-ricorda-con-il-silenzio-e-una-fiaccolata-le-vittime-del-terremoto_83147766-c223-463a-8432-75c6060f5ff0.html)
 
-### Scienza e tecnologia: scoperta una "Mega-Terra" a 87 anni luce dal Sistema solare
-Un gruppo di ricerca guidato dall'Università del Wisconsin-Madison ha individuato un pianeta roccioso, denominato GJ 523b, con una massa pari a 23 volte quella terrestre e un raggio 2,5 volte maggiore, a circa 87 anni luce dalla Terra. Il corpo celeste non rientra in nessuna delle categorie plentarie finora note ed è stato informalmente classificato come "Mega-Terra"; lo studio sarà pubblicato sull'Astronomical Journal.
+### Cronaca: 15enne accoltellato a La Spezia mentre difende la madre
+Un ragazzo di 15 anni è stato ferito con un coltello da cucina dal compagno della madre, 38 anni, al culmine di una lite scoppiata in un appartamento del quartiere Umbertino, dopo essere intervenuto per proteggerla. Il giovane, uscito in strada a piedi nudi in cerca di aiuto, è stato soccorso da un passante che ha allertato il 118 ed è stato trasportato all'ospedale Sant'Andrea con ferite giudicate non gravi. L'uomo è stato arrestato.
 
-Fonte: [ANSA](https://www.ansa.it/canale_scienza/notizie/spazio_astronomia/2026/08/21/scoperta-una-mega-terra-e-rocciosa-e-con-una-massa-23-volte-maggiore_946e4e1e-7f90-40f8-b9d3-f1e26a4cb6af.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/23/difende-la-madre-e-il-compagno-lo-accoltella-15enne-in-ospedale_fda1a530-673a-4dc5-a386-e3644e1ba749.html)
 
-### Cultura e sport: Europei di volley femminile, l'Italia di Velasco vince ancora e resta a punteggio pieno
-La nazionale italiana di volley femminile guidata da Julio Velasco ha superato 3-0 anche il Montenegro allo Scandinavium di Göteborg, dopo aver aperto il torneo con un netto successo sulla Croazia. Le azzurre, trascinate da Egonu e Antropova, restano dunque a punteggio pieno nel proprio girone degli Europei 2026.
+### Cronaca: incidente stradale in Friuli, morta una bambina di 11 anni
+Lungo la statale Pontebbana, nel comune di Basiliano (Udine), l'auto guidata dal padre di due sorelle è uscita di strada finendo contro un platano: la bambina di 11 anni è morta poco dopo il ricovero in ospedale, mentre la sorellina di 4 anni resta in condizioni gravissime in terapia intensiva. Il padre, 45 anni, ha riportato un trauma cranico e uno toracico ma non sarebbe in pericolo di vita.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/sport/pallavolo/2026/08/22/europei-pallavolo-altra-vittoria-per-le-azzurre-3-0-al-montenegro_dcc9bfab-29ae-4cb6-b7b4-7b92ea4620ba.html)
+Fonte: [ANSA Friuli Venezia Giulia](https://www.ansa.it/friuliveneziagiulia/notizie/2026/08/23/auto-contro-platano-gravissime-due-sorelline_5d5f4a1f-6151-4258-b3cf-aade643dde5b.html)
 
-### Cultura e sport: Giochi del Mediterraneo, l'Italia seconda nel medagliere dietro la Turchia
-Nella seconda giornata di gare dei XX Giochi del Mediterraneo di Taranto l'Italia ha conquistato un tris di ori, salendo al secondo posto nel medagliere generale alle spalle della Turchia, con buoni risultati soprattutto nel nuoto. La rassegna, che vede impegnati oltre 4.000 atleti di 26 Paesi fino al 3 settembre, prosegue con nuove finali in programma nelle prossime giornate in diversi comuni pugliesi.
+### Scienza e tecnologia: una nuova tecnica di lettura del Dna promette diagnosi più precise
+Un nuovo metodo di sequenziamento genetico consente di leggere frammenti di Dna più lunghi e di identificare strutture complesse finora difficili da individuare, aprendo la strada a diagnosi più accurate per un ampio gruppo di malattie genetiche rare, fra cui la corea di Huntington e alcune forme di demenza. La tecnica, descritta su una rivista scientifica internazionale, potrebbe ridurre i tempi necessari per arrivare a una diagnosi certa nei pazienti con sintomi complessi.
 
-Fonte: [OA Sport](https://www.oasport.it/2026/08/medagliere-giochi-del-mediterraneo-2026-classifica-ori-argenti-e-bronzi/)
+Fonte: [ANSA](https://www.ansa.it/canale_scienza/notizie/biotech/2026/08/22/diagnosi-piu-precise-da-una-nuova-tecnica-per-leggere-il-dna_1c713743-4de7-47fa-9ee2-5a072ce4033a.html)
+
+### Cultura e sport: Europei di volley femminile, l'Italia batte anche la Svezia e vola agli ottavi
+La nazionale di Julio Velasco ha superato 3-0 (25-18, 25-23, 25-14) le padrone di casa della Svezia a Göteborg, centrando la terza vittoria in altrettante partite del girone e conquistando con anticipo la qualificazione agli ottavi di finale degli Europei 2026. Trascinanti le prestazioni di Antropova, top scorer dell'incontro, mentre il premio di miglior giocatrice è andato alla centrale Fahr.
+
+Fonte: [Eurosport](https://www.eurosport.it/pallavolo/europei-femminili-2026-italia-missione-quasi-compiuta-svezia-ko-3-0-e-ottavi-degli-europei-ipotecati.-antropova-e-devastante-fersino-super_sto23330536/story.shtml)
 
 ---
 *Questa rassegna è generata automaticamente da un'intelligenza artificiale e non è verificata da un redattore umano.*
