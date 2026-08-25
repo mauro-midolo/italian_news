@@ -1,64 +1,59 @@
-# Rassegna Globale – Lunedì 24 agosto 2026
+# Rassegna Globale – Martedì 25 agosto 2026
 
-### Politica: il Viminale ferma la nave Sea Watch 5, scontro con la ong
-Il ministro dell'Interno Matteo Piantedosi ha disposto un fermo amministrativo di 45 giorni e una multa di 7.500 euro per la nave Sea Watch 5, accusata di non aver rispettato gli obblighi di legge durante un soccorso effettuato il 13 agosto in acque internazionali. Il Viminale sostiene che le attività di ricerca e salvataggio debbano essere coordinate dalle autorità statali competenti e non gestite autonomamente dalle organizzazioni umanitarie. La ong tedesca ha respinto le accuse, definendo "fantasma" il centro di coordinamento libico e rivendicando di non voler collaborare con i trafficanti.
+### Politica: Vannacci presenta il programma di Futuro Nazionale, tra educazione militare e stop al "woke"
+Il generale Roberto Vannacci ha reso noto il programma elettorale del suo partito Futuro Nazionale, che propone moduli di educazione alla difesa nelle scuole superiori, campi di formazione militare su base volontaria, sgravi fiscali crescenti per le famiglie numerose e il divieto di contenuti ritenuti "genderisti" in tv in fascia protetta. Il programma definisce l'aborto "non un diritto", pur senza toccare la legge 194, e propone di rendere reato universale gli interventi di transizione di genere sui minori. Le proposte hanno acceso le reazioni delle opposizioni e di parte della maggioranza.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/23/piantedosi-ferma-la-sea-watch-multa-e-stop-di-45-giorni_8571281d-be31-49fa-aafd-7f38479c2042.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/24/ecco-litalia-di-vannacci-educazione-militare-piu-figli-e-meno-woke_b6d1e044-6f75-481e-ab01-a577080a9cbc.html)
 
-### Politica: terremoto nel centrodestra calabrese, l'ex deputato di Forza Italia Giannetta passa con Vannacci
-In vista delle elezioni suppletive di fine settembre nel collegio di Reggio Calabria, l'ex parlamentare azzurro Domenico Giannetta ha lasciato Forza Italia per candidarsi con Futuro Nazionale, il partito del generale Roberto Vannacci. La scelta ha provocato la rottura con il presidente della Regione Calabria Roberto Occhiuto, che lo ha escluso dalla maggioranza, e le critiche del coordinatore regionale di Forza Italia Francesco Cannizzaro. Giannetta ha spiegato la decisione con la volontà di rappresentare in Parlamento gli interessi della Calabria.
+### Politica: nel decennale del sisma di Amatrice, Mattarella chiede di accelerare la ricostruzione
+Nel giorno del decimo anniversario del terremoto che nell'agosto 2016 colpì il Centro Italia causando quasi 300 vittime, il presidente della Repubblica Sergio Mattarella ha invitato a completare rapidamente la ricostruzione dei territori colpiti, definendo l'evento un monito costante sulla prevenzione sismica. Lo stato di emergenza per l'area è stato prorogato fino al 31 dicembre 2026 e Mattarella ha annunciato che inaugurerà il prossimo anno scolastico ad Amatrice il 21 settembre.
 
-Fonte: [CityNow](https://www.citynow.it/domenico-giannetta-futuro-nazionale-suppletive-reggio-calabria/)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/24/dieci-anni-dal-sisma-di-amatrice-mattarella-sia-monito-per-la-prevenzione_861ad054-17c8-4d17-baf8-cd7380410b08.html)
 
-### Economia: nuova proroga di due giorni per lo sconto sulle accise del gasolio
-Il ministro dell'Economia Giancarlo Giorgetti ha firmato un decreto che estende al 25 e 26 agosto, tramite il meccanismo delle accise mobili, la riduzione di 17 centesimi al litro sul prezzo del gasolio, in scadenza nella notte. La misura, finanziata con 20,8 milioni di euro di maggior gettito Iva registrato a luglio, non riguarda la benzina, il cui prezzo resta invariato. Il taglio era stato introdotto per contenere l'aumento dei prezzi dei carburanti nel periodo del controesodo estivo.
+### Economia: Bruxelles frena sulla tassa Ue sugli extraprofitti petroliferi, la scelta spetta agli Stati
+Italia, Germania, Austria, Polonia, Portogallo e Spagna avevano chiesto alla Commissione europea di introdurre una tassa comune sugli extraprofitti delle compagnie petrolifere, che nel primo semestre 2026 avrebbero accumulato circa 7,5 miliardi di euro di margini straordinari legati al caro energia. Bruxelles ha risposto che la tassazione degli extraprofitti resta di competenza dei singoli Stati membri, rimandando il tema al vertice dei ministri delle Finanze Ue di metà settembre a Dublino. La leader del Pd Elly Schlein ha sollecitato il governo Meloni ad agire autonomamente, non avendo più alibi per rinviare.
 
-Fonte: [Virgilio Notizie](https://www.virgilio.it/notizie/sconto-sul-diesel-fino-al-26-agosto-con-le-accise-mobili-giorgetti-firma-il-decreto-caos-sulla-benzina-1778010)
+Fonte: [Il Fatto Quotidiano](https://www.ilfattoquotidiano.it/2026/08/24/extraprofitti-tassazione-commissione-ue-notizie/8487050/)
 
-### Economia: Shein pronta allo sbarco in Borsa a Hong Kong dal 1° settembre
-Il colosso cinese della moda low cost avvierà le contrattazioni delle proprie azioni sul listino di Hong Kong dal 1° settembre, offrendo 280 milioni di titoli a un prezzo compreso fra 47,60 e 49,50 dollari di Hong Kong. L'operazione punta a raccogliere circa 1,5 miliardi di euro e a una valutazione di mercato fino a 23 miliardi di euro, e rappresenta una delle quotazioni più attese dell'anno nel settore del fast fashion.
+### Economia: il governo punta a tagliare l'Irpef fino a 60mila euro di reddito nella prossima manovra
+Il sottosegretario al Lavoro Claudio Durigon ha annunciato che l'esecutivo intende estendere l'aliquota Irpef al 33%, oggi applicata tra 28mila e 50mila euro di reddito, fino alla soglia dei 60mila euro, riducendo così il carico fiscale sui redditi medio-alti. Secondo le prime stime il beneficio andrebbe da circa 100 euro per chi guadagna intorno ai 51mila euro fino a 1.000 euro per chi arriva o supera i 60mila, con un costo complessivo stimato in circa 1,2 miliardi di euro. La misura non è ancora formalizzata e dovrà essere definita nella legge di bilancio 2027.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/24/shein-si-quotera-in-borsa-dal-1-settembre_7e06960e-3167-434a-9691-5d1b0d2c63f5.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/23/durigon-in-manovra-contiamo-di-ridurre-lirpef-per-i-redditi-fino-a-60mila-euro_037d6182-11aa-4379-b8a9-55e109a7215d.html)
 
-### Estero: piano di pace per l'Ucraina, i "volenterosi" si riuniscono a Kiev per l'indipendenza
-Nel giorno dell'anniversario dell'indipendenza ucraina, il presidente Volodymyr Zelensky ha presentato un piano di pace elaborato insieme a Stati Uniti e Unione Europea, mentre la Coalizione dei volenterosi si è riunita in formato misto nella capitale. Il premier britannico Andy Burnham, al suo primo viaggio internazionale dall'incarico, ha annunciato che Londra ha autorizzato la condivisione con Francia e Ucraina di informazioni classificate sui componenti dei missili Scalp, per accelerarne l'assemblaggio. Secondo il Wall Street Journal, intanto, la Russia starebbe conducendo esercitazioni nazionali per testare la propria capacità di gestire una nuova mobilitazione.
+### Economia: la guerra in Iran costa all'Italia quasi 12 miliardi di euro in sei mesi, secondo la Cna
+Un'analisi della Cna stima che, tra marzo e agosto 2026, il rincaro dei prezzi di carburanti, elettricità e gas legato alla crisi in Iran sia costato all'Italia circa 11,6 miliardi di euro in più rispetto ai livelli precedenti la crisi. Di questi, circa 5,8 miliardi derivano dal caro carburanti e il resto da elettricità e gas, con le piccole imprese indicate come le più esposte per la minore capacità contrattuale sui mercati energetici. A luglio la domanda elettrica italiana ha toccato un massimo storico per il mese, in aumento dell'8,3% sul 2025.
 
-Fonte: [Sky TG24](https://tg24.sky.it/mondo/2026/08/24/guerra-ucraina-russia-ultime-notizie-diretta)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/24/cna-con-la-guerra-in-iran-allitalia-un-conto-energetico-da-quasi-12-miliardi_9b739411-85f4-4a3a-b012-21d81370091c.html)
 
-### Estero: due bambini morti a Krasnodar, colpiti da detriti di droni ucraini abbattuti
-Frammenti di droni ucraini intercettati dalla difesa antiaerea russa hanno colpito un asilo privato nella città russa di Krasnodar, causando la morte di due bambini e il ferimento di altri sette minori e due adulti; nelle vicinanze ha preso fuoco anche un deposito della società di e-commerce Ozon. È il terzo giorno consecutivo di attacchi contro le infrastrutture logistiche russe, nell'ambito della campagna ucraina contro i magazzini ritenuti funzionali al rifornimento dell'esercito di Mosca.
+### Estero: la Russia colpisce nella notte quattro città ucraine, contrattacco su una raffineria a Krasnodar
+Nella notte la Russia ha bombardato simultaneamente Kiev, Kharkiv, Zaporizhzhia e Dnipro, causando incendi e danni a edifici residenziali: a Kiev i detriti di un drone hanno colpito un palazzo di 16 piani, mentre a Kharkiv un razzo ha causato almeno una vittima nel quartiere Osnovyansky. In risposta, l'esercito ucraino ha colpito la raffineria Afipsky nella regione russa di Krasnodar, tra le maggiori del sud della Russia, provocando un incendio e, secondo le autorità locali, due morti.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/24/detriti-di-droni-ucraini-su-un-asilo-della-citta-russa-di-krasnodar-morti-2-bambini_bd0344a6-6c51-410e-ac89-f6e3a4932067.html)
+Fonte: [Sky TG24](https://tg24.sky.it/mondo/2026/08/25/guerra-ucraina-russia-ultime-notizie-diretta)
 
-### Estero: Iran, il presidente Pezeshkian rivendica la tenuta del Paese mentre gli Usa preparano nuove sanzioni
-Nel discorso per la Settimana del Governo, il presidente iraniano Masoud Pezeshkian ha affermato che l'obiettivo del "nemico" era il collasso dell'Iran ma che questo non si è realizzato, ribadendo che Teheran non si arrenderà. Il segretario al Tesoro Usa Scott Bessent ha annunciato l'imminente varo di un nuovo pacchetto di sanzioni, definito la "più grande offensiva finanziaria" mai lanciata contro l'Iran, avvertendo i Paesi che collaborano con Teheran del rischio di isolamento globale. Il traffico navale nello stretto di Hormuz resta fortemente ridotto, con meno di 20 navi transitate nel fine settimana.
+### Estero: gli Stati Uniti annunciano nuove sanzioni contro l'Iran, colpite oltre 60 entità
+Il segretario al Tesoro Usa Scott Bessent ha reso note nuove misure restrittive contro Teheran nell'ambito della cosiddetta "Operation Economic Outcast", che colpiscono oltre 60 tra organizzazioni, individui e imbarcazioni in diversi Paesi ritenuti funzionali all'accesso iraniano a tecnologie nucleari e missilistiche vietate. L'Iran ha promesso contromisure economiche e minacciato azioni dirette contro interessi statunitensi, mentre il Pakistan ha riferito di progressi nei colloqui di mediazione per la riapertura dello stretto di Hormuz.
 
-Fonte: [Sky TG24](https://tg24.sky.it/mondo/2026/08/24/usa-iran-accordo-guerra-trump-news-diretta)
+Fonte: [Sky TG24](https://tg24.sky.it/mondo/2026/08/25/usa-iran-accordo-guerra-trump-news-diretta)
 
-### Cronaca: Amatrice ricorda le vittime del terremoto, dieci anni dopo
-Alle 3:36 di notte, l'ora esatta del sisma che il 24 agosto 2016 devastò la cittadina in provincia di Rieti causando 239 vittime, le campane hanno suonato una volta per ogni persona morta e gli abitanti hanno sfilato in silenzio con le fiaccole intorno alla torre civica, uno dei pochi edifici rimasti in piedi. Nel pomeriggio è prevista una messa officiata dal cardinale Matteo Zuppi, con la partecipazione della presidente del Consiglio Giorgia Meloni.
+### Estero: dal vertice dei "volenterosi" a Kiev nuovi aiuti Ue da 6,1 miliardi per la difesa ucraina
+Nella riunione della Coalizione dei volenterosi a Kiev, a cui ha partecipato anche il neo premier britannico Andy Burnham, l'Unione europea ha approvato nuovi aiuti da 6,1 miliardi di euro destinati a sistemi di difesa aerea, missili e munizioni per l'Ucraina. I partecipanti hanno confermato l'intenzione di condurre grandi esercitazioni militari congiunte in ottobre e novembre per dimostrare la capacità operativa della coalizione, mentre l'Italia non ha preso parte in modo formale all'iniziativa.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/24/amatrice-ricorda-con-il-silenzio-e-una-fiaccolata-le-vittime-del-terremoto_83147766-c223-463a-8432-75c6060f5ff0.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/2026/08/24/ucraina-oggi-la-riunione-dei-volenterosi-a-kiev-arriva-burnham.-droni-sulla_8740da8f-be3e-4b84-aa04-10c4102e6855.html)
 
-### Cronaca: 15enne accoltellato a La Spezia mentre difende la madre
-Un ragazzo di 15 anni è stato ferito con un coltello da cucina dal compagno della madre, 38 anni, al culmine di una lite scoppiata in un appartamento del quartiere Umbertino, dopo essere intervenuto per proteggerla. Il giovane, uscito in strada a piedi nudi in cerca di aiuto, è stato soccorso da un passante che ha allertato il 118 ed è stato trasportato all'ospedale Sant'Andrea con ferite giudicate non gravi. L'uomo è stato arrestato.
+### Cronaca: senzatetto pestato a morte a Caserta per un debito di 50 euro, fermato il presunto aggressore
+Un uomo di 62 anni, senza fissa dimora, è morto in ospedale due giorni dopo essere stato aggredito a pugni e calci in piazza Sant'Anna a Caserta, in seguito a una lite per un debito di appena 50 euro. Il video del pestaggio, ripreso con un cellulare, è diventato virale sui social nonostante nessuno dei presenti sia intervenuto per soccorrere la vittima. La procura di Santa Maria Capua Vetere ha fermato un 40enne, che durante l'interrogatorio ha ammesso sostanzialmente le proprie responsabilità.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/23/difende-la-madre-e-il-compagno-lo-accoltella-15enne-in-ospedale_fda1a530-673a-4dc5-a386-e3644e1ba749.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/24/clochard-pestato-a-morte-per-50-euro-nessuno-lo-ha-aiutato_5bba7e8f-2a24-45f9-998e-c528017a78fd.html)
 
-### Cronaca: incidente stradale in Friuli, morta una bambina di 11 anni
-Lungo la statale Pontebbana, nel comune di Basiliano (Udine), l'auto guidata dal padre di due sorelle è uscita di strada finendo contro un platano: la bambina di 11 anni è morta poco dopo il ricovero in ospedale, mentre la sorellina di 4 anni resta in condizioni gravissime in terapia intensiva. Il padre, 45 anni, ha riportato un trauma cranico e uno toracico ma non sarebbe in pericolo di vita.
+### Scienza e tecnologia: scoperta S301, la stella più veloce mai osservata nella Via Lattea
+Un team internazionale, tramite le osservazioni del Very Large Telescope Interferometer dell'Osservatorio Europeo Australe in Cile, ha individuato la stella S301, che orbita attorno al buco nero supermassiccio Sagittarius A* al centro della nostra galassia viaggiando a circa 25mila chilometri al secondo, oltre l'8% della velocità della luce. La stella compie un'orbita completa in appena 8,7 anni, passando a una distanza dal buco nero pari a circa 12 volte quella tra Terra e Sole: una vicinanza che la rende una sonda naturale per studiare la dinamica dei buchi neri.
 
-Fonte: [ANSA Friuli Venezia Giulia](https://www.ansa.it/friuliveneziagiulia/notizie/2026/08/23/auto-contro-platano-gravissime-due-sorelline_5d5f4a1f-6151-4258-b3cf-aade643dde5b.html)
+Fonte: [ANSA](https://www.ansa.it/canale_scienza/notizie/spazio_astronomia/2026/08/24/scoperta-la-stella-piu-veloce-della-via-lattea-sfreccia-a-25mila-km-al-secondo_27599392-5dda-4a15-9060-bea4e6b6fb7e.html)
 
-### Scienza e tecnologia: una nuova tecnica di lettura del Dna promette diagnosi più precise
-Un nuovo metodo di sequenziamento genetico consente di leggere frammenti di Dna più lunghi e di identificare strutture complesse finora difficili da individuare, aprendo la strada a diagnosi più accurate per un ampio gruppo di malattie genetiche rare, fra cui la corea di Huntington e alcune forme di demenza. La tecnica, descritta su una rivista scientifica internazionale, potrebbe ridurre i tempi necessari per arrivare a una diagnosi certa nei pazienti con sintomi complessi.
+### Cultura e sport: ai Giochi del Mediterraneo di Taranto l'Italia domina in nuoto e ciclismo
+Dopo tre giornate di gare ai XX Giochi del Mediterraneo di Taranto 2026, l'Italia guida il medagliere con 54 medaglie complessive, ben distanziando Turchia e Grecia. Nel ciclismo su strada femminile, sul circuito della Valle d'Itria con arrivo sul lungomare di Taranto, ha vinto Rachele Barbieri davanti alle compagne di squadra Martina Fidanza e Barbara Guarischi, mentre tra gli uomini si è imposto Tommaso Dati. Il nuoto si conferma un'altra disciplina di grande dominio azzurro nel bilancio delle medaglie.
 
-Fonte: [ANSA](https://www.ansa.it/canale_scienza/notizie/biotech/2026/08/22/diagnosi-piu-precise-da-una-nuova-tecnica-per-leggere-il-dna_1c713743-4de7-47fa-9ee2-5a072ce4033a.html)
-
-### Cultura e sport: Europei di volley femminile, l'Italia batte anche la Svezia e vola agli ottavi
-La nazionale di Julio Velasco ha superato 3-0 (25-18, 25-23, 25-14) le padrone di casa della Svezia a Göteborg, centrando la terza vittoria in altrettante partite del girone e conquistando con anticipo la qualificazione agli ottavi di finale degli Europei 2026. Trascinanti le prestazioni di Antropova, top scorer dell'incontro, mentre il premio di miglior giocatrice è andato alla centrale Fahr.
-
-Fonte: [Eurosport](https://www.eurosport.it/pallavolo/europei-femminili-2026-italia-missione-quasi-compiuta-svezia-ko-3-0-e-ottavi-degli-europei-ipotecati.-antropova-e-devastante-fersino-super_sto23330536/story.shtml)
+Fonte: [ANSA](https://www.ansa.it/puglia/notizie/speciali/xx_giochi_del_mediterraneo_taranto_2026/2026/08/24/giochi-mediterraneo-nuoto-e-ciclismo-litalia-fa-il-pieno-di-medaglie_d8be40c5-be95-4b4c-80bc-641801253824.html)
 
 ---
 *Questa rassegna è generata automaticamente da un'intelligenza artificiale e non è verificata da un redattore umano.*
