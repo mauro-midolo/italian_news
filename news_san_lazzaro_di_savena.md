@@ -1,29 +1,29 @@
-# Notizie di San Lazzaro di Savena – Martedì 25 agosto 2026
+# Notizie di San Lazzaro di Savena – Mercoledì 26 agosto 2026
 
-### Eventi: continua l'Arena Understars, il cinema all'aperto di via Emilia 92
-Sotto il portico del Palazzo Comunale prosegue fino al 5 settembre la rassegna di cinema all'aperto Arena Understars, inserita nel cartellone di Bologna Estate 2026 e curata da Cinema Galliera, con proiezioni serali dedicate al cinema indipendente e d'autore italiano e internazionale. Fino al 20 settembre i film italiani ed europei restano proposti al prezzo promozionale di 3,50 euro.
-
-Fonte: [Cinema Emilia-Romagna](https://cinema.emiliaromagnacultura.it/en/luogo/arena-via-emilia-92-2/)
-
-### Eventi: mercoledì torna il mercato contadino di via Repubblica
-Prosegue l'appuntamento mensile con il mercato contadino di via Repubblica, che porta in città la vendita diretta di frutta, verdura e altri prodotti agricoli da parte delle aziende del territorio; il prossimo incontro è in programma mercoledì 26 agosto.
+### Eventi: torna oggi il mercato contadino di via Repubblica
+Prosegue l'appuntamento mensile con il mercato contadino di via della Repubblica, che porta in città la vendita diretta di frutta, verdura e altri prodotti agricoli da parte delle aziende del territorio; il prossimo incontro è in programma proprio oggi, mercoledì 26 agosto.
 
 Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/argomenti/turismo/grandi-eventi)
 
-### Viabilità (area metropolitana di Bologna): Legambiente protesta contro l'ampliamento del Passante
-Dopo l'accordo raggiunto tra Ministero dei Trasporti, Comune di Bologna, Regione Emilia-Romagna e Autostrade per la realizzazione del Passante di mezzo, che attraversa anche il territorio a ridosso di San Lazzaro, Legambiente ha espresso forte contrarietà al progetto. L'associazione ambientalista contesta l'aumento delle corsie perché privilegerebbe il trasporto su gomma e ridurrebbe il suolo permeabile, chiedendo invece di accelerare sugli investimenti per la mobilità su ferro, come il nodo ferroviario bolognese e il tram.
+### Eventi: continua l'Arena Understars, il cinema all'aperto di via Emilia 92
+Sotto il portico del Palazzo Comunale prosegue fino al 5 settembre la rassegna di cinema all'aperto Arena Understars, inserita nel cartellone di Bologna Estate 2026 e curata da Cinema Galliera, con proiezioni serali dedicate al cinema indipendente e d'autore italiano e internazionale. I film italiani ed europei restano proposti al prezzo promozionale di 3,50 euro.
 
-Fonte: [BolognaToday](https://www.bolognatoday.it/cronaca/legambiente-passante-protesta.html)
+Fonte: [Cinema Emilia-Romagna](https://cinema.emiliaromagnacultura.it/en/luogo/arena-via-emilia-92-2/)
 
-### Cronaca (area metropolitana di Bologna): caldo nei nidi, un padre denuncia il malore del figlio di un anno e mezzo
-Un padre bolognese ha raccontato pubblicamente il malore accusato dal figlio di un anno e mezzo per il caldo eccessivo all'interno del proprio asilo nido, chiedendo al Comune di installare condizionatori negli edifici scolastici e di sospendere il pagamento delle rette nei mesi più caldi. La vicenda si inserisce in una protesta più ampia delle famiglie bolognesi, sostenuta anche dai sindacati, che chiedono chiarezza sui fondi destinati al raffrescamento di nidi e materne in vista della riapertura di settembre.
+### Viabilità: via Altura chiusa fino al 30 settembre per lavori di riqualificazione
+Resta chiusa al transito via Altura, nel tratto compreso tra via Bellaria e il nuovo raccordo con la rotatoria realizzata all'incrocio tra via Rio Polo, via Bellaria e via Fratelli Canova, per consentire lavori di riqualificazione stradale. Il cantiere, legato al più ampio intervento sulla viabilità attorno all'ospedale Bellaria, dovrebbe concludersi entro il 30 settembre.
 
-Fonte: [BolognaToday](https://www.bolognatoday.it/scuola/caldo-negli-asili-nido-il-papa-denuncia-il-mio-bimbo-di-un-anno-e-mezzo-ha-avuto-un-malore.html)
+Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/avvisi/lavori-in-corso)
 
-### Amministrazione (area metropolitana di Bologna): botta e risposta sulla sicurezza tra Pd e opposizioni
-Il segretario provinciale del Pd bolognese Enrico Di Stasi ha chiesto un maggiore investimento del Comune di Bologna sulla polizia locale, dopo alcuni episodi di aggressione a agenti in piazza XX Settembre e al personale sanitario del Sant'Orsola, sostenendo che la sicurezza sia un diritto dei cittadini e non un tema da propaganda. Le opposizioni di centrodestra hanno replicato duramente, accusando la maggioranza uscente di essersi accorta del problema soltanto a pochi mesi dal voto amministrativo.
+### Amministrazione: pubblicata la graduatoria definitiva dei nidi d'infanzia per il 2026/2027
+Il Comune ha reso nota la graduatoria definitiva per l'accesso ai nidi d'infanzia comunali e privati convenzionati per l'anno educativo 2026/2027, consultabile in ordine di protocollo e di punteggio sul portale e.Civis. L'assegnazione dei posti riguarda le famiglie con bambini tra i 6 mesi e i 3 anni che hanno partecipato al bando pubblicato nei mesi scorsi.
 
-Fonte: [BolognaToday](https://www.bolognatoday.it/politica/sicurezza-partito-democratico-lega-fratelli-italia.html)
+Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/avvisi/graduatoria-definitiva-nidi-infanzia-2026-2027)
+
+### Eventi: alla Mediateca ripartono in ottobre i corsi per adulti e bambini
+La Mediateca di via Caselle sta organizzando la nuova offerta di corsi che ripartirà a ottobre, tra lingue straniere, fotografia, scrittura creativa e arte, con l'apertura delle iscrizioni online. Per i corsi di lingua è previsto un test di livello propedeutico all'iscrizione, utile a comporre classi omogenee; le attività verranno attivate al raggiungimento di un numero minimo di partecipanti.
+
+Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/notizie/corsi-della-mediateca)
 
 ---
 *Questa rassegna è generata automaticamente da un'intelligenza artificiale e non è verificata da un redattore umano.*

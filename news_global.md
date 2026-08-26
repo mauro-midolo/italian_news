@@ -1,59 +1,54 @@
-# Rassegna Globale – Martedì 25 agosto 2026
+# Rassegna Globale – Mercoledì 26 agosto 2026
 
-### Politica: Vannacci presenta il programma di Futuro Nazionale, tra educazione militare e stop al "woke"
-Il generale Roberto Vannacci ha reso noto il programma elettorale del suo partito Futuro Nazionale, che propone moduli di educazione alla difesa nelle scuole superiori, campi di formazione militare su base volontaria, sgravi fiscali crescenti per le famiglie numerose e il divieto di contenuti ritenuti "genderisti" in tv in fascia protetta. Il programma definisce l'aborto "non un diritto", pur senza toccare la legge 194, e propone di rendere reato universale gli interventi di transizione di genere sui minori. Le proposte hanno acceso le reazioni delle opposizioni e di parte della maggioranza.
+### Politica: consiglio dei ministri d'urgenza sul caro carburanti
+La premier Giorgia Meloni ha convocato per oggi un consiglio dei ministri dedicato al rincaro di benzina e gasolio, dopo una call con i vicepresidenti Antonio Tajani e Matteo Salvini, il leader di Noi Moderati Maurizio Lupi e il ministro dell'Economia Giancarlo Giorgetti. Sul tavolo una misura "ponte" per gestire la fine dello sconto sulle accise mobili, attivo da settimane grazie all'extra-gettito Iva ma ormai al limite delle risorse disponibili. Il governo insegue da mesi l'andamento dei prezzi con proroghe di breve durata, in attesa di una soluzione strutturale.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/24/ecco-litalia-di-vannacci-educazione-militare-piu-figli-e-meno-woke_b6d1e044-6f75-481e-ab01-a577080a9cbc.html)
+Fonte: [LSD Magazine](https://www.lsdmagazine.com/2026/08/26/caro-carburanti-oggi-il-consiglio-dei-ministri-sul-tavolo-una-misura-ponte/)
 
-### Politica: nel decennale del sisma di Amatrice, Mattarella chiede di accelerare la ricostruzione
-Nel giorno del decimo anniversario del terremoto che nell'agosto 2016 colpì il Centro Italia causando quasi 300 vittime, il presidente della Repubblica Sergio Mattarella ha invitato a completare rapidamente la ricostruzione dei territori colpiti, definendo l'evento un monito costante sulla prevenzione sismica. Lo stato di emergenza per l'area è stato prorogato fino al 31 dicembre 2026 e Mattarella ha annunciato che inaugurerà il prossimo anno scolastico ad Amatrice il 21 settembre.
+### Politica: nei sondaggi Vannacci supera Avs e diventa il quinto partito italiano
+Le ultime rilevazioni demoscopiche indicano Futuro Nazionale di Roberto Vannacci al 7,2%, in sorpasso sull'Alleanza Verdi e Sinistra e ormai a un soffio da Forza Italia, ferma al 7,4%. Il partito, nato poco più di un anno fa, ha già superato stabilmente la Lega in diverse rilevazioni, mentre gli elettori di Fratelli d'Italia si dicono in maggioranza favorevoli a un suo ingresso in coalizione. La crescita costante del movimento sta spingendo il centrodestra a fare i conti con un nuovo interlocutore.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/24/dieci-anni-dal-sisma-di-amatrice-mattarella-sia-monito-per-la-prevenzione_861ad054-17c8-4d17-baf8-cd7380410b08.html)
+Fonte: [La Notizia Giornale](https://www.lanotiziagiornale.it/sondaggi-politici-oggi-24-agosto-vannacci-sorpasso-avs/)
 
-### Economia: Bruxelles frena sulla tassa Ue sugli extraprofitti petroliferi, la scelta spetta agli Stati
-Italia, Germania, Austria, Polonia, Portogallo e Spagna avevano chiesto alla Commissione europea di introdurre una tassa comune sugli extraprofitti delle compagnie petrolifere, che nel primo semestre 2026 avrebbero accumulato circa 7,5 miliardi di euro di margini straordinari legati al caro energia. Bruxelles ha risposto che la tassazione degli extraprofitti resta di competenza dei singoli Stati membri, rimandando il tema al vertice dei ministri delle Finanze Ue di metà settembre a Dublino. La leader del Pd Elly Schlein ha sollecitato il governo Meloni ad agire autonomamente, non avendo più alibi per rinviare.
+### Economia: verso la fine dello sconto sulle accise, rincaro atteso per benzina e gasolio
+Lo sconto di 17 centesimi al litro sul gasolio, prorogato più volte tramite il meccanismo delle accise mobili finanziato con l'extra-gettito Iva, è arrivato al 26 agosto senza una proroga strutturale in vista. Il ministro Giorgetti aveva firmato l'ultimo decreto stanziando 20,8 milioni di euro, ma allo scadere della misura è atteso un rialzo di circa 17 centesimi al litro, pari a 8-9 euro in più per un pieno da 50 litri. L'aumento arriva nei giorni del controesodo estivo, quando il traffico su autostrade e statali è ai massimi stagionali.
 
-Fonte: [Il Fatto Quotidiano](https://www.ilfattoquotidiano.it/2026/08/24/extraprofitti-tassazione-commissione-ue-notizie/8487050/)
+Fonte: [Sky TG24](https://tg24.sky.it/economia/2026/08/24/carburanti-accise-prezzi-benzina-diesel)
 
-### Economia: il governo punta a tagliare l'Irpef fino a 60mila euro di reddito nella prossima manovra
-Il sottosegretario al Lavoro Claudio Durigon ha annunciato che l'esecutivo intende estendere l'aliquota Irpef al 33%, oggi applicata tra 28mila e 50mila euro di reddito, fino alla soglia dei 60mila euro, riducendo così il carico fiscale sui redditi medio-alti. Secondo le prime stime il beneficio andrebbe da circa 100 euro per chi guadagna intorno ai 51mila euro fino a 1.000 euro per chi arriva o supera i 60mila, con un costo complessivo stimato in circa 1,2 miliardi di euro. La misura non è ancora formalizzata e dovrà essere definita nella legge di bilancio 2027.
+### Economia: Mps lancia una doppia offerta da 34 miliardi su Banco Bpm e Banca Generali
+Monte dei Paschi ha reso note le condizioni delle due offerte pubbliche di scambio lanciate su Banco Bpm, valutata 25,3 miliardi di euro con un rapporto di 1,567 azioni Mps per ogni titolo conferito, e su Banca Generali, valutata 8,7 miliardi con un premio del 10% sui prezzi ufficiali del 19 agosto. L'istituto senese ha inoltre proposto ai soci una distribuzione straordinaria da 4 miliardi di euro, condizionata al via libera all'operazione, nell'ambito di un piano di remunerazione che punta a superare i 15 miliardi complessivi entro il 2030. Il mercato ha accolto con freddezza l'annuncio, con i titoli coinvolti in calo per lo scetticismo sulla fattibilità pratica della manovra.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/23/durigon-in-manovra-contiamo-di-ridurre-lirpef-per-i-redditi-fino-a-60mila-euro_037d6182-11aa-4379-b8a9-55e109a7215d.html)
+Fonte: [MilanoFinanza](https://www.milanofinanza.it/news/mps-sfida-intesa-sanpaolo-con-doppia-ops-da-34-miliardi-su-banco-bpm-e-banca-generali-nasce-un-polo-da-202608210801363028)
 
-### Economia: la guerra in Iran costa all'Italia quasi 12 miliardi di euro in sei mesi, secondo la Cna
-Un'analisi della Cna stima che, tra marzo e agosto 2026, il rincaro dei prezzi di carburanti, elettricità e gas legato alla crisi in Iran sia costato all'Italia circa 11,6 miliardi di euro in più rispetto ai livelli precedenti la crisi. Di questi, circa 5,8 miliardi derivano dal caro carburanti e il resto da elettricità e gas, con le piccole imprese indicate come le più esposte per la minore capacità contrattuale sui mercati energetici. A luglio la domanda elettrica italiana ha toccato un massimo storico per il mese, in aumento dell'8,3% sul 2025.
+### Estero: la Russia colpisce quattro città ucraine nella notte, Kiev risponde su una raffineria russa
+Nella notte tra il 25 e il 26 agosto la Russia ha bombardato simultaneamente Kiev, Kharkiv, Zaporizhzhia e Dnipro, provocando incendi e danni a edifici residenziali: nel quartiere Osnovyansky di Kharkiv un missile ha ucciso una persona, mentre a Zaporizhzhia le vittime sono state due. In risposta, le forze ucraine hanno colpito con droni la raffineria Afipsky nella regione russa di Krasnodar, causando un vasto incendio; secondo il governatore locale i detriti caduti sulla stazione ferroviaria della zona hanno provocato altre due vittime.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/24/cna-con-la-guerra-in-iran-allitalia-un-conto-energetico-da-quasi-12-miliardi_9b739411-85f4-4a3a-b012-21d81370091c.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/europa/2026/08/25/attacchi-russi-nella-notte-colpite-quattro-citta-ucraine_bc3bb7bf-a284-43f5-a697-986d91ffa4b9.html)
 
-### Estero: la Russia colpisce nella notte quattro città ucraine, contrattacco su una raffineria a Krasnodar
-Nella notte la Russia ha bombardato simultaneamente Kiev, Kharkiv, Zaporizhzhia e Dnipro, causando incendi e danni a edifici residenziali: a Kiev i detriti di un drone hanno colpito un palazzo di 16 piani, mentre a Kharkiv un razzo ha causato almeno una vittima nel quartiere Osnovyansky. In risposta, l'esercito ucraino ha colpito la raffineria Afipsky nella regione russa di Krasnodar, tra le maggiori del sud della Russia, provocando un incendio e, secondo le autorità locali, due morti.
+### Estero: raid israeliano su un campo profughi a Gaza, allarme per gli aquiloni incendiari
+Un attacco aereo israeliano ha colpito un edificio nel campo profughi di Bureij, nel centro della Striscia di Gaza, dopo che ai residenti era stato notificato un ordine di evacuazione: un bambino di 4 anni è morto e la madre con la sorella sono rimaste ferite, secondo l'ospedale Al Awda. Nella stessa area i comitati popolari che gestiscono i campi profughi hanno diffuso un avviso ai genitori affinché impediscano ai figli di far volare aquiloni, dopo che Israele ha minacciato una risposta dura in caso di ripresa dei lanci di aquiloni incendiari da parte di Hamas.
 
-Fonte: [Sky TG24](https://tg24.sky.it/mondo/2026/08/25/guerra-ucraina-russia-ultime-notizie-diretta)
+Fonte: [Internazionale](https://www.internazionale.it/ultime-notizie-reuters/2026/08/25/gaza-parents-urged-to-stop-kids-flying-kites-after-israel-warning-to-hamas)
 
-### Estero: gli Stati Uniti annunciano nuove sanzioni contro l'Iran, colpite oltre 60 entità
-Il segretario al Tesoro Usa Scott Bessent ha reso note nuove misure restrittive contro Teheran nell'ambito della cosiddetta "Operation Economic Outcast", che colpiscono oltre 60 tra organizzazioni, individui e imbarcazioni in diversi Paesi ritenuti funzionali all'accesso iraniano a tecnologie nucleari e missilistiche vietate. L'Iran ha promesso contromisure economiche e minacciato azioni dirette contro interessi statunitensi, mentre il Pakistan ha riferito di progressi nei colloqui di mediazione per la riapertura dello stretto di Hormuz.
+### Cronaca: maltempo al Nord, trombe d'aria e voli cancellati a Malpensa
+Un rapido peggioramento di origine atlantica ha portato temporali intensi su gran parte del Centro-Nord: nel Varesotto si sono formate diverse trombe d'aria che hanno causato la cancellazione di voli all'aeroporto di Malpensa, mentre nel Biellese un ciclista è stato travolto dalla piena improvvisa di un torrente. Nubifragi si sono abbattuti anche su Orvieto, con allagamenti e alberi caduti, e la protezione civile ha diramato un'allerta gialla per temporali e rischio idrogeologico in otto regioni tra Piemonte, Lombardia, Liguria, Emilia-Romagna, Lazio, Toscana, Marche e Umbria.
 
-Fonte: [Sky TG24](https://tg24.sky.it/mondo/2026/08/25/usa-iran-accordo-guerra-trump-news-diretta)
+Fonte: [Leggo](https://www.leggo.it/italia/cronache/25_agosto_2026_maltempo_allerta_meteo_dove_quando_trombe_d_aria_malpensa_voli_cancellati_oggi-9724600.html)
 
-### Estero: dal vertice dei "volenterosi" a Kiev nuovi aiuti Ue da 6,1 miliardi per la difesa ucraina
-Nella riunione della Coalizione dei volenterosi a Kiev, a cui ha partecipato anche il neo premier britannico Andy Burnham, l'Unione europea ha approvato nuovi aiuti da 6,1 miliardi di euro destinati a sistemi di difesa aerea, missili e munizioni per l'Ucraina. I partecipanti hanno confermato l'intenzione di condurre grandi esercitazioni militari congiunte in ottobre e novembre per dimostrare la capacità operativa della coalizione, mentre l'Italia non ha preso parte in modo formale all'iniziativa.
+### Cronaca: West Nile, sale a 15 il numero dei morti in Italia
+Il bilancio dei decessi legati al virus West Nile in Italia è salito a 15 dopo la perdita di due pazienti in tre giorni tra Pavia e Napoli, a fronte di oltre 300 casi confermati dall'inizio dell'anno, di cui oltre 150 nella forma neuro-invasiva. La Lombardia resta la regione più colpita, seguita da Piemonte e Veneto, con il contagio ormai diffuso in 60 province di 16 regioni. Rispetto allo stesso periodo dello scorso anno i casi complessivi sono meno numerosi, ma il virus circola su un territorio più esteso.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/2026/08/24/ucraina-oggi-la-riunione-dei-volenterosi-a-kiev-arriva-burnham.-droni-sulla_8740da8f-be3e-4b84-aa04-10c4102e6855.html)
+Fonte: [Federazione Nazionale degli Ordini dei Biologi](https://www.fnob.it/2026/08/25/allerta-west-nile-in-italia-due-decessi-in-pochi-giorni-e-300-casi-confermati-limpegno-dei-biologi-nel-monitoraggio-del-virus/)
 
-### Cronaca: senzatetto pestato a morte a Caserta per un debito di 50 euro, fermato il presunto aggressore
-Un uomo di 62 anni, senza fissa dimora, è morto in ospedale due giorni dopo essere stato aggredito a pugni e calci in piazza Sant'Anna a Caserta, in seguito a una lite per un debito di appena 50 euro. Il video del pestaggio, ripreso con un cellulare, è diventato virale sui social nonostante nessuno dei presenti sia intervenuto per soccorrere la vittima. La procura di Santa Maria Capua Vetere ha fermato un 40enne, che durante l'interrogatorio ha ammesso sostanzialmente le proprie responsabilità.
+### Scienza e tecnologia: il 28 agosto un'eclissi di luna quasi totale visibile dall'Italia
+Nella notte tra giovedì 27 e venerdì 28 agosto sarà possibile osservare dall'Italia una profonda eclissi parziale di Luna, con il 96,3% del disco lunare oscurato dall'ombra della Terra nel momento di massima fase. Secondo l'Unione Astrofili Italiani il fenomeno inizierà alle 4:34 del mattino, con il culmine intorno alle 6:13; a Milano la fase d'ombra si concluderà alle 6:47, a Roma alle 6:37 e a Napoli alle 6:29. La finestra di osservazione sarà però breve, perché subito dopo il picco la Luna tramonterà, e la visibilità sarà più difficile nelle zone con montagne a sud-ovest, come lungo Appennini e Alpi.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/08/24/clochard-pestato-a-morte-per-50-euro-nessuno-lo-ha-aiutato_5bba7e8f-2a24-45f9-998e-c528017a78fd.html)
+Fonte: [il Meteo](https://www.ilmeteo.net/notizie/astronomia/il-28-agosto-la-luna-quasi-scomparira-nel-cielo-ecco-da-dove-si-vedra-l-eclissi-in-italia.html)
 
-### Scienza e tecnologia: scoperta S301, la stella più veloce mai osservata nella Via Lattea
-Un team internazionale, tramite le osservazioni del Very Large Telescope Interferometer dell'Osservatorio Europeo Australe in Cile, ha individuato la stella S301, che orbita attorno al buco nero supermassiccio Sagittarius A* al centro della nostra galassia viaggiando a circa 25mila chilometri al secondo, oltre l'8% della velocità della luce. La stella compie un'orbita completa in appena 8,7 anni, passando a una distanza dal buco nero pari a circa 12 volte quella tra Terra e Sole: una vicinanza che la rende una sonda naturale per studiare la dinamica dei buchi neri.
+### Cultura e sport: ai Giochi del Mediterraneo di Taranto l'Italia resta in testa al medagliere
+Al 26 agosto l'Italia guida il medagliere dei XX Giochi del Mediterraneo con 81 podi complessivi, 29 ori, 29 argenti e 23 bronzi, davanti alle altre 26 delegazioni presenti con oltre 190mila i partecipanti in gara in 32 discipline fino al 3 settembre. Nella giornata sono stati assegnati 15 titoli, con l'Italia protagonista soprattutto nel nuoto pinnato, dove ha conquistato nove medaglie, oltre a piazzamenti nel tiro a volo, nel tiro a segno, nel badminton e nella ginnastica ritmica.
 
-Fonte: [ANSA](https://www.ansa.it/canale_scienza/notizie/spazio_astronomia/2026/08/24/scoperta-la-stella-piu-veloce-della-via-lattea-sfreccia-a-25mila-km-al-secondo_27599392-5dda-4a15-9060-bea4e6b6fb7e.html)
-
-### Cultura e sport: ai Giochi del Mediterraneo di Taranto l'Italia domina in nuoto e ciclismo
-Dopo tre giornate di gare ai XX Giochi del Mediterraneo di Taranto 2026, l'Italia guida il medagliere con 54 medaglie complessive, ben distanziando Turchia e Grecia. Nel ciclismo su strada femminile, sul circuito della Valle d'Itria con arrivo sul lungomare di Taranto, ha vinto Rachele Barbieri davanti alle compagne di squadra Martina Fidanza e Barbara Guarischi, mentre tra gli uomini si è imposto Tommaso Dati. Il nuoto si conferma un'altra disciplina di grande dominio azzurro nel bilancio delle medaglie.
-
-Fonte: [ANSA](https://www.ansa.it/puglia/notizie/speciali/xx_giochi_del_mediterraneo_taranto_2026/2026/08/24/giochi-mediterraneo-nuoto-e-ciclismo-litalia-fa-il-pieno-di-medaglie_d8be40c5-be95-4b4c-80bc-641801253824.html)
+Fonte: [Monreale Press](https://www.monrealepress.it/2026/08/26/altri-27-podi-azzurri-italia-sempre-in-testa-nel-medagliere-a-taranto/)
 
 ---
 *Questa rassegna è generata automaticamente da un'intelligenza artificiale e non è verificata da un redattore umano.*
