@@ -1,29 +1,29 @@
-# Notizie di San Lazzaro di Savena – Mercoledì 26 agosto 2026
+# Notizie di San Lazzaro di Savena – Giovedì 27 agosto 2026
 
-### Eventi: torna oggi il mercato contadino di via Repubblica
-Prosegue l'appuntamento mensile con il mercato contadino di via della Repubblica, che porta in città la vendita diretta di frutta, verdura e altri prodotti agricoli da parte delle aziende del territorio; il prossimo incontro è in programma proprio oggi, mercoledì 26 agosto.
+### Eventi: prosegue l'Arena Understars, il cinema all'aperto di via Emilia 92
+Continua fino al 5 settembre la rassegna di cinema all'aperto Arena Understars, ospitata sotto il portico del Palazzo Comunale e curata da Cinema Teatro Galliera, con proiezioni serali alle 21:30 dedicate a produzioni indipendenti e d'autore italiane e internazionali. Il programma di queste settimane ha alternato film d'essai a titoli più popolari, confermando la formula che negli ultimi anni ha reso l'iniziativa un punto di riferimento estivo per la città.
 
-Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/argomenti/turismo/grandi-eventi)
+Fonte: [Cinema Teatro Galliera](https://www.cinemateatrogalliera.it/arenaviaemilia92/)
 
-### Eventi: continua l'Arena Understars, il cinema all'aperto di via Emilia 92
-Sotto il portico del Palazzo Comunale prosegue fino al 5 settembre la rassegna di cinema all'aperto Arena Understars, inserita nel cartellone di Bologna Estate 2026 e curata da Cinema Galliera, con proiezioni serali dedicate al cinema indipendente e d'autore italiano e internazionale. I film italiani ed europei restano proposti al prezzo promozionale di 3,50 euro.
-
-Fonte: [Cinema Emilia-Romagna](https://cinema.emiliaromagnacultura.it/en/luogo/arena-via-emilia-92-2/)
-
-### Viabilità: via Altura chiusa fino al 30 settembre per lavori di riqualificazione
-Resta chiusa al transito via Altura, nel tratto compreso tra via Bellaria e il nuovo raccordo con la rotatoria realizzata all'incrocio tra via Rio Polo, via Bellaria e via Fratelli Canova, per consentire lavori di riqualificazione stradale. Il cantiere, legato al più ampio intervento sulla viabilità attorno all'ospedale Bellaria, dovrebbe concludersi entro il 30 settembre.
+### Viabilità: proseguono i lavori alla rotatoria tra via Rio Polo, via Bellaria e via Fratelli Canova
+È entrata nella sua seconda fase la riqualificazione stradale legata alla nuova rotatoria tra via Rio Polo, via Bellaria e via Fratelli Canova, nell'area collegata al più ampio intervento sulla viabilità attorno all'ospedale Bellaria: l'ordinanza 56/2026 dispone la chiusura di via Rio Polo e il restringimento di via Bellaria per la durata del cantiere. L'intervento, iniziato a metà febbraio, resta tra i principali cantieri stradali segnalati dal Comune tra quelli attualmente in corso in città.
 
 Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/avvisi/lavori-in-corso)
 
-### Amministrazione: pubblicata la graduatoria definitiva dei nidi d'infanzia per il 2026/2027
-Il Comune ha reso nota la graduatoria definitiva per l'accesso ai nidi d'infanzia comunali e privati convenzionati per l'anno educativo 2026/2027, consultabile in ordine di protocollo e di punteggio sul portale e.Civis. L'assegnazione dei posti riguarda le famiglie con bambini tra i 6 mesi e i 3 anni che hanno partecipato al bando pubblicato nei mesi scorsi.
+### Amministrazione: piano regionale da 84,5 milioni di euro per la sicurezza idraulica dell'Idice
+La Regione Emilia-Romagna ha messo a punto un maxi piano di interventi da 84,5 milioni di euro per la messa in sicurezza del torrente Idice nel tratto che attraversa San Lazzaro di Savena fino a Castenaso, tra sponde, argini e opere idrauliche, nell'ambito della ricostruzione post-alluvione. La presidente della Regione e la sottosegretaria alla ricostruzione hanno definito quello del bacino dell'Idice uno dei fronti più complessi e delicati, assicurando che ogni intervento sarà condiviso con le comunità locali.
 
-Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/avvisi/graduatoria-definitiva-nidi-infanzia-2026-2027)
+Fonte: [Regione Emilia-Romagna](https://protezionecivile.regione.emilia-romagna.it/novita/notizie/2026/aprile/ricostruzione-post-alluvione-messa-in-sicurezza-dellidice-il-maxi-piano-84-5-milioni-di-euro-di-interventi)
 
-### Eventi: alla Mediateca ripartono in ottobre i corsi per adulti e bambini
-La Mediateca di via Caselle sta organizzando la nuova offerta di corsi che ripartirà a ottobre, tra lingue straniere, fotografia, scrittura creativa e arte, con l'apertura delle iscrizioni online. Per i corsi di lingua è previsto un test di livello propedeutico all'iscrizione, utile a comporre classi omogenee; le attività verranno attivate al raggiungimento di un numero minimo di partecipanti.
+### Amministrazione: il bilancio comunale destina oltre 5 milioni di euro alla sicurezza del territorio
+Il Consiglio comunale ha approvato il bilancio di previsione 2026 confermando la scelta di concentrare gli investimenti su sicurezza idraulica, mobilità sostenibile e qualità dei servizi ai cittadini. Tra le voci principali figurano 2,4 milioni di euro per il Rio Brolo, un milione per il Rio Pontebuco e 800mila euro per il consolidamento del ponte di via Emilia sull'Idice, oltre a interventi già finanziati nel 2025 e in via di realizzazione, come il riequilibrio ecologico del torrente Idice e la messa in sicurezza della strada comunale della Casona.
 
-Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/notizie/corsi-della-mediateca)
+Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/comunicati-stampa/ok-al-bilancio-oltre-5-milioni-di-euro-per-la-sicurezza-del-territorio)
+
+### Amministrazione: nuova ordinanza per la ricostruzione post-alluvione delle imprese agricole
+Il Comune ha reso nota l'entrata in vigore dell'ordinanza commissariale n. 55/2026, che aggiorna le misure di sostegno alla ricostruzione privata per le imprese agricole danneggiate dagli eventi alluvionali dell'autunno 2024. Il provvedimento aggiorna i costi parametrici per il ripristino dei terreni e semplifica la documentazione tecnica richiesta per le perizie asseverate, agevolando le aziende del territorio ancora coinvolte nelle pratiche di indennizzo.
+
+Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/avvisi/ricostruzione-post-alluvione-in-vigore-l-ordinanza-commissariale-n_55_2026)
 
 ---
 *Questa rassegna è generata automaticamente da un'intelligenza artificiale e non è verificata da un redattore umano.*

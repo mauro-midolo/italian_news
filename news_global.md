@@ -1,54 +1,59 @@
-# Rassegna Globale – Mercoledì 26 agosto 2026
+# Rassegna Globale – Giovedì 27 agosto 2026
 
-### Politica: consiglio dei ministri d'urgenza sul caro carburanti
-La premier Giorgia Meloni ha convocato per oggi un consiglio dei ministri dedicato al rincaro di benzina e gasolio, dopo una call con i vicepresidenti Antonio Tajani e Matteo Salvini, il leader di Noi Moderati Maurizio Lupi e il ministro dell'Economia Giancarlo Giorgetti. Sul tavolo una misura "ponte" per gestire la fine dello sconto sulle accise mobili, attivo da settimane grazie all'extra-gettito Iva ma ormai al limite delle risorse disponibili. Il governo insegue da mesi l'andamento dei prezzi con proroghe di breve durata, in attesa di una soluzione strutturale.
+### Politica: approvato il decreto carburanti, proroga delle accise fino al 5 settembre
+Il Consiglio dei ministri ha varato il nuovo decreto sui carburanti, che estende lo sconto sulle accise del gasolio fino al 5 settembre, in modo da coprire la settimana di traffico più intenso del controesodo estivo. Il vicepremier Antonio Tajani ha aperto a "misure strutturali ma selettive" per le fasce più deboli, respingendo però con forza l'ipotesi di una tassa sugli extraprofitti, definita "roba da Unione Sovietica". La segretaria del Pd Elly Schlein ha invece chiesto di tassare i profitti in eccesso di banche ed energetiche, accusando la maggioranza di rimandare la scelta mentre gli italiani pagano il conto; il nodo degli extraprofitti resta il principale punto di frizione tra Lega e Forza Italia.
 
-Fonte: [LSD Magazine](https://www.lsdmagazine.com/2026/08/26/caro-carburanti-oggi-il-consiglio-dei-ministri-sul-tavolo-una-misura-ponte/)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/26/decreto-carburanti-taglio-delle-accise-sul-gasolio-fino-al-5-settembre.-poi_175d5d3a-cfee-4f2c-9b49-daf2c2dfc20f.html)
 
-### Politica: nei sondaggi Vannacci supera Avs e diventa il quinto partito italiano
-Le ultime rilevazioni demoscopiche indicano Futuro Nazionale di Roberto Vannacci al 7,2%, in sorpasso sull'Alleanza Verdi e Sinistra e ormai a un soffio da Forza Italia, ferma al 7,4%. Il partito, nato poco più di un anno fa, ha già superato stabilmente la Lega in diverse rilevazioni, mentre gli elettori di Fratelli d'Italia si dicono in maggioranza favorevoli a un suo ingresso in coalizione. La crescita costante del movimento sta spingendo il centrodestra a fare i conti con un nuovo interlocutore.
+### Economia: Nvidia chiude un trimestre record, ricavi a 96,2 miliardi di dollari
+Nvidia ha comunicato risultati trimestrali superiori alle attese, con ricavi per 96,2 miliardi di dollari (+106% su base annua) e un utile netto di quasi 60 miliardi, trainati dalla domanda di chip per l'intelligenza artificiale. La società ha indicato una guidance per il trimestre in corso di circa 108 miliardi di dollari, la prima volta che punta a superare la soglia dei 100 miliardi in tre mesi, pur segnalando margini lordi in calo per l'aumento dei costi delle memorie. Il titolo ha comunque mostrato un entusiasmo dei mercati non del tutto incondizionato per via di questo aspetto.
 
-Fonte: [La Notizia Giornale](https://www.lanotiziagiornale.it/sondaggi-politici-oggi-24-agosto-vannacci-sorpasso-avs/)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/26/non-si-ferma-il-boom-dellia-nvidia-fa-il-pieno-di-ricavi-e-utile_7711a3d1-1710-4794-a6b2-fcef035c6ab8.html)
 
-### Economia: verso la fine dello sconto sulle accise, rincaro atteso per benzina e gasolio
-Lo sconto di 17 centesimi al litro sul gasolio, prorogato più volte tramite il meccanismo delle accise mobili finanziato con l'extra-gettito Iva, è arrivato al 26 agosto senza una proroga strutturale in vista. Il ministro Giorgetti aveva firmato l'ultimo decreto stanziando 20,8 milioni di euro, ma allo scadere della misura è atteso un rialzo di circa 17 centesimi al litro, pari a 8-9 euro in più per un pieno da 50 litri. L'aumento arriva nei giorni del controesodo estivo, quando il traffico su autostrade e statali è ai massimi stagionali.
+### Economia: Mps, definiti i dettagli della doppia offerta da 34 miliardi su Banco Bpm e Banca Generali
+Monte dei Paschi ha reso note le condizioni delle offerte pubbliche di scambio su Banco Bpm (25,3 miliardi di euro, rapporto di 1,567 azioni Mps per ogni titolo conferito) e su Banca Generali (8,7 miliardi, con un premio del 10%). Ai soci Mps è riservata una distribuzione straordinaria da 4 miliardi di euro, condizionata al via libera dell'operazione. Il periodo di adesione potrebbe aprirsi nella prima metà di dicembre e chiudersi nella prima metà di febbraio 2027, ma tutta l'operazione dovrà prima passare dall'assemblea dei soci Mps del 29 ottobre, con il via libera di almeno due terzi dei votanti.
 
-Fonte: [Sky TG24](https://tg24.sky.it/economia/2026/08/24/carburanti-accise-prezzi-benzina-diesel)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/aziende/2026/08/21/mps-lancia-offerte-su-banco-bpm-e-banca-generali-per-complessivi-34-miliardi_fdeb6455-ab43-41bd-8e06-a7bac6ac937e.html)
 
-### Economia: Mps lancia una doppia offerta da 34 miliardi su Banco Bpm e Banca Generali
-Monte dei Paschi ha reso note le condizioni delle due offerte pubbliche di scambio lanciate su Banco Bpm, valutata 25,3 miliardi di euro con un rapporto di 1,567 azioni Mps per ogni titolo conferito, e su Banca Generali, valutata 8,7 miliardi con un premio del 10% sui prezzi ufficiali del 19 agosto. L'istituto senese ha inoltre proposto ai soci una distribuzione straordinaria da 4 miliardi di euro, condizionata al via libera all'operazione, nell'ambito di un piano di remunerazione che punta a superare i 15 miliardi complessivi entro il 2030. Il mercato ha accolto con freddezza l'annuncio, con i titoli coinvolti in calo per lo scetticismo sulla fattibilità pratica della manovra.
+### Estero: alluvione tra Nepal e Tibet, almeno 362 morti e oltre 1.400 dispersi
+I soccorritori hanno recuperato i corpi di almeno 362 vittime della piena di fango che ha travolto il confine tra Nepal e Tibet, spazzando via interi villaggi e coinvolgendo centinaia di turisti stranieri, tra cui una novantina di italiani presenti nella zona secondo i registri della Farnesina; il ministro Antonio Tajani ha confermato che due connazionali coinvolti sono in buone condizioni. Le autorità cinesi monitorano inoltre un lago di sbarramento naturale formatosi a monte della frana, temendo che possa cedere e provocare una nuova ondata.
 
-Fonte: [MilanoFinanza](https://www.milanofinanza.it/news/mps-sfida-intesa-sanpaolo-con-doppia-ops-da-34-miliardi-su-banco-bpm-e-banca-generali-nasce-un-polo-da-202608210801363028)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/27/alluvione-nepal-tibet-almeno-362-morti-e-oltre-1.400-dispersi_58757d68-1a09-4305-b205-2ca8b0b00175.html)
 
-### Estero: la Russia colpisce quattro città ucraine nella notte, Kiev risponde su una raffineria russa
-Nella notte tra il 25 e il 26 agosto la Russia ha bombardato simultaneamente Kiev, Kharkiv, Zaporizhzhia e Dnipro, provocando incendi e danni a edifici residenziali: nel quartiere Osnovyansky di Kharkiv un missile ha ucciso una persona, mentre a Zaporizhzhia le vittime sono state due. In risposta, le forze ucraine hanno colpito con droni la raffineria Afipsky nella regione russa di Krasnodar, causando un vasto incendio; secondo il governatore locale i detriti caduti sulla stazione ferroviaria della zona hanno provocato altre due vittime.
+### Estero: la Russia verso una possibile escalation in Ucraina, tensione anche con Londra
+Mosca avrebbe concluso che i negoziati di pace sono a un punto morto e starebbe valutando un'intensificazione degli attacchi missilistici contro Kiev e altre città ucraine. Secondo il Wall Street Journal, il capo della Cia John Ratcliffe si sarebbe recato a sorpresa a Mosca per avvertire la Russia di non colpire paesi Nato, dopo valutazioni dell'intelligence Usa secondo cui Putin potrebbe testare l'alleanza con un attacco limitato nei prossimi anni. Il ministero degli Esteri russo ha inoltre minacciato di colpire "qualsiasi installazione militare britannica" in risposta agli attacchi ucraini condotti con armi fornite da Londra.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/europa/2026/08/25/attacchi-russi-nella-notte-colpite-quattro-citta-ucraine_bc3bb7bf-a284-43f5-a697-986d91ffa4b9.html)
+Fonte: [Adnkronos](https://www.adnkronos.com/internazionale/esteri/guerra-ucraina-russia-escalation-putin-attacchi-news-oggi_1Nxg3d51G7MWEvS2M5xTsr)
 
-### Estero: raid israeliano su un campo profughi a Gaza, allarme per gli aquiloni incendiari
-Un attacco aereo israeliano ha colpito un edificio nel campo profughi di Bureij, nel centro della Striscia di Gaza, dopo che ai residenti era stato notificato un ordine di evacuazione: un bambino di 4 anni è morto e la madre con la sorella sono rimaste ferite, secondo l'ospedale Al Awda. Nella stessa area i comitati popolari che gestiscono i campi profughi hanno diffuso un avviso ai genitori affinché impediscano ai figli di far volare aquiloni, dopo che Israele ha minacciato una risposta dura in caso di ripresa dei lanci di aquiloni incendiari da parte di Hamas.
+### Cronaca: caso Ranucci, al via gli interrogatori dei presunti esecutori dell'attentato
+A Rebibbia sono iniziati gli interrogatori di Pellegrino D'Avino e Antonio Passariello, i due uomini arrestati come presunti esecutori materiali dell'attentato dinamitardo del ottobre 2025 contro l'abitazione del giornalista di Report Sigfrido Ranucci, per cui è indagato anche l'imprenditore Valter Lavitola. Secondo i legali dei due, sentiti dal pm Edoardo De Santis, gli indagati risponderanno alle domande e ribadiranno di non conoscere Lavitola. I due sono accusati, tra l'altro, di strage e detenzione di esplosivi con l'aggravante del metodo mafioso.
 
-Fonte: [Internazionale](https://www.internazionale.it/ultime-notizie-reuters/2026/08/25/gaza-parents-urged-to-stop-kids-flying-kites-after-israel-warning-to-hamas)
+Fonte: [LaPresse](https://www.lapresse.it/cronaca/2026/08/27/attentato-ranucci-oggi-linterrogatorio-degli-esecutori-il-legale-non-dovrebbero-stare-in-carcere/)
 
-### Cronaca: maltempo al Nord, trombe d'aria e voli cancellati a Malpensa
-Un rapido peggioramento di origine atlantica ha portato temporali intensi su gran parte del Centro-Nord: nel Varesotto si sono formate diverse trombe d'aria che hanno causato la cancellazione di voli all'aeroporto di Malpensa, mentre nel Biellese un ciclista è stato travolto dalla piena improvvisa di un torrente. Nubifragi si sono abbattuti anche su Orvieto, con allagamenti e alberi caduti, e la protezione civile ha diramato un'allerta gialla per temporali e rischio idrogeologico in otto regioni tra Piemonte, Lombardia, Liguria, Emilia-Romagna, Lazio, Toscana, Marche e Umbria.
+### Cronaca: nuova ondata di caldo, bollino rosso in diverse città e picco atteso domani
+Per la giornata di oggi il ministero della Salute ha diramato il bollino rosso per Campobasso e Palermo, con altre undici città in allerta arancione tra cui Roma, Firenze e Bari. La situazione è destinata a peggiorare venerdì 28 agosto, quando le città da bollino rosso saliranno a nove, con temperature in aumento soprattutto al Centro-Sud e nelle Isole.
 
-Fonte: [Leggo](https://www.leggo.it/italia/cronache/25_agosto_2026_maltempo_allerta_meteo_dove_quando_trombe_d_aria_malpensa_voli_cancellati_oggi-9724600.html)
+Fonte: [Adnkronos](https://www.adnkronos.com/cronaca/caldo-record-bollettino-ondate-calore-citta-allerta-oggi-domani_3C9LhRUDirZ9qyxFY2Hi5v)
 
-### Cronaca: West Nile, sale a 15 il numero dei morti in Italia
-Il bilancio dei decessi legati al virus West Nile in Italia è salito a 15 dopo la perdita di due pazienti in tre giorni tra Pavia e Napoli, a fronte di oltre 300 casi confermati dall'inizio dell'anno, di cui oltre 150 nella forma neuro-invasiva. La Lombardia resta la regione più colpita, seguita da Piemonte e Veneto, con il contagio ormai diffuso in 60 province di 16 regioni. Rispetto allo stesso periodo dello scorso anno i casi complessivi sono meno numerosi, ma il virus circola su un territorio più esteso.
+### Scienza e tecnologia: questa notte un'eclissi di luna quasi totale visibile dall'Italia
+Nelle prime ore di venerdì 28 agosto si potrà osservare dall'Italia una profonda eclissi lunare parziale, con circa il 96% del disco lunare oscurato dall'ombra terrestre al momento del massimo. In Italia la fase parziale inizierà alle 4:33, con il culmine intorno alle 6:12; la finestra migliore per l'osservazione sarà tra le 4:45 e le 5:45, prima che la Luna tramonti, e le condizioni saranno più favorevoli nelle zone con orizzonte libero verso ovest-sudovest, come Sardegna, Liguria e Piemonte.
 
-Fonte: [Federazione Nazionale degli Ordini dei Biologi](https://www.fnob.it/2026/08/25/allerta-west-nile-in-italia-due-decessi-in-pochi-giorni-e-300-casi-confermati-limpegno-dei-biologi-nel-monitoraggio-del-virus/)
+Fonte: [Focus.it](https://www.focus.it/scienza/scienze/eclissi-luna-28-agosto-2026-orari-italia)
 
-### Scienza e tecnologia: il 28 agosto un'eclissi di luna quasi totale visibile dall'Italia
-Nella notte tra giovedì 27 e venerdì 28 agosto sarà possibile osservare dall'Italia una profonda eclissi parziale di Luna, con il 96,3% del disco lunare oscurato dall'ombra della Terra nel momento di massima fase. Secondo l'Unione Astrofili Italiani il fenomeno inizierà alle 4:34 del mattino, con il culmine intorno alle 6:13; a Milano la fase d'ombra si concluderà alle 6:47, a Roma alle 6:37 e a Napoli alle 6:29. La finestra di osservazione sarà però breve, perché subito dopo il picco la Luna tramonterà, e la visibilità sarà più difficile nelle zone con montagne a sud-ovest, come lungo Appennini e Alpi.
+### Scienza e tecnologia: Samsung svela oggi il nuovo Galaxy S26 FE
+Samsung ha in programma per oggi, alle 14 ora italiana, la presentazione ufficiale del Galaxy S26 FE, atteso con schermo Amoled da 6,7 pollici, chip Exynos 2500 e batteria da 4.900 mAh. Le indiscrezioni parlano di un prezzo attorno ai 749 euro, in netto aumento rispetto alla precedente generazione, a fronte di novità hardware giudicate limitate dagli analisti di settore.
 
-Fonte: [il Meteo](https://www.ilmeteo.net/notizie/astronomia/il-28-agosto-la-luna-quasi-scomparira-nel-cielo-ecco-da-dove-si-vedra-l-eclissi-in-italia.html)
+Fonte: [Hardware Upgrade](https://www.hwupgrade.it/news/telefonia/il-27-agosto-samsung-svela-un-altro-s26-atteso-l-fe-poche-novita-e-prezzo-piu-alto_158032.html)
 
-### Cultura e sport: ai Giochi del Mediterraneo di Taranto l'Italia resta in testa al medagliere
-Al 26 agosto l'Italia guida il medagliere dei XX Giochi del Mediterraneo con 81 podi complessivi, 29 ori, 29 argenti e 23 bronzi, davanti alle altre 26 delegazioni presenti con oltre 190mila i partecipanti in gara in 32 discipline fino al 3 settembre. Nella giornata sono stati assegnati 15 titoli, con l'Italia protagonista soprattutto nel nuoto pinnato, dove ha conquistato nove medaglie, oltre a piazzamenti nel tiro a volo, nel tiro a segno, nel badminton e nella ginnastica ritmica.
+### Cultura e sport: morta a 97 anni l'artista giapponese Yayoi Kusama
+È morta il 14 agosto in un ospedale di Tokyo, all'età di 97 anni, Yayoi Kusama, una delle artiste contemporanee più celebri al mondo; la notizia è stata resa nota solo nei giorni scorsi dal suo studio. Nata nel 1929 a Matsumoto, per oltre settant'anni ha trasformato in linguaggio artistico le proprie ossessioni visive, diventando celebre soprattutto per le "Infinity Mirror Rooms" e per le zucche a pois esposte in tutto il mondo.
 
-Fonte: [Monreale Press](https://www.monrealepress.it/2026/08/26/altri-27-podi-azzurri-italia-sempre-in-testa-nel-medagliere-a-taranto/)
+Fonte: [il Post](https://www.ilpost.it/2026/08/27/yayoi-kusama-morta/)
+
+### Cultura e sport: ai Giochi del Mediterraneo di Taranto l'Italia resta al comando del medagliere
+Oggi a Taranto sono in palio 25 titoli dei XX Giochi del Mediterraneo, tra nuoto pinnato, tiro a volo, boxe e tiro a segno, con l'Italia che continua a guidare il medagliere davanti alle altre 26 delegazioni in gara fino al 3 settembre. Le finali di tutte le 14 categorie di peso della boxe rappresentano il piatto forte della giornata, trasmessa in diretta su Rai Sport e in streaming su RaiPlay.
+
+Fonte: [OA Sport](https://www.oasport.it/2026/08/giochi-del-mediterraneo-2026-il-programma-di-domani-orari-27-agosto-tv-streaming/)
 
 ---
 *Questa rassegna è generata automaticamente da un'intelligenza artificiale e non è verificata da un redattore umano.*
