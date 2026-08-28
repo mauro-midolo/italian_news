@@ -1,59 +1,64 @@
-# Rassegna Globale – Giovedì 27 agosto 2026
+# Rassegna Globale – Venerdì 28 agosto 2026
 
-### Politica: approvato il decreto carburanti, proroga delle accise fino al 5 settembre
-Il Consiglio dei ministri ha varato il nuovo decreto sui carburanti, che estende lo sconto sulle accise del gasolio fino al 5 settembre, in modo da coprire la settimana di traffico più intenso del controesodo estivo. Il vicepremier Antonio Tajani ha aperto a "misure strutturali ma selettive" per le fasce più deboli, respingendo però con forza l'ipotesi di una tassa sugli extraprofitti, definita "roba da Unione Sovietica". La segretaria del Pd Elly Schlein ha invece chiesto di tassare i profitti in eccesso di banche ed energetiche, accusando la maggioranza di rimandare la scelta mentre gli italiani pagano il conto; il nodo degli extraprofitti resta il principale punto di frizione tra Lega e Forza Italia.
+### Politica: gelo nel centrodestra dopo l'apertura di Cirielli a Vannacci
+Il viceministro degli Esteri Edmondo Cirielli, di Fratelli d'Italia, ha dichiarato a Ischia di augurarsi che in futuro si possa governare insieme a Roberto Vannacci, ipotizzando per lui anche un ruolo da ministro. La risposta del partito è arrivata nel giro di un'ora: fonti di FdI hanno precisato che si tratta di posizioni personali, non della linea ufficiale, escludendo per ora qualunque alleanza elettorale con Futuro Nazionale. L'episodio arriva mentre i sondaggi registrano una crescita del partito di Vannacci, dato ormai quarta forza politica, a fronte di un lieve calo di Fratelli d'Italia e Partito Democratico.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/26/decreto-carburanti-taglio-delle-accise-sul-gasolio-fino-al-5-settembre.-poi_175d5d3a-cfee-4f2c-9b49-daf2c2dfc20f.html)
+Fonte: [Ansa](https://www.ansa.it/sito/notizie/politica/2026/08/27/cirielli-fdi-spero-si-possa-governare-con-vannacci_d529dcc4-9ebd-46b5-b4e1-5d5e84a72992.html)
 
-### Economia: Nvidia chiude un trimestre record, ricavi a 96,2 miliardi di dollari
-Nvidia ha comunicato risultati trimestrali superiori alle attese, con ricavi per 96,2 miliardi di dollari (+106% su base annua) e un utile netto di quasi 60 miliardi, trainati dalla domanda di chip per l'intelligenza artificiale. La società ha indicato una guidance per il trimestre in corso di circa 108 miliardi di dollari, la prima volta che punta a superare la soglia dei 100 miliardi in tre mesi, pur segnalando margini lordi in calo per l'aumento dei costi delle memorie. Il titolo ha comunque mostrato un entusiasmo dei mercati non del tutto incondizionato per via di questo aspetto.
+### Economia: Piazza Affari positiva in attesa di Jackson Hole
+Le Borse europee, con Milano in testa (FTSE Mib +0,67% a 52.616 punti), hanno chiuso la settimana in territorio positivo, sostenute dal buon andamento di titoli come Enel, mentre Leonardo ha segnato il calo più marcato del listino. Gli investitori guardavano soprattutto al simposio di Jackson Hole e all'apertura di Wall Street in serata. L'euro è sceso a 1,16 dollari e il petrolio è tornato sopra gli 83 dollari al barile.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/2026/08/26/non-si-ferma-il-boom-dellia-nvidia-fa-il-pieno-di-ricavi-e-utile_7711a3d1-1710-4794-a6b2-fcef035c6ab8.html)
+Fonte: [Ansa](https://www.ansa.it/sito/notizie/economia/2026/08/28/borsa-milano-solida-07-con-leuropa-che-guarda-a-wall-street-e-alla_9270ccc8-a119-4600-adbb-4604157e22ae.html)
 
-### Economia: Mps, definiti i dettagli della doppia offerta da 34 miliardi su Banco Bpm e Banca Generali
-Monte dei Paschi ha reso note le condizioni delle offerte pubbliche di scambio su Banco Bpm (25,3 miliardi di euro, rapporto di 1,567 azioni Mps per ogni titolo conferito) e su Banca Generali (8,7 miliardi, con un premio del 10%). Ai soci Mps è riservata una distribuzione straordinaria da 4 miliardi di euro, condizionata al via libera dell'operazione. Il periodo di adesione potrebbe aprirsi nella prima metà di dicembre e chiudersi nella prima metà di febbraio 2027, ma tutta l'operazione dovrà prima passare dall'assemblea dei soci Mps del 29 ottobre, con il via libera di almeno due terzi dei votanti.
+### Economia: il presidente della Fed Warsh avverte sull'inflazione a Jackson Hole
+Nel suo primo discorso da presidente della Federal Reserve al simposio di Jackson Hole, Kevin Warsh ha detto di ritenere l'economia americana solida, anche grazie alla spinta dell'intelligenza artificiale, ma ha segnalato che le pressioni inflazionistiche di fondo non sono ancora rientrate. Ha lasciato intendere che potrebbero rendersi necessari nuovi rialzi dei tassi nei prossimi mesi, evitando però di offrire indicazioni precise sui tempi, in linea con il suo approccio meno orientato alla forward guidance esplicita.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/economia/aziende/2026/08/21/mps-lancia-offerte-su-banco-bpm-e-banca-generali-per-complessivi-34-miliardi_fdeb6455-ab43-41bd-8e06-a7bac6ac937e.html)
+Fonte: [CNBC](https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html)
 
-### Estero: alluvione tra Nepal e Tibet, almeno 362 morti e oltre 1.400 dispersi
-I soccorritori hanno recuperato i corpi di almeno 362 vittime della piena di fango che ha travolto il confine tra Nepal e Tibet, spazzando via interi villaggi e coinvolgendo centinaia di turisti stranieri, tra cui una novantina di italiani presenti nella zona secondo i registri della Farnesina; il ministro Antonio Tajani ha confermato che due connazionali coinvolti sono in buone condizioni. Le autorità cinesi monitorano inoltre un lago di sbarramento naturale formatosi a monte della frana, temendo che possa cedere e provocare una nuova ondata.
+### Estero: sale a oltre 500 morti il bilancio dell'alluvione tra Nepal e Tibet
+Il crollo di un ghiacciaio che mercoledì ha travolto il confine tra Nepal e Tibet ha causato finora 547 morti accertati in territorio nepalese, con 2.381 persone ancora disperse secondo la polizia locale, tra cui cittadini di una trentina di Paesi e tre italiani. Le autorità cinesi segnalano invece cinque vittime e oltre 550 dispersi sul versante tibetano. Il distretto di Chitwan risulta il più colpito, mentre i soccorritori continuano a scavare tra fango e macerie temendo nuove ondate.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/08/27/alluvione-nepal-tibet-almeno-362-morti-e-oltre-1.400-dispersi_58757d68-1a09-4305-b205-2ca8b0b00175.html)
+Fonte: [Agi](https://www.agi.it/estero/news/2026-08-28/nepal-morti-dispersi-38743987/)
 
-### Estero: la Russia verso una possibile escalation in Ucraina, tensione anche con Londra
-Mosca avrebbe concluso che i negoziati di pace sono a un punto morto e starebbe valutando un'intensificazione degli attacchi missilistici contro Kiev e altre città ucraine. Secondo il Wall Street Journal, il capo della Cia John Ratcliffe si sarebbe recato a sorpresa a Mosca per avvertire la Russia di non colpire paesi Nato, dopo valutazioni dell'intelligence Usa secondo cui Putin potrebbe testare l'alleanza con un attacco limitato nei prossimi anni. Il ministero degli Esteri russo ha inoltre minacciato di colpire "qualsiasi installazione militare britannica" in risposta agli attacchi ucraini condotti con armi fornite da Londra.
+### Estero: morto Ratko Mladic, la Serbia annuncia funerali di Stato
+È morto all'età di 84 anni, nell'ospedale del carcere dell'Aja dove scontava l'ergastolo, Ratko Mladic, condannato per genocidio e crimini contro l'umanità per il suo ruolo nella strage di Srebrenica del 1995. L'uomo, soprannominato "il boia di Srebrenica", era da tempo gravemente malato. La decisione del ministro della Giustizia serbo di tributargli onori militari e di Stato ha suscitato polemiche internazionali.
 
-Fonte: [Adnkronos](https://www.adnkronos.com/internazionale/esteri/guerra-ucraina-russia-escalation-putin-attacchi-news-oggi_1Nxg3d51G7MWEvS2M5xTsr)
+Fonte: [Ansa](https://www.ansa.it/sito/notizie/mondo/2026/08/28/belgrado-mladic-sara-sepolto-con-tutti-gli-onori-militari-e-di-stato_912db36d-bc14-452c-8441-c521766435db.html)
 
-### Cronaca: caso Ranucci, al via gli interrogatori dei presunti esecutori dell'attentato
-A Rebibbia sono iniziati gli interrogatori di Pellegrino D'Avino e Antonio Passariello, i due uomini arrestati come presunti esecutori materiali dell'attentato dinamitardo del ottobre 2025 contro l'abitazione del giornalista di Report Sigfrido Ranucci, per cui è indagato anche l'imprenditore Valter Lavitola. Secondo i legali dei due, sentiti dal pm Edoardo De Santis, gli indagati risponderanno alle domande e ribadiranno di non conoscere Lavitola. I due sono accusati, tra l'altro, di strage e detenzione di esplosivi con l'aggravante del metodo mafioso.
+### Estero: guerra in Ucraina, Mosca apre a nuove proposte mentre continuano gli attacchi
+Il ministro degli Esteri russo Sergey Lavrov ha detto che Mosca è disposta a valutare nuove proposte per porre fine al conflitto in Ucraina. Sul terreno, però, gli scontri proseguono: un attacco con decine di droni ucraini contro la regione russa di Yaroslavl ha colpito un importante polo di raffinazione, causando un morto e diversi feriti, mentre attacchi russi nella regione ucraina di Dnipropetrovsk hanno provocato due vittime.
 
-Fonte: [LaPresse](https://www.lapresse.it/cronaca/2026/08/27/attentato-ranucci-oggi-linterrogatorio-degli-esecutori-il-legale-non-dovrebbero-stare-in-carcere/)
+Fonte: [Adnkronos](https://www.adnkronos.com/internazionale/esteri/ucraina-russia-guerra-news-oggi-28-agosto_6ciSp4eJzOVyWcUi3CPT7h)
 
-### Cronaca: nuova ondata di caldo, bollino rosso in diverse città e picco atteso domani
-Per la giornata di oggi il ministero della Salute ha diramato il bollino rosso per Campobasso e Palermo, con altre undici città in allerta arancione tra cui Roma, Firenze e Bari. La situazione è destinata a peggiorare venerdì 28 agosto, quando le città da bollino rosso saliranno a nove, con temperature in aumento soprattutto al Centro-Sud e nelle Isole.
+### Cronaca: caso Ranucci, concluso l'interrogatorio dei presunti esecutori dell'attentato
+Si è concluso dopo circa dieci ore l'interrogatorio di Pellegrino D'Avino e Antonio Passariello, i due uomini arrestati come presunti esecutori materiali dell'attentato dinamitardo contro l'abitazione del giornalista di Report Sigfrido Ranucci. Secondo quanto riferito dai loro legali, i due avrebbero raccontato ai magistrati di essere stati incaricati da Gomes Clesio Tavares di collocare l'ordigno con l'intento dichiarato di non arrecare danno a persone, e di non conoscere l'imprenditore Valter Lavitola, anch'egli indagato. La difesa presenterà ora una richiesta di attenuazione delle misure cautelari.
 
-Fonte: [Adnkronos](https://www.adnkronos.com/cronaca/caldo-record-bollettino-ondate-calore-citta-allerta-oggi-domani_3C9LhRUDirZ9qyxFY2Hi5v)
+Fonte: [Il Messaggero](https://www.ilmessaggero.it/italia/attentato_ranucci_interrogatorio_tavares_bomba_esecutori_ultima_ora-9728742.html)
 
-### Scienza e tecnologia: questa notte un'eclissi di luna quasi totale visibile dall'Italia
-Nelle prime ore di venerdì 28 agosto si potrà osservare dall'Italia una profonda eclissi lunare parziale, con circa il 96% del disco lunare oscurato dall'ombra terrestre al momento del massimo. In Italia la fase parziale inizierà alle 4:33, con il culmine intorno alle 6:12; la finestra migliore per l'osservazione sarà tra le 4:45 e le 5:45, prima che la Luna tramonti, e le condizioni saranno più favorevoli nelle zone con orizzonte libero verso ovest-sudovest, come Sardegna, Liguria e Piemonte.
+### Cronaca: omicidio all'alba in Calabria, ucciso un 36enne a Cassano allo Ionio
+Un uomo di 36 anni, Giuseppe Scorza, è stato ucciso nelle prime ore del mattino a Lauropoli, frazione di Cassano allo Ionio, in provincia di Cosenza. Sul posto sono intervenuti i carabinieri, che stanno conducendo le indagini per ricostruire la dinamica dell'omicidio e risalire ai responsabili.
 
-Fonte: [Focus.it](https://www.focus.it/scienza/scienze/eclissi-luna-28-agosto-2026-orari-italia)
+Fonte: [Il Fatto Quotidiano](https://www.ilfattoquotidiano.it/cronaca-nera/)
 
-### Scienza e tecnologia: Samsung svela oggi il nuovo Galaxy S26 FE
-Samsung ha in programma per oggi, alle 14 ora italiana, la presentazione ufficiale del Galaxy S26 FE, atteso con schermo Amoled da 6,7 pollici, chip Exynos 2500 e batteria da 4.900 mAh. Le indiscrezioni parlano di un prezzo attorno ai 749 euro, in netto aumento rispetto alla precedente generazione, a fronte di novità hardware giudicate limitate dagli analisti di settore.
+### Scienza e tecnologia: eclissi lunare parziale visibile in tutta Italia
+Nelle ore precedenti l'alba di oggi si è potuta osservare da tutta la penisola, in particolare dalle regioni occidentali, un'eclissi lunare parziale che ha oscurato circa il 96 per cento del disco lunare, tingendolo di un caratteristico colore rossastro. Il fenomeno, legato al passaggio della Luna nel cono d'ombra della Terra, ha richiamato appassionati e astrofili in diverse città.
 
-Fonte: [Hardware Upgrade](https://www.hwupgrade.it/news/telefonia/il-27-agosto-samsung-svela-un-altro-s26-atteso-l-fe-poche-novita-e-prezzo-piu-alto_158032.html)
+Fonte: [Ansa](https://www.ansa.it/canale_scienza/notizie/spazio_astronomia/2026/08/28/allalba-lo-spettacolo-delleclissi-di-luna_0150ee25-934b-4b9f-857c-ab2bdc5d884e.html)
 
-### Cultura e sport: morta a 97 anni l'artista giapponese Yayoi Kusama
-È morta il 14 agosto in un ospedale di Tokyo, all'età di 97 anni, Yayoi Kusama, una delle artiste contemporanee più celebri al mondo; la notizia è stata resa nota solo nei giorni scorsi dal suo studio. Nata nel 1929 a Matsumoto, per oltre settant'anni ha trasformato in linguaggio artistico le proprie ossessioni visive, diventando celebre soprattutto per le "Infinity Mirror Rooms" e per le zucche a pois esposte in tutto il mondo.
+### Scienza e tecnologia: un esperimento del NIST avvicina l'internet quantistico
+Un team di ricercatori del National Institute of Standards and Technology statunitense ha dimostrato la possibilità di trasmettere segnali quantistici attraverso le comuni infrastrutture di fibra ottica già esistenti, facendo viaggiare il segnale per 62 chilometri su cavi commerciali standard. Il risultato è considerato un passo importante verso una futura rete di comunicazione quantistica che non richieda la posa di nuove infrastrutture dedicate.
 
-Fonte: [il Post](https://www.ilpost.it/2026/08/27/yayoi-kusama-morta/)
+Fonte: [Virgilio Notizie](https://www.virgilio.it/notizie/scienza-tecnologia/)
 
-### Cultura e sport: ai Giochi del Mediterraneo di Taranto l'Italia resta al comando del medagliere
-Oggi a Taranto sono in palio 25 titoli dei XX Giochi del Mediterraneo, tra nuoto pinnato, tiro a volo, boxe e tiro a segno, con l'Italia che continua a guidare il medagliere davanti alle altre 26 delegazioni in gara fino al 3 settembre. Le finali di tutte le 14 categorie di peso della boxe rappresentano il piatto forte della giornata, trasmessa in diretta su Rai Sport e in streaming su RaiPlay.
+### Cultura e sport: il Premio Pascoli alla carriera va a Paolo Conte
+Il cantautore Paolo Conte ha ricevuto a San Mauro Pascoli il Premio Giovanni Pascoli alla Carriera, riconoscimento motivato dalla sua capacità di cogliere corrispondenze inedite nella realtà quotidiana e restituirle in una veste artistica originale. La cerimonia si è svolta nell'ambito delle iniziative culturali che la città romagnola dedica ogni anno al poeta che le ha dato i natali.
 
-Fonte: [OA Sport](https://www.oasport.it/2026/08/giochi-del-mediterraneo-2026-il-programma-di-domani-orari-27-agosto-tv-streaming/)
+Fonte: [Ansa](https://www.ansa.it/sito/notizie/cultura/musica/2026/08/28/il-premio-giovanni-pascoli-alla-carriera-va-a-paolo-conte_33f5a963-9c77-4729-9ea4-f027b2e1411b.html)
+
+### Cultura e sport: al via a New York gli Us Open di tennis, otto italiani al maschile
+Prendono il via a Flushing Meadows gli Us Open, ultimo Slam stagionale, con otto tennisti italiani nel tabellone principale maschile nonostante l'assenza per infortunio al ginocchio di Jannik Sinner. Flavio Cobolli, che assume il ruolo di prima racchetta azzurra nel torneo, esordirà contro l'argentino Francisco Comesana, mentre Lorenzo Musetti torna in uno Slam dopo gli Australian Open e Matteo Berrettini affronterà lo svizzero Stan Wawrinka.
+
+Fonte: [Sky Sport](https://sport.sky.it/tennis/2026/08/27/us-open-2026-tabellone)
 
 ---
 *Questa rassegna è generata automaticamente da un'intelligenza artificiale e non è verificata da un redattore umano.*
