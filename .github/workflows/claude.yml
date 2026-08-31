@@ -65,18 +65,22 @@ jobs:
               se non trovi abbastanza notizie locali, scrivine meno.
             - Mantieni un registro neutrale sui temi politicamente
               controversi: riporta i fatti, non prendere posizione.
-            - Limitati a scrivere i due file: non modificare altro nel
-              repository e non eseguire comandi git.
+            - Limitati a scrivere i due file Markdown: non modificare altro
+              nel repository (la pagina `index.html` viene rigenerata
+              automaticamente da uno script) e non eseguire comandi git.
           claude_args: |
             --model claude-sonnet-5
             --max-turns 80
             --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Bash(date*)"
 
+      - name: Genera la pagina HTML statica
+        run: python3 build_site.py
+
       - name: Pubblica la rassegna
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news_global.md news_san_lazzaro_di_savena.md
+          git add news_global.md news_san_lazzaro_di_savena.md index.html
           if git diff --staged --quiet; then
             echo "Nessuna modifica da pubblicare."
           else

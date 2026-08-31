@@ -16,6 +16,9 @@
 | 🌍 **Globale** | **[`news_global.md`](./news_global.md)** | Principali notizie nazionali e internazionali della giornata |
 | 📍 **San Lazzaro di Savena** | **[`news_san_lazzaro_di_savena.md`](./news_san_lazzaro_di_savena.md)** | Cronaca, amministrazione ed eventi del territorio di San Lazzaro di Savena (BO) |
 
+Entrambe le edizioni sono consultabili anche in un'unica **pagina web statica**,
+[`index.html`](./index.html), rigenerata a ogni aggiornamento.
+
 Ogni file viene **riscritto da zero** a ogni aggiornamento. Poiché ogni edizione
 corrisponde a un commit, lo
 [storico dei commit](https://github.com/mauro-midolo/italian_news/commits/main)
@@ -37,12 +40,43 @@ di confrontare come una notizia è stata raccontata nei giorni successivi.
 
 ---
 
+## 🖥️ La pagina web
+
+`index.html` è una pagina statica autonoma (nessuna dipendenza, nessun CDN:
+HTML, CSS e JavaScript sono tutti inline) che raccoglie entrambe le edizioni:
+
+- due schede per passare dall'edizione globale a quella locale;
+- filtri per sezione (Politica, Economia, Estero, Cronaca…);
+- link diretti alle fonti originali;
+- tema chiaro/scuro automatico e impaginazione adatta anche al telefono.
+
+Per consultarla basta aprire il file nel browser. Per pubblicarla online, in
+**Settings → Pages** del repository si sceglie *Deploy from a branch*, ramo
+`main` e cartella `/ (root)`: la rassegna diventa così raggiungibile
+all'indirizzo `https://mauro-midolo.github.io/italian_news/`.
+
+La pagina viene **rigenerata da zero** a ogni edizione dallo script
+[`build_site.py`](./build_site.py), che legge i due file Markdown e ne ricava
+titoli, sezioni, riassunti e fonti. Per rigenerarla in locale dopo una modifica
+ai file Markdown:
+
+```bash
+python3 build_site.py
+```
+
+Lo script usa solo la libreria standard di Python 3 (≥ 3.9), quindi non
+richiede alcuna installazione.
+
+---
+
 ## ⚙️ Come funziona
 
 Ogni giorno, a orario fisso, un'intelligenza artificiale raccoglie le notizie
 della giornata, seleziona quelle rilevanti, le sintetizza e le impagina in
-Markdown. Le due edizioni vengono poi pubblicate nel repository con un nuovo
-commit. L'intero processo avviene senza alcun intervento umano.
+Markdown. Un passaggio successivo del workflow esegue `build_site.py` per
+rigenerare la pagina HTML. Le due edizioni e la pagina vengono poi pubblicate
+nel repository con un nuovo commit. L'intero processo avviene senza alcun
+intervento umano.
 
 ---
 
@@ -68,8 +102,8 @@ Segnalazioni e suggerimenti sono benvenuti: apri una
 [Issue](https://github.com/mauro-midolo/italian_news/issues) per segnalare errori
 nei contenuti, proporre fonti da aggiungere o suggerire nuove località da coprire.
 
-I file `news_*.md` non vanno modificati a mano: verrebbero sovrascritti alla
-prossima edizione.
+I file `news_*.md` e `index.html` non vanno modificati a mano: verrebbero
+sovrascritti alla prossima edizione.
 
 ---
 

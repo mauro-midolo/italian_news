@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Italian News – Rassegna stampa quotidiana</title>
+<meta name="description" content="Rassegna stampa quotidiana generata automaticamente da un'intelligenza artificiale: edizione globale ed edizione locale di San Lazzaro di Savena.">
+<meta name="generator" content="build_site.py">
+<meta property="og:title" content="Italian News – Rassegna stampa quotidiana">
+<meta property="og:description" content="Le notizie del giorno, edizione globale e locale, generate automaticamente da un'AI.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>📰</text></svg>">
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #f5f6f8;
+  --surface: #ffffff;
+  --border: #e2e5ea;
+  --text: #16181d;
+  --muted: #5f6672;
+  --accent: #0b7a3b;
+  --accent-soft: #e6f2ea;
+  --shadow: 0 1px 2px rgba(16, 20, 28, .06), 0 8px 24px rgba(16, 20, 28, .05);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #101317;
+    --surface: #181c22;
+    --border: #262c35;
+    --text: #e8eaee;
+    --muted: #99a1ae;
+    --accent: #4ec27d;
+    --accent-soft: #17301f;
+    --shadow: none;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.wrap { max-width: 820px; margin: 0 auto; padding: 32px 20px 64px; }
+
+.masthead { text-align: center; margin-bottom: 28px; }
+.masthead h1 { margin: 0; font-size: 2rem; letter-spacing: -.02em; }
+.masthead .tagline { margin: 8px 0 0; color: var(--muted); }
+.masthead .updated { margin: 4px 0 0; color: var(--muted); font-size: .85rem; }
+
+.tabs {
+  display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;
+  margin: 24px 0 28px;
+}
+.tab {
+  font: inherit; cursor: pointer;
+  padding: 9px 18px; border-radius: 999px;
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+}
+.tab:hover { border-color: var(--accent); }
+.tab.is-active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+.edition-header { margin-bottom: 16px; }
+.edition-header h2 { margin: 0; font-size: 1.35rem; }
+.edition-date { margin: 4px 0 0; color: var(--muted); }
+.count { margin: 2px 0 0; color: var(--muted); font-size: .85rem; }
+
+.filters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px; }
+.filter {
+  font: inherit; font-size: .82rem; cursor: pointer;
+  padding: 5px 12px; border-radius: 999px;
+  border: 1px solid var(--border); background: transparent; color: var(--muted);
+}
+.filter:hover { color: var(--text); border-color: var(--accent); }
+.filter.is-active { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+
+.stories { display: flex; flex-direction: column; gap: 16px; }
+
+.story {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px 22px;
+  box-shadow: var(--shadow);
+}
+.story h3 { margin: 8px 0 10px; font-size: 1.08rem; line-height: 1.4; }
+.story p { margin: 0 0 10px; }
+.story p:last-child { margin-bottom: 0; }
+
+.chip {
+  display: inline-block; font-size: .72rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: .04em;
+  color: var(--accent); background: var(--accent-soft);
+  padding: 3px 9px; border-radius: 999px;
+}
+
+.source { font-size: .88rem; color: var(--muted); }
+.empty { color: var(--muted); }
+
+a { color: var(--accent); }
+a:hover { text-decoration: none; }
+
+.disclaimer {
+  margin-top: 32px; padding: 16px 18px;
+  border: 1px dashed var(--border); border-radius: 12px;
+  color: var(--muted); font-size: .88rem;
+}
+.disclaimer p { margin: 0 0 8px; }
+.disclaimer p:last-child { margin-bottom: 0; }
+
+footer { margin-top: 28px; text-align: center; color: var(--muted); font-size: .85rem; }
+
+@media (max-width: 540px) {
+  .wrap { padding: 24px 14px 48px; }
+  .masthead h1 { font-size: 1.6rem; }
+  .story { padding: 16px; }
+}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <h1>🇮🇹 Italian News</h1>
+      <p class="tagline">Rassegna stampa quotidiana generata da un'intelligenza artificiale</p>
+      <p class="updated">Edizione di lunedì 31 agosto 2026 · pagina generata il 31/08/2026 alle 14:53</p>
+    </header>
+
+    <nav class="tabs" role="tablist" aria-label="Edizioni">
+        <button type="button" class="tab is-active" role="tab" aria-selected="true" data-target="globale">🌍 Globale</button>
+        <button type="button" class="tab" role="tab" aria-selected="false" data-target="san-lazzaro">📍 San Lazzaro di Savena</button>
+    </nav>
+
+    <main>
+      <section class="edition" id="edizione-globale" data-edition="globale">
+        <header class="edition-header">
+          <h2>🌍 Rassegna Globale</h2>
+          <p class="edition-date">Lunedì 31 agosto 2026</p>
+          <p class="count">11 notizie</p>
+        </header>
+        <div class="filters" role="group" aria-label="Filtra per sezione">
+            <button type="button" class="filter is-active" data-filter="*">Tutte</button>
+            <button type="button" class="filter" data-filter="Politica">Politica</button>
+            <button type="button" class="filter" data-filter="Economia">Economia</button>
+            <button type="button" class="filter" data-filter="Estero">Estero</button>
+            <button type="button" class="filter" data-filter="Cronaca">Cronaca</button>
+            <button type="button" class="filter" data-filter="Scienza e tecnologia">Scienza e tecnologia</button>
+            <button type="button" class="filter" data-filter="Cultura e sport">Cultura e sport</button>
+        </div>
+        <div class="stories">
+        <article class="story" data-section="Politica">
+          <span class="chip" data-section="Politica">Politica</span>
+          <h3>Prorogati di altri 15 giorni i controlli alla frontiera con la Spagna</h3>
+          <p>Il governo italiano ha confermato l&#x27;estensione della sospensione degli accordi di Schengen con la Spagna per altri quindici giorni, notificando la decisione all&#x27;Unione europea. Il ministro dell&#x27;Interno Matteo Piantedosi ha comunicato la scelta al collega spagnolo Fernando Grande-Marlaska, spiegando che la situazione a Ceuta resta critica, con migliaia di migranti ancora presenti dopo gli arrivi di fine luglio. Piantedosi ha espresso la speranza che si tratti dell&#x27;ultima proroga necessaria.</p>
+          <p class="source">Fonte: <a href="https://www.open.online/2026/08/31/schengen-blocco-italia-proroga-decisione-governo-meloni/" target="_blank" rel="noopener">Open</a></p>
+        </article>
+        <article class="story" data-section="Politica">
+          <span class="chip" data-section="Politica">Politica</span>
+          <h3>Ranucci contesta formalmente la rimozione da Report</h3>
+          <p>I legali di Sigfrido Ranucci hanno inviato alla Rai una contestazione formale contro la decisione di rimuoverlo dalla conduzione e responsabilità editoriale di Report, definendola illegittima e discriminatoria, riservandosi azioni legali anche urgenti per ottenere il reintegro e un risarcimento dei danni. Al suo posto sono stati indicati i giornalisti Giulia Presutti e Daniele Piervincenzi, scelta che Ranucci ha criticato duramente. La vicenda alimenta le tensioni politiche sulla governance della tv pubblica in vista dell&#x27;autunno.</p>
+          <p class="source">Fonte: <a href="https://www.ansa.it/sito/notizie/politica/2026/08/29/ranucci-contesta-formalmente-la-rimozione-da-report-e-illegittima_f359eb83-612c-4ea1-b186-08af925563b6.html" target="_blank" rel="noopener">ANSA</a></p>
+        </article>
+        <article class="story" data-section="Economia">
+          <span class="chip" data-section="Economia">Economia</span>
+          <h3>Accordo Trump-Venezuela su gran parte delle riserve petrolifere del Paese</h3>
+          <p>Il presidente statunitense Donald Trump ha annunciato un&#x27;intesa che assegna agli Stati Uniti una quota di maggioranza su oltre 65 miliardi di barili di riserve petrolifere venezuelane, circa un quinto del totale nazionale, definendola &quot;il più grande accordo petrolifero della storia&quot;. L&#x27;operazione prevederebbe una joint venture con concessioni della durata di cento anni su diciassette giacimenti, raggiunta tramite partnership con aziende private; i dettagli completi non sono ancora stati resi pubblici.</p>
+          <p class="source">Fonte: <a href="https://www.ilpost.it/2026/08/29/gli-stati-uniti-controlleranno-ancora-piu-petrolio-del-venezuela/" target="_blank" rel="noopener">Il Post</a></p>
+        </article>
+        <article class="story" data-section="Economia">
+          <span class="chip" data-section="Economia">Economia</span>
+          <h3>Spread BTP-Bund stabile a 83 punti nell&#x27;ultima seduta di agosto</h3>
+          <p>Nella seduta di chiusura del mese lo spread tra BTP e Bund decennali si mantiene a 83 punti base, con i rendimenti dei titoli italiani tornati al 4,11%. La giornata dei mercati è condizionata dal dato sull&#x27;inflazione tedesca, mentre la Borsa di Londra resta chiusa per festività; gli operatori guardano anche ai prossimi sviluppi della politica monetaria statunitense.</p>
+          <p class="source">Fonte: <a href="https://quifinanza.it/economia/finanza/spread-btp-bund-31-agsto-2026/1013601/" target="_blank" rel="noopener">QuiFinanza</a></p>
+        </article>
+        <article class="story" data-section="Estero">
+          <span class="chip" data-section="Estero">Estero</span>
+          <h3>Nuova escalation militare tra Stati Uniti e Iran nello Stretto di Hormuz</h3>
+          <p>Le forze statunitensi hanno colpito lanciatori iraniani sull&#x27;isola di Larak dopo aver osservato i Guardiani della Rivoluzione prepararsi a lanciare ordigni navali verso lo Stretto di Hormuz. Teheran ha risposto con un attacco a basi statunitensi in Giordania, in cui sarebbero morte almeno due persone secondo fonti iraniane. L&#x27;episodio riapre la crisi nello stretto dopo settimane di tensione e rischia di avere ripercussioni sui mercati energetici.</p>
+          <p class="source">Fonte: <a href="https://www.quotidianocontribuenti.com/rassegna-stampa-lunedi-31-agosto-2026-dalliran-allucraina-nuove-tensioni-internazionali/" target="_blank" rel="noopener">Quotidiano dei Contribuenti</a></p>
+        </article>
+        <article class="story" data-section="Estero">
+          <span class="chip" data-section="Estero">Estero</span>
+          <h3>Attacco ucraino su Belgorod, due morti; Mosca rivendica centinaia di droni abbattuti</h3>
+          <p>Un attacco attribuito all&#x27;Ucraina ha colpito la città russa di Belgorod causando la morte di un uomo e di un sedicenne e il ferimento di una dozzina di persone, secondo il governatore facente funzioni Aleksandr Shuvaev. Nella notte le difese russe affermano di aver intercettato 239 droni ucraini su diverse regioni, oltre a sei droni diretti verso Mosca. Il Cremlino non esclude un vertice Putin-Trump-Zelensky, ma solo come suggello finale di intese già definite.</p>
+          <p class="source">Fonte: <a href="https://www.agenziagiornalisticaopinione.it/opinionews/il-sole-24-ore-mondo-russia-a-belgorod-3-morti-e-oltre-20-feriti-in-attacchi-ucraini/" target="_blank" rel="noopener">Agenzia Giornalistica Opinione</a></p>
+        </article>
+        <article class="story" data-section="Estero">
+          <span class="chip" data-section="Estero">Estero</span>
+          <h3>Sale a oltre 900 morti il bilancio delle alluvioni tra Nepal e Tibet</h3>
+          <p>Il bilancio complessivo della catastrofe che ha colpito il corridoio montano tra Nepal e Tibet è salito ad almeno 919 morti e quasi 4.800 dispersi, di cui 592 stranieri provenienti da 23 Paesi, molti impiegati nei cantieri idroelettrici lungo il fiume Trishuli. Il Nepal potrebbe avere bisogno di 4-5 miliardi di dollari per la ricostruzione. Tra i dispersi figurano anche cittadini italo-svizzeri in viaggio verso il campo base dell&#x27;Everest.</p>
+          <p class="source">Fonte: <a href="https://askanews.it/2026/08/31/alluvioni-nepal-e-tibet-oltre-900-le-vittime-quasi-5-000-i-dispersi/" target="_blank" rel="noopener">Askanews</a></p>
+        </article>
+        <article class="story" data-section="Cronaca">
+          <span class="chip" data-section="Cronaca">Cronaca</span>
+          <h3>Restano gravi le condizioni di Alessandro Di Battista, ricoverato a Cuba</h3>
+          <p>L&#x27;ex parlamentare del Movimento 5 Stelle, colpito venerdì da un forte mal di testa e da un malore mentre si trovava all&#x27;Avana per un reportage, è stato trasferito dall&#x27;ospedale di Santa Clara all&#x27;Hermanos Ameijeiras della capitale cubana. Nelle prime ore di lunedì sono arrivati a Cuba la compagna e un&#x27;équipe del Policlinico Gemelli di Roma, guidata dai professori Francesco Doglietto e Massimo Antonelli, per valutare le sue condizioni e un eventuale rientro in Italia, al momento non ancora praticabile con il volo di Stato messo a disposizione dal governo.</p>
+          <p class="source">Fonte: <a href="https://www.ansa.it/sito/notizie/politica/2026/08/30/alessandro-di-battista-ricoverato-medici-del-gemelli-verso-cuba_f010ae59-c324-40bb-a41d-89abef927aa2.html" target="_blank" rel="noopener">ANSA</a></p>
+        </article>
+        <article class="story" data-section="Scienza e tecnologia">
+          <span class="chip" data-section="Scienza e tecnologia">Scienza e tecnologia</span>
+          <h3>Una nuova terapia a Rna apre prospettive contro le malattie genetiche</h3>
+          <p>Ricercatori dell&#x27;Università di Toronto hanno pubblicato su Science una nuova strategia terapeutica a base di Rna potenzialmente applicabile a un ampio ventaglio di malattie genetiche, tra cui la fibrosi cistica e alcune forme di distrofia muscolare. Lo studio apre la strada a trattamenti più versatili rispetto agli approcci attuali, mirati singolarmente a specifiche mutazioni.</p>
+          <p class="source">Fonte: <a href="https://www.ansa.it/canale_scienza/notizie/biotech/2026/08/31/dallrna-una-nuova-speranza-per-molte-malattie-genetiche-_c85f9d5f-1eca-432f-a223-ff83d90ba24f.html" target="_blank" rel="noopener">ANSA</a></p>
+        </article>
+        <article class="story" data-section="Scienza e tecnologia">
+          <span class="chip" data-section="Scienza e tecnologia">Scienza e tecnologia</span>
+          <h3>Apple convoca per il 9 settembre l&#x27;evento dei nuovi iPhone</h3>
+          <p>Apple ha fissato per mercoledì 9 settembre, alle 19 italiane, il keynote autunnale da Cupertino con lo slogan &quot;Surprise and shine&quot;. Attesi sul palco iPhone 18 Pro e Pro Max, i nuovi Apple Watch e AirPods, ma soprattutto il primo iPhone pieghevole dell&#x27;azienda, indicato nelle indiscrezioni come iPhone Ultra; per la prima volta da oltre dieci anni non sarebbe invece presentato un iPhone di fascia base, il cui lancio slitterebbe al 2027.</p>
+          <p class="source">Fonte: <a href="https://www.smartworld.it/news/evento-apple-9-settembre.html" target="_blank" rel="noopener">SmartWorld</a></p>
+        </article>
+        <article class="story" data-section="Cultura e sport">
+          <span class="chip" data-section="Cultura e sport">Cultura e sport</span>
+          <h3>Le azzurre del volley agli ottavi degli Europei contro la Bulgaria</h3>
+          <p>Prima nel proprio girone dopo le vittorie su Croazia, Montenegro, Slovacchia, Svezia e Francia, la nazionale femminile di pallavolo affronta oggi la Bulgaria a Brno negli ottavi di finale degli Europei 2026, con in palio l&#x27;accesso ai quarti. La squadra bulgara, quarta nel proprio raggruppamento, è guidata dal tecnico italiano Marcello Abbondanza.</p>
+          <p class="source">Fonte: <a href="https://www.shmag.it/sport/altri-sport/31_08_2026/europei-di-pallavolo-oggi-italia-bulgaria-orario-e-dove-vederla-in-tv-in-chiaro/" target="_blank" rel="noopener">S&amp;H Magazine</a></p>
+        </article>
+        </div>
+      </section>
+      <section class="edition" id="edizione-san-lazzaro" data-edition="san-lazzaro" hidden>
+        <header class="edition-header">
+          <h2>📍 Notizie di San Lazzaro di Savena</h2>
+          <p class="edition-date">Lunedì 31 agosto 2026</p>
+          <p class="count">6 notizie</p>
+        </header>
+        <div class="filters" role="group" aria-label="Filtra per sezione">
+            <button type="button" class="filter is-active" data-filter="*">Tutte</button>
+            <button type="button" class="filter" data-filter="Viabilità">Viabilità</button>
+            <button type="button" class="filter" data-filter="Cronaca">Cronaca</button>
+            <button type="button" class="filter" data-filter="Eventi">Eventi</button>
+            <button type="button" class="filter" data-filter="Iniziative in programma">Iniziative in programma</button>
+        </div>
+        <div class="stories">
+        <article class="story" data-section="Viabilità">
+          <span class="chip" data-section="Viabilità">Viabilità</span>
+          <h3>Da oggi stop ai treni tra Pianoro e Vernio per lavori sulla Bologna-Prato</h3>
+          <p>Da lunedì 31 agosto e fino al 25 settembre, dal lunedì al venerdì tra le 9:30 e le 13:30, la circolazione ferroviaria è sospesa tra Pianoro e Vernio per interventi di potenziamento dell&#x27;infrastruttura. I treni regionali sono sostituiti da collegamenti diretti via bus tra Bologna e Vernio/Prato senza fermate intermedie, mentre per Monzuno, Grizzana e San Benedetto Val di Sambro sono previsti bus dedicati da e per Sasso Marconi; sono inoltre previste lievi modifiche al servizio anche nella tratta tra Bologna e Pianoro.</p>
+          <p class="source">Fonte: <a href="https://ferrovie.info/treni-reali/bologna-prato-nuova-estate-di-lavori-treni-sospesi-tra-pianoro-e-vernio-nelle-ore-centrali.html" target="_blank" rel="noopener">Ferrovie.info</a></p>
+        </article>
+        <article class="story" data-section="Viabilità">
+          <span class="chip" data-section="Viabilità">Viabilità</span>
+          <h3>Chiusure notturne in tangenziale nei pressi di San Lazzaro per il rifacimento dell&#x27;asfalto</h3>
+          <p>Nelle notti tra il 24 e il 27 agosto la tangenziale di Bologna è stata interessata da chiusure a tratti per lavori di rifacimento del manto stradale: tra le uscite San Lazzaro e Casalecchio l&#x27;interruzione è scattata dalle 22 alle 6, con l&#x27;uscita San Lazzaro chiusa in entrambe le direzioni e l&#x27;uscita 13 chiusa in entrata verso Casalecchio. Gli interventi rientrano nel programma di manutenzione notturna della rete tangenziale bolognese.</p>
+          <p class="source">Fonte: <a href="https://www.comune.bologna.it/novita/comunicati-stampa/lavori-corso-citta-i-principali-cantieri-stradali-programma-da-lunedi-24-agosto-0" target="_blank" rel="noopener">Comune di Bologna</a></p>
+        </article>
+        <article class="story" data-section="Cronaca">
+          <span class="chip" data-section="Cronaca">Cronaca</span>
+          <h3>Arrestato a Bologna un rapinatore seriale di donne anziane</h3>
+          <p>La Polizia di Stato ha arrestato un 54enne bolognese, gravemente indiziato di due rapine ai danni di donne anziane commesse il 4 agosto in via Samoggia e il 7 agosto in piazza Bonazzi, zona Barca. In entrambi i casi l&#x27;uomo ha strappato con violenza la borsa alle vittime settantenni, colpendole alla nuca e provocando lesioni guaribili in cinque e sette giorni; fermato, ha dichiarato agli agenti di provare odio verso gli anziani.</p>
+          <p class="source">Fonte: <a href="https://e-tv.it/bologna/odio-gli-anziani-rapinatore-seriale-arrestato-dalla-polizia-a-bologna" target="_blank" rel="noopener">èTV Rete 7</a></p>
+        </article>
+        <article class="story" data-section="Cronaca">
+          <span class="chip" data-section="Cronaca">Cronaca</span>
+          <h3>Truffa agli anziani sventata a Imola, due arresti in flagranza</h3>
+          <p>I carabinieri del Nucleo Radiomobile di Imola hanno bloccato in via Laguna due uomini di 32 anni, disoccupati e con precedenti, sorpresi mentre completavano una truffa da 2.300 euro in contanti più una collanina d&#x27;oro e due fedi nuziali sottratti a un&#x27;anziana di 83 anni. Il modus operandi era quello classico del finto maresciallo dei carabinieri seguito dal finto ufficiale giudiziario venuto a ritirare denaro e gioielli; i due si sono scusati con la vittima e sono stati condotti al tribunale di Bologna per il giudizio direttissimo.</p>
+          <p class="source">Fonte: <a href="https://www.bologna2000.com/2026/08/26/truffe-agli-anziani-i-carabinieri-arrestano-i-presunti-responsabili-di-una-truffa-aggravata-che-si-scusano-per-laccaduto/" target="_blank" rel="noopener">Bologna2000</a></p>
+        </article>
+        <article class="story" data-section="Eventi">
+          <span class="chip" data-section="Eventi">Eventi</span>
+          <h3>Stasera musica dal vivo ai Giardini Parker Lennon con il Sun Donato Festival</h3>
+          <p>Nell&#x27;ambito del Sun Donato Festival 2026, in programma fino al 14 settembre ai Giardini Parker Lennon con ingresso libero, questa sera alle 21 è di scena &quot;Funky Monday&quot;, appuntamento dedicato al groove e all&#x27;improvvisazione con un trio diverso ogni settimana: protagonisti di questa serata sono Aldo Betto alla chitarra, Daniele Cristani al basso e Alessandro Orefice alla batteria, tra contaminazioni funk, soul, rock e psichedeliche.</p>
+          <p class="source">Fonte: <a href="https://www.bolognaestate.it/calendario-bolognaestate-2026/funky-monday-2026" target="_blank" rel="noopener">Bolognaestate</a></p>
+        </article>
+        <article class="story" data-section="Iniziative in programma">
+          <span class="chip" data-section="Iniziative in programma">Iniziative in programma</span>
+          <h3>Al MAMbo la mostra per il centenario di Giuseppe Chiari</h3>
+          <p>Prosegue fino al 27 settembre al MAMbo di Bologna &quot;Giuseppe Chiari 1926-2026. Partitura per un museo&quot;, la prima retrospettiva completa dedicata all&#x27;artista fiorentino nel centenario della nascita, curata da Lorenzo Balbi e Mario Chiari. La mostra, inserita nel programma di Bologna Estate 2026, è affiancata da un ciclo di concerti dedicati alla musica di Chiari, con due appuntamenti conclusivi in programma il 26 settembre.</p>
+          <p class="source">Fonte: <a href="https://www.artribune.com/mostre-evento-arte/giuseppe-chiari-1926-2026-partitura-per-un-museo/" target="_blank" rel="noopener">Artribune</a></p>
+        </article>
+        </div>
+      </section>
+    </main>
+
+    <aside class="disclaimer">
+      <p>Questa rassegna è generata automaticamente da un&#x27;intelligenza artificiale e non è verificata da un redattore umano.</p>
+      <p>Verifica sempre le notizie sulle fonti originali. I diritti sui contenuti
+      restano dei rispettivi editori: qui sono presenti solo sintesi e rimandi.</p>
+    </aside>
+
+    <footer>
+      <p>Realizzato da <a href="https://github.com/mauro-midolo">Mauro Midolo</a> ·
+      <a href="https://github.com/mauro-midolo/italian_news">codice sorgente</a> ·
+      <a href="https://github.com/mauro-midolo/italian_news/commits/main">archivio delle edizioni</a></p>
+    </footer>
+  </div>
+<script>
+document.querySelectorAll('.tab').forEach(function (tab) {
+  tab.addEventListener('click', function () {
+    var target = tab.dataset.target;
+    document.querySelectorAll('.tab').forEach(function (other) {
+      other.classList.toggle('is-active', other === tab);
+      other.setAttribute('aria-selected', String(other === tab));
+    });
+    document.querySelectorAll('.edition').forEach(function (edition) {
+      edition.hidden = edition.dataset.edition !== target;
+    });
+    if (history.replaceState) {
+      history.replaceState(null, '', '#edizione-' + target);
+    }
+  });
+});
+
+document.querySelectorAll('.filters').forEach(function (group) {
+  var edition = group.closest('.edition');
+  group.addEventListener('click', function (event) {
+    var button = event.target.closest('.filter');
+    if (!button) { return; }
+    var value = button.dataset.filter;
+    group.querySelectorAll('.filter').forEach(function (other) {
+      other.classList.toggle('is-active', other === button);
+    });
+    edition.querySelectorAll('.story').forEach(function (story) {
+      story.hidden = value !== '*' && story.dataset.section !== value;
+    });
+  });
+});
+
+var hash = window.location.hash.replace('#edizione-', '');
+if (hash) {
+  var initial = document.querySelector('.tab[data-target="' + CSS.escape(hash) + '"]');
+  if (initial) { initial.click(); }
+}
+</script>
+</body>
+</html>
