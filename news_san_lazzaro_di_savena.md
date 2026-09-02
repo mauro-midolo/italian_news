@@ -1,34 +1,29 @@
-# Notizie di San Lazzaro di Savena – Lunedì 31 agosto 2026
+# Notizie di San Lazzaro di Savena – Mercoledì 2 settembre 2026
 
-### Viabilità: da oggi stop ai treni tra Pianoro e Vernio per lavori sulla Bologna-Prato
-Da lunedì 31 agosto e fino al 25 settembre, dal lunedì al venerdì tra le 9:30 e le 13:30, la circolazione ferroviaria è sospesa tra Pianoro e Vernio per interventi di potenziamento dell'infrastruttura. I treni regionali sono sostituiti da collegamenti diretti via bus tra Bologna e Vernio/Prato senza fermate intermedie, mentre per Monzuno, Grizzana e San Benedetto Val di Sambro sono previsti bus dedicati da e per Sasso Marconi; sono inoltre previste lievi modifiche al servizio anche nella tratta tra Bologna e Pianoro.
+### Viabilità: chiusure notturne su tangenziale e A14 nei pressi di San Lazzaro
+Proseguono i cantieri sulla rete autostradale e tangenziale intorno a San Lazzaro: nella notte tra il 2 e il 3 settembre, dalle 21 alle 5, sarà chiusa per manutenzione l'uscita di San Lazzaro sulla A14 Bologna-Taranto per chi proviene da Milano, mentre un ulteriore intervento notturno tra il 4 e il 5 settembre interesserà il tratto di tangenziale tra gli svincoli 9 e 10 in direzione San Lazzaro. Restano inoltre attive le chiusure permanenti dello svincolo 3 in uscita da San Lazzaro, per manutenzione della piattaforma autostradale, e dello svincolo 6 in entrata verso San Lazzaro, legata ai lavori della Linea Tram Verde.
 
-Fonte: [Ferrovie.info](https://ferrovie.info/treni-reali/bologna-prato-nuova-estate-di-lavori-treni-sospesi-tra-pianoro-e-vernio-nelle-ore-centrali.html)
+Fonte: [Comune di Bologna](https://www.comune.bologna.it/novita/comunicati-stampa/lavori-corso-citta-i-principali-cantieri-stradali-programma-da-lunedi-1-settembre)
 
-### Viabilità: chiusure notturne in tangenziale nei pressi di San Lazzaro per il rifacimento dell'asfalto
-Nelle notti tra il 24 e il 27 agosto la tangenziale di Bologna è stata interessata da chiusure a tratti per lavori di rifacimento del manto stradale: tra le uscite San Lazzaro e Casalecchio l'interruzione è scattata dalle 22 alle 6, con l'uscita San Lazzaro chiusa in entrambe le direzioni e l'uscita 13 chiusa in entrata verso Casalecchio. Gli interventi rientrano nel programma di manutenzione notturna della rete tangenziale bolognese.
+### Cronaca: allerta meteo gialla per temporali sull'Appennino bolognese
+Arpae ed Emilia-Romagna hanno diramato un'allerta gialla per temporali forti, valida dalla mezzanotte alle 24 di oggi 2 settembre sulla fascia appenninica e collinare della provincia di Bologna, area che comprende anche il territorio collinare di San Lazzaro di Savena. Dal pomeriggio sono previsti fenomeni intensi, con possibili frane occasionali e innalzamenti dei livelli idrometrici dei corsi d'acqua minori; i fenomeni dovrebbero attenuarsi in serata.
 
-Fonte: [Comune di Bologna](https://www.comune.bologna.it/novita/comunicati-stampa/lavori-corso-citta-i-principali-cantieri-stradali-programma-da-lunedi-24-agosto-0)
+Fonte: [La Voce di Bologna](https://www.lavocedibologna.it/allerta-gialla-sulla-fascia-appenninica-e-collinare-bolognese/)
 
-### Cronaca: arrestato a Bologna un rapinatore seriale di donne anziane
-La Polizia di Stato ha arrestato un 54enne bolognese, gravemente indiziato di due rapine ai danni di donne anziane commesse il 4 agosto in via Samoggia e il 7 agosto in piazza Bonazzi, zona Barca. In entrambi i casi l'uomo ha strappato con violenza la borsa alle vittime settantenni, colpendole alla nuca e provocando lesioni guaribili in cinque e sette giorni; fermato, ha dichiarato agli agenti di provare odio verso gli anziani.
+### Eventi: torna il mercato contadino del mercoledì in via Repubblica
+Riprende oggi, mercoledì 2 settembre, l'appuntamento settimanale con il mercato contadino di via della Repubblica a San Lazzaro di Savena, attivo dalle 7:30 alle 13:00 nella zona a traffico limitato tra il Municipio e il Parco 2 Agosto. Gli imprenditori agricoli propongono frutta e verdura, carne, formaggi, pane, farine e vino, con i prossimi appuntamenti fissati per il 10, 17 e 24 settembre.
 
-Fonte: [èTV Rete 7](https://e-tv.it/bologna/odio-gli-anziani-rapinatore-seriale-arrestato-dalla-polizia-a-bologna)
+Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/vivere-san-lazzaro-di-savena/eventi/mercati/mercato-contadino-di-via-repubblica-1)
 
-### Cronaca: truffa agli anziani sventata a Imola, due arresti in flagranza
-I carabinieri del Nucleo Radiomobile di Imola hanno bloccato in via Laguna due uomini di 32 anni, disoccupati e con precedenti, sorpresi mentre completavano una truffa da 2.300 euro in contanti più una collanina d'oro e due fedi nuziali sottratti a un'anziana di 83 anni. Il modus operandi era quello classico del finto maresciallo dei carabinieri seguito dal finto ufficiale giudiziario venuto a ritirare denaro e gioielli; i due si sono scusati con la vittima e sono stati condotti al tribunale di Bologna per il giudizio direttissimo.
+### Iniziative in programma: al Museo Donini una serata dedicata a Luigi Donini
+È in programma per venerdì 8 settembre alle 20:30 al Museo della Preistoria "Luigi Donini" di San Lazzaro la proiezione di un documentario sulla vita del ricercatore sanlazzarese Luigi Donini, morto prematuramente nel tentativo di salvare alcuni speleologi e insignito della medaglia d'oro al valor civile, a cui il museo è intitolato. L'ingresso è gratuito fino a esaurimento posti.
 
-Fonte: [Bologna2000](https://www.bologna2000.com/2026/08/26/truffe-agli-anziani-i-carabinieri-arrestano-i-presunti-responsabili-di-una-truffa-aggravata-che-si-scusano-per-laccaduto/)
+Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/vivere-san-lazzaro-di-savena/eventi/appuntamenti-al-museo-donini)
 
-### Eventi: stasera musica dal vivo ai Giardini Parker Lennon con il Sun Donato Festival
-Nell'ambito del Sun Donato Festival 2026, in programma fino al 14 settembre ai Giardini Parker Lennon con ingresso libero, questa sera alle 21 è di scena "Funky Monday", appuntamento dedicato al groove e all'improvvisazione con un trio diverso ogni settimana: protagonisti di questa serata sono Aldo Betto alla chitarra, Daniele Cristani al basso e Alessandro Orefice alla batteria, tra contaminazioni funk, soul, rock e psichedeliche.
+### Eventi in programma: prosegue il Sun Donato Festival nell'area metropolitana bolognese
+Continua fino al 14 settembre, ai Giardini Parker Lennon nel quartiere San Donato-San Vitale di Bologna, il Sun Donato Festival con concerti gratuiti, dj set e attività culturali per tutte le età. Tra gli appuntamenti dei prossimi giorni, il 4 settembre si esibiranno CMQMARTINA ed Eva Bloo tra pop ed elettronica, il 5 settembre sarà dedicato al rap con Nerone, Jack the Smoker e Triflusso, mentre il 6 settembre suonerà l'artista italo-palestinese Tära.
 
-Fonte: [Bolognaestate](https://www.bolognaestate.it/calendario-bolognaestate-2026/funky-monday-2026)
-
-### Iniziative in programma: al MAMbo la mostra per il centenario di Giuseppe Chiari
-Prosegue fino al 27 settembre al MAMbo di Bologna "Giuseppe Chiari 1926-2026. Partitura per un museo", la prima retrospettiva completa dedicata all'artista fiorentino nel centenario della nascita, curata da Lorenzo Balbi e Mario Chiari. La mostra, inserita nel programma di Bologna Estate 2026, è affiancata da un ciclo di concerti dedicati alla musica di Chiari, con due appuntamenti conclusivi in programma il 26 settembre.
-
-Fonte: [Artribune](https://www.artribune.com/mostre-evento-arte/giuseppe-chiari-1926-2026-partitura-per-un-museo/)
+Fonte: [Zero](https://zero.eu/en/news/sun-donato-2026-quattro-settimane-di-musica-dal-mondo-nel-cuore-di-san-donato/)
 
 ---
 *Questa rassegna è generata automaticamente da un'intelligenza artificiale e non è verificata da un redattore umano.*

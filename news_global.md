@@ -1,59 +1,64 @@
-# Rassegna Globale – Lunedì 31 agosto 2026
+# Rassegna Globale – Mercoledì 2 settembre 2026
 
-### Politica: prorogati di altri 15 giorni i controlli alla frontiera con la Spagna
-Il governo italiano ha confermato l'estensione della sospensione degli accordi di Schengen con la Spagna per altri quindici giorni, notificando la decisione all'Unione europea. Il ministro dell'Interno Matteo Piantedosi ha comunicato la scelta al collega spagnolo Fernando Grande-Marlaska, spiegando che la situazione a Ceuta resta critica, con migliaia di migranti ancora presenti dopo gli arrivi di fine luglio. Piantedosi ha espresso la speranza che si tratti dell'ultima proroga necessaria.
+### Politica: al Senato 697 emendamenti alla legge elettorale, salta l'ipotesi ballottaggio
+Entro la scadenza del 1° settembre sono stati depositati in commissione Affari costituzionali al Senato 697 emendamenti alla riforma della legge elettorale. Il centrodestra ha trovato un'intesa su due proposte unitarie, tra cui il ripristino delle preferenze con la possibilità di indicarne fino a tre, ma non sull'introduzione del ballottaggio, su cui Forza Italia ha rinunciato a presentare un proprio emendamento; salta inoltre la quota di genere 60-40 nei capilista prevista dal Rosatellum. La discussione in aula è prevista per il 9 settembre, con il voto finale fissato al 15.
 
-Fonte: [Open](https://www.open.online/2026/08/31/schengen-blocco-italia-proroga-decisione-governo-meloni/)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/09/01/legge-elettorale-da-centrodestra-2-emendamenti-unitari-salta-quota-genere-nei-capilista_1b442245-4db8-4516-9c7b-0b566817df2d.html)
 
-### Politica: Ranucci contesta formalmente la rimozione da Report
-I legali di Sigfrido Ranucci hanno inviato alla Rai una contestazione formale contro la decisione di rimuoverlo dalla conduzione e responsabilità editoriale di Report, definendola illegittima e discriminatoria, riservandosi azioni legali anche urgenti per ottenere il reintegro e un risarcimento dei danni. Al suo posto sono stati indicati i giornalisti Giulia Presutti e Daniele Piervincenzi, scelta che Ranucci ha criticato duramente. La vicenda alimenta le tensioni politiche sulla governance della tv pubblica in vista dell'autunno.
+### Politica: la redazione di Report minaccia le dimissioni in blocco dopo l'addio di Ranucci
+Prosegue lo scontro sulla conduzione di Report dopo la scelta della Rai di sostituire Sigfrido Ranucci con Giulia Presutti e Daniele Piervincenzi. La giornalista Giulia Innocenzi ha dichiarato che la redazione è pronta a dimettersi in blocco se l'azienda non farà marcia indietro, mentre lo storico inviato Bernardo Iovene ha posto come condizione per trattare il ritiro dei due nuovi conduttori, dopo un incontro con il direttore di Rai Programmazione Paolo Corsini. Ranucci, dal canto suo, si è detto pronto a difendersi da solo.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/29/ranucci-contesta-formalmente-la-rimozione-da-report-e-illegittima_f359eb83-612c-4ea1-b186-08af925563b6.html)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/30/settimana-di-confronto-su-report.-ranucci-mi-difendo-da-solo_7fec83ce-e240-4b98-93b5-b772fce9b9d4.html)
 
-### Economia: accordo Trump-Venezuela su gran parte delle riserve petrolifere del Paese
-Il presidente statunitense Donald Trump ha annunciato un'intesa che assegna agli Stati Uniti una quota di maggioranza su oltre 65 miliardi di barili di riserve petrolifere venezuelane, circa un quinto del totale nazionale, definendola "il più grande accordo petrolifero della storia". L'operazione prevederebbe una joint venture con concessioni della durata di cento anni su diciassette giacimenti, raggiunta tramite partnership con aziende private; i dettagli completi non sono ancora stati resi pubblici.
+### Economia: spread in salita a 84 punti, Piazza Affari scende sotto i 52.000 punti
+Nella seduta del 1° settembre lo spread tra BTP e Bund decennali è risalito a 84 punti base, con il rendimento del titolo italiano tornato vicino al 4,2%, complice anche il rialzo dei tassi legato ai dati sull'inflazione statunitense. Piazza Affari ha chiuso in calo dell'1,25%, sotto quota 52.000 punti, appesantita dai titoli bancari e dal comparto petrolifero; deboli anche le altre borse europee, con l'eccezione di un lieve progresso a Parigi.
 
-Fonte: [Il Post](https://www.ilpost.it/2026/08/29/gli-stati-uniti-controlleranno-ancora-piu-petrolio-del-venezuela/)
+Fonte: [QuiFinanza](https://quifinanza.it/economia/finanza/spread-btp-bund-1-settembre-2026/1013703/)
 
-### Economia: spread BTP-Bund stabile a 83 punti nell'ultima seduta di agosto
-Nella seduta di chiusura del mese lo spread tra BTP e Bund decennali si mantiene a 83 punti base, con i rendimenti dei titoli italiani tornati al 4,11%. La giornata dei mercati è condizionata dal dato sull'inflazione tedesca, mentre la Borsa di Londra resta chiusa per festività; gli operatori guardano anche ai prossimi sviluppi della politica monetaria statunitense.
+### Estero: ministri degli Esteri Ue riuniti a Wicklow su Ucraina, Iran e Gaza
+Si è svolta il 1° e 2 settembre a Wicklow, in Irlanda, la riunione informale Gymnich dei ministri degli Esteri dell'Unione europea, presieduta dall'Alta rappresentante Kaja Kallas e ospitata dalla ministra irlandese Helen McEntee. L'agenda, dominata dai dossier di sicurezza, ha toccato la guerra in Ucraina, le tensioni con l'Iran nello Stretto di Hormuz, la situazione a Gaza e in Cisgiordania e il Libano. Per l'Italia ha partecipato il ministro Antonio Tajani, secondo cui su questi fronti serve una voce europea più forte.
 
-Fonte: [QuiFinanza](https://quifinanza.it/economia/finanza/spread-btp-bund-31-agsto-2026/1013601/)
+Fonte: [Agenzia Nova](https://www.agenzianova.com/news/ue-tajani-in-irlanda-per-riunione-ministri-esteri-da-ucraina-e-hormuz-serve-voce-europea-piu-forte/)
 
-### Estero: nuova escalation militare tra Stati Uniti e Iran nello Stretto di Hormuz
-Le forze statunitensi hanno colpito lanciatori iraniani sull'isola di Larak dopo aver osservato i Guardiani della Rivoluzione prepararsi a lanciare ordigni navali verso lo Stretto di Hormuz. Teheran ha risposto con un attacco a basi statunitensi in Giordania, in cui sarebbero morte almeno due persone secondo fonti iraniane. L'episodio riapre la crisi nello stretto dopo settimane di tensione e rischia di avere ripercussioni sui mercati energetici.
+### Estero: raid israeliani su Gaza City, tra le vittime tre bambini
+L'esercito israeliano ha colpito diversi obiettivi nella Striscia di Gaza dichiarando di voler eliminare minacce alle proprie forze; secondo le agenzie di stampa i raid hanno causato la morte di quattro persone, tra cui tre bambini. Fonti palestinesi riferiscono anche di uno scontro a fuoco scoppiato dopo l'infiltrazione nella parte occidentale di Gaza City di un'unità composta da miliziani anti-Hamas sostenuti da Israele, poi scoperta da Hamas. L'episodio conferma la fragilità della tregua in vigore da ottobre.
 
-Fonte: [Quotidiano dei Contribuenti](https://www.quotidianocontribuenti.com/rassegna-stampa-lunedi-31-agosto-2026-dalliran-allucraina-nuove-tensioni-internazionali/)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/topnews/2026/09/01/idf-colpiti-diversi-obiettivi-a-gaza-per-eliminare-minacce_b69ed8c3-a118-46e3-ab48-bc473e20b3a4.html)
 
-### Estero: attacco ucraino su Belgorod, due morti; Mosca rivendica centinaia di droni abbattuti
-Un attacco attribuito all'Ucraina ha colpito la città russa di Belgorod causando la morte di un uomo e di un sedicenne e il ferimento di una dozzina di persone, secondo il governatore facente funzioni Aleksandr Shuvaev. Nella notte le difese russe affermano di aver intercettato 239 droni ucraini su diverse regioni, oltre a sei droni diretti verso Mosca. Il Cremlino non esclude un vertice Putin-Trump-Zelensky, ma solo come suggello finale di intese già definite.
+### Estero: supera i mille morti il bilancio delle alluvioni tra Nepal e Tibet
+Il bilancio della catastrofe provocata dal probabile collasso di un ghiacciaio al confine tra Nepal e Tibet ha superato le 1.000 vittime, con 987 morti accertati in Nepal e 16 in Tibet secondo i media statali cinesi. Le operazioni di soccorso sono entrate nel settimo giorno: i dispersi restano quasi 4.000 in Nepal e 546 in Tibet, mentre aumenta il numero dei corpi recuperati tra le macerie e il fango.
 
-Fonte: [Agenzia Giornalistica Opinione](https://www.agenziagiornalisticaopinione.it/opinionews/il-sole-24-ore-mondo-russia-a-belgorod-3-morti-e-oltre-20-feriti-in-attacchi-ucraini/)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/mondo/2026/09/01/oltre-mille-morti-in-nepal-e-tibet-almeno-4.400-i-dispersi_a85d4f7e-64e4-44dd-ab3d-7d31dbe394f9.html)
 
-### Estero: sale a oltre 900 morti il bilancio delle alluvioni tra Nepal e Tibet
-Il bilancio complessivo della catastrofe che ha colpito il corridoio montano tra Nepal e Tibet è salito ad almeno 919 morti e quasi 4.800 dispersi, di cui 592 stranieri provenienti da 23 Paesi, molti impiegati nei cantieri idroelettrici lungo il fiume Trishuli. Il Nepal potrebbe avere bisogno di 4-5 miliardi di dollari per la ricostruzione. Tra i dispersi figurano anche cittadini italo-svizzeri in viaggio verso il campo base dell'Everest.
+### Cronaca: omicidio-suicidio a Roma, morti padre, madre e figlia disabile
+I carabinieri della compagnia Montesacro indagano su un presunto omicidio-suicidio avvenuto in un'abitazione romana, in cui hanno perso la vita un uomo, la moglie e la figlia disabile della coppia, oltre al cane di famiglia. Sul posto è stata trovata una pistola regolarmente detenuta insieme a lettere scritte a mano indirizzate ai familiari, che secondo gli inquirenti fanno pensare a un gesto premeditato.
 
-Fonte: [Askanews](https://askanews.it/2026/08/31/alluvioni-nepal-e-tibet-oltre-900-le-vittime-quasi-5-000-i-dispersi/)
+Fonte: [ANSA](https://www.ansa.it/sito/notizie/cronaca/2026/09/01/uccide-i-due-fratelli-e-poi-si-toglie-la-vita-nel-ristorante-di-famiglia_0d5403fb-9101-4b87-8336-b1a65fadbc27.html)
 
-### Cronaca: restano gravi le condizioni di Alessandro Di Battista, ricoverato a Cuba
-L'ex parlamentare del Movimento 5 Stelle, colpito venerdì da un forte mal di testa e da un malore mentre si trovava all'Avana per un reportage, è stato trasferito dall'ospedale di Santa Clara all'Hermanos Ameijeiras della capitale cubana. Nelle prime ore di lunedì sono arrivati a Cuba la compagna e un'équipe del Policlinico Gemelli di Roma, guidata dai professori Francesco Doglietto e Massimo Antonelli, per valutare le sue condizioni e un eventuale rientro in Italia, al momento non ancora praticabile con il volo di Stato messo a disposizione dal governo.
+### Cronaca: Di Battista rientrerà in Italia il 4 settembre con un volo sanitario da Cuba
+Le condizioni dell'ex parlamentare del M5S, ricoverato all'Avana dopo un malore accusato durante un reportage, sarebbero in miglioramento secondo le prime indiscrezioni circolate mercoledì. È atteso per il 4 settembre il rientro in Italia con un volo sanitario, dopo la valutazione dei medici del Policlinico Gemelli di Roma giunti a Cuba nei giorni scorsi insieme alla compagna di Di Battista.
 
-Fonte: [ANSA](https://www.ansa.it/sito/notizie/politica/2026/08/30/alessandro-di-battista-ricoverato-medici-del-gemelli-verso-cuba_f010ae59-c324-40bb-a41d-89abef927aa2.html)
+Fonte: [Today](https://www.today.it/rassegna/start/ultime-notizie-oggi-2-settembre-2026.html)
 
-### Scienza e tecnologia: una nuova terapia a Rna apre prospettive contro le malattie genetiche
-Ricercatori dell'Università di Toronto hanno pubblicato su Science una nuova strategia terapeutica a base di Rna potenzialmente applicabile a un ampio ventaglio di malattie genetiche, tra cui la fibrosi cistica e alcune forme di distrofia muscolare. Lo studio apre la strada a trattamenti più versatili rispetto agli approcci attuali, mirati singolarmente a specifiche mutazioni.
+### Scienza e tecnologia: Tim Cook lascia la guida di Apple dopo 15 anni, arriva John Ternus
+Dal 1° settembre John Ternus, fino a oggi a capo dell'ingegneria hardware, è il nuovo amministratore delegato di Apple al posto di Tim Cook, che assume il ruolo di presidente esecutivo del consiglio di amministrazione. Il cambio al vertice, approvato all'unanimità dal board al termine di un processo di successione pianificato, è tra i più rilevanti nella storia recente dell'azienda dopo quello tra Steve Jobs e lo stesso Cook nel 2011. Il debutto pubblico di Ternus come CEO è atteso per il 9 settembre, in occasione dell'evento hardware autunnale.
 
-Fonte: [ANSA](https://www.ansa.it/canale_scienza/notizie/biotech/2026/08/31/dallrna-una-nuova-speranza-per-molte-malattie-genetiche-_c85f9d5f-1eca-432f-a223-ff83d90ba24f.html)
+Fonte: [MilanoFinanza](https://www.milanofinanza.it/news/apple-la-guida-passa-da-tim-cook-a-john-ternus-per-il-nuovo-ceo-la-sfida-dell-ai-202608311701393825)
 
-### Scienza e tecnologia: Apple convoca per il 9 settembre l'evento dei nuovi iPhone
-Apple ha fissato per mercoledì 9 settembre, alle 19 italiane, il keynote autunnale da Cupertino con lo slogan "Surprise and shine". Attesi sul palco iPhone 18 Pro e Pro Max, i nuovi Apple Watch e AirPods, ma soprattutto il primo iPhone pieghevole dell'azienda, indicato nelle indiscrezioni come iPhone Ultra; per la prima volta da oltre dieci anni non sarebbe invece presentato un iPhone di fascia base, il cui lancio slitterebbe al 2027.
+### Scienza e tecnologia: confermata l'esistenza di una stella compagna di Betelgeuse
+Un team di astronomi guidato da Miguel Montargès dell'Osservatorio di Parigi ha ottenuto, grazie al Very Large Telescope dell'Osservatorio Europeo Australe in Cile, la prova più convincente finora dell'esistenza di una compagna della supergigante rossa Betelgeuse, una delle stelle più luminose e osservate del cielo notturno. La debole compagna, chiamata Betelgeuse B, è stata immortalata direttamente per la prima volta dopo oltre un secolo di ipotesi, grazie allo strumento SPHERE del telescopio.
 
-Fonte: [SmartWorld](https://www.smartworld.it/news/evento-apple-9-settembre.html)
+Fonte: [Media INAF](https://www.media.inaf.it/2026/07/28/conferma-compagna-betelgeuse/)
 
-### Cultura e sport: le azzurre del volley agli ottavi degli Europei contro la Bulgaria
-Prima nel proprio girone dopo le vittorie su Croazia, Montenegro, Slovacchia, Svezia e Francia, la nazionale femminile di pallavolo affronta oggi la Bulgaria a Brno negli ottavi di finale degli Europei 2026, con in palio l'accesso ai quarti. La squadra bulgara, quarta nel proprio raggruppamento, è guidata dal tecnico italiano Marcello Abbondanza.
+### Cultura e sport: al via la Mostra del Cinema di Venezia, Leone d'oro alla carriera a Clooney
+Ha preso il via oggi l'83ª Mostra Internazionale d'Arte Cinematografica di Venezia, diretta da Alberto Barbera e in programma al Lido fino al 12 settembre. Il film di apertura, fuori concorso, è "Ink" di Danny Boyle, con Guy Pearce e Claire Foy, dedicato all'acquisizione del quotidiano britannico The Sun da parte di un giovane Rupert Murdoch nel 1969. Nella serata inaugurale è previsto il Leone d'oro alla carriera a George Clooney, con la laudatio affidata a Laura Dern; folta anche la presenza italiana, con cinque film in corsa per il Leone d'oro.
 
-Fonte: [S&H Magazine](https://www.shmag.it/sport/altri-sport/31_08_2026/europei-di-pallavolo-oggi-italia-bulgaria-orario-e-dove-vederla-in-tv-in-chiaro/)
+Fonte: [S&H Magazine](https://www.shmag.it/show/cinema/02_09_2026/mostra-del-cinema-di-venezia-stasera-lapertura-con-leone-doro-alla-carriera-a-clooney/)
+
+### Cultura e sport: volley femminile, Italia-Svezia oggi ai quarti degli Europei
+Dopo aver dominato il proprio girone e travolto 3-0 la Bulgaria negli ottavi, la nazionale italiana di pallavolo femminile, campione del mondo in carica, affronta oggi alle 19 la Svezia nei quarti di finale degli Europei a Brno, in Repubblica Ceca. Le azzurre avevano già superato le svedesi 3-0 lo scorso 23 agosto e partono favorite per l'accesso alle semifinali.
+
+Fonte: [OA Sport](https://www.oasport.it/2026/09/italia-svezia-oggi-europei-volley-femminile-2026-orario-tv-programma-streaming-2/)
 
 ---
 *Questa rassegna è generata automaticamente da un'intelligenza artificiale e non è verificata da un redattore umano.*
