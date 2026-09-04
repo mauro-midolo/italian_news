@@ -1,29 +1,24 @@
-# Notizie di San Lazzaro di Savena – Mercoledì 2 settembre 2026
+# Notizie di San Lazzaro di Savena – Venerdì 4 settembre 2026
 
-### Viabilità: chiusure notturne su tangenziale e A14 nei pressi di San Lazzaro
-Proseguono i cantieri sulla rete autostradale e tangenziale intorno a San Lazzaro: nella notte tra il 2 e il 3 settembre, dalle 21 alle 5, sarà chiusa per manutenzione l'uscita di San Lazzaro sulla A14 Bologna-Taranto per chi proviene da Milano, mentre un ulteriore intervento notturno tra il 4 e il 5 settembre interesserà il tratto di tangenziale tra gli svincoli 9 e 10 in direzione San Lazzaro. Restano inoltre attive le chiusure permanenti dello svincolo 3 in uscita da San Lazzaro, per manutenzione della piattaforma autostradale, e dello svincolo 6 in entrata verso San Lazzaro, legata ai lavori della Linea Tram Verde.
+### Amministrazione comunale: approvato un pacchetto di lavori stradali da 314mila euro
+Il Comune di San Lazzaro di Savena ha approvato un pacchetto di interventi di manutenzione stradale per un totale di 314mila euro, in partenza a settembre al termine delle procedure di gara. I lavori riguarderanno in particolare il rifacimento del manto d'asfalto più degradato, con interventi su via Poggi (dalla rotonda di via Caselle alla rotonda Iqbal Masih), via Croara (da via Bellaria al civico 7/c) e via San Ruffillo alla Ponticella (dal confine con Bologna all'incrocio con via del Colle).
 
-Fonte: [Comune di Bologna](https://www.comune.bologna.it/novita/comunicati-stampa/lavori-corso-citta-i-principali-cantieri-stradali-programma-da-lunedi-1-settembre)
+Fonte: [Città Metropolitana di Bologna](https://www.cittametropolitana.bo.it/portale/Comunicazione/Notizie_dai_Comuni/San_Lazzaro_strade_approvato_un_pacchetto_di_lavori_per_314mila_euro)
 
-### Cronaca: allerta meteo gialla per temporali sull'Appennino bolognese
-Arpae ed Emilia-Romagna hanno diramato un'allerta gialla per temporali forti, valida dalla mezzanotte alle 24 di oggi 2 settembre sulla fascia appenninica e collinare della provincia di Bologna, area che comprende anche il territorio collinare di San Lazzaro di Savena. Dal pomeriggio sono previsti fenomeni intensi, con possibili frane occasionali e innalzamenti dei livelli idrometrici dei corsi d'acqua minori; i fenomeni dovrebbero attenuarsi in serata.
+### Viabilità: senso unico sul ponte del Savena lungo via Emilia
+Dal 21 agosto al 14 settembre il ponte sul torrente Savena lungo via Emilia, che collega San Lazzaro a Bologna, è percorribile a senso unico in direzione Bologna per consentire lavori di restauro sulla struttura. I mezzi del trasporto pubblico Tper seguono un percorso alternativo su viale Cavina, via Bellaria/Altura e via Fratelli Canova, con possibili rallentamenti per il traffico privato nella zona.
 
-Fonte: [La Voce di Bologna](https://www.lavocedibologna.it/allerta-gialla-sulla-fascia-appenninica-e-collinare-bolognese/)
+Fonte: [BolognaToday](https://www.bolognatoday.it/cronaca/san-lazzaro-ponte-savena-lavori-traffico-deviazioni.html)
 
-### Eventi: torna il mercato contadino del mercoledì in via Repubblica
-Riprende oggi, mercoledì 2 settembre, l'appuntamento settimanale con il mercato contadino di via della Repubblica a San Lazzaro di Savena, attivo dalle 7:30 alle 13:00 nella zona a traffico limitato tra il Municipio e il Parco 2 Agosto. Gli imprenditori agricoli propongono frutta e verdura, carne, formaggi, pane, farine e vino, con i prossimi appuntamenti fissati per il 10, 17 e 24 settembre.
+### Amministrazione comunale: pubblicata la graduatoria definitiva dei nidi d'infanzia 2026/2027
+Il Comune ha pubblicato la graduatoria definitiva per l'accesso ai nidi d'infanzia comunali e privati convenzionati per l'anno educativo 2026/2027. Le domande, riservate alle famiglie residenti con bambini nati tra il 1° gennaio 2024 e il 15 aprile 2026, erano state raccolte online nel mese di aprile, con la possibilità di presentare eventuali rinunce entro il 22 giugno.
 
-Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/vivere-san-lazzaro-di-savena/eventi/mercati/mercato-contadino-di-via-repubblica-1)
+Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/novita/avvisi/graduatoria-definitiva-nidi-infanzia-2026-2027)
 
-### Iniziative in programma: al Museo Donini una serata dedicata a Luigi Donini
-È in programma per venerdì 8 settembre alle 20:30 al Museo della Preistoria "Luigi Donini" di San Lazzaro la proiezione di un documentario sulla vita del ricercatore sanlazzarese Luigi Donini, morto prematuramente nel tentativo di salvare alcuni speleologi e insignito della medaglia d'oro al valor civile, a cui il museo è intitolato. L'ingresso è gratuito fino a esaurimento posti.
+### Eventi: dal 10 al 13 settembre torna il Funky Food Festival
+Al Parco della Resistenza di San Lazzaro di Savena è in programma dal 10 al 13 settembre il Funky Food Festival, quattro giorni dedicati a street food, dj set e intrattenimento all'aperto. L'ingresso alla manifestazione è gratuito.
 
-Fonte: [Comune di San Lazzaro di Savena](https://www.comune.sanlazzaro.bo.it/vivere-san-lazzaro-di-savena/eventi/appuntamenti-al-museo-donini)
-
-### Eventi in programma: prosegue il Sun Donato Festival nell'area metropolitana bolognese
-Continua fino al 14 settembre, ai Giardini Parker Lennon nel quartiere San Donato-San Vitale di Bologna, il Sun Donato Festival con concerti gratuiti, dj set e attività culturali per tutte le età. Tra gli appuntamenti dei prossimi giorni, il 4 settembre si esibiranno CMQMARTINA ed Eva Bloo tra pop ed elettronica, il 5 settembre sarà dedicato al rap con Nerone, Jack the Smoker e Triflusso, mentre il 6 settembre suonerà l'artista italo-palestinese Tära.
-
-Fonte: [Zero](https://zero.eu/en/news/sun-donato-2026-quattro-settimane-di-musica-dal-mondo-nel-cuore-di-san-donato/)
+Fonte: [Funky Food Festival](https://www.funkyfoodfestival.com/)
 
 ---
 *Questa rassegna è generata automaticamente da un'intelligenza artificiale e non è verificata da un redattore umano.*
