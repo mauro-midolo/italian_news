@@ -1,0 +1,209 @@
+<!doctype html>
+<!--
+  ===========================================================================
+  TEMPLATE DEL GIORNALE PERSONALE
+  ===========================================================================
+
+  Questo file e' il MODELLO di riferimento, non l'edizione pubblicata.
+  L'agente AI lo usa come struttura per scrivere public/index.html.
+
+  Contratto di generazione
+  ------------------------
+  1. L'attributo data-edizione="TEMPLATE-DEMO" qui sotto va RIMOSSO nella
+     pagina generata (la pipeline fallisce se lo trova in public/).
+  2. Ogni voce di [NOTIZIE] in details.info diventa un <section class="riquadro">
+     dentro .griglia, nello stesso ordine in cui compare nel file.
+  3. La sezione .avvisi va inclusa SOLO se almeno una voce di [INFORMAZIONI]
+     ha prodotto qualcosa da comunicare; altrimenti va eliminata del tutto.
+  4. Classi, struttura e nomi dei file CSS/JS non vanno cambiati: css/style.css
+     e js/main.js vengono copiati invariati in public/.
+  5. Il contenuto di esempio presente qui sotto e' segnaposto e va sostituito
+     integralmente con le notizie del giorno.
+  ===========================================================================
+-->
+<html lang="it" data-edizione="TEMPLATE-DEMO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Titolo: "Il Quotidiano — <data estesa in italiano>" -->
+  <title>Il Quotidiano — edizione di esempio</title>
+  <meta name="description" content="Giornale personale generato ogni giorno da un'intelligenza artificiale.">
+  <meta name="robots" content="index, follow">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#faf8f3" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#131211" media="(prefers-color-scheme: dark)">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Il Quotidiano — edizione di esempio">
+  <meta property="og:description" content="Giornale personale generato ogni giorno da un'intelligenza artificiale.">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <a class="salta" href="#contenuto">Vai al contenuto</a>
+
+  <!-- ===================== TESTATA ===================== -->
+  <header class="testata">
+    <div class="contenitore">
+      <div class="testata__barra">
+        <span class="testata__marchio">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+            <path d="M3 4h14a1 1 0 0 1 1 1v13a2 2 0 0 0 2 2H5a2 2 0 0 1-2-2V4Zm3 3v4h8V7H6Zm0 6v1.5h8V13H6Zm0 3.5V18h8v-1.5H6Z"/>
+          </svg>
+          Edizione personale
+        </span>
+        <button class="comando" type="button" data-azione="tema" hidden>Tema: auto</button>
+      </div>
+
+      <h1 class="testata__titolo">Il Quotidiano</h1>
+      <p class="testata__occhiello">
+        Le notizie che ho chiesto di seguire, raccolte e riassunte ogni mattina
+        da un&rsquo;intelligenza artificiale.
+      </p>
+
+      <!-- La data va aggiornata a ogni edizione: datetime in formato ISO. -->
+      <div class="testata__riga">
+        <time datetime="2026-01-01"><strong>Giovedì 1 gennaio 2026</strong></time>
+        <span>Edizione delle 06:30</span>
+        <span data-ruolo="aggiornato" datetime="2026-01-01T06:30:00+01:00" hidden></span>
+      </div>
+
+      <div class="ricerca" hidden>
+        <input type="search" data-azione="cerca" aria-label="Cerca fra le notizie" placeholder="Cerca fra le notizie…">
+      </div>
+    </div>
+  </header>
+
+  <main id="contenuto">
+    <div class="contenitore">
+
+      <!--
+        ===================== AVVISI (OPZIONALE) =====================
+        Deriva da [INFORMAZIONI] di details.info.
+        Va inclusa solo quando c'e' davvero qualcosa da comunicare.
+        Se non ci sono avvisi, ELIMINARE l'intero <section class="avvisi">:
+        non lasciare il contenitore vuoto ne' messaggi del tipo
+        "nessuna novita' oggi".
+        Piu' avvisi nello stesso giorno: piu' <article class="avviso">.
+      -->
+      <section class="avvisi" aria-labelledby="avvisi-titolo">
+        <h2 class="avvisi__titolo" id="avvisi-titolo">Informazione importante</h2>
+
+        <article class="avviso">
+          <h3 class="avviso__titolo">Titolo sintetico dell&rsquo;avviso</h3>
+          <p class="avviso__testo">
+            Due o tre frasi che spiegano che cosa è successo e perché
+            riguarda una delle richieste configurate in <code>details.info</code>.
+          </p>
+          <p class="avviso__meta">
+            Richiesta monitorata: <em>testo della voce di [INFORMAZIONI]</em> &middot;
+            Fonte: <a href="https://esempio.it/notizia">Nome della fonte</a>
+          </p>
+        </article>
+      </section>
+
+      <!-- ===================== NOTIZIE ===================== -->
+      <section aria-labelledby="notizie-titolo">
+        <h2 class="sezione__titolo" id="notizie-titolo">Notizie</h2>
+
+        <p class="vuoto" data-ruolo="nessun-risultato" hidden>
+          Nessuna notizia corrisponde alla ricerca.
+        </p>
+
+        <div class="griglia">
+          <!--
+            Un <section class="riquadro"> per ogni voce di [NOTIZIE].
+            Il titolo del riquadro riprende la voce configurata.
+            Dentro, da 3 a 8 <article class="notizia">, dalla piu' rilevante.
+          -->
+          <section class="riquadro">
+            <header class="riquadro__testata">
+              <h3 class="riquadro__titolo">Titolo del riquadro</h3>
+              <span class="riquadro__conteggio" data-ruolo="conteggio"></span>
+            </header>
+
+            <article class="notizia">
+              <h4 class="notizia__titolo">Titolo della notizia</h4>
+              <p class="notizia__testo">
+                Riassunto di due o quattro frasi, scritto con parole proprie,
+                senza virgolettati estesi presi dall&rsquo;articolo originale.
+              </p>
+              <p class="notizia__meta">
+                <a class="notizia__fonte" href="https://esempio.it/notizia" rel="noopener">Nome della fonte</a>
+              </p>
+            </article>
+
+            <article class="notizia">
+              <h4 class="notizia__titolo">Seconda notizia del riquadro</h4>
+              <p class="notizia__testo">
+                Le notizie di uno stesso riquadro sono separate da un filetto
+                automatico: non servono elementi aggiuntivi.
+              </p>
+              <p class="notizia__meta">
+                <!-- L'etichetta di categoria e' facoltativa: usala quando le
+                     notizie di un riquadro appartengono ad ambiti diversi. -->
+                <span class="notizia__categoria">Categoria</span>
+                <a class="notizia__fonte" href="https://esempio.it/altra-notizia" rel="noopener">Nome della fonte</a>
+              </p>
+            </article>
+          </section>
+
+          <section class="riquadro">
+            <header class="riquadro__testata">
+              <h3 class="riquadro__titolo">Secondo riquadro</h3>
+              <span class="riquadro__conteggio" data-ruolo="conteggio"></span>
+            </header>
+
+            <article class="notizia">
+              <h4 class="notizia__titolo">Titolo della notizia</h4>
+              <p class="notizia__testo">
+                La griglia si adatta da sola al numero di riquadri: aggiungendo
+                una voce a <code>details.info</code> non serve toccare il CSS.
+              </p>
+              <p class="notizia__meta">
+                <a class="notizia__fonte" href="https://esempio.it/notizia" rel="noopener">Nome della fonte</a>
+              </p>
+            </article>
+          </section>
+        </div>
+      </section>
+
+      <!--
+        Eventuali sezioni future vanno inserite qui sotto, dopo le notizie,
+        riusando .sezione__titolo, .griglia e .riquadro.
+      -->
+
+    </div>
+  </main>
+
+  <!-- ===================== PIEDE ===================== -->
+  <footer class="pie">
+    <div class="contenitore">
+      <p class="pie__disclaimer">
+        Questa pagina è generata automaticamente da un&rsquo;intelligenza
+        artificiale e non è verificata da un redattore umano: i contenuti
+        possono essere incompleti o inesatti. Verifica sempre le notizie sulle
+        fonti originali.
+      </p>
+      <p>
+        I diritti sui contenuti originali restano dei rispettivi editori: qui
+        sono presenti solo sintesi e rimandi.
+      </p>
+      <p>
+        Edizione generata a partire da <code>details.info</code> &middot;
+        <a href="https://github.com/mauro-midolo/italian_news">codice del progetto</a>
+      </p>
+    </div>
+  </footer>
+
+  <button class="su" type="button" data-azione="su" aria-label="Torna all'inizio della pagina" hidden>&uarr;</button>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-name: Rassegna stampa giornaliera
+name: Edizione giornaliera
 
 on:
   schedule:
@@ -6,11 +6,11 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: rassegna-giornaliera
+  group: edizione-giornaliera
   cancel-in-progress: true
 
 jobs:
-  rassegna:
+  edizione:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     permissions:
@@ -23,63 +23,140 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Genera la rassegna con Claude
+      - name: Prepara public/ a partire dal template
+        run: |
+          # L'edizione di ieri resta a disposizione dell'agente per evitare
+          # di ripetere le stesse notizie e gli stessi avvisi.
+          mkdir -p .cache
+          if [ -f public/index.html ]; then
+            cp public/index.html .cache/edizione-precedente.html
+          fi
+
+          # public/ riparte sempre da una copia pulita del template: cosi'
+          # CSS, JS e asset restano allineati senza che l'agente li riscriva.
+          rm -rf public
+          cp -R template public
+
+      - name: Genera l'edizione con Claude
         uses: anthropics/claude-code-action@v1.0.216
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
-            Sei il redattore automatico del repository italian_news.
-            Oggi è il giorno indicato dal comando `date` sulla macchina.
+            Sei il redattore automatico de "Il Quotidiano", il giornale
+            personale di questo repository. Oggi è il giorno restituito dal
+            comando `date` sulla macchina (fuso Europe/Rome).
 
-            Devi riscrivere COMPLETAMENTE da zero due file Markdown, cercando
-            sul web le notizie più rilevanti delle ultime 24 ore.
+            Il tuo unico compito è scrivere `public/index.html`: l'edizione
+            di oggi, completa e pronta per la pubblicazione.
 
-            ## 1. `news_global.md`
-            Le principali notizie italiane e internazionali della giornata.
-            Da 8 a 12 notizie, ordinate per rilevanza e raggruppate per
-            sezione: Politica, Economia, Estero, Cronaca, Scienza e
-            tecnologia, Cultura e sport. Ometti le sezioni senza notizie.
-            Non voglio informazioni sul calcio a meno che non si tratti dei mondiali.
+            ## Passi
 
-            ## 2. `news_san_lazzaro_di_savena.md`
-            Le notizie riguardanti il comune di San Lazzaro di Savena (BO) e,
-            se scarseggiano, l'area metropolitana di Bologna. Da 4 a 8
-            notizie: cronaca locale, decisioni dell'amministrazione comunale,
-            viabilità, eventi e iniziative in programma.
+            1. Leggi `CLAUDE.md`: contiene il contratto di generazione completo.
+            2. Leggi `details.info`: definisce che cosa deve contenere il
+               giornale. È l'unica fonte di verità sui contenuti.
+            3. Leggi `template/index.html` e `template/css/style.css`: sono la
+               struttura e la grafica da rispettare alla lettera.
+            4. Se esiste `.cache/edizione-precedente.html`, leggilo: è
+               l'edizione di ieri. Serve a non ripubblicare le stesse notizie
+               e a non ripetere ogni giorno lo stesso avviso.
+            5. Cerca sul web i contenuti richiesti e verifica le condizioni
+               configurate.
+            6. Scrivi `public/index.html`.
 
-            ## Formato di entrambi i file
-            - Titolo di primo livello con il nome dell'edizione e la data in
-              formato esteso italiano (es. "Giovedì 6 agosto 2026").
-            - Ogni notizia: titolo di terzo livello, seguito da un riassunto
-              di 2-4 frasi e da un link alla fonte originale.
-            - In fondo, una riga che ricorda che il testo è generato
-              automaticamente da un'intelligenza artificiale e non è
-              verificato da un redattore umano.
+            ## Sezione [NOTIZIE]
+
+            Ogni voce elencata sotto `[NOTIZIE]` in `details.info` produce un
+            riquadro `<section class="riquadro">` dentro `.griglia`, nello
+            stesso ordine del file, con il titolo della voce come intestazione.
+            Da 3 a 8 notizie per riquadro, delle ultime 24-48 ore, ordinate
+            per rilevanza, ciascuna con titolo, riassunto di 2-4 frasi e link
+            alla fonte originale.
+
+            Non dare per scontate le categorie: leggi le voci effettivamente
+            presenti nel file, quali che siano.
+
+            ## Sezione [INFORMAZIONI]
+
+            Ogni voce è una condizione da verificare, NON un contenuto da
+            mostrare per forza.
+
+            - Se dalla verifica non emerge nulla da comunicare, ometti
+              completamente la sezione `<section class="avvisi">`. Non scrivere
+              messaggi del tipo "non ancora disponibile": la pagina deve
+              semplicemente chiudersi senza spazi vuoti.
+            - Se una condizione risulta soddisfatta, o emerge un'informazione
+              rilevante, inserisci `.avvisi` in cima al `<main>`, PRIMA delle
+              notizie, con un `<article class="avviso">` per ciascuna novità:
+              titolo sintetico, spiegazione breve, richiesta monitorata e fonte.
+            - Se ieri avevi già dato lo stesso avviso e la situazione non è
+              cambiata, non ripeterlo.
+
+            ## Vincoli tecnici
+
+            - Modifica SOLO `public/index.html`. Non toccare `template/`,
+              `details.info`, `CLAUDE.md` o i file già copiati in `public/`
+              (CSS, JS, asset): sono già allineati.
+            - Rimuovi l'attributo `data-edizione="TEMPLATE-DEMO"` dal tag
+              `<html>`: la pipeline fallisce se lo trova.
+            - Aggiorna `<title>`, `<meta name="description">`, `og:title`,
+              `og:description`, il `<time datetime="AAAA-MM-GG">` con la data
+              estesa in italiano e il `datetime` di `data-ruolo="aggiornato"`.
+            - Non cambiare nomi di classi, percorsi degli asset né la struttura
+              del template. Lascia gli attributi `hidden` dove li trovi.
+            - Non eseguire comandi git.
 
             ## Regole redazionali
-            - Scrivi in italiano, con tono sobrio e informativo.
-            - Riassumi sempre con parole tue: non copiare frasi dagli
-              articoli originali e non riportare virgolettati estesi.
-            - Cita solo notizie che hai effettivamente trovato tramite
-              ricerca web, con la relativa fonte. Non inventare NULLA:
-              se non trovi abbastanza notizie locali, scrivine meno.
-            - Mantieni un registro neutrale sui temi politicamente
-              controversi: riporta i fatti, non prendere posizione.
-            - Limitati a scrivere i due file: non modificare altro nel
-              repository e non eseguire comandi git.
+
+            - Italiano, tono sobrio e informativo.
+            - Riassumi con parole tue: niente virgolettati estesi o copia-incolla.
+            - Cita solo notizie che hai davvero trovato, con la fonte reale.
+              Non inventare NULLA: se le notizie locali scarseggiano, scrivine
+              meno.
+            - Registro neutrale sui temi politicamente controversi.
+            - Niente calcio, a meno che non si tratti dei mondiali.
           claude_args: |
             --model claude-sonnet-5
-            --max-turns 80
-            --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Bash(date*)"
+            --max-turns 120
+            --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Glob,Grep,Bash(date*)"
 
-      - name: Pubblica la rassegna
+      - name: Verifica l'edizione generata
+        run: |
+          set -e
+
+          test -f public/index.html || { echo "::error::public/index.html non è stato generato."; exit 1; }
+
+          if grep -q "TEMPLATE-DEMO" public/index.html; then
+            echo "::error::public/index.html è ancora il template di esempio."
+            exit 1
+          fi
+
+          if ! grep -q 'class="riquadro"' public/index.html; then
+            echo "::error::l'edizione non contiene alcun riquadro di notizie."
+            exit 1
+          fi
+
+          oggi="$(TZ='Europe/Rome' date +%Y-%m-%d)"
+          if ! grep -q "$oggi" public/index.html; then
+            echo "::error::l'edizione non riporta la data di oggi ($oggi)."
+            exit 1
+          fi
+
+          # CSS, JS e asset devono restare identici al template.
+          for file in css/style.css js/main.js assets/favicon.svg _headers robots.txt; do
+            diff -q "template/$file" "public/$file" > /dev/null \
+              || { echo "::error::public/$file diverge dal template."; exit 1; }
+          done
+
+          echo "Edizione valida: $(grep -c 'class="notizia"' public/index.html || true) notizie."
+
+      - name: Pubblica l'edizione
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news_global.md news_san_lazzaro_di_savena.md
+          git add -A public
           if git diff --staged --quiet; then
             echo "Nessuna modifica da pubblicare."
           else
-            git commit -m "Rassegna del $(TZ='Europe/Rome' date +%d/%m/%Y)"
+            git commit -m "Edizione del $(TZ='Europe/Rome' date +%d/%m/%Y)"
             git push
           fi

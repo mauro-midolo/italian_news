@@ -1,0 +1,26 @@
+# ---------------------------------------------------------------------------
+# details.info — cosa deve contenere il giornale personale
+#
+# Questo file e' l'unico posto in cui descrivere i contenuti desiderati.
+# Va modificato a mano: l'agente AI lo rilegge a ogni generazione.
+#
+# Formato
+#   [SEZIONE]        intestazione di una sezione, tra parentesi quadre
+#   - richiesta      una voce della sezione, una per riga, con trattino
+#   # commento       le righe che iniziano con # vengono ignorate
+#
+# Estendibilita'
+#   Aggiungere una voce a [NOTIZIE] crea automaticamente un nuovo riquadro
+#   nella pagina. Aggiungere una voce a [INFORMAZIONI] crea una nuova
+#   condizione da verificare ogni giorno. Non serve toccare il codice.
+# ---------------------------------------------------------------------------
+
+[NOTIZIE]
+
+- Notizie su San Lazzaro di Savena
+- Notizie dal mondo
+
+
+[INFORMAZIONI]
+
+- Avvisami quando il film "Odissea" del 2026 diventa disponibile su una piattaforma di streaming
