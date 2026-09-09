@@ -17,6 +17,12 @@ jobs:
     permissions:
       contents: write
       id-token: write
+    env:
+      # Secondi di attesa prima della notifica Telegram: servono a dare tempo
+      # a Cloudflare Pages di pubblicare il commit. Da alzare a mano una volta
+      # misurata la durata reale del deploy.
+      ATTESA_DEPLOY_SECONDI: 2
+      SITO_URL: https://news.mauromidolo.com
 
     steps:
       - name: Checkout repository
@@ -151,13 +157,44 @@ jobs:
           echo "Edizione valida: $(grep -c 'class="notizia"' public/index.html || true) notizie."
 
       - name: Pubblica l'edizione
+        id: pubblica
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A public
           if git diff --staged --quiet; then
             echo "Nessuna modifica da pubblicare."
+            echo "pubblicata=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Edizione del $(TZ='Europe/Rome' date +%d/%m/%Y)"
             git push
+            echo "pubblicata=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Avvisa su Telegram
+        if: steps.pubblica.outputs.pubblicata == 'true'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_BOT_CHAT: ${{ secrets.TELEGRAM_BOT_CHAT }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${TELEGRAM_BOT_TOKEN:-}" ] || [ -z "${TELEGRAM_BOT_CHAT:-}" ]; then
+            echo "::warning::TELEGRAM_BOT_TOKEN o TELEGRAM_BOT_CHAT non configurati: notifica saltata."
+            exit 0
+          fi
+
+          # Attesa per lasciare a Cloudflare Pages il tempo di pubblicare.
+          echo "Attendo ${ATTESA_DEPLOY_SECONDI}s prima di notificare..."
+          sleep "${ATTESA_DEPLOY_SECONDI}"
+
+          messaggio="La rassegna del $(TZ='Europe/Rome' date +%d/%m/%Y) e' pronta: ${SITO_URL}"
+
+          curl -sS --fail-with-body -o /dev/null \
+            -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_BOT_CHAT}" \
+            --data-urlencode "text=${messaggio}" \
+            --data-urlencode "disable_web_page_preview=false"
+
+          echo "Notifica Telegram inviata."
+
