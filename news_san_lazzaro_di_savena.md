@@ -1,29 +1,24 @@
-# Notizie di San Lazzaro di Savena – Lunedì 7 settembre 2026
+# San Lazzaro di Savena — Mercoledì 9 settembre 2026
 
-### Cronaca: sequestro a scopo di estorsione nelle campagne di San Lazzaro, tre arresti
-La Squadra Mobile di Bologna ha liberato un operaio 23enne sequestrato martedì 2 settembre in un casale isolato nella campagna di San Lazzaro di Savena, dove era stato portato incappucciato, legato con fascette e picchiato, anche con il manico di un machete. Le indagini, partite dalla segnalazione della fidanzata e di un amico del giovane, hanno portato all'arresto di tre persone, tra cui un minorenne, che avrebbero chiesto un riscatto di 26mila euro per il rilascio.
+### Bus esplode in via Bellaria, evacuati tutti i passeggeri
+La sera del 4 settembre un autobus della linea 90, in discesa dall'Ospedale Bellaria verso San Camillo, ha preso fuoco poco dopo l'incrocio con via Croara, al confine tra Bologna e San Lazzaro. L'autista, accortosi del fumo dal motore, ha fermato il mezzo e fatto scendere in sicurezza tutti i passeggeri prima che si verificassero alcune esplosioni; sul posto sono intervenuti vigili del fuoco, polizia locale e carabinieri, che hanno chiuso la strada al traffico. Non si registrano feriti.
+Fonte: [Il Resto del Carlino](https://www.ilrestodelcarlino.it/bologna/cronaca/incendio-a-bologna-le-fiamme-divorano-un-autobus-tper-il-video-choc-y8hjd6iu)
 
-Fonte: [Corriere Nazionale](https://www.corrierenazionale.it/2026/09/05/operaio-sequestrato-in-un-casale-nella-campagna-di-san-lazzaro-di-savena-per-un-debito-3-arresti)
+### Rapina in un market di via Emilia, tre arresti
+I carabinieri della Compagnia di San Lazzaro hanno arrestato tre persone, una coppia con un figlio piccolo e un diciassettenne, per rapina aggravata ai danni di un market di prodotti per la casa e la persona su via Emilia. Il gruppo aveva nascosto in un passeggino cosmetici per quasi 300 euro e, sorpreso dal personale mentre tentava di uscire senza pagare, ha reagito con violenza aggredendo due commessi nel parcheggio.
+Fonte: [BolognaToday](https://www.bolognatoday.it/cronaca/san-lazzaro-commessi-feriti.html)
 
-### Cronaca: rapina in un market di via Emilia, tre persone arrestate
-I carabinieri hanno arrestato una coppia di 32 e 28 anni, con un bambino piccolo, e una ragazza di 17 anni per rapina aggravata in un supermercato di articoli per la casa e la persona di San Lazzaro. I tre avrebbero nascosto in un passeggino cosmetici per circa 300 euro, ma nel tentativo di fuga sono nate delle colluttazioni con due commessi del negozio, rimasti feriti, prima che una pattuglia bloccasse l'auto nel parcheggio.
+### Tangenziale, chiusure agli svincoli di San Lazzaro per lavori
+Restano chiusi lo svincolo 6 in entrata verso San Lazzaro e in uscita da Casalecchio, per lavori esterni alla rete Aspi legati alla linea verde del tram, e lo svincolo 3 in uscita da San Lazzaro, quest'ultimo fino alle 5 del 22 settembre per interventi di manutenzione sul bordo della carreggiata autostradale. Gli automobilisti diretti verso il comune sono invitati a valutare percorsi alternativi nelle ore di chiusura.
+Fonte: [Comune di Bologna](https://www.comune.bologna.it/novita/comunicati-stampa/lavori-corso-citta-i-principali-cantieri-stradali-programma-da-lunedi-22-settembre)
 
-Fonte: [Sassuolo2000](https://www.sassuolo2000.it/2026/09/03/rapina-in-un-market-a-san-lazzaro-tentavano-la-fuga-nascondendo-la-refurtiva-in-un-passeggino-tre-arrestati/)
+### Torna il Funky Food Festival al Parco della Resistenza
+Da giovedì 10 a domenica 13 settembre il Parco della Resistenza ospita quattro giornate dedicate a cibo, musica e sport, organizzate dagli ideatori della pagina social "Qui si taffia" insieme al Comune di San Lazzaro e a Fipe-Confcommercio Ascom Bologna. Tra gli stand presenti anche quello di "Franceschetta", il locale legato allo chef Massimo Bottura.
+Fonte: [èTV Rete 7](https://e-tv.it/san-lazzaro-di-savena/funky-food-festival-torna-a-san-lazzaro-dal-10-al-13-settembre)
 
-### Viabilità: completati i lavori principali della nuova rotatoria di via Bellaria
-È stata inaugurata all'inizio di agosto la "Rotonda del Dono", la nuova rotatoria all'incrocio tra via Bellaria, via Fratelli Canova, via Rio Polo e via Altura, realizzata da Rete Ferroviaria Italiana come opera di mitigazione per la linea alta velocità Bologna-Firenze. L'intersezione, che ha sostituito il precedente impianto semaforico e cambia l'accesso all'ospedale Bellaria, sarà completata entro fine anno con la realizzazione di marciapiedi, la nuova pavimentazione di via Altura e la sistemazione del verde.
-
-Fonte: [BolognaToday](https://www.bolognatoday.it/cronaca/rotonda-dono-nuovo-accesso-ospedale-bellaria-bologna.html)
-
-### Eventi: alla Fattoria del Dono la prima edizione del Festival dell'Agroecologia
-Venerdì 11 e sabato 12 settembre la Fattoria del Dono ospita "Alleanze per la Terra", primo festival dell'agroecologia promosso dall'assessorato comunale insieme al comitato di gestione della Fattoria e al Biodistretto dell'Appennino bolognese. Il programma prevede incontri, laboratori e un confronto su agricoltura, rigenerazione dei suoli, filiere e salute; nell'occasione la sala principale della struttura sarà intitolata alla benefattrice sanlazzarese Stella Corazza, che donò alla comunità il podere e i terreni.
-
-Fonte: [Sassuolo2000](https://www.sassuolo2000.it/2026/09/01/alleanze-per-la-terra-a-san-lazzaro-la-prima-edizione-del-festival-dellagroecologia/)
-
-### Eventi: torna al Parco della Resistenza il Funky Food Festival
-Dal 10 al 13 settembre il Parco della Resistenza ospita la seconda edizione del Funky Food Festival, con dieci operatori di street food, dj set, musica dal vivo e attività sportive all'aperto a ingresso gratuito. Dopo le circa 15mila presenze della prima edizione, la manifestazione è stata allungata di un giorno e il programma ampliato, con apertura serale nei primi due giorni e attività anche diurne nel fine settimana.
-
-Fonte: [Funky Food Festival](https://www.funkyfoodfestival.com/)
+### Bologna Technopole, commissione consiliare sulla nuova governance
+Tra le commissioni consiliari in programma mercoledì 9 settembre a Bologna figura un'audizione della Commissione Commercio, Turismo, Lavoro ed Economia locale sull'accordo tra Regione, Comune e Città metropolitana per la gestione del Tecnopolo Dama, il polo dedicato a big data, supercalcolo e intelligenza artificiale che coinvolge l'intera area metropolitana bolognese, San Lazzaro compresa.
+Fonte: [EmiliaRomagnaNEWS24](https://www.emiliaromagnanews24.it/le-commissioni-consiliari-di-mercoledi-9-settembre-2-397240.html)
 
 ---
 *Questa rassegna è generata automaticamente da un'intelligenza artificiale e non è verificata da un redattore umano.*
