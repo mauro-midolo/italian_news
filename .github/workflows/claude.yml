@@ -155,18 +155,86 @@ jobs:
 
       - name: Pubblica l'edizione
         id: pubblica
+        env:
+          RAMO: ${{ github.ref_name }}
         run: |
+          set -euo pipefail
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add -A public
           if git diff --staged --quiet; then
             echo "Nessuna modifica da pubblicare."
             echo "pubblicata=false" >> "$GITHUB_OUTPUT"
-          else
-            git commit -m "Edizione del $(TZ='Europe/Rome' date +%d/%m/%Y)"
-            git push
-            echo "pubblicata=true" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
+
+          git commit -m "Edizione del $(TZ='Europe/Rome' date +%d/%m/%Y)"
+
+          # Il job pubblica solo public/, ormai committato: qualsiasi altra
+          # modifica rimasta nell'albero di lavoro non va pubblicata e
+          # impedirebbe il rebase piu' sotto.
+          if ! git diff --quiet; then
+            echo "::warning::scartate modifiche fuori da public/:"
+            git diff --name-only
+            git checkout -- .
+          fi
+
+          # Il checkout risale all'inizio del job: se nel frattempo qualcuno
+          # ha spinto su ${RAMO}, il push viene rifiutato. Invece di fallire,
+          # si rimette il commit dell'edizione in cima ai commit remoti
+          # (rebase) e si riprova, senza sovrascrivere il lavoro altrui.
+          for tentativo in 1 2 3 4 5; do
+            if git push origin "HEAD:${RAMO}"; then
+              echo "pubblicata=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+
+            echo "Push rifiutato (tentativo ${tentativo}/5): riallineo con origin/${RAMO}."
+            git fetch origin "${RAMO}"
+
+            if ! git rebase "origin/${RAMO}"; then
+              # L'unico file scritto dal job e' public/index.html: se il
+              # conflitto e' li', l'edizione appena generata e' quella buona.
+              # Qualsiasi conflitto fuori da public/ non e' roba nostra:
+              # meglio fermarsi che indovinare.
+              conflitti="$(git diff --name-only --diff-filter=U)"
+              if [ -z "$conflitti" ] || printf '%s\n' "$conflitti" | grep -qv '^public/'; then
+                echo "::error::conflitto non risolvibile in automatico durante il rebase:"
+                printf '%s\n' "$conflitti"
+                git rebase --abort || true
+                exit 1
+              fi
+
+              printf '%s\n' "$conflitti" | while IFS= read -r file; do
+                git checkout --theirs -- "$file" || git rm -f -- "$file"
+              done
+              git add -A public
+
+              if git diff --cached --quiet; then
+                # Il remoto contiene gia' la stessa edizione: niente da rifare.
+                GIT_EDITOR=true git rebase --skip
+                echo "L'edizione era gia' presente su origin/${RAMO}."
+                echo "pubblicata=false" >> "$GITHUB_OUTPUT"
+                exit 0
+              fi
+
+              GIT_EDITOR=true git rebase --continue
+            fi
+
+            # Se il rebase ha svuotato il commit non resta nulla da spingere.
+            if git diff --quiet "origin/${RAMO}" HEAD; then
+              echo "Nessuna differenza rispetto a origin/${RAMO} dopo il rebase."
+              echo "pubblicata=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+
+            sleep $(( tentativo * 5 ))
+          done
+
+          echo "::error::push su ${RAMO} non riuscito dopo 5 tentativi."
+          exit 1
 
       - name: Avvisa su Telegram
         if: steps.pubblica.outputs.pubblicata == 'true'
