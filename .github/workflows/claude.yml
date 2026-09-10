@@ -18,7 +18,7 @@ jobs:
       # Secondi di attesa prima della notifica Telegram: servono a dare tempo
       # a Cloudflare Pages di pubblicare il commit. Da alzare a mano una volta
       # misurata la durata reale del deploy.
-      ATTESA_DEPLOY_SECONDI: 2
+      ATTESA_DEPLOY_SECONDI: 60
       SITO_URL: https://news.mauromidolo.com
 
     steps:
