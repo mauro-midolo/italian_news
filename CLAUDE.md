@@ -29,7 +29,9 @@ Righe che iniziano con `#` sono commenti. Le intestazioni sono tra parentesi
 quadre, le voci iniziano con `-`.
 
 - **`[NOTIZIE]`** — ogni voce genera **un riquadro** (`<section class="riquadro">`)
-  dentro `.griglia`, nell'ordine in cui compare nel file. Il titolo del riquadro
+  dentro `.griglia`, nell'ordine in cui compare nel file. `.griglia` impagina i
+  riquadri su colonne di giornale e le bilancia da sola: riquadri di lunghezza
+  molto diversa non lasciano buchi, quindi non servono classi di larghezza. Il titolo del riquadro
   riprende il testo della voce. Da 3 a 8 notizie per riquadro, ordinate per
   rilevanza, ciascuna con titolo, riassunto di 2-4 frasi e link alla fonte.
   Niente hardcoding delle categorie esistenti: aggiungere una voce deve bastare
@@ -72,10 +74,35 @@ Classi e ruoli definiti in `template/index.html` e `template/css/style.css`:
 | Riquadro di categoria | `.riquadro` > `.riquadro__testata` + `.notizia` |
 | Notizia | `.notizia__titolo`, `.notizia__testo`, `.notizia__meta`, `.notizia__fonte` |
 | Etichetta categoria (facoltativa) | `.notizia__categoria` |
+| Foto della notizia (facoltativa) | `.notizia__foto` |
+| Dati strutturati (facoltativi) | `.notizia__dati` |
 
-`data-ruolo="conteggio"` viene riempito dal JavaScript: lasciare lo `<span>` vuoto.
-Gli elementi con `hidden` (tema, ricerca, torna su, `data-ruolo="aggiornato"`)
-vanno lasciati così: li attiva `js/main.js`.
+### Elementi facoltativi
+
+- **`.notizia__foto`** — `<img class="notizia__foto" … loading="lazy" decoding="async">`
+  subito dopo `.notizia__titolo`, con `alt` descrittivo. Usare l'URL originale
+  dell'immagine della fonte; il CSS la ritaglia in 4:3, quindi non servono
+  dimensioni. Se la foto non c'è, omettere l'elemento: niente segnaposto.
+- **`.notizia__dati`** — `<dl class="notizia__dati">` con un `<div><dt>…</dt><dd>…</dd></div>`
+  per voce, da due a cinque righe. Serve per prezzi, scadenze, luoghi: dati
+  brevi che nel testo diventerebbero un elenco faticoso. Il testo discorsivo
+  resta in `.notizia__testo` e non li ripete.
+- **`.notizia__categoria`** — etichetta breve (una o due parole) per l'ambito
+  della notizia o per il suo stato: «Esteri», «Economia», «Gratis ora»,
+  «In arrivo». Non deve ripetere un dato già presente in `.notizia__dati`:
+  se la scadenza è fra i dati, l'etichetta dice che cos'è l'oggetto, non
+  quando scade.
+
+La prima `.notizia` di ogni riquadro è l'apertura e riceve dal CSS un titolo
+più grande: metterci la notizia più rilevante.
+
+### Elementi riempiti dal JavaScript
+
+`data-ruolo="conteggio"` (per riquadro), `data-ruolo="totale"` (nel titolo di
+sezione) e `.indice` (`data-ruolo="indice"`, l'indice dei riquadri) vanno
+lasciati vuoti così come sono nel template. Gli elementi con `hidden` (tema,
+ricerca, indice, conteggio totale, torna su, `data-ruolo="aggiornato"`) vanno
+lasciati nascosti: li attiva `js/main.js`.
 
 Nella testata vanno aggiornati titolo `<title>`, `<meta name="description">`,
 `og:title`, `og:description`, il `<time datetime="AAAA-MM-GG">` con la data

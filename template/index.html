@@ -19,6 +19,9 @@
      e js/main.js vengono copiati invariati in public/.
   5. Il contenuto di esempio presente qui sotto e' segnaposto e va sostituito
      integralmente con le notizie del giorno.
+  6. Gli elementi con hidden (tema, ricerca, indice, conteggio totale, torna
+     su, data-ruolo="aggiornato") vanno lasciati vuoti e nascosti: li riempie
+     e li mostra js/main.js.
   ===========================================================================
 -->
 <html lang="it" data-edizione="TEMPLATE-DEMO">
@@ -110,7 +113,17 @@
 
       <!-- ===================== NOTIZIE ===================== -->
       <section aria-labelledby="notizie-titolo">
-        <h2 class="sezione__titolo" id="notizie-titolo">Notizie</h2>
+        <h2 class="sezione__titolo" id="notizie-titolo">
+          Notizie
+          <!-- Riempito dal JS con il totale delle notizie: lasciare vuoto. -->
+          <span class="sezione__conteggio" data-ruolo="totale" hidden></span>
+        </h2>
+
+        <!--
+          Indice dei riquadri: lo costruisce js/main.js leggendo i .riquadro
+          presenti in pagina. Va lasciato vuoto e nascosto.
+        -->
+        <nav class="indice" data-ruolo="indice" aria-label="Vai a un riquadro" hidden></nav>
 
         <p class="vuoto" data-ruolo="nessun-risultato" hidden>
           Nessuna notizia corrisponde alla ricerca.
@@ -120,7 +133,10 @@
           <!--
             Un <section class="riquadro"> per ogni voce di [NOTIZIE].
             Il titolo del riquadro riprende la voce configurata.
-            Dentro, da 3 a 8 <article class="notizia">, dalla piu' rilevante.
+            Dentro, da 3 a 8 <article class="notizia">, dalla piu' rilevante:
+            la prima e' l'apertura e il CSS le da' un titolo piu' grande.
+            La griglia impagina i riquadri su colonne di giornale e le
+            bilancia da sola: non servono classi di larghezza.
           -->
           <section class="riquadro">
             <header class="riquadro__testata">
@@ -147,7 +163,8 @@
               </p>
               <p class="notizia__meta">
                 <!-- L'etichetta di categoria e' facoltativa: usala quando le
-                     notizie di un riquadro appartengono ad ambiti diversi. -->
+                     notizie di un riquadro appartengono ad ambiti diversi,
+                     o per uno stato breve ("Gratis ora", "Scade il 23/09"). -->
                 <span class="notizia__categoria">Categoria</span>
                 <a class="notizia__fonte" href="https://esempio.it/altra-notizia" rel="noopener">Nome della fonte</a>
               </p>
@@ -160,11 +177,39 @@
               <span class="riquadro__conteggio" data-ruolo="conteggio"></span>
             </header>
 
+            <!--
+              Notizia con foto e dati strutturati: entrambi FACOLTATIVI.
+              - .notizia__foto va subito dopo il titolo, con loading="lazy".
+                Usa l'immagine originale dell'annuncio; il CSS la ritaglia in
+                4:3 cosi' una colonna di annunci resta allineata. Se la foto
+                non esiste, ometti l'elemento: non mettere segnaposto.
+              - .notizia__dati serve a prezzi, scadenze, luoghi: dati brevi
+                che nel testo diventerebbero un elenco faticoso. Poche righe,
+                da due a cinque.
+            -->
             <article class="notizia">
-              <h4 class="notizia__titolo">Titolo della notizia</h4>
+              <h4 class="notizia__titolo">Notizia con foto e dati</h4>
+              <img class="notizia__foto" src="https://esempio.it/foto.jpg" alt="Descrizione sintetica della foto" loading="lazy" decoding="async">
               <p class="notizia__testo">
                 La griglia si adatta da sola al numero di riquadri: aggiungendo
                 una voce a <code>details.info</code> non serve toccare il CSS.
+              </p>
+              <dl class="notizia__dati">
+                <div><dt>Base d&rsquo;asta</dt><dd>1.000,00 &euro;</dd></div>
+                <div><dt>Scadenza</dt><dd>23 settembre, ore 11:00</dd></div>
+                <div><dt>Località</dt><dd>Castenaso (BO)</dd></div>
+              </dl>
+              <p class="notizia__meta">
+                <span class="notizia__categoria">Etichetta</span>
+                <a class="notizia__fonte" href="https://esempio.it/notizia" rel="noopener">Nome della fonte</a>
+              </p>
+            </article>
+
+            <article class="notizia">
+              <h4 class="notizia__titolo">Notizia senza elementi opzionali</h4>
+              <p class="notizia__testo">
+                Foto, dati ed etichetta si usano solo quando aggiungono
+                qualcosa: una notizia normale resta titolo, testo e fonte.
               </p>
               <p class="notizia__meta">
                 <a class="notizia__fonte" href="https://esempio.it/notizia" rel="noopener">Nome della fonte</a>

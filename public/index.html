@@ -59,7 +59,12 @@
     <div class="contenitore">
 
       <section aria-labelledby="notizie-titolo">
-        <h2 class="sezione__titolo" id="notizie-titolo">Notizie</h2>
+        <h2 class="sezione__titolo" id="notizie-titolo">
+          Notizie
+          <span class="sezione__conteggio" data-ruolo="totale" hidden></span>
+        </h2>
+
+        <nav class="indice" data-ruolo="indice" aria-label="Vai a un riquadro" hidden></nav>
 
         <p class="vuoto" data-ruolo="nessun-risultato" hidden>
           Nessuna notizia corrisponde alla ricerca.
@@ -241,11 +246,13 @@
             <article class="notizia">
               <h4 class="notizia__titolo">Astral Ascent, roguelite d&rsquo;azione fra i boss dello zodiaco</h4>
               <p class="notizia__testo">
-                Fino alle 17:00 del 17 settembre si può riscattare gratuitamente questo
-                platform roguelite di Hibernian Workshop, ambientato in una prigione astrale
+                Platform roguelite di Hibernian Workshop, ambientato in una prigione astrale
                 sorvegliata da dodici boss zodiacali. Si sceglie fra quattro eroi con stili di
                 combattimento diversi, anche in cooperativa locale a due giocatori.
               </p>
+              <dl class="notizia__dati">
+                <div><dt>Riscatto</dt><dd><strong>entro il 17 settembre, ore 17:00</strong></dd></div>
+              </dl>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Gratis ora</span>
                 <a class="notizia__fonte" href="https://store.epicgames.com/p/astral-ascent-b33bc2" rel="noopener">Epic Games Store</a>
@@ -255,11 +262,13 @@
             <article class="notizia">
               <h4 class="notizia__titolo">Luftrausers, il classico shooter aereo di Vlambeer</h4>
               <p class="notizia__testo">
-                Anche questo titolo arcade del 2014 è riscattabile gratuitamente fino alle
-                17:00 del 17 settembre: si pilota un caccia sperimentale personalizzabile in
-                combattimenti rapidi contro ondate di navi, sottomarini e aerei nemici,
-                inseguendo il punteggio più alto.
+                In questo titolo arcade del 2014 si pilota un caccia sperimentale
+                personalizzabile in combattimenti rapidi contro ondate di navi, sottomarini e
+                aerei nemici, inseguendo il punteggio più alto.
               </p>
+              <dl class="notizia__dati">
+                <div><dt>Riscatto</dt><dd><strong>entro il 17 settembre, ore 17:00</strong></dd></div>
+              </dl>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Gratis ora</span>
                 <a class="notizia__fonte" href="https://store.epicgames.com/p/luftrausers-51e5e9" rel="noopener">Epic Games Store</a>
@@ -269,12 +278,14 @@
             <article class="notizia">
               <h4 class="notizia__titolo">In arrivo Mindcop, avventura investigativa fra le menti dei sospettati</h4>
               <p class="notizia__testo">
-                Dal 17 al 24 settembre sarà gratuito Mindcop, gioco investigativo in cui si
-                esplorano i ricordi e i pensieri dei sospettati per risolvere un omicidio
-                avvenuto in un isolato campeggio.
+                Gioco investigativo in cui si esplorano i ricordi e i pensieri dei sospettati
+                per risolvere un omicidio avvenuto in un isolato campeggio.
               </p>
+              <dl class="notizia__dati">
+                <div><dt>Gratuito</dt><dd><strong>dal 17 al 24 settembre</strong></dd></div>
+              </dl>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Dal 17 settembre</span>
+                <span class="notizia__categoria">In arrivo</span>
                 <a class="notizia__fonte" href="https://gamerant.com/epic-games-store-september-2026-games-shogun-showdown-mindcop/" rel="noopener">Game Rant</a>
               </p>
             </article>
@@ -282,12 +293,14 @@
             <article class="notizia">
               <h4 class="notizia__titolo">In arrivo Shogun Showdown, combattimenti a turni in stile roguelike</h4>
               <p class="notizia__testo">
-                Sempre dal 17 al 24 settembre sarà gratuito Shogun Showdown, gioco di
-                combattimento a turni con elementi roguelike e deck-building, incentrato sul
-                posizionamento tattico in battaglia.
+                Gioco di combattimento a turni con elementi roguelike e deck-building,
+                incentrato sul posizionamento tattico in battaglia.
               </p>
+              <dl class="notizia__dati">
+                <div><dt>Gratuito</dt><dd><strong>dal 17 al 24 settembre</strong></dd></div>
+              </dl>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Dal 17 settembre</span>
+                <span class="notizia__categoria">In arrivo</span>
                 <a class="notizia__fonte" href="https://gamerant.com/epic-games-store-september-2026-games-shogun-showdown-mindcop/" rel="noopener">Game Rant</a>
               </p>
             </article>
@@ -301,61 +314,79 @@
 
             <article class="notizia">
               <h4 class="notizia__titolo">Abbattitore di temperatura professionale Irinox Multifresh</h4>
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/77/27/07/0177270710.jpg" alt="Abbattitore di temperatura professionale Irinox Multifresh MF 130.2 Plus">
+              <img class="notizia__foto" src="https://d3h8bn4njg0vla.cloudfront.net/01/77/27/07/0177270710.jpg" alt="Abbattitore di temperatura professionale Irinox Multifresh MF 130.2 Plus" loading="lazy" decoding="async">
               <p class="notizia__testo">
-                Lotto 7: un abbattitore di temperatura professionale Irinox Multifresh MF
-                130.2 Plus, dimensioni L162 x P150 x H222 cm, base d&rsquo;asta 5.932,62 euro.
-                Gara non ancora avviata, offerte al momento assenti. L&rsquo;asta si chiude
-                mercoledì 23 settembre alle 11:00; il bene si trova a Villanova di Castenaso
-                (Bologna) ed è visionabile su appuntamento entro il 16 settembre.
+                Lotto 7: un abbattitore di temperatura professionale Irinox Multifresh
+                MF 130.2 Plus, di dimensioni L162 x P150 x H222 cm. La gara non è ancora
+                avviata e non risultano offerte; il bene è visionabile su appuntamento
+                entro il 16 settembre.
               </p>
+              <dl class="notizia__dati">
+                <div><dt>Base d&rsquo;asta</dt><dd><strong>5.932,62 &euro;</strong></dd></div>
+                <div><dt>Offerte</dt><dd>nessuna, gara non avviata</dd></div>
+                <div><dt>Scadenza</dt><dd>mercoledì 23 settembre, ore 11:00</dd></div>
+                <div><dt>Località</dt><dd>Villanova di Castenaso (BO)</dd></div>
+              </dl>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Scadenza 23/09</span>
+                <span class="notizia__categoria">Attrezzatura pro</span>
                 <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-7-abbattitore-di-temperatura-professionale-marca-irinox-multifresh-mf-130-2-plus-di-dimensioni-l162-x-p150-x-1652094.html" rel="noopener">Fallco Aste</a>
               </p>
             </article>
 
             <article class="notizia">
               <h4 class="notizia__titolo">Componentistica elettronica varia</h4>
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/77/42/62/0177426202.jpg" alt="Componentistica elettronica varia in asta">
+              <img class="notizia__foto" src="https://d3h8bn4njg0vla.cloudfront.net/01/77/42/62/0177426202.jpg" alt="Componentistica elettronica varia in asta" loading="lazy" decoding="async">
               <p class="notizia__testo">
-                Lotto 6: un insieme di componentistica elettronica varia, descritta nella
-                perizia allegata all&rsquo;annuncio, con base d&rsquo;asta di 450 euro. Gara non
-                ancora avviata. Scadenza mercoledì 23 settembre alle 11:00; il bene si trova a
-                Castenaso (Bologna), in via Ca&rsquo; dell&rsquo;Orbo 33.
+                Lotto 6: un insieme di componentistica elettronica varia, descritta in
+                dettaglio nella perizia allegata all&rsquo;annuncio. La gara non è ancora
+                avviata.
               </p>
+              <dl class="notizia__dati">
+                <div><dt>Base d&rsquo;asta</dt><dd><strong>450,00 &euro;</strong></dd></div>
+                <div><dt>Offerte</dt><dd>nessuna, gara non avviata</dd></div>
+                <div><dt>Scadenza</dt><dd>mercoledì 23 settembre, ore 11:00</dd></div>
+                <div><dt>Località</dt><dd>Castenaso (BO), via Ca&rsquo; dell&rsquo;Orbo 33</dd></div>
+              </dl>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Scadenza 23/09</span>
+                <span class="notizia__categoria">Componenti</span>
                 <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-6-componentistica-elettronica-varia-come-meglio-riportato-nella-stima-allegata-1654298.html" rel="noopener">Fallco Aste</a>
               </p>
             </article>
 
             <article class="notizia">
               <h4 class="notizia__titolo">Materiale informatico e da cancelleria</h4>
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/77/42/59/0177425958.jpg" alt="Materiale vario informatico e da cancelleria in asta">
+              <img class="notizia__foto" src="https://d3h8bn4njg0vla.cloudfront.net/01/77/42/59/0177425958.jpg" alt="Materiale vario informatico e da cancelleria in asta" loading="lazy" decoding="async">
               <p class="notizia__testo">
-                Lotto 1: materiale vario informatico e da cancelleria, base d&rsquo;asta 900
-                euro, offerta minima 675 euro con rilanci da 100 euro. Gara non ancora
-                avviata. Scadenza mercoledì 23 settembre alle 11:00, ritiro a Castenaso
-                (Bologna), in via Ca&rsquo; dell&rsquo;Orbo 33.
+                Lotto 1: materiale vario informatico e da cancelleria, come riportato nella
+                stima allegata. La gara non è ancora avviata.
               </p>
+              <dl class="notizia__dati">
+                <div><dt>Base d&rsquo;asta</dt><dd><strong>900,00 &euro;</strong></dd></div>
+                <div><dt>Offerta minima</dt><dd>675,00 &euro;, rilanci da 100 &euro;</dd></div>
+                <div><dt>Scadenza</dt><dd>mercoledì 23 settembre, ore 11:00</dd></div>
+                <div><dt>Ritiro</dt><dd>Castenaso (BO), via Ca&rsquo; dell&rsquo;Orbo 33</dd></div>
+              </dl>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Scadenza 23/09</span>
+                <span class="notizia__categoria">Informatica</span>
                 <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-1-materiale-vario-informatico-e-da-cancelleria-come-meglio-riportato-nella-stima-allegata-1654202.html" rel="noopener">Fallco Aste</a>
               </p>
             </article>
 
             <article class="notizia">
               <h4 class="notizia__titolo">Frigorifero Beko e microonde Domo</h4>
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/77/42/64/0177426429.jpg" alt="Frigorifero Beko e microonde Domo in asta">
+              <img class="notizia__foto" src="https://d3h8bn4njg0vla.cloudfront.net/01/77/42/64/0177426429.jpg" alt="Frigorifero Beko e microonde Domo in asta" loading="lazy" decoding="async">
               <p class="notizia__testo">
                 Lotto 3: un frigorifero di marca Beko e un microonde di marca Domo, venduti
-                insieme a una scaletta domestica in alluminio a cinque gradini; base
-                d&rsquo;asta 80 euro, offerta minima 60 euro con rilanci da 10 euro. Scadenza
-                mercoledì 23 settembre alle 11:00, ritiro a Castenaso (Bologna).
+                insieme a una scaletta domestica in alluminio a cinque gradini.
               </p>
+              <dl class="notizia__dati">
+                <div><dt>Base d&rsquo;asta</dt><dd><strong>80,00 &euro;</strong></dd></div>
+                <div><dt>Offerta minima</dt><dd>60,00 &euro;, rilanci da 10 &euro;</dd></div>
+                <div><dt>Scadenza</dt><dd>mercoledì 23 settembre, ore 11:00</dd></div>
+                <div><dt>Ritiro</dt><dd>Castenaso (BO)</dd></div>
+              </dl>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Scadenza 23/09</span>
+                <span class="notizia__categoria">Elettrodomestici</span>
                 <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-3-n-1-frigorifero-marca-beko-n-1-microonde-marca-domo-n-1-scala-domestica-in-alluminio-a-1654206.html" rel="noopener">Fallco Aste</a>
               </p>
             </article>
