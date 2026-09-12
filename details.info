@@ -17,24 +17,77 @@
 
 [NOTIZIE]
 
-- Notizie su San Lazzaro di Savena
-- Notizie dal mondo
-- Consulta la pagina dei giochi gratuiti di Epic Games e riporta due elenchi distinti:
-    Giochi attualmente gratuiti: titolo, scadenza dell’offerta e link diretto alla pagina del gioco per riscattarlo.
-    Prossimi giochi gratuiti: titoli già annunciati e relative date di disponibilità.
-  Se i prossimi giochi non sono ancora stati svelati, indicalo chiaramente.
-- Consulta [questa ricerca su Fallco Aste](https://www.fallcoaste.it/ricerca.html?filter=macro%7C591%5Einput_categoria%7CBeni%20Mobili%5Eubicazione_lat%7C44.494887%5Eubicazione_lng%7C11.3426163%5Eubicazione_str%7CBologna%20BO%2C%20Italia%5Eubicazione_dst%7C15%5Estato%7C1&page=2) e individua gli **oggetti di elettronica all’asta**, esaminando tutte le pagine dei risultati e mantenendo i filtri impostati.
-    Per ciascun oggetto riporta:
-    
-    * **Foto dell’oggetto**, mostrata direttamente nel risultato.
-    * Nome e breve descrizione.
-    * Prezzo base e offerta attuale, se disponibili.
-    * Data e ora di scadenza dell’asta.
-    * Località del bene.
-    * Link diretto all’annuncio.
-    
-    Utilizza le foto originali degli annunci; se non disponibili, segnalalo. Includi solo le aste ancora aperte e ordinale per scadenza, dalla più vicina.
+## San Lazzaro di Savena
 
+Riporta le notizie più recenti e rilevanti su **San Lazzaro di Savena**, privilegiando eventi, viabilità, servizi, lavori pubblici, sicurezza e informazioni utili per la vita quotidiana.
+
+---
+
+## Domotica e Smart Home
+
+Riporta le principali novità su **domotica e Smart Home**, compresi nuovi prodotti, tool, integrazioni, aggiornamenti e novità rilevanti di **Home Assistant**.
+
+---
+
+## Tecnologia
+
+Riporta le principali novità **tech mainstream**: nuovi prodotti, dispositivi, hardware, software, gaming, reti, servizi digitali e aggiornamenti tecnologici rilevanti.
+
+Evita rumor poco attendibili e notizie duplicate.
+
+---
+
+## Intelligenza Artificiale
+
+Riporta le principali novità su **AI**, nuovi modelli, agenti, tool, coding assistant, piattaforme e funzionalità rilevanti.
+
+Dai priorità alle novità che introducono cambiamenti concreti.
+
+---
+
+## Notizie importanti dal mondo
+
+Riporta solo le **notizie di reale rilevanza mondiale**: geopolitica, economia, crisi internazionali, eventi naturali, scoperte scientifiche e altri eventi con impatto globale.
+
+Unifica le notizie duplicate sullo stesso evento.
+
+---
+
+## Giochi gratuiti Epic Games
+
+Consulta Epic Games Store e riporta:
+
+### Attualmente gratuiti
+- titolo;
+- scadenza dell'offerta;
+- link diretto al gioco.
+
+### Prossimi giochi gratuiti
+- titolo;
+- date di disponibilità;
+- link, se disponibile.
+
+Se i prossimi giochi non sono ancora stati annunciati, indicalo chiaramente.
+
+---
+
+## Elettronica all'asta – Fallco Aste
+
+Consulta questa ricerca:
+
+https://www.fallcoaste.it/ricerca.html?filter=macro%7C591%5Einput_categoria%7CBeni%20Mobili%5Eubicazione_lat%7C44.494887%5Eubicazione_lng%7C11.3426163%5Eubicazione_str%7CBologna%20BO%2C%20Italia%5Eubicazione_dst%7C15%5Estato%7C1&page=2
+
+Esamina tutte le pagine mantenendo i filtri e riporta solo gli **oggetti di elettronica con asta ancora aperta**.
+
+Per ogni oggetto mostra:
+- foto originale;
+- nome e breve descrizione;
+- prezzo base e offerta attuale;
+- scadenza;
+- località;
+- link diretto.
+
+Ordina gli annunci per **scadenza crescente**.
 
 
 [INFORMAZIONI]
