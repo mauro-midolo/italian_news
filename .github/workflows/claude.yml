@@ -10,7 +10,9 @@ concurrency:
 jobs:
   edizione:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # Due tentativi di generazione (~15 minuti l'uno nei casi peggiori) piu'
+    # l'attesa del deploy prima della notifica.
+    timeout-minutes: 45
     permissions:
       contents: write
       id-token: write
@@ -21,6 +23,115 @@ jobs:
       ATTESA_DEPLOY_SECONDI: 60
       SITO_URL: https://news.mauromidolo.com
 
+      # Il prompt vive qui perche' viene usato due volte: alla prima
+      # generazione e al tentativo di recupero.
+      PROMPT_EDIZIONE: |
+        Sei il redattore automatico de "Il Quotidiano", il giornale
+        personale di questo repository. Oggi è il giorno restituito dal
+        comando `date` sulla macchina (fuso Europe/Rome).
+
+        Il tuo unico compito è scrivere `public/index.html`: l'edizione
+        di oggi, completa e pronta per la pubblicazione.
+
+        ## Passi
+
+        1. Leggi `CLAUDE.md`: contiene il contratto di generazione completo.
+        2. Leggi `details.info`: definisce che cosa deve contenere il
+           giornale. È l'unica fonte di verità sui contenuti.
+        3. Leggi `template/index.html` e `template/css/style.css`: sono la
+           struttura e la grafica da rispettare alla lettera.
+        4. Se esiste `.cache/edizione-precedente.html`, leggilo: è
+           l'edizione di ieri. Serve a non ripubblicare le stesse notizie
+           e a non ripetere ogni giorno lo stesso avviso.
+        5. Cerca sul web i contenuti richiesti e verifica le condizioni
+           configurate.
+        6. Scrivi `public/index.html`.
+
+        ## Sezione [NOTIZIE]
+
+        Ogni voce elencata sotto `[NOTIZIE]` in `details.info` produce un
+        riquadro `<section class="riquadro">` dentro `.griglia`, nello
+        stesso ordine del file, con il titolo della voce come intestazione.
+        Da 3 a 8 notizie per riquadro, delle ultime 24-48 ore, ordinate
+        per rilevanza, ciascuna con titolo, riassunto di 2-4 frasi e link
+        alla fonte originale.
+
+        Non dare per scontate le categorie: leggi le voci effettivamente
+        presenti nel file, quali che siano.
+
+        ## Sezione [INFORMAZIONI]
+
+        Ogni voce è una condizione da verificare, NON un contenuto da
+        mostrare per forza.
+
+        - Se dalla verifica non emerge nulla da comunicare, ometti
+          completamente la sezione `<section class="avvisi">`. Non scrivere
+          messaggi del tipo "non ancora disponibile": la pagina deve
+          semplicemente chiudersi senza spazi vuoti.
+        - Se una condizione risulta soddisfatta, o emerge un'informazione
+          rilevante, inserisci `.avvisi` in cima al `<main>`, PRIMA delle
+          notizie, con un `<article class="avviso">` per ciascuna novità:
+          titolo sintetico, spiegazione breve, richiesta monitorata e fonte.
+        - Se ieri avevi già dato lo stesso avviso e la situazione non è
+          cambiata, non ripeterlo.
+
+        ## Vincoli tecnici
+
+        - Modifica SOLO `public/index.html`. Non toccare `template/`,
+          `details.info`, `CLAUDE.md` o i file già copiati in `public/`
+          (CSS, JS, asset): sono già allineati.
+        - Scrivi `public/index.html` con un'unica operazione Write che
+          sostituisce l'intero file. Non limitarti a ritoccare pezzi della
+          copia del template: il contenuto di esempio deve sparire tutto.
+        - Il tag `<html>` della pagina generata non deve avere l'attributo
+          `data-edizione`: la pipeline fallisce se lo trova.
+        - Aggiorna `<title>`, `<meta name="description">`, `og:title`,
+          `og:description`, il `<time datetime="AAAA-MM-GG">` con la data
+          estesa in italiano e il `datetime` di `data-ruolo="aggiornato"`.
+        - Non cambiare nomi di classi, percorsi degli asset né la struttura
+          del template. Lascia gli attributi `hidden` dove li trovi.
+        - Non eseguire comandi git.
+
+        ## Se qualcosa va storto
+
+        Finire il turno senza aver scritto `public/index.html` non è mai un
+        esito accettabile: la pubblicazione salta e il sito resta fermo
+        all'edizione di ieri.
+
+        - Se una ricerca web fallisce, una fonte non risponde o un sito
+          blocca la lettura, riprova una volta; se continua a non
+          funzionare passa oltre e scrivi comunque il riquadro con le
+          notizie che hai trovato, o con meno notizie del previsto.
+        - Una sezione senza risultati è un problema minore: si scrive un
+          riquadro più povero. Una pagina non scritta è un problema grave.
+        - Non chiedere conferme e non fermarti a chiedere istruzioni:
+          nessuno può risponderti, il job gira senza supervisione.
+
+        ## Controllo finale obbligatorio
+
+        Prima di considerare finito il lavoro rileggi `public/index.html` e
+        verifica che:
+
+        1. non contenga la stringa `data-edizione`;
+        2. non contenga più nessun contenuto di esempio del template;
+        3. ci sia un `<section class="riquadro">` per ogni voce di
+           `[NOTIZIE]` presente in `details.info`;
+        4. la data di oggi (formato AAAA-MM-GG) compaia nel `<time>` della
+           testata e in `data-ruolo="aggiornato"`.
+
+        Se anche uno solo di questi punti non è soddisfatto, correggi il
+        file e ripeti il controllo.
+
+        ## Regole redazionali
+
+        - Italiano, tono sobrio e informativo.
+        - Riassumi con parole tue: niente virgolettati estesi o copia-incolla.
+        - Cita solo notizie che hai davvero trovato, con la fonte reale.
+          Non inventare NULLA: se le notizie locali scarseggiano, scrivine
+          meno.
+        - Registro neutrale sui temi politicamente controversi.
+        - Niente calcio, a meno che non si tratti dei mondiali.
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
@@ -29,6 +140,8 @@ jobs:
 
       - name: Prepara public/ a partire dal template
         run: |
+          set -euo pipefail
+
           # L'edizione di ieri resta a disposizione dell'agente per evitare
           # di ripetere le stesse notizie e gli stessi avvisi.
           mkdir -p .cache
@@ -36,122 +149,97 @@ jobs:
             cp public/index.html .cache/edizione-precedente.html
           fi
 
-          # public/ riparte sempre da una copia pulita del template: cosi'
-          # CSS, JS e asset restano allineati senza che l'agente li riscriva.
-          rm -rf public
-          cp -R template public
+          .github/scripts/prepara-public.sh
 
       - name: Genera l'edizione con Claude
         uses: anthropics/claude-code-action@v1.0.222
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: ${{ env.PROMPT_EDIZIONE }}
+          claude_args: |
+            --model claude-sonnet-5
+            --max-turns 120
+            --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Glob,Grep,Bash(date*)"
+
+      # Controllo morbido: se l'agente ha chiuso senza scrivere l'edizione
+      # (capita quando una ricerca va male e si ferma dopo pochi turni) si
+      # riparte da capo invece di far fallire la giornata.
+      - name: Verifica il primo tentativo
+        id: primo_controllo
+        continue-on-error: true
+        shell: bash
+        run: |
+          mkdir -p .cache
+          .github/scripts/verifica-edizione.sh 2>&1 | tee .cache/esito-controllo.txt
+
+      - name: Prepara il secondo tentativo
+        if: steps.primo_controllo.outcome == 'failure'
+        run: |
+          set -euo pipefail
+          echo "::warning::primo tentativo non valido: si riprova."
+
+          mkdir -p .cache
+          cp public/index.html .cache/primo-tentativo.html 2>/dev/null || true
+
+          # Se la pagina e' rimasta la copia del template, o non ha nemmeno un
+          # riquadro, non c'e' niente da salvare e si riparte puliti. Se invece
+          # e' una bozza quasi buona la si lascia li': all'agente basta
+          # correggere quello che il controllo ha segnalato.
+          base="${RUNNER_TEMP}/edizione-base.html"
+          if [ ! -f public/index.html ] \
+            || diff -q "$base" public/index.html > /dev/null 2>&1 \
+            || ! grep -q 'class="riquadro"' public/index.html; then
+            echo "Bozza inutilizzabile: public/ ripristinata dal template."
+            .github/scripts/prepara-public.sh
+          else
+            echo "Bozza recuperabile: l'agente correggerà quella."
+          fi
+
+      - name: Rigenera l'edizione con Claude
+        if: steps.primo_controllo.outcome == 'failure'
+        uses: anthropics/claude-code-action@v1.0.222
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
-            Sei il redattore automatico de "Il Quotidiano", il giornale
-            personale di questo repository. Oggi è il giorno restituito dal
-            comando `date` sulla macchina (fuso Europe/Rome).
+            ${{ env.PROMPT_EDIZIONE }}
 
-            Il tuo unico compito è scrivere `public/index.html`: l'edizione
-            di oggi, completa e pronta per la pubblicazione.
+            ## Nota su questo tentativo
 
-            ## Passi
+            Il tentativo precedente non ha superato il controllo automatico.
+            Comincia leggendo `.cache/esito-controllo.txt`: elenca i problemi
+            trovati.
 
-            1. Leggi `CLAUDE.md`: contiene il contratto di generazione completo.
-            2. Leggi `details.info`: definisce che cosa deve contenere il
-               giornale. È l'unica fonte di verità sui contenuti.
-            3. Leggi `template/index.html` e `template/css/style.css`: sono la
-               struttura e la grafica da rispettare alla lettera.
-            4. Se esiste `.cache/edizione-precedente.html`, leggilo: è
-               l'edizione di ieri. Serve a non ripubblicare le stesse notizie
-               e a non ripetere ogni giorno lo stesso avviso.
-            5. Cerca sul web i contenuti richiesti e verifica le condizioni
-               configurate.
-            6. Scrivi `public/index.html`.
+            - Se `public/index.html` contiene già una bozza dell'edizione di
+              oggi, correggi soltanto ciò che il controllo segnala: non
+              buttare via il lavoro già fatto.
+            - Se invece è tornato a essere la copia del template, riscrivilo
+              da zero.
 
-            ## Sezione [NOTIZIE]
-
-            Ogni voce elencata sotto `[NOTIZIE]` in `details.info` produce un
-            riquadro `<section class="riquadro">` dentro `.griglia`, nello
-            stesso ordine del file, con il titolo della voce come intestazione.
-            Da 3 a 8 notizie per riquadro, delle ultime 24-48 ore, ordinate
-            per rilevanza, ciascuna con titolo, riassunto di 2-4 frasi e link
-            alla fonte originale.
-
-            Non dare per scontate le categorie: leggi le voci effettivamente
-            presenti nel file, quali che siano.
-
-            ## Sezione [INFORMAZIONI]
-
-            Ogni voce è una condizione da verificare, NON un contenuto da
-            mostrare per forza.
-
-            - Se dalla verifica non emerge nulla da comunicare, ometti
-              completamente la sezione `<section class="avvisi">`. Non scrivere
-              messaggi del tipo "non ancora disponibile": la pagina deve
-              semplicemente chiudersi senza spazi vuoti.
-            - Se una condizione risulta soddisfatta, o emerge un'informazione
-              rilevante, inserisci `.avvisi` in cima al `<main>`, PRIMA delle
-              notizie, con un `<article class="avviso">` per ciascuna novità:
-              titolo sintetico, spiegazione breve, richiesta monitorata e fonte.
-            - Se ieri avevi già dato lo stesso avviso e la situazione non è
-              cambiata, non ripeterlo.
-
-            ## Vincoli tecnici
-
-            - Modifica SOLO `public/index.html`. Non toccare `template/`,
-              `details.info`, `CLAUDE.md` o i file già copiati in `public/`
-              (CSS, JS, asset): sono già allineati.
-            - Rimuovi l'attributo `data-edizione="TEMPLATE-DEMO"` dal tag
-              `<html>`: la pipeline fallisce se lo trova.
-            - Aggiorna `<title>`, `<meta name="description">`, `og:title`,
-              `og:description`, il `<time datetime="AAAA-MM-GG">` con la data
-              estesa in italiano e il `datetime` di `data-ruolo="aggiornato"`.
-            - Non cambiare nomi di classi, percorsi degli asset né la struttura
-              del template. Lascia gli attributi `hidden` dove li trovi.
-            - Non eseguire comandi git.
-
-            ## Regole redazionali
-
-            - Italiano, tono sobrio e informativo.
-            - Riassumi con parole tue: niente virgolettati estesi o copia-incolla.
-            - Cita solo notizie che hai davvero trovato, con la fonte reale.
-              Non inventare NULLA: se le notizie locali scarseggiano, scrivine
-              meno.
-            - Registro neutrale sui temi politicamente controversi.
-            - Niente calcio, a meno che non si tratti dei mondiali.
+            Questa è l'ultima possibilità: se anche adesso l'edizione non è
+            valida, oggi non viene pubblicato nulla. Meglio una pagina con
+            meno notizie per riquadro che nessuna pagina.
           claude_args: |
             --model claude-sonnet-5
             --max-turns 120
             --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Glob,Grep,Bash(date*)"
 
       - name: Verifica l'edizione generata
-        run: |
-          set -e
+        run: .github/scripts/verifica-edizione.sh
 
-          test -f public/index.html || { echo "::error::public/index.html non è stato generato."; exit 1; }
-
-          if grep -q "TEMPLATE-DEMO" public/index.html; then
-            echo "::error::public/index.html è ancora il template di esempio."
-            exit 1
-          fi
-
-          if ! grep -q 'class="riquadro"' public/index.html; then
-            echo "::error::l'edizione non contiene alcun riquadro di notizie."
-            exit 1
-          fi
-
-          oggi="$(TZ='Europe/Rome' date +%Y-%m-%d)"
-          if ! grep -q "$oggi" public/index.html; then
-            echo "::error::l'edizione non riporta la data di oggi ($oggi)."
-            exit 1
-          fi
-
-          # CSS, JS e asset devono restare identici al template.
-          for file in css/style.css js/main.js assets/favicon.svg _headers robots.txt; do
-            diff -q "template/$file" "public/$file" > /dev/null \
-              || { echo "::error::public/$file diverge dal template."; exit 1; }
-          done
-
-          echo "Edizione valida: $(grep -c 'class="notizia"' public/index.html || true) notizie."
+      - name: Conserva l'edizione non valida
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: edizione-non-valida
+          path: |
+            public/index.html
+            .cache/primo-tentativo.html
+            .cache/esito-controllo.txt
+          # .cache/ e' una cartella nascosta: senza questo flag i due file di
+          # diagnostica verrebbero saltati.
+          include-hidden-files: true
+          if-no-files-found: warn
+          retention-days: 7
 
       - name: Pubblica l'edizione
         id: pubblica
