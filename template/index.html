@@ -19,9 +19,11 @@
      e js/main.js vengono copiati invariati in public/.
   5. Il contenuto di esempio presente qui sotto e' segnaposto e va sostituito
      integralmente con le notizie del giorno.
-  6. Gli elementi con hidden (tema, ricerca, indice, conteggio totale, torna
-     su, data-ruolo="aggiornato") vanno lasciati vuoti e nascosti: li riempie
-     e li mostra js/main.js.
+  6. Gli elementi con hidden (tema, lettura, ricerca, indice, conteggio
+     totale, torna su, data-ruolo="aggiornato") vanno lasciati vuoti e
+     nascosti: li riempie e li mostra js/main.js.
+  7. Riquadri e notizie sono <details ... open>: l'attributo open va sempre
+     scritto, la pagina senza JavaScript deve risultare tutta aperta.
   ===========================================================================
 -->
 <html lang="it" data-edizione="TEMPLATE-DEMO">
@@ -61,7 +63,10 @@
           </svg>
           Edizione personale
         </span>
-        <button class="comando" type="button" data-azione="tema" hidden>Tema: auto</button>
+        <span class="testata__comandi">
+          <button class="comando" type="button" data-azione="lettura" hidden>Lettura: estesa</button>
+          <button class="comando" type="button" data-azione="tema" hidden>Tema: auto</button>
+        </span>
       </div>
 
       <h1 class="testata__titolo">Il Quotidiano</h1>
@@ -131,91 +136,118 @@
 
         <div class="griglia">
           <!--
-            Un <section class="riquadro"> per ogni voce di [NOTIZIE].
+            Un <details class="riquadro" open> per ogni voce di [NOTIZIE].
             Il titolo del riquadro riprende la voce configurata.
-            Dentro, da 3 a 8 <article class="notizia">, dalla piu' rilevante:
-            la prima e' l'apertura e il CSS le da' un titolo piu' grande.
-            La griglia impagina i riquadri su colonne di giornale e le
-            bilancia da sola: non servono classi di larghezza.
+            Dentro, da 3 a 8 <details class="notizia" open>, dalla piu'
+            rilevante: la prima e' l'apertura e il CSS le da' un titolo piu'
+            grande. La griglia impagina i riquadri su colonne di giornale e
+            le bilancia da sola: non servono classi di larghezza.
+
+            LETTURA A DUE LIVELLI
+            Riquadri e notizie sono <details>: il titolo si scorre, il
+            riassunto si apre. Vanno SEMPRE generati con l'attributo open,
+            cosi' chi non ha JavaScript trova tutto aperto e legge la pagina
+            per intero; e' il JavaScript a richiudere le notizie quando il
+            lettore sceglie la lettura compatta.
+
+            Dentro <summary> ci va solo il titolo: e' la riga che il lettore
+            scorre. Testo, foto, dati e fonte stanno in .notizia__corpo.
           -->
-          <section class="riquadro">
-            <header class="riquadro__testata">
+          <details class="riquadro" open>
+            <summary class="riquadro__testata">
               <h3 class="riquadro__titolo">Titolo del riquadro</h3>
               <span class="riquadro__conteggio" data-ruolo="conteggio"></span>
-            </header>
+            </summary>
 
-            <article class="notizia">
-              <h4 class="notizia__titolo">Titolo della notizia</h4>
-              <p class="notizia__testo">
-                Riassunto di due o quattro frasi, scritto con parole proprie,
-                senza virgolettati estesi presi dall&rsquo;articolo originale.
-              </p>
-              <p class="notizia__meta">
-                <a class="notizia__fonte" href="https://esempio.it/notizia" rel="noopener">Nome della fonte</a>
-              </p>
-            </article>
+            <details class="notizia" open>
+              <summary class="notizia__intestazione">
+                <h4 class="notizia__titolo">Titolo della notizia</h4>
+              </summary>
+              <div class="notizia__corpo">
+                <p class="notizia__testo">
+                  Riassunto di due o quattro frasi, scritto con parole proprie,
+                  senza virgolettati estesi presi dall&rsquo;articolo originale.
+                </p>
+                <p class="notizia__meta">
+                  <a class="notizia__fonte" href="https://esempio.it/notizia" rel="noopener">Nome della fonte</a>
+                </p>
+              </div>
+            </details>
 
-            <article class="notizia">
-              <h4 class="notizia__titolo">Seconda notizia del riquadro</h4>
-              <p class="notizia__testo">
-                Le notizie di uno stesso riquadro sono separate da un filetto
-                automatico: non servono elementi aggiuntivi.
-              </p>
-              <p class="notizia__meta">
-                <!-- L'etichetta di categoria e' facoltativa: usala quando le
-                     notizie di un riquadro appartengono ad ambiti diversi,
-                     o per uno stato breve ("Gratis ora", "Scade il 23/09"). -->
-                <span class="notizia__categoria">Categoria</span>
-                <a class="notizia__fonte" href="https://esempio.it/altra-notizia" rel="noopener">Nome della fonte</a>
-              </p>
-            </article>
-          </section>
+            <details class="notizia" open>
+              <summary class="notizia__intestazione">
+                <h4 class="notizia__titolo">Seconda notizia del riquadro</h4>
+              </summary>
+              <div class="notizia__corpo">
+                <p class="notizia__testo">
+                  Le notizie di uno stesso riquadro sono separate da un filetto
+                  automatico: non servono elementi aggiuntivi.
+                </p>
+                <p class="notizia__meta">
+                  <!-- L'etichetta di categoria e' facoltativa: usala quando le
+                       notizie di un riquadro appartengono ad ambiti diversi,
+                       o per uno stato breve ("Gratis ora", "In arrivo"). -->
+                  <span class="notizia__categoria">Categoria</span>
+                  <a class="notizia__fonte" href="https://esempio.it/altra-notizia" rel="noopener">Nome della fonte</a>
+                </p>
+              </div>
+            </details>
+          </details>
 
-          <section class="riquadro">
-            <header class="riquadro__testata">
+          <details class="riquadro" open>
+            <summary class="riquadro__testata">
               <h3 class="riquadro__titolo">Secondo riquadro</h3>
               <span class="riquadro__conteggio" data-ruolo="conteggio"></span>
-            </header>
+            </summary>
 
             <!--
-              Notizia con foto e dati strutturati: entrambi FACOLTATIVI.
-              - .notizia__foto va subito dopo il titolo, con loading="lazy".
-                Usa l'immagine originale dell'annuncio; il CSS la ritaglia in
-                4:3 cosi' una colonna di annunci resta allineata. Se la foto
-                non esiste, ometti l'elemento: non mettere segnaposto.
+              Notizia con foto e dati strutturati: entrambi FACOLTATIVI e
+              sempre dentro .notizia__corpo, mai nel <summary>.
+              - .notizia__foto apre il corpo, con loading="lazy". Usa
+                l'immagine originale dell'annuncio; il CSS la ritaglia in 4:3
+                cosi' una colonna di annunci resta allineata. Se la foto non
+                esiste, ometti l'elemento: non mettere segnaposto.
               - .notizia__dati serve a prezzi, scadenze, luoghi: dati brevi
                 che nel testo diventerebbero un elenco faticoso. Poche righe,
                 da due a cinque.
             -->
-            <article class="notizia">
-              <h4 class="notizia__titolo">Notizia con foto e dati</h4>
-              <img class="notizia__foto" src="https://esempio.it/foto.jpg" alt="Descrizione sintetica della foto" loading="lazy" decoding="async">
-              <p class="notizia__testo">
-                La griglia si adatta da sola al numero di riquadri: aggiungendo
-                una voce a <code>details.info</code> non serve toccare il CSS.
-              </p>
-              <dl class="notizia__dati">
-                <div><dt>Base d&rsquo;asta</dt><dd>1.000,00 &euro;</dd></div>
-                <div><dt>Scadenza</dt><dd>23 settembre, ore 11:00</dd></div>
-                <div><dt>Località</dt><dd>Castenaso (BO)</dd></div>
-              </dl>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Etichetta</span>
-                <a class="notizia__fonte" href="https://esempio.it/notizia" rel="noopener">Nome della fonte</a>
-              </p>
-            </article>
+            <details class="notizia" open>
+              <summary class="notizia__intestazione">
+                <h4 class="notizia__titolo">Notizia con foto e dati</h4>
+              </summary>
+              <div class="notizia__corpo">
+                <img class="notizia__foto" src="https://esempio.it/foto.jpg" alt="Descrizione sintetica della foto" loading="lazy" decoding="async">
+                <p class="notizia__testo">
+                  La griglia si adatta da sola al numero di riquadri: aggiungendo
+                  una voce a <code>details.info</code> non serve toccare il CSS.
+                </p>
+                <dl class="notizia__dati">
+                  <div><dt>Base d&rsquo;asta</dt><dd>1.000,00 &euro;</dd></div>
+                  <div><dt>Scadenza</dt><dd>23 settembre, ore 11:00</dd></div>
+                  <div><dt>Località</dt><dd>Castenaso (BO)</dd></div>
+                </dl>
+                <p class="notizia__meta">
+                  <span class="notizia__categoria">Etichetta</span>
+                  <a class="notizia__fonte" href="https://esempio.it/notizia" rel="noopener">Nome della fonte</a>
+                </p>
+              </div>
+            </details>
 
-            <article class="notizia">
-              <h4 class="notizia__titolo">Notizia senza elementi opzionali</h4>
-              <p class="notizia__testo">
-                Foto, dati ed etichetta si usano solo quando aggiungono
-                qualcosa: una notizia normale resta titolo, testo e fonte.
-              </p>
-              <p class="notizia__meta">
-                <a class="notizia__fonte" href="https://esempio.it/notizia" rel="noopener">Nome della fonte</a>
-              </p>
-            </article>
-          </section>
+            <details class="notizia" open>
+              <summary class="notizia__intestazione">
+                <h4 class="notizia__titolo">Notizia senza elementi opzionali</h4>
+              </summary>
+              <div class="notizia__corpo">
+                <p class="notizia__testo">
+                  Foto, dati ed etichetta si usano solo quando aggiungono
+                  qualcosa: una notizia normale resta titolo, testo e fonte.
+                </p>
+                <p class="notizia__meta">
+                  <a class="notizia__fonte" href="https://esempio.it/notizia" rel="noopener">Nome della fonte</a>
+                </p>
+              </div>
+            </details>
+          </details>
         </div>
       </section>
 

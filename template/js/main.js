@@ -107,9 +107,16 @@
     });
 
     if (totaleSezione && notizie.length) {
-      totaleSezione.textContent = filtrando && visibiliTotali !== notizie.length
-        ? visibiliTotali + " su " + notizie.length
-        : notizie.length + plurale(notizie.length);
+      var etichetta;
+      if (filtrando && visibiliTotali !== notizie.length) {
+        etichetta = visibiliTotali + " su " + notizie.length;
+      } else {
+        etichetta = notizie.length + plurale(notizie.length);
+        if (nuoveTotali) {
+          etichetta += " \u00b7 " + nuoveTotali + (nuoveTotali === 1 ? " nuova" : " nuove");
+        }
+      }
+      totaleSezione.textContent = etichetta;
       totaleSezione.hidden = false;
     }
 
@@ -220,6 +227,9 @@
     osservatore.observe(griglia);
     riquadri.forEach(function (riquadro) { osservatore.observe(riquadro); });
 
+    /* L'evento toggle dei <details> non risale: si ascolta in cattura. */
+    griglia.addEventListener("toggle", programma, true);
+
     if (document.fonts && document.fonts.ready) document.fonts.ready.then(programma);
     impagina();
   }
@@ -235,6 +245,138 @@
       if (foto.complete && foto.naturalWidth === 0) foto.remove();
     }
   );
+
+  /* --- Modo di lettura: estesa oppure compatta ---------------------------- */
+  /*
+     La pagina arriva con tutte le notizie aperte, cosi' chi non ha
+     JavaScript la legge per intero. Da qui in poi il lettore sceglie: in
+     lettura compatta restano i soli titoli e si apre cio' che interessa.
+     Su schermo stretto la compatta e' il punto di partenza, salvo scelta
+     gia' espressa in una visita precedente.
+  */
+
+  var CHIAVE_LETTURA = "quotidiano:lettura";
+  var bottoneLettura = document.querySelector("[data-azione='lettura']");
+  var etichetteLettura = { estesa: "Lettura: estesa", compatta: "Lettura: compatta" };
+  var modoLettura;
+
+  function leggiModoLettura() {
+    try {
+      var salvato = localStorage.getItem(CHIAVE_LETTURA);
+      if (salvato === "estesa" || salvato === "compatta") return salvato;
+    } catch (e) {
+      /* storage non disponibile: si decide dallo schermo */
+    }
+    return window.matchMedia && window.matchMedia("(max-width: 48rem)").matches
+      ? "compatta"
+      : "estesa";
+  }
+
+  function applicaModoLettura(modo, ricorda) {
+    modoLettura = modo;
+
+    notizie.forEach(function (notizia) { notizia.open = modo === "estesa"; });
+
+    if (bottoneLettura) {
+      bottoneLettura.textContent = etichetteLettura[modo];
+      bottoneLettura.setAttribute("aria-pressed", modo === "compatta" ? "true" : "false");
+      bottoneLettura.setAttribute(
+        "aria-label",
+        modo === "estesa"
+          ? "Lettura estesa: i riassunti sono aperti (clic per vedere i soli titoli)"
+          : "Lettura compatta: si vedono i soli titoli (clic per aprire i riassunti)"
+      );
+    }
+
+    if (ricorda) {
+      try {
+        localStorage.setItem(CHIAVE_LETTURA, modo);
+      } catch (e) {
+        /* la scelta vale solo per questa visita */
+      }
+    }
+
+    /* definita piu' sopra solo se l'impaginazione a griglia e' attiva */
+    if (typeof programma === "function") programma();
+  }
+
+  if (notizie.length) {
+    applicaModoLettura(leggiModoLettura(), false);
+
+    if (bottoneLettura) {
+      bottoneLettura.hidden = false;
+      bottoneLettura.addEventListener("click", function () {
+        applicaModoLettura(modoLettura === "estesa" ? "compatta" : "estesa", true);
+      });
+    }
+  }
+
+  /* Chi stampa vuole il giornale intero, non l'elenco dei titoli. */
+  var apertePerStampa = null;
+  window.addEventListener("beforeprint", function () {
+    apertePerStampa = notizie.map(function (notizia) { return notizia.open; });
+    notizie.forEach(function (notizia) { notizia.open = true; });
+  });
+  window.addEventListener("afterprint", function () {
+    if (!apertePerStampa) return;
+    notizie.forEach(function (notizia, i) { notizia.open = apertePerStampa[i]; });
+    apertePerStampa = null;
+  });
+
+  /* --- Notizie non ancora viste ------------------------------------------ */
+  /*
+     L'edizione si rigenera ogni mattina, ma capita di riaprirla piu' volte
+     al giorno: qui vengono marcate le notizie che non c'erano l'ultima
+     volta. Le impronte dei titoli restano nel browser del lettore, un mese.
+  */
+
+  var CHIAVE_VISTE = "quotidiano:viste";
+  var MESE = 30 * 24 * 60 * 60 * 1000;
+  var nuoveTotali = 0;
+
+  function impronta(testo) {
+    var h = 5381;
+    for (var i = 0; i < testo.length; i++) h = ((h << 5) + h + testo.charCodeAt(i)) | 0;
+    return h.toString(36);
+  }
+
+  (function segnaNuove() {
+    if (!notizie.length) return;
+
+    var viste = null;
+    try {
+      viste = JSON.parse(localStorage.getItem(CHIAVE_VISTE) || "null");
+    } catch (e) {
+      return; /* senza memoria non c'e' un "gia' visto" da confrontare */
+    }
+
+    var primaVisita = !viste || typeof viste !== "object";
+    var adesso = Date.now();
+    var aggiornate = {};
+
+    notizie.forEach(function (notizia) {
+      var titolo = notizia.querySelector(".notizia__titolo");
+      if (!titolo) return;
+      var chiave = impronta(normalizza(titolo.textContent || ""));
+      aggiornate[chiave] = adesso;
+      if (!primaVisita && !viste[chiave]) {
+        notizia.setAttribute("data-nuovo", "si");
+        nuoveTotali++;
+      }
+    });
+
+    if (!primaVisita) {
+      Object.keys(viste).forEach(function (chiave) {
+        if (!aggiornate[chiave] && adesso - viste[chiave] < MESE) aggiornate[chiave] = viste[chiave];
+      });
+    }
+
+    try {
+      localStorage.setItem(CHIAVE_VISTE, JSON.stringify(aggiornate));
+    } catch (e) {
+      /* niente memoria: la prossima visita ripartira' da zero */
+    }
+  })();
 
   /* --- Ricerca fra le notizie -------------------------------------------- */
 
@@ -266,7 +408,15 @@
 
       riquadri.forEach(function (riquadro) {
         riquadro.hidden = riquadro.querySelectorAll(".notizia:not([hidden])").length === 0;
+        /* un riquadro richiuso non deve nascondere cio' che si sta cercando */
+        if (query !== "" && !riquadro.hidden) riquadro.open = true;
       });
+
+      if (query === "") {
+        applicaModoLettura(modoLettura, false);
+      } else {
+        notizie.forEach(function (notizia) { if (!notizia.hidden) notizia.open = true; });
+      }
 
       var totale = aggiornaConteggi(query !== "");
 

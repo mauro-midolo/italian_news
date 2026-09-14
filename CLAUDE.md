@@ -68,19 +68,53 @@ quadre, le voci iniziano con `-`.
 
 Classi e ruoli definiti in `template/index.html` e `template/css/style.css`:
 
-| Elemento | Classe |
+| Elemento | Tag e classe |
 | --- | --- |
 | Area avvisi (opzionale) | `.avvisi` > `.avviso` |
-| Riquadro di categoria | `.riquadro` > `.riquadro__testata` + `.notizia` |
-| Notizia | `.notizia__titolo`, `.notizia__testo`, `.notizia__meta`, `.notizia__fonte` |
+| Riquadro di categoria | `<details class="riquadro" open>` > `<summary class="riquadro__testata">` + `.notizia` |
+| Testata del riquadro | `.riquadro__titolo` + `.riquadro__conteggio` |
+| Notizia | `<details class="notizia" open>` > `<summary class="notizia__intestazione">` + `.notizia__corpo` |
+| Titolo della notizia | `.notizia__titolo` (dentro il `<summary>`) |
+| Corpo della notizia | `.notizia__testo`, `.notizia__meta`, `.notizia__fonte` |
 | Etichetta categoria (facoltativa) | `.notizia__categoria` |
 | Foto della notizia (facoltativa) | `.notizia__foto` |
 | Dati strutturati (facoltativi) | `.notizia__dati` |
 
+### Lettura a due livelli
+
+Riquadri e notizie sono `<details>`: il lettore scorre i titoli e apre quello
+che gli interessa. Due regole non negoziabili:
+
+1. **L'attributo `open` va sempre scritto**, su ogni riquadro e ogni notizia.
+   Senza JavaScript la pagina deve risultare interamente aperta e leggibile;
+   è `js/main.js` a richiudere le notizie quando il lettore sceglie la lettura
+   compatta (che su schermo stretto è il punto di partenza).
+2. **Nel `<summary>` ci va solo il titolo.** È la riga che si scorre: niente
+   testo, foto, dati o fonte lì dentro. Tutto il resto sta in
+   `.notizia__corpo`, nell'ordine: foto, testo, dati, meta.
+
+```html
+<details class="notizia" open>
+  <summary class="notizia__intestazione">
+    <h4 class="notizia__titolo">Titolo della notizia</h4>
+  </summary>
+  <div class="notizia__corpo">
+    <p class="notizia__testo">Riassunto di 2-4 frasi…</p>
+    <p class="notizia__meta">
+      <a class="notizia__fonte" href="https://…" rel="noopener">Fonte</a>
+    </p>
+  </div>
+</details>
+```
+
+Il titolo conta più di prima: in lettura compatta è l'unica cosa che il
+lettore vede. Deve dire che cosa è successo da solo, senza il riassunto.
+
 ### Elementi facoltativi
 
 - **`.notizia__foto`** — `<img class="notizia__foto" … loading="lazy" decoding="async">`
-  subito dopo `.notizia__titolo`, con `alt` descrittivo. Usare l'URL originale
+  come primo elemento di `.notizia__corpo` (mai nel `<summary>`), con `alt`
+  descrittivo. Usare l'URL originale
   dell'immagine della fonte; il CSS la ritaglia in 4:3, quindi non servono
   dimensioni. Se la foto non c'è, omettere l'elemento: niente segnaposto.
 - **`.notizia__dati`** — `<dl class="notizia__dati">` con un `<div><dt>…</dt><dd>…</dd></div>`
@@ -101,8 +135,14 @@ più grande: metterci la notizia più rilevante.
 `data-ruolo="conteggio"` (per riquadro), `data-ruolo="totale"` (nel titolo di
 sezione) e `.indice` (`data-ruolo="indice"`, l'indice dei riquadri) vanno
 lasciati vuoti così come sono nel template. Gli elementi con `hidden` (tema,
-ricerca, indice, conteggio totale, torna su, `data-ruolo="aggiornato"`) vanno
-lasciati nascosti: li attiva `js/main.js`.
+lettura, ricerca, indice, conteggio totale, torna su,
+`data-ruolo="aggiornato"`) vanno lasciati nascosti: li attiva `js/main.js`.
+
+Il JavaScript marca da solo le notizie mai viste dal lettore (badge «nuovo»,
+confrontando le impronte dei titoli salvate nel suo browser): non serve
+scrivere nulla nell'HTML per ottenerlo, ma è un motivo in più per non
+riscrivere il titolo di una notizia già pubblicata ieri se la notizia è la
+stessa.
 
 Nella testata vanno aggiornati titolo `<title>`, `<meta name="description">`,
 `og:title`, `og:description`, il `<time datetime="AAAA-MM-GG">` con la data

@@ -118,7 +118,8 @@ a { color: inherit; }
 
 a:focus-visible,
 button:focus-visible,
-input:focus-visible {
+input:focus-visible,
+summary:focus-visible {
   outline: 2px solid var(--accento);
   outline-offset: 3px;
   border-radius: 2px;
@@ -224,6 +225,13 @@ input:focus-visible {
   transition: color .15s, border-color .15s, background-color .15s;
 }
 .comando:hover { color: var(--inchiostro); border-color: var(--filetto-forte); background: var(--superficie); }
+
+.testata__comandi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: .4rem;
+}
 
 .ricerca {
   display: flex;
@@ -431,6 +439,14 @@ input:focus-visible {
   -webkit-column-break-inside: avoid;
 }
 
+/*
+   Il riquadro e' un <details>: la testata fa da <summary> e chiude la
+   sezione quando non interessa. Il triangolino nativo viene sostituito da
+   una freccetta disegnata col bordo, per controllarne colore e posizione.
+*/
+.riquadro > summary { list-style: none; cursor: pointer; }
+.riquadro > summary::-webkit-details-marker { display: none; }
+
 .riquadro__testata {
   display: flex;
   align-items: baseline;
@@ -440,6 +456,31 @@ input:focus-visible {
   margin-bottom: 1.15rem;
   border-bottom: 1px solid var(--filetto);
 }
+
+.riquadro:not([open]) > .riquadro__testata {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.riquadro__testata::after {
+  content: "";
+  flex: none;
+  /* Con un titolo su due righe la freccetta deve restare in linea con la
+     prima, non centrata sull'intero blocco. */
+  align-self: flex-start;
+  margin-top: .55rem;
+  width: .46rem;
+  height: .46rem;
+  margin-left: -.35rem;
+  border-right: 2px solid var(--tenue);
+  border-bottom: 2px solid var(--tenue);
+  transform: rotate(-45deg);
+  transition: transform .15s;
+}
+
+.riquadro[open] > .riquadro__testata::after { transform: rotate(45deg); }
+.riquadro > summary:hover .riquadro__titolo { color: var(--accento); }
 
 .riquadro__titolo {
   font-family: var(--display);
@@ -478,19 +519,83 @@ input:focus-visible {
   border-top: 0;
 }
 
+/*
+   Lettura a due livelli: la notizia e' un <details>, il titolo sta nel
+   <summary>. Si scorre l'elenco dei titoli e si apre solo cio' che
+   interessa; il modo "estesa" li tiene aperti tutti. La pagina generata
+   ha sempre open: senza JavaScript il giornale resta per intero leggibile.
+*/
+.notizia > summary {
+  display: flex;
+  align-items: baseline;
+  gap: .55rem;
+  list-style: none;
+  cursor: pointer;
+}
+
+.notizia > summary::-webkit-details-marker { display: none; }
+
+.notizia > summary::before {
+  content: "";
+  flex: none;
+  align-self: flex-start;
+  width: .4rem;
+  height: .4rem;
+  margin-top: .45rem;
+  border-right: 2px solid var(--accento);
+  border-bottom: 2px solid var(--accento);
+  transform: rotate(-45deg);
+  transition: transform .15s;
+}
+
+.notizia[open] > summary::before { transform: rotate(45deg); }
+
+.notizia > summary:hover .notizia__titolo { color: var(--accento); }
+
+.notizia__corpo { margin-top: .45rem; padding-left: .95rem; }
+
 .notizia__titolo {
   font-family: var(--display);
   font-size: 1.16rem;
   line-height: 1.3;
   font-weight: 700;
-  margin: 0 0 .4rem;
+  margin: 0;
   text-wrap: balance;
+  transition: color .15s;
 }
 
 /* L'apertura del riquadro pesa un po' di piu' delle notizie che seguono. */
 .riquadro .notizia:first-of-type .notizia__titolo {
   font-size: 1.32rem;
   line-height: 1.25;
+}
+
+/*
+   Due notizie chiuse di fila stanno strette come le righe di un elenco;
+   quando una e' aperta serve piu' respiro per separare i due blocchi.
+*/
+.notizia:not([open]) + .notizia {
+  margin-top: .8rem;
+  padding-top: .8rem;
+}
+
+/* Notizia non ancora vista dall'ultima visita: la marca il JavaScript. */
+.notizia[data-nuovo="si"] .notizia__titolo::after {
+  content: "nuovo";
+  display: inline-block;
+  margin-left: .45rem;
+  padding: .1rem .42rem;
+  vertical-align: .16em;
+  font-family: var(--ui);
+  font-size: .6rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--avviso-badge);
+  background: var(--avviso-fondo);
+  border: 1px solid var(--avviso-bordo);
+  border-radius: 999px;
 }
 
 .notizia__testo {
@@ -506,7 +611,7 @@ input:focus-visible {
    diversa. Va subito dopo il titolo.
 */
 .notizia__foto,
-.notizia > img {
+.notizia__corpo > img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
@@ -664,7 +769,7 @@ input:focus-visible {
   .riquadro + .riquadro { margin-top: 1rem; }
   .avvisi { box-shadow: none; }
   .notizia__dati { border: 1px solid #ddd; padding: .4rem .6rem; }
-  .notizia__foto, .notizia > img { width: 45mm; }
+  .notizia__foto, .notizia__corpo > img { width: 45mm; }
   .notizia__fonte::after { content: ""; }
   .notizia__fonte[href]::after { content: " (" attr(href) ")"; font-size: .75em; word-break: break-all; }
 }
