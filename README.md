@@ -152,14 +152,20 @@ giorno:
 1. copia l'edizione di ieri in `.cache/` (serve all'agente per non ripetersi);
 2. ricrea `public/` da una copia pulita di `template/`;
 3. lancia l'agente, che scrive `public/index.html`;
-4. verifica il risultato — la pagina non deve essere rimasta il template di
-   esempio, deve contenere almeno un riquadro, riportare la data di oggi e avere
-   asset identici al template;
-5. committa l'edizione.
+4. verifica il risultato con
+   [`.github/scripts/verifica-edizione.sh`](./.github/scripts/verifica-edizione.sh)
+   — la pagina non deve essere rimasta la copia del template, non deve avere
+   l'attributo `data-edizione`, deve contenere almeno un riquadro, riportare la
+   data di oggi e avere asset identici al template;
+5. se il controllo non passa, ripristina `public/` e rigenera l'edizione una
+   seconda volta, poi ricontrolla;
+6. committa l'edizione.
 
-Se una verifica fallisce, non viene pubblicato nulla e l'edizione precedente
-resta online. Il workflow si può lanciare a mano da *Actions → Edizione
-giornaliera → Run workflow*.
+Se anche il secondo tentativo fallisce, non viene pubblicato nulla, l'edizione
+precedente resta online e la pagina scartata viene allegata al run come
+artefatto `edizione-non-valida`, per capire dove si è fermato l'agente. Il
+workflow si può lanciare a mano da *Actions → Edizione giornaliera → Run
+workflow*.
 
 Le regole editoriali e strutturali che l'agente deve rispettare sono in
 [`CLAUDE.md`](./CLAUDE.md).

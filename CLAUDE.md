@@ -20,8 +20,14 @@ public/        ->  il giornale del giorno, pronto per il deploy
 4. Nella generazione quotidiana l'agente scrive **solo `public/index.html`**.
    Gli altri file di `public/` sono copie identiche di `template/` fatte dalla
    pipeline. Se servono asset nuovi vanno aggiunti prima a `template/`.
-5. `public/index.html` non deve contenere l'attributo `data-edizione="TEMPLATE-DEMO"`:
-   la pipeline fallisce se lo trova.
+5. `public/index.html` va **riscritto per intero**, non ritoccato a pezzi
+   partendo dalla copia del template: e' l'unico modo per essere certi che non
+   resti contenuto di esempio. In particolare il tag `<html>` della pagina
+   generata non deve avere l'attributo `data-edizione`: la pipeline fallisce se
+   lo trova.
+6. Se una fonte non risponde o una ricerca fallisce, si scrive un riquadro con
+   meno notizie: chiudere il turno senza aver scritto `public/index.html`
+   significa non pubblicare nulla quel giorno.
 
 ## Come si legge `details.info`
 

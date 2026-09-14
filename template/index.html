@@ -9,8 +9,10 @@
 
   Contratto di generazione
   ------------------------
-  1. L'attributo data-edizione="TEMPLATE-DEMO" qui sotto va RIMOSSO nella
-     pagina generata (la pipeline fallisce se lo trova in public/).
+  1. Il tag <html> qui sotto porta un attributo di edizione di prova: nella
+     pagina generata non deve comparire (la pipeline fallisce se lo trova).
+     Il modo piu' sicuro e' riscrivere public/index.html da zero invece di
+     ritoccare questa copia.
   2. Ogni voce di [NOTIZIE] in details.info diventa un <section class="riquadro">
      dentro .griglia, nello stesso ordine in cui compare nel file.
   3. La sezione .avvisi va inclusa SOLO se almeno una voce di [INFORMAZIONI]
