@@ -191,7 +191,7 @@ jobs:
           prompt: ${{ env.PROMPT_EDIZIONE }}
           claude_args: |
             --model claude-sonnet-5
-            --max-turns 120
+            --max-turns 500
             --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Glob,Grep,TodoWrite,Bash(date*)"
 
       # Controllo morbido: se l'agente ha chiuso senza scrivere l'edizione
