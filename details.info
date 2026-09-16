@@ -69,20 +69,23 @@ Consulta Epic Games Store e riporta:
 
 Se i prossimi giochi non sono ancora stati annunciati, indicalo chiaramente.
 
-## Films 
+## Film
 
-Consigliami **5 film con una valutazione della critica superiore all’80% su Rotten Tomatoes**, considerando tutte le piattaforme di streaming disponibili in Italia.
+Elenca tutti i film arrivati sulle piattaforme di streaming disponibili in Italia **negli ultimi 7 giorni**, con una **valutazione della critica (Tomatometer) su Rotten Tomatoes superiore al 75%**, senza limiti al numero di titoli.
 
-**Ogni giorno proponi titoli diversi da quelli del giorno precedente.**
+Considera la data di disponibilità sulle piattaforme italiane, non quella di uscita al cinema.
 
 Per ogni film indica:
 - Locandina.
 - Titolo e anno di uscita.
 - Genere e breve trama senza spoiler.
-- Valutazione Rotten Tomatoes.
+- Valutazione della critica su Rotten Tomatoes.
+- Data di arrivo sulla piattaforma.
 - Piattaforme su cui è disponibile, specificando se incluso nell’abbonamento, gratuito, a noleggio o in acquisto.
 
-Verifica che valutazioni e disponibilità siano aggiornate.
+Ordina i film dal più recente arrivo in streaming.
+
+Verifica che valutazioni, date di arrivo e disponibilità in Italia siano aggiornate e confermate. Se non ci sono titoli che soddisfano i criteri, indicalo senza aggiungere film fuori dai requisiti.
 
 ---
 
