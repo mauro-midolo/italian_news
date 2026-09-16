@@ -9,10 +9,13 @@
 
   Contratto di generazione
   ------------------------
-  1. Il tag <html> qui sotto porta un attributo di edizione di prova: nella
-     pagina generata non deve comparire (la pipeline fallisce se lo trova).
-     Il modo piu' sicuro e' riscrivere public/index.html da zero invece di
-     ritoccare questa copia.
+  1. La pipeline non copia questo file cosi' com'e': ne ricava lo SCHELETRO
+     dell'edizione del giorno (.github/scripts/prepara-public.sh). Toglie
+     l'attributo data-edizione di prova, mette la data di oggi nella testata
+     e svuota le due aree delimitate dai marcatori SCHELETRO:*-INIZIO /
+     SCHELETRO:*-FINE. L'agente parte da quello scheletro e lo riempie.
+     Il contenuto dentro i marcatori e' quindi solo un esempio di struttura:
+     e' li' perche' l'agente abbia un modello da cui copiare il markup.
   2. Ogni voce di [NOTIZIE] in details.info diventa un <section class="riquadro">
      dentro .griglia, nello stesso ordine in cui compare nel file.
   3. La sezione .avvisi va inclusa SOLO se almeno una voce di [INFORMAZIONI]
@@ -81,6 +84,7 @@
   <main id="contenuto">
     <div class="contenitore">
 
+      <!-- SCHELETRO:AVVISI-INIZIO -->
       <!--
         ===================== AVVISI (OPZIONALE) =====================
         Deriva da [INFORMAZIONI] di details.info.
@@ -105,6 +109,7 @@
           </p>
         </article>
       </section>
+      <!-- SCHELETRO:AVVISI-FINE -->
 
       <!-- ===================== NOTIZIE ===================== -->
       <section aria-labelledby="notizie-titolo">
@@ -115,6 +120,7 @@
         </p>
 
         <div class="griglia">
+          <!-- SCHELETRO:RIQUADRI-INIZIO -->
           <!--
             Un <section class="riquadro"> per ogni voce di [NOTIZIE].
             Il titolo del riquadro riprende la voce configurata.
@@ -169,6 +175,7 @@
               </p>
             </article>
           </section>
+          <!-- SCHELETRO:RIQUADRI-FINE -->
         </div>
       </section>
 
