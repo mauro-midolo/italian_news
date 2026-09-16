@@ -20,14 +20,20 @@ public/        ->  il giornale del giorno, pronto per il deploy
 4. Nella generazione quotidiana l'agente scrive **solo `public/index.html`**.
    Gli altri file di `public/` sono copie identiche di `template/` fatte dalla
    pipeline. Se servono asset nuovi vanno aggiunti prima a `template/`.
-5. `public/index.html` va **riscritto per intero**, non ritoccato a pezzi
-   partendo dalla copia del template: e' l'unico modo per essere certi che non
-   resti contenuto di esempio. In particolare il tag `<html>` della pagina
-   generata non deve avere l'attributo `data-edizione`: la pipeline fallisce se
-   lo trova.
-6. Se una fonte non risponde o una ricerca fallisce, si scrive un riquadro con
-   meno notizie: chiudere il turno senza aver scritto `public/index.html`
-   significa non pubblicare nulla quel giorno.
+5. `public/index.html` non e' una copia del template: la pipeline
+   (`.github/scripts/prepara-public.sh`) ne ricava lo **scheletro dell'edizione
+   del giorno** — testata con la data di oggi, metadati aggiornati, nessun
+   contenuto di esempio, `.griglia` vuota e niente `data-edizione`. L'agente
+   parte da li' e lo **riempie**: non lo riscrive da zero e non ci ricopia
+   dentro `template/index.html`.
+6. I riquadri si scrivono **uno alla volta, man mano**: cercata una categoria,
+   il suo riquadro va inserito subito in `.griglia` prima di passare alla
+   successiva. Accumulare tutto per scriverlo con un'unica operazione finale e'
+   il modo piu' rapido per perdere l'intera edizione se il turno si interrompe.
+7. Se una fonte non risponde o una ricerca fallisce, si scrive un riquadro con
+   meno notizie, o si salta la categoria. Quello che a fine turno si trova in
+   `public/index.html` e' quello che viene pubblicato: un'edizione ridotta va
+   online lo stesso, una pagina senza notizie e' un giorno saltato.
 
 ## Come si legge `details.info`
 
@@ -83,9 +89,10 @@ Classi e ruoli definiti in `template/index.html` e `template/css/style.css`:
 Gli elementi con `hidden` (tema, ricerca, torna su, `data-ruolo="aggiornato"`)
 vanno lasciati così: li attiva `js/main.js`.
 
-Nella testata vanno aggiornati titolo `<title>`, `<meta name="description">`,
+La testata la compila la pipeline: `<title>`, `<meta name="description">`,
 `og:title`, `og:description`, il `<time datetime="AAAA-MM-GG">` con la data
-estesa in italiano e il `datetime` di `data-ruolo="aggiornato"`.
+estesa in italiano e il `datetime` di `data-ruolo="aggiornato"` arrivano gia'
+con la data di oggi. L'agente non deve toccarli.
 
 ## Sviluppo locale
 

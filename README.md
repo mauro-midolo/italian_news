@@ -24,7 +24,8 @@ public/           il giornale di oggi, pronto per il deploy
 ```
 
 L'agente legge le richieste, cerca sul web, verifica le condizioni da
-monitorare e riscrive `public/index.html`. CSS, JavaScript e asset vengono
+monitorare e riempie `public/index.html`, che la pipeline gli consegna già
+impaginato e datato. CSS, JavaScript e asset vengono
 copiati invariati dal template, così la grafica resta stabile e l'agente si
 occupa solo dei contenuti. Il risultato viene committato: lo
 [storico dei commit](https://github.com/mauro-midolo/italian_news/commits/main)
@@ -150,22 +151,28 @@ viene messo in cache (cambia ogni giorno), gli asset sì.
 giorno:
 
 1. copia l'edizione di ieri in `.cache/` (serve all'agente per non ripetersi);
-2. ricrea `public/` da una copia pulita di `template/`;
-3. lancia l'agente, che scrive `public/index.html`;
-4. verifica il risultato con
+2. ricrea `public/` da `template/` e ne ricava lo **scheletro del giorno** con
+   [`.github/scripts/prepara-public.sh`](./.github/scripts/prepara-public.sh):
+   testata con la data di oggi, metadati aggiornati, niente `data-edizione`,
+   niente contenuti di esempio, griglia delle notizie vuota;
+3. lancia l'agente, che riempie lo scheletro **un riquadro alla volta**,
+   scrivendo su disco man mano che finisce una categoria;
+4. controlla il risultato con
    [`.github/scripts/verifica-edizione.sh`](./.github/scripts/verifica-edizione.sh)
-   — la pagina non deve essere rimasta la copia del template, non deve avere
-   l'attributo `data-edizione`, deve contenere almeno un riquadro, riportare la
-   data di oggi e avere asset identici al template;
-5. se il controllo non passa, ripristina `public/` e rigenera l'edizione una
-   seconda volta, poi ricontrolla;
-6. committa l'edizione.
+   — niente residui del template, data di oggi, asset identici al template e un
+   riquadro per ogni voce di `[NOTIZIE]`;
+5. se manca qualcosa, rilancia l'agente una seconda volta **senza buttare via
+   il lavoro già fatto**: completa i riquadri mancanti;
+6. ricontrolla con `verifica-edizione.sh --minimo` e committa l'edizione.
 
-Se anche il secondo tentativo fallisce, non viene pubblicato nulla, l'edizione
-precedente resta online e la pagina scartata viene allegata al run come
-artefatto `edizione-non-valida`, per capire dove si è fermato l'agente. Il
-workflow si può lanciare a mano da *Actions → Edizione giornaliera → Run
-workflow*.
+Il secondo controllo è volutamente più permissivo del primo: un'edizione con
+meno riquadri del previsto viene pubblicata lo stesso — meglio poche notizie
+che il sito fermo a ieri — e la notifica Telegram lo segnala come *edizione
+ridotta*. Non viene pubblicato nulla solo se la pagina non contiene neanche una
+notizia: in quel caso l'edizione precedente resta online e la pagina scartata
+viene allegata al run come artefatto `edizione-non-valida`, per capire dove si
+è fermato l'agente. Il workflow si può lanciare a mano da *Actions → Edizione
+giornaliera → Run workflow*.
 
 Le regole editoriali e strutturali che l'agente deve rispettare sono in
 [`CLAUDE.md`](./CLAUDE.md).
