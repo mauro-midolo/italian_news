@@ -53,21 +53,41 @@ Unifica le notizie duplicate sullo stesso evento.
 
 ---
 
-## Giochi gratuiti Epic Games
+## Giochi gratuiti
 
-Consulta Epic Games Store e riporta:
+Cerca sulle principali piattaforme e store di videogiochi, tra cui **Epic Games Store, Steam, GOG, Ubisoft Connect, EA App, Microsoft Store** e altri store affidabili, eventuali giochi **temporaneamente disponibili gratuitamente**.
+
+Considera solo **giochi conosciuti o di rilievo**, come titoli AAA, AA, indie famosi o giochi con una significativa popolarità, evitando piccoli giochi sconosciuti o di scarso interesse.
+
+Escludi:
+
+* giochi normalmente free-to-play;
+* demo, prologhi e versioni di prova;
+* weekend gratuiti senza possibilità di conservare il gioco;
+* offerte che richiedono un abbonamento a pagamento.
 
 ### Attualmente gratuiti
-- titolo;
-- scadenza dell'offerta;
-- link diretto al gioco.
 
-### Prossimi giochi gratuiti
-- titolo;
-- date di disponibilità;
-- link, se disponibile.
+Per ogni gioco indica:
 
-Se i prossimi giochi non sono ancora stati annunciati, indicalo chiaramente.
+* titolo;
+* piattaforma/store;
+* breve descrizione;
+* data e ora di scadenza dell'offerta;
+* link diretto alla pagina per riscattarlo.
+
+Includi solo giochi che, una volta riscattati durante la promozione, **rimangono permanentemente nella libreria dell'utente**.
+
+### Prossimamente gratuiti
+
+Riporta anche eventuali giochi già annunciati che diventeranno gratuiti nei prossimi giorni, indicando:
+
+* titolo;
+* piattaforma/store;
+* data di inizio e fine dell'offerta;
+* link, se disponibile.
+
+Se non ci sono giochi di rilievo attualmente gratuiti o nuove promozioni già annunciate, indicalo chiaramente senza aggiungere titoli fuori dai criteri.
 
 ## Film
 
