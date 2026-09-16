@@ -242,7 +242,6 @@ jobs:
             evitare è una pagina senza notizie.
           claude_args: |
             --model claude-sonnet-5
-            --max-turns 120
             --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Glob,Grep,TodoWrite,Bash(date*)"
           # Il primo tentativo e' gia' andato male: qui serve poter leggere
           # nel log che cosa ha fatto l'agente, non solo il risultato.
