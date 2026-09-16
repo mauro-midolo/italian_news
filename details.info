@@ -71,21 +71,42 @@ Se i prossimi giochi non sono ancora stati annunciati, indicalo chiaramente.
 
 ## Film
 
-Elenca tutti i film arrivati sulle piattaforme di streaming disponibili in Italia **negli ultimi 7 giorni**, con una **valutazione della critica (Tomatometer) su Rotten Tomatoes superiore al 75%**, senza limiti al numero di titoli.
+Elenca tutti i **film nuovi usciti in streaming in Italia negli ultimi 7 giorni** con una **valutazione della critica (Tomatometer) su Rotten Tomatoes superiore al 75%**, senza limiti al numero di titoli.
 
-Considera la data di disponibilità sulle piattaforme italiane, non quella di uscita al cinema.
+Per **film nuovi** intendo film che hanno avuto negli ultimi 7 giorni la loro **prima disponibilità ufficiale in Italia in streaming, noleggio o acquisto digitale**.
+
+**Non includere film vecchi o già disponibili in precedenza** che sono semplicemente stati aggiunti al catalogo di una nuova piattaforma di streaming.
+
+Ad esempio:
+
+* Film recente che arriva per la prima volta in streaming/VOD in Italia.
+* Film appena uscito dal cinema e ora disponibile per noleggio, acquisto o abbonamento.
+* Non includere film del passato aggiunti questa settimana a Netflix, Prime Video o un'altra piattaforma.
+* Non includere film già disponibili da mesi in noleggio/acquisto che questa settimana vengono aggiunti a un abbonamento.
+* Non includere film trasferiti o aggiunti su una nuova piattaforma ma già precedentemente disponibili in streaming in Italia.
+
+Considera Netflix, Prime Video, Disney+, Apple TV+, NOW/Sky, Paramount+ e le principali piattaforme di noleggio e acquisto digitale disponibili in Italia.
 
 Per ogni film indica:
-- Locandina.
-- Titolo e anno di uscita.
-- Genere e breve trama senza spoiler.
-- Valutazione della critica su Rotten Tomatoes.
-- Data di arrivo sulla piattaforma.
-- Piattaforme su cui è disponibile, specificando se incluso nell’abbonamento, gratuito, a noleggio o in acquisto.
 
-Ordina i film dal più recente arrivo in streaming.
+* Locandina.
+* Titolo e anno di uscita.
+* Genere e breve trama senza spoiler.
+* Valutazione della critica su Rotten Tomatoes.
+* **Data della prima disponibilità streaming/VOD in Italia.**
+* Piattaforme su cui è disponibile, specificando se incluso nell'abbonamento, gratuito, a noleggio o in acquisto.
 
-Verifica che valutazioni, date di arrivo e disponibilità in Italia siano aggiornate e confermate. Se non ci sono titoli che soddisfano i criteri, indicalo senza aggiungere film fuori dai requisiti.
+Ordina i film dalla **data di prima uscita streaming/VOD più recente**.
+
+Verifica tramite fonti aggiornate:
+
+* che il film sia realmente una **nuova uscita streaming/VOD**;
+* che la prima disponibilità in Italia sia avvenuta negli ultimi 7 giorni;
+* che non si tratti semplicemente dell'aggiunta di un film già esistente al catalogo di una piattaforma;
+* che il Tomatometer della critica sia **superiore al 75%**;
+* che la disponibilità indicata sia valida in Italia.
+
+Se non ci sono film che rispettano tutti i criteri, indicalo chiaramente **senza aggiungere titoli fuori dai requisiti**.
 
 ---
 
