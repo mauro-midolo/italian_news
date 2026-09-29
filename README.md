@@ -121,8 +121,11 @@ python -m http.server 8000 --directory template   # il modello
 python -m http.server 8000 --directory public     # l'edizione di oggi
 ```
 
-La pagina si adatta al tema chiaro e scuro del sistema, ha un selettore di tema,
-una ricerca fra le notizie e un foglio di stile dedicato alla stampa. Senza
+La pagina si adatta al tema chiaro e scuro del sistema e ha un selettore di
+tema, una ricerca fra le notizie (scorciatoia `/`), un sommario fisso delle
+sezioni con barra di avanzamento della lettura, riquadri colorati e numerati
+disposti a mosaico e un foglio di stile dedicato alla stampa. Colori e sommario
+si generano da soli per qualunque numero di voci in `[NOTIZIE]`. Senza
 JavaScript resta perfettamente leggibile.
 
 ---
