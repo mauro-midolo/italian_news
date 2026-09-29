@@ -45,35 +45,38 @@ Dai priorità alle novità che introducono cambiamenti concreti.
 
 ---
 
-## Eventi per bambini (2-6 anni) a Bologna e dintorni
+## Eventi per bambini (2-6 anni) a San Lazzaro di Savena e dintorni
 
-Cerca gli **eventi adatti a bambini dai 2 ai 6 anni** che si svolgono a **Bologna e nei comuni limitrofi**, prendendo come punto di partenza **San Lazzaro di Savena** e considerando una distanza ragionevole in auto (indicativamente entro 30 km).
+Cerca gli **eventi adatti a bambini dai 2 ai 6 anni** per:
 
-Includi sia gli **eventi gratuiti** sia quelli **a pagamento**, indicando sempre con chiarezza il costo.
+- il **weekend in arrivo**;
+- il **weekend successivo**.
 
-Copri due finestre temporali:
+Usa come punto di partenza **San Lazzaro di Savena (BO)** e dai priorità agli eventi più vicini, seguendo questo ordine:
 
-* il **weekend più vicino** (sabato e domenica in arrivo);
-* il **weekend successivo**.
+1. **San Lazzaro di Savena**;
+2. comuni e zone limitrofe, come **Ozzano dell'Emilia, Castenaso, Pianoro e Bologna Est**;
+3. altre località entro circa **30 km**;
+4. **Bologna centro solo dopo** gli eventi disponibili nelle zone più vicine.
 
-Considera per esempio: laboratori creativi, letture animate e attività in biblioteca, spettacoli di teatro ragazzi e burattini, feste e sagre con area bambini, attività in fattorie didattiche e parchi, musei e mostre con percorsi per la prima infanzia, eventi di quartiere e centri per le famiglie.
+Considera laboratori creativi, letture animate, biblioteche, teatro ragazzi, burattini, sagre con attività per bambini, fattorie didattiche, parchi, musei, centri per le famiglie e piccoli eventi locali.
 
-Escludi gli eventi chiaramente rivolti a fasce d'età diverse (neonati, bambini in età scolare avanzata, adulti) e quelli già al completo o con iscrizioni chiuse.
+Includi eventi gratuiti e a pagamento. Escludi quelli non adatti alla fascia 2-6 anni, già al completo o con iscrizioni chiuse.
 
 Per ogni evento indica:
 
-* titolo dell'evento;
-* data e orario;
-* luogo con comune e indirizzo;
-* distanza o tempo indicativo da San Lazzaro di Savena;
-* fascia d'età consigliata;
-* costo (gratuito oppure prezzo del biglietto) e necessità di prenotazione;
-* breve descrizione;
-* link alla fonte o alla pagina dell'evento.
+- titolo;
+- data e orario;
+- luogo, comune e indirizzo;
+- distanza o tempo indicativo in auto da San Lazzaro;
+- età consigliata;
+- costo e necessità di prenotazione;
+- breve descrizione;
+- link alla fonte.
 
-Ordina gli eventi per **data crescente**, separando chiaramente il weekend in arrivo da quello successivo.
+Separa i risultati tra **weekend in arrivo** e **weekend successivo** e, all'interno di ciascun weekend, ordinali **prima per vicinanza a San Lazzaro e poi per data**.
 
-Se per una delle due settimane non ci sono eventi adatti, indicalo senza inventare appuntamenti.
+Se non trovi eventi adatti nelle vicinanze, amplia progressivamente la ricerca fino a 30 km senza inventare appuntamenti.
 
 ---
 
@@ -100,19 +103,22 @@ Escludi:
 
 ### Attualmente gratuiti
 
-Per ogni gioco indica:
+Per ogni gioco mostra:
 
+* **copertina o immagine ufficiale del gioco presa direttamente dalla pagina dello store**;
 * titolo;
 * piattaforma/store;
 * breve descrizione;
 * data e ora di scadenza dell'offerta;
 * link diretto alla pagina per riscattarlo.
 
+Usa preferibilmente l'immagine ufficiale presente nella pagina dell'offerta o dello store. **Non usare immagini generate, fan art o immagini provenienti da siti non ufficiali**, se è disponibile quella dello store.
+
 Includi solo giochi che, una volta riscattati durante la promozione, **rimangono permanentemente nella libreria dell'utente**.
 
 ### Prossimamente gratuiti
 
-Riporta anche eventuali giochi già annunciati che diventeranno gratuiti nei prossimi giorni, indicando:
+Riporta anche eventuali giochi già annunciati che diventeranno gratuiti nei prossimi giorni, mostrando anche la **copertina ufficiale**, e indicando:
 
 * titolo;
 * piattaforma/store;
@@ -120,6 +126,8 @@ Riporta anche eventuali giochi già annunciati che diventeranno gratuiti nei pro
 * link, se disponibile.
 
 Se non ci sono giochi di rilievo attualmente gratuiti o nuove promozioni già annunciate, indicalo chiaramente senza aggiungere titoli fuori dai criteri.
+
+---
 
 ## Film
 
@@ -168,17 +176,22 @@ Consulta questa ricerca:
 
 https://www.fallcoaste.it/ricerca.html?filter=macro%7C591%5Einput_categoria%7CBeni%20Mobili%5Eubicazione_lat%7C44.494887%5Eubicazione_lng%7C11.3426163%5Eubicazione_str%7CBologna%20BO%2C%20Italia%5Eubicazione_dst%7C15%5Estato%7C1&page=2
 
-Esamina tutte le pagine mantenendo i filtri e riporta solo gli **oggetti di elettronica con asta ancora aperta**.
+Esamina **tutte le pagine della ricerca**, mantenendo gli stessi filtri, e riporta solo gli **oggetti di elettronica con asta ancora aperta**.
 
 Per ogni oggetto mostra:
-- foto originale;
+
+- **foto originale del prodotto presa direttamente dall'annuncio Fallco Aste**;
 - nome e breve descrizione;
 - prezzo base e offerta attuale;
-- scadenza;
+- data e ora di scadenza;
 - località;
-- link diretto.
+- link diretto all'annuncio.
+
+Non usare immagini generiche, stock o recuperate da altri siti: deve essere mostrata, quando disponibile, **la fotografia effettivamente pubblicata nell'annuncio dell'asta**.
 
 Ordina gli annunci per **scadenza crescente**.
+
+Se un annuncio non contiene fotografie, indicalo chiaramente senza sostituirle con altre immagini.
 
 
 [INFORMAZIONI]
