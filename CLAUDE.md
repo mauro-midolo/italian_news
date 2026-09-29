@@ -86,8 +86,11 @@ Classi e ruoli definiti in `template/index.html` e `template/css/style.css`:
 | Etichetta categoria (facoltativa) | `.notizia__categoria` |
 
 `data-ruolo="conteggio"` viene riempito dal JavaScript: lasciare lo `<span>` vuoto.
-Gli elementi con `hidden` (tema, ricerca, torna su, `data-ruolo="aggiornato"`)
-vanno lasciati così: li attiva `js/main.js`.
+Gli elementi con `hidden` (tema, ricerca, sommario, torna su,
+`data-ruolo="aggiornato"`, `data-ruolo="sintesi"`) vanno lasciati così: li
+attiva e li riempie `js/main.js`. Il sommario delle sezioni, i colori e la
+numerazione dei riquadri si ricavano da soli dai `.riquadro` presenti: non
+servono id, classi o attributi aggiuntivi.
 
 La testata la compila la pipeline: `<title>`, `<meta name="description">`,
 `og:title`, `og:description`, il `<time datetime="AAAA-MM-GG">` con la data
