@@ -1,0 +1,21 @@
+# Regole di cache per Cloudflare Pages.
+# Il file viene copiato in public/ e letto da Cloudflare al momento del deploy.
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# L'edizione cambia ogni giorno: niente cache lunga sull'HTML.
+/
+  Cache-Control: public, max-age=0, must-revalidate
+
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# CSS, JS e icone cambiano solo quando cambia il template.
+/css/*
+  Cache-Control: public, max-age=3600
+/js/*
+  Cache-Control: public, max-age=3600
+/assets/*
+  Cache-Control: public, max-age=86400

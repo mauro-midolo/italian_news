@@ -1,0 +1,6 @@
+# Copia dell'edizione precedente, usata dall'agente durante la generazione
+.cache/
+
+# File di sistema
+.DS_Store
+Thumbs.db

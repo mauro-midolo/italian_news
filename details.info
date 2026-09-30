@@ -1,0 +1,208 @@
+# ---------------------------------------------------------------------------
+# details.info — cosa deve contenere il giornale personale
+#
+# Questo file e' l'unico posto in cui descrivere i contenuti desiderati.
+# Va modificato a mano: l'agente AI lo rilegge a ogni generazione.
+#
+# Formato
+#   [SEZIONE]        intestazione di una sezione, tra parentesi quadre
+#   - richiesta      una voce della sezione, una per riga, con trattino
+#   # commento       le righe che iniziano con # vengono ignorate
+#
+# Estendibilita'
+#   Aggiungere una voce a [NOTIZIE] crea automaticamente un nuovo riquadro
+#   nella pagina. Aggiungere una voce a [INFORMAZIONI] crea una nuova
+#   condizione da verificare ogni giorno. Non serve toccare il codice.
+# ---------------------------------------------------------------------------
+
+[NOTIZIE]
+
+## San Lazzaro di Savena
+
+Riporta le notizie più recenti e rilevanti su **San Lazzaro di Savena**, privilegiando eventi, viabilità, servizi, lavori pubblici, sicurezza e informazioni utili per la vita quotidiana.
+
+---
+
+## Domotica e Smart Home
+
+Riporta le principali novità su **domotica e Smart Home**, compresi nuovi prodotti, tool, integrazioni, aggiornamenti e novità rilevanti di **Home Assistant**.
+
+---
+
+## Tecnologia
+
+Riporta le principali novità **tech mainstream**: nuovi prodotti, dispositivi, hardware, software, gaming, reti, servizi digitali e aggiornamenti tecnologici rilevanti.
+
+Evita rumor poco attendibili e notizie duplicate.
+
+---
+
+## Intelligenza Artificiale
+
+Riporta le principali novità su **AI**, nuovi modelli, agenti, tool, coding assistant, piattaforme e funzionalità rilevanti.
+
+Dai priorità alle novità che introducono cambiamenti concreti.
+
+---
+
+## Eventi per bambini (2-6 anni) a San Lazzaro di Savena e dintorni
+
+Cerca gli **eventi adatti a bambini dai 2 ai 6 anni** per:
+
+- il **weekend in arrivo**;
+- il **weekend successivo**.
+
+Usa come punto di partenza **San Lazzaro di Savena (BO)** e dai priorità agli eventi più vicini, seguendo questo ordine:
+
+1. **San Lazzaro di Savena**;
+2. comuni e zone limitrofe, come **Ozzano dell'Emilia, Castenaso, Pianoro e Bologna Est**;
+3. altre località entro circa **30 km**;
+4. **Bologna centro solo dopo** gli eventi disponibili nelle zone più vicine.
+
+Considera laboratori creativi, letture animate, biblioteche, teatro ragazzi, burattini, sagre con attività per bambini, fattorie didattiche, parchi, musei, centri per le famiglie e piccoli eventi locali.
+
+Includi eventi gratuiti e a pagamento. Escludi quelli non adatti alla fascia 2-6 anni, già al completo o con iscrizioni chiuse.
+
+Per ogni evento indica:
+
+- titolo;
+- data e orario;
+- luogo, comune e indirizzo;
+- distanza o tempo indicativo in auto da San Lazzaro;
+- età consigliata;
+- costo e necessità di prenotazione;
+- breve descrizione;
+- link alla fonte.
+
+Separa i risultati tra **weekend in arrivo** e **weekend successivo** e, all'interno di ciascun weekend, ordinali **prima per vicinanza a San Lazzaro e poi per data**.
+
+Se non trovi eventi adatti nelle vicinanze, amplia progressivamente la ricerca fino a 30 km senza inventare appuntamenti.
+
+---
+
+## Notizie importanti
+
+Riporta solo le **notizie di maggior rilievo della giornata**, dando priorità a quelle più importanti per un lettore italiano.
+
+Includi sia **Italia** sia **mondo**: politica, economia, geopolitica, tecnologia, scienza, crisi internazionali, eventi naturali e fatti di particolare rilevanza.
+
+Evita notizie minori, gossip e cronaca locale poco significativa.
+
+Unifica le notizie duplicate sullo stesso evento e ordinalle per importanza.
+
+Parti dal sito di **ANSA (https://www.ansa.it/)** e integra con altre fonti autorevoli quando necessario.
+
+---
+
+## Giochi gratuiti
+
+Cerca sulle principali piattaforme e store di videogiochi, tra cui **Epic Games Store, Steam, GOG, Ubisoft Connect, EA App, Microsoft Store** e altri store affidabili, eventuali giochi **temporaneamente disponibili gratuitamente**.
+
+Considera solo **giochi conosciuti o di rilievo**, come titoli AAA, AA, indie famosi o giochi con una significativa popolarità, evitando piccoli giochi sconosciuti o di scarso interesse.
+
+Escludi:
+
+* giochi normalmente free-to-play;
+* demo, prologhi e versioni di prova;
+* weekend gratuiti senza possibilità di conservare il gioco;
+* offerte che richiedono un abbonamento a pagamento.
+
+### Attualmente gratuiti
+
+Per ogni gioco mostra:
+
+* **copertina o immagine ufficiale del gioco presa direttamente dalla pagina dello store**;
+* titolo;
+* piattaforma/store;
+* breve descrizione;
+* data e ora di scadenza dell'offerta;
+* link diretto alla pagina per riscattarlo.
+
+Usa preferibilmente l'immagine ufficiale presente nella pagina dell'offerta o dello store. **Non usare immagini generate, fan art o immagini provenienti da siti non ufficiali**, se è disponibile quella dello store.
+
+Includi solo giochi che, una volta riscattati durante la promozione, **rimangono permanentemente nella libreria dell'utente**.
+
+### Prossimamente gratuiti
+
+Riporta anche eventuali giochi già annunciati che diventeranno gratuiti nei prossimi giorni, mostrando anche la **copertina ufficiale**, e indicando:
+
+* titolo;
+* piattaforma/store;
+* data di inizio e fine dell'offerta;
+* link, se disponibile.
+
+Se non ci sono giochi di rilievo attualmente gratuiti o nuove promozioni già annunciate, indicalo chiaramente senza aggiungere titoli fuori dai criteri.
+
+---
+
+## Film
+
+Elenca tutti i **film nuovi usciti in streaming in Italia negli ultimi 7 giorni** con una **valutazione della critica (Tomatometer) su Rotten Tomatoes superiore al 75%**, senza limiti al numero di titoli.
+
+Per **film nuovi** intendo film che hanno avuto negli ultimi 7 giorni la loro **prima disponibilità ufficiale in Italia in streaming, noleggio o acquisto digitale**.
+
+**Non includere film vecchi o già disponibili in precedenza** che sono semplicemente stati aggiunti al catalogo di una nuova piattaforma di streaming.
+
+Ad esempio:
+
+* Film recente che arriva per la prima volta in streaming/VOD in Italia.
+* Film appena uscito dal cinema e ora disponibile per noleggio, acquisto o abbonamento.
+* Non includere film del passato aggiunti questa settimana a Netflix, Prime Video o un'altra piattaforma.
+* Non includere film già disponibili da mesi in noleggio/acquisto che questa settimana vengono aggiunti a un abbonamento.
+* Non includere film trasferiti o aggiunti su una nuova piattaforma ma già precedentemente disponibili in streaming in Italia.
+
+Considera Netflix, Prime Video, Disney+, Apple TV+, NOW/Sky, Paramount+ e le principali piattaforme di noleggio e acquisto digitale disponibili in Italia.
+
+Per ogni film indica:
+
+* Locandina.
+* Titolo e anno di uscita.
+* Genere e breve trama senza spoiler.
+* Valutazione della critica su Rotten Tomatoes.
+* **Data della prima disponibilità streaming/VOD in Italia.**
+* Piattaforme su cui è disponibile, specificando se incluso nell'abbonamento, gratuito, a noleggio o in acquisto.
+
+Ordina i film dalla **data di prima uscita streaming/VOD più recente**.
+
+Verifica tramite fonti aggiornate:
+
+* che il film sia realmente una **nuova uscita streaming/VOD**;
+* che la prima disponibilità in Italia sia avvenuta negli ultimi 7 giorni;
+* che non si tratti semplicemente dell'aggiunta di un film già esistente al catalogo di una piattaforma;
+* che il Tomatometer della critica sia **superiore al 75%**;
+* che la disponibilità indicata sia valida in Italia.
+
+Se non ci sono film che rispettano tutti i criteri, indicalo chiaramente **senza aggiungere titoli fuori dai requisiti**.
+
+---
+
+## Elettronica all'asta – Fallco Aste
+
+Consulta questa ricerca:
+
+https://www.fallcoaste.it/ricerca.html?filter=macro%7C591%5Einput_categoria%7CBeni%20Mobili%5Eubicazione_lat%7C44.494887%5Eubicazione_lng%7C11.3426163%5Eubicazione_str%7CBologna%20BO%2C%20Italia%5Eubicazione_dst%7C15%5Estato%7C1&page=2
+
+Esamina **tutte le pagine della ricerca**, mantenendo gli stessi filtri, e riporta solo gli **oggetti di elettronica con asta ancora aperta**.
+
+Per ogni oggetto mostra:
+
+- **foto originale del prodotto presa direttamente dall'annuncio Fallco Aste**;
+- nome e breve descrizione;
+- prezzo base e offerta attuale;
+- data e ora di scadenza;
+- località;
+- link diretto all'annuncio.
+
+Non usare immagini generiche, stock o recuperate da altri siti: deve essere mostrata, quando disponibile, **la fotografia effettivamente pubblicata nell'annuncio dell'asta**.
+
+Ordina gli annunci per **scadenza crescente**.
+
+Se un annuncio non contiene fotografie, indicalo chiaramente senza sostituirle con altre immagini.
+
+
+[INFORMAZIONI]
+
+- Avvisami quando il film "Odissea" del 2026 diventa disponibile su una piattaforma di streaming
+- Avvisami quando Valve rilascia ufficialmente SteamOS per ARM compatibile con Raspberry pi in versione stabile.
+  Considera solo fonti ufficiali Valve/Steam, ignora indiscrezioni, leak e beta.
+  Quando succede, dammi data e link alla fonte. Altrimenti non scrivermi.
