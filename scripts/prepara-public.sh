@@ -1,19 +1,28 @@
 #!/usr/bin/env bash
 #
-# Ricrea public/ da template/ e trasforma public/index.html nello SCHELETRO
-# dell'edizione di oggi: testata con la data corretta, nessun contenuto di
-# esempio, griglia delle notizie vuota.
+# Primo passo della generazione quotidiana (lo lancia la routine di Claude
+# Code, dalla radice del repository):
+#
+#   1. mette da parte l'edizione di ieri in .cache/edizione-precedente.html,
+#      cosi' l'agente puo' evitare di ripetere notizie e avvisi;
+#   2. ricrea public/ da template/ e trasforma public/index.html nello
+#      SCHELETRO dell'edizione di oggi: testata con la data corretta, nessun
+#      contenuto di esempio, griglia delle notizie vuota.
 #
 # Perche' uno scheletro e non una copia del template: l'agente non deve piu'
 # riscrivere la pagina da zero alla fine del lavoro (se il turno si chiudeva
 # prima di quell'unica Write non veniva pubblicato nulla). Parte da una pagina
 # gia' valida e la riempie un riquadro alla volta, cosi' anche un lavoro
 # interrotto a meta' resta pubblicabile.
-#
-# Ne mette da parte una copia (edizione-base.html): la verifica la usa per
-# capire se l'agente ha davvero scritto qualcosa.
 
 set -euo pipefail
+
+cd "$(dirname "$0")/.."
+
+mkdir -p .cache
+if [ -f public/index.html ]; then
+  cp public/index.html .cache/edizione-precedente.html
+fi
 
 rm -rf public
 cp -R template public
@@ -68,15 +77,13 @@ sed -i \
 #    saperlo adesso che dopo dieci minuti di ricerche.
 for residuo in 'data-edizione' 'esempio\.it' 'edizione di esempio' 'SCHELETRO:'; do
   if grep -q "$residuo" "$pagina"; then
-    echo "::error::lo scheletro contiene ancora \"${residuo}\": prepara-public.sh non e' allineato al template."
+    echo "ERRORE: lo scheletro contiene ancora \"${residuo}\": prepara-public.sh non e' allineato al template." >&2
     exit 1
   fi
 done
 if ! grep -q "$oggi_iso" "$pagina"; then
-  echo "::error::lo scheletro non riporta la data di oggi (${oggi_iso})."
+  echo "ERRORE: lo scheletro non riporta la data di oggi (${oggi_iso})." >&2
   exit 1
 fi
-
-cp "$pagina" "${RUNNER_TEMP:-/tmp}/edizione-base.html"
 
 echo "Scheletro del ${oggi_iso} pronto in public/ ($(wc -c < "$pagina") byte)."

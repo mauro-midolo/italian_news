@@ -12,8 +12,8 @@
 
 ## 🧭 Come funziona
 
-Ogni giorno alle 6:30 (ora italiana) un agente AI combina due ingredienti e ne
-produce un terzo:
+Ogni mattina una [routine di Claude Code](https://code.claude.com/docs/en/claude-code-on-the-web)
+combina due ingredienti e ne produce un terzo:
 
 ```
 details.info      che cosa voglio sapere
@@ -24,7 +24,7 @@ public/           il giornale di oggi, pronto per il deploy
 ```
 
 L'agente legge le richieste, cerca sul web, verifica le condizioni da
-monitorare e riempie `public/index.html`, che la pipeline gli consegna già
+monitorare e riempie `public/index.html`, che uno script gli prepara già
 impaginato e datato. CSS, JavaScript e asset vengono
 copiati invariati dal template, così la grafica resta stabile e l'agente si
 occupa solo dei contenuti. Il risultato viene committato: lo
@@ -39,6 +39,8 @@ funziona da archivio delle edizioni passate.
 .
 ├── details.info              # cosa cercare e cosa monitorare (lo modifichi tu)
 ├── CLAUDE.md                 # contratto di generazione per l'agente
+├── scripts/
+│   └── prepara-public.sh     # ricrea public/ e lo scheletro del giorno
 ├── template/                 # modello di riferimento del giornale
 │   ├── index.html            #   struttura e segnaposto commentati
 │   ├── css/style.css
@@ -111,7 +113,7 @@ leggibili.
 ## 🎨 Modificare la grafica
 
 La grafica si cambia **solo** in `template/`, mai in `public/` (che viene
-rigenerato). Dopo una modifica al template, la prima esecuzione dell'agente la
+rigenerato). Dopo una modifica al template, la prima esecuzione della routine la
 propaga all'edizione pubblicata.
 
 Anteprima locale:
@@ -148,34 +150,26 @@ viene messo in cache (cambia ogni giorno), gli asset sì.
 
 ---
 
-## 🤖 La pipeline
+## 🤖 La routine
 
-[`.github/workflows/claude.yml`](./.github/workflows/claude.yml) esegue ogni
-giorno:
+La generazione gira come **routine pianificata di Claude Code**, in un ambiente
+cloud con il repository appena clonato. A ogni esecuzione l'agente:
 
-1. copia l'edizione di ieri in `.cache/` (serve all'agente per non ripetersi);
-2. ricrea `public/` da `template/` e ne ricava lo **scheletro del giorno** con
-   [`.github/scripts/prepara-public.sh`](./.github/scripts/prepara-public.sh):
-   testata con la data di oggi, metadati aggiornati, niente `data-edizione`,
-   niente contenuti di esempio, griglia delle notizie vuota;
-3. lancia l'agente, che riempie lo scheletro **un riquadro alla volta**,
-   scrivendo su disco man mano che finisce una categoria;
-4. controlla il risultato con
-   [`.github/scripts/verifica-edizione.sh`](./.github/scripts/verifica-edizione.sh)
-   — niente residui del template, data di oggi, asset identici al template e un
-   riquadro per ogni voce di `[NOTIZIE]`;
-5. se manca qualcosa, rilancia l'agente una seconda volta **senza buttare via
-   il lavoro già fatto**: completa i riquadri mancanti;
-6. ricontrolla con `verifica-edizione.sh --minimo` e committa l'edizione.
+1. lancia [`scripts/prepara-public.sh`](./scripts/prepara-public.sh), che mette
+   da parte l'edizione di ieri in `.cache/` (serve all'agente per non
+   ripetersi), ricrea `public/` da `template/` e ne ricava lo **scheletro del
+   giorno**: testata con la data di oggi, metadati aggiornati, niente
+   `data-edizione`, niente contenuti di esempio, griglia delle notizie vuota;
+2. riempie lo scheletro **un riquadro alla volta**, scrivendo su disco man mano
+   che finisce una categoria, e verifica le condizioni di `[INFORMAZIONI]`;
+3. rilegge la pagina e committa `public/` direttamente su `main`
+   (`Edizione del GG/MM/AAAA`): il push fa partire il deploy su Cloudflare
+   Pages.
 
-Il secondo controllo è volutamente più permissivo del primo: un'edizione con
-meno riquadri del previsto viene pubblicata lo stesso — meglio poche notizie
-che il sito fermo a ieri — e la notifica Telegram lo segnala come *edizione
-ridotta*. Non viene pubblicato nulla solo se la pagina non contiene neanche una
-notizia: in quel caso l'edizione precedente resta online e la pagina scartata
-viene allegata al run come artefatto `edizione-non-valida`, per capire dove si
-è fermato l'agente. Il workflow si può lanciare a mano da *Actions → Edizione
-giornaliera → Run workflow*.
+Un'edizione con meno riquadri del previsto viene pubblicata lo stesso — meglio
+poche notizie che il sito fermo a ieri. Pianificazione, prompt e notifiche si
+gestiscono dalle impostazioni della routine; per un'edizione fuori orario basta
+lanciarla a mano.
 
 Le regole editoriali e strutturali che l'agente deve rispettare sono in
 [`CLAUDE.md`](./CLAUDE.md).

@@ -1,7 +1,7 @@
 # Il Quotidiano — contratto di generazione
 
-Giornale personale statico, rigenerato ogni mattina da un agente AI e pubblicato
-su Cloudflare Pages.
+Giornale personale statico, rigenerato ogni mattina da una routine di Claude
+Code e pubblicato su Cloudflare Pages.
 
 ```
 details.info   ->  che cosa l'utente vuole sapere
@@ -18,10 +18,11 @@ public/        ->  il giornale del giorno, pronto per il deploy
 3. **`public/` deve essere autosufficiente**: nessun riferimento a file fuori da
    `public/`. Percorsi relativi (`css/style.css`, `js/main.js`, `assets/…`).
 4. Nella generazione quotidiana l'agente scrive **solo `public/index.html`**.
-   Gli altri file di `public/` sono copie identiche di `template/` fatte dalla
-   pipeline. Se servono asset nuovi vanno aggiunti prima a `template/`.
-5. `public/index.html` non e' una copia del template: la pipeline
-   (`.github/scripts/prepara-public.sh`) ne ricava lo **scheletro dell'edizione
+   Gli altri file di `public/` sono copie identiche di `template/` fatte da
+   `scripts/prepara-public.sh`. Se servono asset nuovi vanno aggiunti prima a
+   `template/`.
+5. `public/index.html` non e' una copia del template: `scripts/prepara-public.sh`
+   ne ricava lo **scheletro dell'edizione
    del giorno** — testata con la data di oggi, metadati aggiornati, nessun
    contenuto di esempio, `.griglia` vuota e niente `data-edizione`. L'agente
    parte da li' e lo **riempie**: non lo riscrive da zero e non ci ricopia
@@ -34,6 +35,27 @@ public/        ->  il giornale del giorno, pronto per il deploy
    meno notizie, o si salta la categoria. Quello che a fine turno si trova in
    `public/index.html` e' quello che viene pubblicato: un'edizione ridotta va
    online lo stesso, una pagina senza notizie e' un giorno saltato.
+
+## Generazione quotidiana
+
+La lancia ogni mattina una routine di Claude Code, in un ambiente cloud con il
+repository appena clonato. Nessun altro prepara la pagina: i passi sono tutti
+a carico dell'agente.
+
+1. Dalla radice del repository eseguire `scripts/prepara-public.sh`. Copia
+   l'edizione di ieri in `.cache/edizione-precedente.html` (ignorata da git),
+   ricrea `public/` da `template/` e lascia in `public/index.html` lo scheletro
+   del giorno. Va eseguito **una sola volta, all'inizio**: rilanciarlo a lavoro
+   avviato cancella i riquadri gia' scritti.
+2. Riempire `public/index.html` seguendo `details.info` e le regole di questo
+   file, un riquadro alla volta.
+3. Prima di chiudere, rileggere la pagina: un `<section class="riquadro">` per
+   ogni voce di `[NOTIZIE]` che ha prodotto risultati, nessuna traccia di
+   `data-edizione` o di link a `esempio.it`.
+4. Committare **solo `public/`** direttamente su `main`, con messaggio
+   `Edizione del GG/MM/AAAA`, e fare push. Cloudflare Pages pubblica il sito a
+   ogni push. Un'edizione ridotta si committa lo stesso; non si committa solo
+   se la pagina non contiene neanche una notizia (resta online quella di ieri).
 
 ## Come si legge `details.info`
 
@@ -92,7 +114,7 @@ attiva e li riempie `js/main.js`. Il sommario delle sezioni, i colori e la
 numerazione dei riquadri si ricavano da soli dai `.riquadro` presenti: non
 servono id, classi o attributi aggiuntivi.
 
-La testata la compila la pipeline: `<title>`, `<meta name="description">`,
+La testata la compila `scripts/prepara-public.sh`: `<title>`, `<meta name="description">`,
 `og:title`, `og:description`, il `<time datetime="AAAA-MM-GG">` con la data
 estesa in italiano e il `datetime` di `data-ruolo="aggiornato"` arrivano gia'
 con la data di oggi. L'agente non deve toccarli.
