@@ -40,7 +40,8 @@ funziona da archivio delle edizioni passate.
 ├── details.info              # cosa cercare e cosa monitorare (lo modifichi tu)
 ├── CLAUDE.md                 # contratto di generazione per l'agente
 ├── scripts/
-│   └── prepara-public.sh     # ricrea public/ e lo scheletro del giorno
+│   ├── prepara-public.sh     # ricrea public/ e lo scheletro del giorno
+│   └── meteo.py              # fascia meteo di San Lazzaro (Open-Meteo)
 ├── template/                 # modello di riferimento del giornale
 │   ├── index.html            #   struttura e segnaposto commentati
 │   ├── css/style.css
@@ -158,7 +159,8 @@ cloud con il repository appena clonato. A ogni esecuzione l'agente:
 1. lancia [`scripts/prepara-public.sh`](./scripts/prepara-public.sh), che mette
    da parte l'edizione di ieri in `.cache/` (serve all'agente per non
    ripetersi), ricrea `public/` da `template/` e ne ricava lo **scheletro del
-   giorno**: testata con la data di oggi, metadati aggiornati, niente
+   giorno**: testata con la data di oggi, metadati aggiornati, fascia meteo
+   di San Lazzaro di Savena con i dati di Open-Meteo, niente
    `data-edizione`, niente contenuti di esempio, griglia delle notizie vuota;
 2. riempie lo scheletro **un riquadro alla volta**, scrivendo su disco man mano
    che finisce una categoria, e verifica le condizioni di `[INFORMAZIONI]`;

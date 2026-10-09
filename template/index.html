@@ -20,6 +20,9 @@
      dentro .griglia, nello stesso ordine in cui compare nel file.
   3. La sezione .avvisi va inclusa SOLO se almeno una voce di [INFORMAZIONI]
      ha prodotto qualcosa da comunicare; altrimenti va eliminata del tutto.
+     Quando c'e', sta in cima al <main>, prima della fascia .meteo.
+  3b. La fascia .meteo la scrive scripts/prepara-public.sh con dati reali
+     (Open-Meteo): l'agente non la crea e non la modifica.
   4. Classi, struttura e nomi dei file CSS/JS non vanno cambiati: css/style.css
      e js/main.js vengono copiati invariati in public/.
   5. Il contenuto di esempio presente qui sotto e' segnaposto e va sostituito
@@ -123,6 +126,43 @@
         </article>
       </section>
       <!-- SCHELETRO:AVVISI-FINE -->
+
+      <!-- SCHELETRO:METEO-INIZIO -->
+      <!--
+        ===================== METEO =====================
+        La fascia la scrive scripts/meteo.py (lanciato da prepara-public.sh) con i dati
+        di Open-Meteo, prima che parta l'agente: l'agente non la tocca.
+        Se le previsioni non sono disponibili la fascia viene omessa.
+        Lato pioggia: solo i giorni piovosi fra i tre successivi; se non ce
+        ne sono, data-pioggia="no" e una riga di sintesi.
+      -->
+      <section class="meteo" aria-labelledby="meteo-titolo">
+        <h2 class="meteo__titolo" id="meteo-titolo">Meteo &middot; San Lazzaro di Savena</h2>
+        <div class="meteo__corpo">
+          <div class="meteo__oggi">
+            <svg class="meteo__icona" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v1.5M3.3 4.3l1 1M2 9h1.5M12.7 4.3l-1 1"/><path d="M5.2 11.3A3.5 3.5 0 1 1 11 7.2"/><path d="M9 20h8a3.5 3.5 0 0 0 .5-6.96A5 5 0 0 0 8 12.3 3.9 3.9 0 0 0 9 20Z"/></svg>
+            <div>
+              <p class="meteo__etichetta">Oggi</p>
+              <p class="meteo__condizione">Poco nuvoloso</p>
+              <p class="meteo__temperature">
+                <span class="meteo__max"><abbr title="massima">max</abbr> 22°</span>
+                <span class="meteo__min"><abbr title="minima">min</abbr> 11°</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="meteo__pioggia" data-pioggia="si">
+            <p class="meteo__etichetta">Pioggia nei prossimi 3 giorni</p>
+            <p class="meteo__sintesi">Prevista domani e sabato 3</p>
+            <ul class="meteo__giorni">
+              <li class="meteo__giorno"><svg class="meteo__goccia" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 15h10a4 4 0 0 0 .6-7.95A6 6 0 0 0 6.1 6.2 4.5 4.5 0 0 0 7 15Z"/><path d="M9 18l-1 3M13 18l-1 3M17 18l-1 3"/></svg><strong>Domani</strong> <span>70% · 6,2 mm</span></li>
+              <li class="meteo__giorno"><svg class="meteo__goccia" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 15h10a4 4 0 0 0 .6-7.95A6 6 0 0 0 6.1 6.2 4.5 4.5 0 0 0 7 15Z"/><path d="M9 18l-1 3M13 18l-1 3M17 18l-1 3"/></svg><strong>Sabato 3</strong> <span>90% · 12,0 mm</span></li>
+            </ul>
+          </div>
+        </div>
+        <p class="meteo__fonte">Previsioni <a href="https://open-meteo.com/" rel="noopener">Open-Meteo</a> delle 06:30</p>
+      </section>
+      <!-- SCHELETRO:METEO-FINE -->
 
       <!-- ===================== NOTIZIE ===================== -->
       <section aria-labelledby="notizie-titolo">

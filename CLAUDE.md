@@ -73,7 +73,7 @@ quadre, le voci iniziano con `-`.
   - Se non c'è nulla da segnalare, **la sezione `.avvisi` va omessa del tutto**.
     Non scrivere mai messaggi come "il film non è ancora disponibile".
   - Se una o più condizioni risultano soddisfatte, inserire `.avvisi` **in cima
-    alla pagina**, prima delle notizie, con un `<article class="avviso">` per
+    alla pagina**, prima della fascia meteo e delle notizie, con un `<article class="avviso">` per
     ogni novità: che cosa è successo, dettagli utili, fonte.
   - `.cache/edizione-precedente.html`, se presente, è l'edizione del giorno
     prima: va consultata per non ripetere ogni giorno lo stesso avviso e per
@@ -82,8 +82,19 @@ quadre, le voci iniziano con `-`.
 ## Priorità visiva della pagina
 
 1. Avvisi da `[INFORMAZIONI]` (se ce ne sono)
-2. Notizie
-3. Eventuali sezioni future
+2. Fascia meteo (scritta da `scripts/prepara-public.sh`)
+3. Notizie
+4. Eventuali sezioni future
+
+## Fascia meteo
+
+La fascia `.meteo` di San Lazzaro di Savena la scrive `scripts/meteo.py`,
+lanciato da `scripts/prepara-public.sh`, con i dati di Open-Meteo: tempo di
+oggi (icona, condizione, massima e minima) e i giorni di pioggia fra i tre
+successivi. I numeri non passano dall'AI. L'agente non la crea, non la
+modifica e non la sposta; se le previsioni non erano disponibili la fascia
+manca e va bene cosi'. Gli avvisi, quando ci sono, vanno **prima** della
+fascia meteo.
 
 ## Regole redazionali
 
@@ -103,6 +114,7 @@ Classi e ruoli definiti in `template/index.html` e `template/css/style.css`:
 | Elemento | Classe |
 | --- | --- |
 | Area avvisi (opzionale) | `.avvisi` > `.avviso` |
+| Fascia meteo (dallo script) | `.meteo` > `.meteo__oggi` + `.meteo__pioggia` |
 | Riquadro di categoria | `.riquadro` > `.riquadro__testata` + `.notizia` |
 | Notizia | `.notizia__titolo`, `.notizia__testo`, `.notizia__meta`, `.notizia__fonte` |
 | Etichetta categoria (facoltativa) | `.notizia__categoria` |

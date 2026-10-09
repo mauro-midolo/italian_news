@@ -6,8 +6,9 @@
 #   1. mette da parte l'edizione di ieri in .cache/edizione-precedente.html,
 #      cosi' l'agente puo' evitare di ripetere notizie e avvisi;
 #   2. ricrea public/ da template/ e trasforma public/index.html nello
-#      SCHELETRO dell'edizione di oggi: testata con la data corretta, nessun
-#      contenuto di esempio, griglia delle notizie vuota.
+#      SCHELETRO dell'edizione di oggi: testata con la data corretta, fascia
+#      meteo (scripts/meteo.py), nessun contenuto di esempio, griglia delle
+#      notizie vuota.
 #
 # Perche' uno scheletro e non una copia del template: l'agente non deve piu'
 # riscrivere la pagina da zero alla fine del lavoro (se il turno si chiudeva
@@ -73,7 +74,15 @@ sed -i \
   -e 's|^\( *\)<div class="griglia">$|\1<div class="griglia">\n\1  <!-- I riquadri delle notizie vanno inseriti qui, uno per ogni voce di [NOTIZIE]. -->|' \
   "$pagina"
 
-# 6. Rete di sicurezza: se qualcosa qui sopra non ha agganciato, meglio
+# 6. Fascia meteo con i dati veri di Open-Meteo, scritta qui e non
+#    dall'agente: i numeri non passano dall'AI. Se le previsioni non
+#    arrivano (rete, API) l'edizione esce lo stesso, senza fascia.
+if ! python3 scripts/meteo.py "$pagina" "$ora_hm"; then
+  echo "ATTENZIONE: previsioni meteo non disponibili, l'edizione esce senza fascia meteo." >&2
+  sed -i '/SCHELETRO:METEO-INIZIO/,/SCHELETRO:METEO-FINE/d' "$pagina"
+fi
+
+# 7. Rete di sicurezza: se qualcosa qui sopra non ha agganciato, meglio
 #    saperlo adesso che dopo dieci minuti di ricerche.
 for residuo in 'data-edizione' 'esempio\.it' 'edizione di esempio' 'SCHELETRO:'; do
   if grep -q "$residuo" "$pagina"; then
