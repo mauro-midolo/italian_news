@@ -38,6 +38,10 @@
   --avviso-ink:   #6e3f00;
   --avviso-badge: #b45309;
 
+  --pioggia-fondo: #e8f1fb;
+  --pioggia-bordo: #6fa3d8;
+  --pioggia-ink:   #1a5490;
+
   --ombra:       0 1px 2px rgba(21, 23, 27, .04), 0 4px 16px -6px rgba(21, 23, 27, .08);
   --ombra-alta:  0 2px 4px rgba(21, 23, 27, .05), 0 18px 40px -16px rgba(21, 23, 27, .22);
   --vetro:       rgba(246, 245, 241, .78);
@@ -83,6 +87,10 @@
     --avviso-ink:   #fbe0b0;
     --avviso-badge: #ffb45c;
 
+    --pioggia-fondo: #0f1f33;
+    --pioggia-bordo: #2f5f8f;
+    --pioggia-ink:   #9ccaf7;
+
     --ombra:       0 1px 2px rgba(0, 0, 0, .35), 0 6px 20px -8px rgba(0, 0, 0, .5);
     --ombra-alta:  0 2px 4px rgba(0, 0, 0, .4), 0 22px 44px -18px rgba(0, 0, 0, .85);
     --vetro:       rgba(13, 15, 19, .74);
@@ -118,6 +126,10 @@
   --avviso-bordo: #8f6421;
   --avviso-ink:   #fbe0b0;
   --avviso-badge: #ffb45c;
+
+  --pioggia-fondo: #0f1f33;
+  --pioggia-bordo: #2f5f8f;
+  --pioggia-ink:   #9ccaf7;
 
   --ombra:       0 1px 2px rgba(0, 0, 0, .35), 0 6px 20px -8px rgba(0, 0, 0, .5);
   --ombra-alta:  0 2px 4px rgba(0, 0, 0, .4), 0 22px 44px -18px rgba(0, 0, 0, .85);
@@ -570,7 +582,168 @@ code {
 
 .avviso__meta a { color: var(--avviso-badge); font-weight: 600; text-underline-offset: 3px; }
 
-/* --- 6. Notizie ----------------------------------------------------------- */
+/* --- 6. Meteo (fascia scritta da scripts/meteo.py) ---------------------- */
+/*
+   Generata con i dati di Open-Meteo prima che parta l'agente. A sinistra il
+   tempo di oggi, a destra la pioggia dei prossimi giorni: azzurra quando ne
+   e' prevista, neutra altrimenti. Se le previsioni mancano la fascia non
+   c'e' e il layout si richiude.
+*/
+
+.meteo {
+  background: var(--superficie);
+  border: 1px solid var(--filetto);
+  border-radius: var(--raggio-l);
+  padding: 1.25rem 1.5rem 1.1rem;
+  margin-bottom: 2.75rem;
+  box-shadow: var(--ombra);
+}
+
+.meteo__titolo {
+  margin: 0 0 1rem;
+  font-family: var(--ui);
+  font-size: .74rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--tenue);
+}
+
+.meteo__corpo {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+  gap: 1rem 1.5rem;
+  align-items: stretch;
+}
+
+.meteo__etichetta {
+  margin: 0;
+  font-family: var(--ui);
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--tenue);
+}
+
+/* Oggi */
+
+.meteo__oggi {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.meteo__icona {
+  flex: none;
+  width: 3.5rem;
+  height: 3.5rem;
+  color: var(--inchiostro-2);
+}
+
+.meteo__condizione {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -.01em;
+}
+
+.meteo__temperature {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .25rem 1rem;
+  margin: .25rem 0 0;
+  font-family: var(--ui);
+  font-size: 1.05rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.meteo__temperature abbr {
+  text-decoration: none;
+  font-size: .7rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--tenue);
+}
+
+.meteo__max { font-weight: 700; color: var(--inchiostro); }
+.meteo__min { color: var(--inchiostro-2); }
+
+.meteo__nota {
+  margin: .35rem 0 0;
+  font-family: var(--ui);
+  font-size: .82rem;
+  font-weight: 600;
+  color: var(--pioggia-ink);
+}
+
+/* Pioggia nei prossimi giorni */
+
+.meteo__pioggia {
+  padding: .9rem 1.1rem;
+  background: var(--superficie-2);
+  border: 1px solid var(--filetto);
+  border-left: 4px solid var(--filetto-forte);
+  border-radius: var(--raggio);
+}
+
+.meteo__pioggia[data-pioggia="si"] {
+  background: linear-gradient(135deg, var(--pioggia-fondo) 0%, var(--superficie) 120%);
+  border-color: color-mix(in srgb, var(--pioggia-bordo) 45%, transparent);
+  border-left-color: var(--pioggia-bordo);
+}
+
+.meteo__sintesi {
+  margin: .2rem 0 0;
+  font-family: var(--display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--inchiostro-2);
+  text-wrap: balance;
+}
+
+.meteo__pioggia[data-pioggia="si"] .meteo__sintesi { color: var(--pioggia-ink); }
+
+.meteo__giorni {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem 1.25rem;
+  margin: .55rem 0 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--ui);
+  font-size: .86rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.meteo__giorno {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  color: var(--inchiostro-2);
+}
+
+.meteo__giorno strong { color: var(--pioggia-ink); font-weight: 700; }
+
+.meteo__goccia {
+  width: 1.15rem;
+  height: 1.15rem;
+  color: var(--pioggia-ink);
+}
+
+.meteo__fonte {
+  margin: .9rem 0 0;
+  font-family: var(--ui);
+  font-size: .74rem;
+  color: var(--tenue);
+}
+
+.meteo__fonte a { color: var(--tenue); text-underline-offset: 3px; }
+
+/* --- 7. Notizie ----------------------------------------------------------- */
 
 .sezione__titolo {
   display: flex;
@@ -835,7 +1008,7 @@ code {
   border-radius: var(--raggio-l);
 }
 
-/* --- 7. Piede ------------------------------------------------------------- */
+/* --- 8. Piede ------------------------------------------------------------- */
 
 .pie {
   margin-top: 4rem;
@@ -861,7 +1034,7 @@ code {
 
 .pie__disclaimer { color: var(--inchiostro-2); }
 
-/* --- 8. Torna su ---------------------------------------------------------- */
+/* --- 9. Torna su ---------------------------------------------------------- */
 
 .su {
   position: fixed;
@@ -889,7 +1062,7 @@ code {
 .su[data-visibile="si"] { opacity: 1; transform: none; pointer-events: auto; }
 .su:hover { transform: translateY(-2px); }
 
-/* --- 9. Schermi piccoli --------------------------------------------------- */
+/* --- 10. Schermi piccoli --------------------------------------------------- */
 
 @media (max-width: 40rem) {
   .testata { padding-bottom: 1.25rem; }
@@ -905,9 +1078,11 @@ code {
   .notizia + .notizia::before { left: .5rem; right: .5rem; }
   .notizia:first-of-type .notizia__titolo { font-size: 1.22rem; }
   .avvisi { padding: 1.2rem 1.1rem 1.25rem; }
+  .meteo { padding: 1.1rem 1.1rem 1rem; }
+  .meteo__corpo { grid-template-columns: 1fr; }
 }
 
-/* --- 10. Preferenze utente ------------------------------------------------ */
+/* --- 11. Preferenze utente ------------------------------------------------ */
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
@@ -924,7 +1099,7 @@ code {
   .comando, .ricerca, .su, .salta, .sommario { display: none !important; }
   .testata::before, .riquadro::before, .avvisi::before { display: none; }
   .riquadro { break-inside: avoid; box-shadow: none; border-color: #bbb; animation: none; background: #fff; }
-  .avvisi { box-shadow: none; }
+  .avvisi, .meteo { box-shadow: none; break-inside: avoid; }
   .notizia:hover { background: none; }
   .notizia__fonte { padding: 0; background: none; }
   .notizia__fonte::after { content: ""; }
