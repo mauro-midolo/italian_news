@@ -80,17 +80,21 @@ Se non trovi eventi adatti nelle vicinanze, amplia progressivamente la ricerca f
 
 ---
 
-## Notizie importanti
+## Rassegna stampa del giorno
 
-Riporta solo le **notizie di maggior rilievo della giornata**, dando priorità a quelle più importanti per un lettore italiano.
+Prepara la rassegna stampa di oggi basata sulle notizie di apertura di queste fonti (tra parentesi l'orientamento indicativo):
+- ANSA (agenzia, neutra)
+- Corriere della Sera (centro liberale)
+- la Repubblica (centrosinistra)
+- La Stampa (centro liberale)
+- Il Sole 24 Ore (economico, moderato)
+- Il Messaggero (centro moderato)
+- Il Fatto Quotidiano (critico verso il governo, vicino al M5S)
+- il Resto del Carlino (centro moderato)
 
-Includi sia **Italia** sia **mondo**: politica, economia, geopolitica, tecnologia, scienza, crisi internazionali, eventi naturali e fatti di particolare rilevanza.
+Riporta le notizie a cui si dà più spazio, ordinate per rilievo. Escludi tecnologia e intelligenza artificiale, già coperte da un'altra rassegna. Unifica le notizie duplicate e, quando le testate le raccontano in modo diverso, segnalalo in una riga tenendo conto del loro orientamento.
 
-Evita notizie minori, gossip e cronaca locale poco significativa.
-
-Unifica le notizie duplicate sullo stesso evento e ordinalle per importanza.
-
-Parti dal sito di **ANSA (https://www.ansa.it/)** e integra con altre fonti autorevoli quando necessario.
+Per ogni notizia: titolo in grassetto, 1-2 frasi di sintesi, fonti che la riportano con link. Tono neutro.
 
 ---
 
