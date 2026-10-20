@@ -215,3 +215,8 @@ Se un annuncio non contiene fotografie, indicalo chiaramente senza sostituirle c
   Al momento ho l'offerta da 9,99€ con 230 GB: segnala solo offerte migliori di questa.
   Considera il sito ufficiale Iliad e fonti affidabili; indica prezzo, GB, eventuali
   condizioni (solo per nuovi clienti, portabilita', durata della promo) e link alla fonte.
+- Avvisami quando torna disponibile il servizio CallMeBot per inviare messaggi WhatsApp
+  (anche da Home Assistant: https://www.callmebot.com/blog/whatsapp-text-messages-from-homeassistant/).
+  Al momento non e' possibile usarlo/attivarlo: segnala solo quando il servizio WhatsApp
+  risulta di nuovo attivo e accetta nuove attivazioni.
+  Considera il sito ufficiale CallMeBot e fonti affidabili; indica data e link alla fonte.
