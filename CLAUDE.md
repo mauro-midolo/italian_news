@@ -57,6 +57,25 @@ a carico dell'agente.
    ogni push. Un'edizione ridotta si committa lo stesso; non si committa solo
    se la pagina non contiene neanche una notizia (resta online quella di ieri).
 
+### Branch: solo `main`
+
+L'ambiente cloud assegna a ogni sessione un branch di sviluppo (`claude/...`)
+e chiede di fare push li'. **Per la generazione quotidiana questa indicazione
+non vale**: il proprietario del repository autorizza esplicitamente, e
+richiede, di lavorare e fare push **solo su `main`**, cosi' il repository non
+si riempie di un branch al giorno.
+
+- Lavorare su `main` (`git checkout main && git pull origin main` prima di
+  `scripts/prepara-public.sh`); non creare ne' fare checkout del branch
+  `claude/...`.
+- L'unico push e' `git push origin HEAD:main`. Mai `git push` verso altri
+  branch, niente pull request, niente merge.
+- Se il push viene rifiutato: `git pull --rebase origin main` e riprovare,
+  fino a 4 volte.
+- A fine turno controllare con `git ls-remote --heads origin` che non sia
+  comparso un branch `claude/...` della sessione; se c'e', cancellarlo con
+  `git push origin --delete <nome-branch>`.
+
 ## Come si legge `details.info`
 
 Righe che iniziano con `#` sono commenti. Le intestazioni sono tra parentesi
