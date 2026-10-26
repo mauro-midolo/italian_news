@@ -765,25 +765,24 @@ code {
   background: linear-gradient(90deg, var(--filetto-forte), transparent);
 }
 
+/* I riquadri si susseguono uno sotto l'altro, a tutta larghezza, nell'ordine
+   di details.info: si leggono dall'alto in basso come su telefono. Sugli
+   schermi larghi sono le notizie, dentro ogni riquadro, ad affiancarsi in
+   colonne allineate. */
 .griglia {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
+  grid-template-columns: minmax(0, 1fr);
   gap: var(--spazio-griglia);
-  align-items: start;
   counter-reset: riquadro;
-}
-
-/* Impaginazione a mosaico: il JS assegna a ogni riquadro quante righe da
-   2px occupa (grid-row-end), cosi' le colonne non lasciano buchi. Senza JS
-   resta la griglia normale. */
-.griglia[data-mosaico] {
-  grid-auto-rows: 2px;
-  row-gap: 0;
 }
 
 .riquadro {
   --tinta: var(--t1);
   position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 21rem), 1fr));
+  column-gap: 2.25rem;
+  align-items: stretch;
   counter-increment: riquadro;
   background:
     radial-gradient(130% 5.5rem at 0 0, color-mix(in srgb, var(--tinta) 9%, transparent), transparent),
@@ -839,9 +838,8 @@ code {
 }
 
 .riquadro__testata {
+  grid-column: 1 / -1;
   padding-bottom: .9rem;
-  margin-bottom: .35rem;
-  border-bottom: 1px solid var(--filetto);
 }
 
 .riquadro__titolo {
@@ -886,13 +884,17 @@ code {
 
 .notizia {
   position: relative;
+  display: flex;
+  flex-direction: column;
   margin-inline: -.75rem;
   padding: 1rem .75rem;
   border-radius: 14px;
   transition: background-color .2s;
 }
 
-.notizia + .notizia::before {
+/* Un filetto sopra ogni notizia: in colonna le separa, affiancate chiude la
+   riga di sopra. */
+.notizia::before {
   content: "";
   position: absolute;
   top: 0;
@@ -903,8 +905,7 @@ code {
 }
 
 .notizia:hover { background: color-mix(in srgb, var(--tinta) 5%, transparent); }
-.notizia:hover::before,
-.notizia:hover + .notizia::before { opacity: 0; }
+.notizia:hover::before { opacity: 0; }
 
 .notizia__titolo {
   font-family: var(--display);
@@ -954,7 +955,9 @@ code {
   flex-wrap: wrap;
   align-items: center;
   gap: .45rem .5rem;
-  margin: .75rem 0 0;
+  /* In fondo alla notizia: le fonti di una stessa riga restano allineate. */
+  margin: auto 0 0;
+  padding-top: .75rem;
   font-family: var(--ui);
   font-size: .78rem;
   color: var(--tenue);
@@ -1075,7 +1078,7 @@ code {
   .riquadro::before { left: 1.15rem; right: 1.15rem; }
   .riquadro__conteggio { top: .9rem; right: 1.15rem; }
   .notizia { margin-inline: -.5rem; padding-inline: .5rem; }
-  .notizia + .notizia::before { left: .5rem; right: .5rem; }
+  .notizia::before { left: .5rem; right: .5rem; }
   .notizia:first-of-type .notizia__titolo { font-size: 1.22rem; }
   .avvisi { padding: 1.2rem 1.1rem 1.25rem; }
   .meteo { padding: 1.1rem 1.1rem 1rem; }
@@ -1104,7 +1107,7 @@ code {
   .notizia__fonte { padding: 0; background: none; }
   .notizia__fonte::after { content: ""; }
   .notizia__fonte[href]::after { content: " (" attr(href) ")"; font-size: .75em; word-break: break-all; }
-  .griglia, .griglia[data-mosaico] { display: block; }
+  .griglia, .riquadro { display: block; }
   .riquadro + .riquadro { margin-top: 1rem; }
   .pie { background: none; }
 }
