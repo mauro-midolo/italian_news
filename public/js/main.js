@@ -11,7 +11,6 @@
   var doc = document.documentElement;
   var riquadri = Array.prototype.slice.call(document.querySelectorAll(".riquadro"));
   var notizie = Array.prototype.slice.call(document.querySelectorAll(".notizia"));
-  var griglia = document.querySelector(".griglia");
 
   /* --- Tema: automatico -> chiaro -> scuro -------------------------------- */
 
@@ -108,52 +107,6 @@
     sintesi.hidden = false;
   }
 
-  /* --- Impaginazione a mosaico ------------------------------------------- */
-  /* Ogni riquadro occupa tante righe da 2px quanto e' alto: le colonne si
-     riempiono senza buchi e l'ordine dei riquadri resta quello del file. */
-
-  var impagina = function () {};
-
-  if (griglia && riquadri.length > 1 && window.getComputedStyle) {
-    impagina = function () {
-      var colonne = getComputedStyle(griglia).gridTemplateColumns.split(" ").length;
-      if (colonne < 2) {
-        griglia.removeAttribute("data-mosaico");
-        riquadri.forEach(function (r) { r.style.gridRowEnd = ""; });
-        return;
-      }
-      griglia.setAttribute("data-mosaico", "");
-      var stile = getComputedStyle(griglia);
-      var riga = parseFloat(stile.gridAutoRows) || 2;
-      var spazio = parseFloat(stile.columnGap) || 0;
-      riquadri.forEach(function (r) {
-        if (r.hidden) return;
-        var altezza = r.getBoundingClientRect().height;
-        r.style.gridRowEnd = "span " + Math.ceil((altezza + spazio) / riga);
-      });
-    };
-
-    var inAttesa = false;
-    var richiedi = function () {
-      if (inAttesa) return;
-      inAttesa = true;
-      window.requestAnimationFrame(function () {
-        inAttesa = false;
-        impagina();
-      });
-    };
-
-    impagina();
-    window.addEventListener("resize", richiedi);
-    window.addEventListener("load", richiedi);
-    if (document.fonts && document.fonts.ready) document.fonts.ready.then(richiedi);
-    if ("ResizeObserver" in window) {
-      var osservatore = new ResizeObserver(richiedi);
-      riquadri.forEach(function (r) { osservatore.observe(r); });
-    }
-    impagina = richiedi;
-  }
-
   /* --- Sommario delle sezioni -------------------------------------------- */
 
   var sommario = document.querySelector(".sommario");
@@ -228,9 +181,7 @@
 
     var corrente = null;
     var aggiornaSommario = function () {
-      /* Sezione corrente: l'ultima il cui inizio ha superato il sommario.
-         Con piu' colonne affiancate vale lo stesso criterio: conta dove
-         comincia il riquadro, non quale colonna e' piu' lunga. */
+      /* Sezione corrente: l'ultima il cui inizio ha superato il sommario. */
       var soglia = sommario.getBoundingClientRect().bottom + 24;
       var scelta = null;
       var inizio = -Infinity;
@@ -297,8 +248,6 @@
       var totale = document.querySelectorAll(".notizia:not([hidden])").length;
       var avviso = document.querySelector("[data-ruolo='nessun-risultato']");
       if (avviso) avviso.hidden = totale !== 0;
-
-      impagina();
     });
 
     /* "/" porta nella ricerca, Esc la svuota. */
