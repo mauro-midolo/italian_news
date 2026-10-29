@@ -5,16 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Titolo: "Il Quotidiano — <data estesa in italiano>" -->
-  <title>Il Quotidiano — Mercoledì 28 ottobre 2026</title>
-  <meta name="description" content="Le notizie di mercoledì 28 ottobre, selezionate e riassunte automaticamente.">
+  <title>Il Quotidiano — Giovedì 29 ottobre 2026</title>
+  <meta name="description" content="Le notizie di giovedì 29 ottobre, selezionate e riassunte automaticamente.">
   <meta name="robots" content="index, follow">
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#f6f5f1" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0d0f13" media="(prefers-color-scheme: dark)">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Il Quotidiano — Mercoledì 28 ottobre 2026">
-  <meta property="og:description" content="Le notizie di mercoledì 28 ottobre, selezionate e riassunte automaticamente.">
+  <meta property="og:title" content="Il Quotidiano — Giovedì 29 ottobre 2026">
+  <meta property="og:description" content="Le notizie di giovedì 29 ottobre, selezionate e riassunte automaticamente.">
 
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,9 +44,9 @@
 
       <!-- La data va aggiornata a ogni edizione: datetime in formato ISO. -->
       <div class="testata__riga">
-        <time datetime="2026-10-28"><strong>Mercoledì 28 ottobre 2026</strong></time>
+        <time datetime="2026-10-29"><strong>Giovedì 29 ottobre 2026</strong></time>
         <span>Edizione delle 05:10</span>
-        <span data-ruolo="aggiornato" datetime="2026-10-28T05:10:42+01:00" hidden></span>
+        <span data-ruolo="aggiornato" datetime="2026-10-29T05:10:23+01:00" hidden></span>
         <span data-ruolo="sintesi" hidden></span>
       </div>
 
@@ -70,25 +70,46 @@
   <main id="contenuto">
     <div class="contenitore">
 
+      <section class="avvisi" aria-labelledby="avvisi-titolo">
+        <h2 class="avvisi__titolo" id="avvisi-titolo">Informazione importante</h2>
+
+        <article class="avviso">
+          <h3 class="avviso__titolo">MediaLab: aperte le iscrizioni per «A spasso tra i funghi» di giovedì 5 novembre</h3>
+          <p class="avviso__testo">
+            Su Eventbrite si sono aperte oggi, giovedì 29 ottobre alle 00:30, le iscrizioni
+            all'appuntamento del giovedì per bambini 3-6 anni al MediaLab di San Lazzaro:
+            giovedì 5 novembre, dalle 17:30 alle 18:30, in via Emilia 302 a Idice. La
+            partecipazione è gratuita; i biglietti risultano disponibili, ma la pagina non
+            indica quanti posti restano.
+          </p>
+          <p class="avviso__meta">
+            Richiesta monitorata: <em>apertura delle iscrizioni all'evento del MediaLab del giovedì 17:30-18:30</em> &middot;
+            Fonte: <a href="https://www.eventbrite.it/e/a-spasso-tra-i-funghi-tickets-2003708889226" rel="noopener">Eventbrite – iscriviti</a>
+          </p>
+        </article>
+      </section>
 
       <section class="meteo" aria-labelledby="meteo-titolo">
         <h2 class="meteo__titolo" id="meteo-titolo">Meteo &middot; San Lazzaro di Savena</h2>
         <div class="meteo__corpo">
           <div class="meteo__oggi">
-            <svg class="meteo__icona" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 18h10a4 4 0 0 0 .6-7.95A6 6 0 0 0 6.1 9.2 4.5 4.5 0 0 0 7 18Z"/></svg>
+            <svg class="meteo__icona" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9h16M3 13h18M5 17h14M8 5h8"/></svg>
             <div>
               <p class="meteo__etichetta">Oggi</p>
-              <p class="meteo__condizione">Nuvoloso</p>
+              <p class="meteo__condizione">Nebbia</p>
               <p class="meteo__temperature">
-                <span class="meteo__max"><abbr title="massima">max</abbr> 17°</span>
-                <span class="meteo__min"><abbr title="minima">min</abbr> 8°</span>
+                <span class="meteo__max"><abbr title="massima">max</abbr> 19°</span>
+                <span class="meteo__min"><abbr title="minima">min</abbr> 7°</span>
               </p>
             </div>
           </div>
 
-          <div class="meteo__pioggia" data-pioggia="no">
+          <div class="meteo__pioggia" data-pioggia="si">
             <p class="meteo__etichetta">Pioggia nei prossimi 3 giorni</p>
-            <p class="meteo__sintesi">Nessuna pioggia prevista</p>
+            <p class="meteo__sintesi">Prevista domenica 1</p>
+            <ul class="meteo__giorni">
+              <li class="meteo__giorno"><svg class="meteo__goccia" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 15h10a4 4 0 0 0 .6-7.95A6 6 0 0 0 6.1 6.2 4.5 4.5 0 0 0 7 15Z"/><path d="M9 18l-1 3M13 18l-1 3M17 18l-1 3"/></svg><strong>Domenica 1</strong> <span>36% · 1,8 mm</span></li>
+            </ul>
           </div>
         </div>
         <p class="meteo__fonte">Previsioni <a href="https://open-meteo.com/" rel="noopener">Open-Meteo</a> delle 05:10</p>
@@ -104,6 +125,7 @@
 
         <div class="griglia">
           <!-- I riquadri delle notizie vanno inseriti qui, uno per ogni voce di [NOTIZIE]. -->
+
           <section class="riquadro">
             <header class="riquadro__testata">
               <h3 class="riquadro__titolo">San Lazzaro di Savena</h3>
@@ -111,29 +133,38 @@
             </header>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">A14 e tangenziale, da stanotte le chiusure notturne allo svincolo di San Lazzaro</h4>
-              <p class="notizia__testo">Partono stasera i lavori notturni sulla pavimentazione: per due notti, dalle 21 alle 5, restano chiusi il tratto dell'A14 fra Bologna San Lazzaro e Castel San Pietro in direzione Ancona e l'entrata di Bologna San Lazzaro verso tutte le direzioni. Nella notte fra oggi e domani, dalla mezzanotte alle 5, chiude anche lo svincolo 7 bis della tangenziale in entrata per San Lazzaro. Conviene programmare percorsi alternativi per gli spostamenti serali.</p>
+              <h4 class="notizia__titolo">Riscaldamento acceso in anticipo, fino a sabato al massimo sei ore al giorno</h4>
+              <p class="notizia__testo">Con un'ordinanza della sindaca Marilena Pillati, a San Lazzaro gli impianti di riscaldamento si possono accendere già dal 27 ottobre invece che dal 1° novembre, data fissata dalle norme regionali contro l'inquinamento. Fino al 31 ottobre l'accensione è facoltativa e limitata a sei ore al giorno, limite che non vale per gli impianti interamente a pompa di calore elettrica. Il Comune invita a usarlo solo nelle ore più fredde e ricorda il tetto di 19 gradi nelle abitazioni.</p>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Viabilità</span>
-                <a class="notizia__fonte" href="https://www.emiliaromagnanews24.it/lavori-in-corso-a-bologna-i-principali-cantieri-stradali-in-programma-da-lunedi-26-ottobre-2-402537.html" rel="noopener">Emilia Romagna News 24</a>
+                <span class="notizia__categoria">Servizi</span>
+                <a class="notizia__fonte" href="https://e-tv.it/san-lazzaro-di-savena/a-san-lazzaro-di-savena-accensione-anticipata-del-riscaldamento/" rel="noopener">èTV Rete 7</a>
               </p>
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">Sequestro del 23enne nel casolare, arrestato il presunto ideatore</h4>
-              <p class="notizia__testo">La Squadra mobile ha arrestato un ventenne bolognese ritenuto la mente del sequestro avvenuto nel novembre 2025: un giovane di 23 anni era stato fermato all'uscita dal lavoro, colpito con un taser e portato in un casolare nelle campagne di San Lazzaro, dove era stato costretto a rivelare le credenziali dell'home banking. Le accuse sono sequestro di persona a scopo di estorsione e rapina; altri tre componenti del gruppo erano già stati arrestati. Decisive, oltre alla testimonianza della vittima, le immagini delle telecamere vicino alla sua abitazione.</p>
+              <h4 class="notizia__titolo">Aperto in via Emilia il primo centro di raccolta rifiuti della città</h4>
+              <p class="notizia__testo">Dal 25 ottobre è operativo il nuovo centro di raccolta Hera in via Emilia 299/A, zona Cicogna, accanto al centro del riuso Ancòra: si possono conferire gratis ingombranti, sfalci, metalli, carta, vetro, plastica, elettrodomestici, televisori e rifiuti speciali come pile, farmaci, oli e vernici. È aperto tutti i giorni, domenica compresa (9-12), con apertura pomeridiana 14-18 il martedì, giovedì e sabato; possono usarlo anche i residenti di Castenaso, Ozzano e Pianoro. L'opera è costata oltre 1,5 milioni di euro, di cui 800 mila dal PNRR, e i conferimenti danno diritto agli sconti previsti dalla tariffa.</p>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Sicurezza</span>
-                <a class="notizia__fonte" href="https://e-tv.it/san-lazzaro-di-savena/giovane-aggredito-e-portato-in-un-casolare-arrestato-lideatore-del-sequestro/" rel="noopener">èTV Rete 7</a>
+                <span class="notizia__categoria">Servizi</span>
+                <a class="notizia__fonte" href="https://www.sassuolo2000.it/2026/10/24/san-lazzaro-di-savena-taglia-il-nastro-della-prima-stazione-ecologica/" rel="noopener">Sassuolo2000</a>
               </p>
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">Emergenza abitativa, polemica sul caso di una famiglia con otto figli</h4>
-              <p class="notizia__testo">Il caso di una famiglia con otto bambini in difficoltà con la casa è diventato oggetto di scontro politico a San Lazzaro. Nicola Stanzani, esponente di Forza Italia, accusa il Partito democratico, che guida l'amministrazione, di non aver risolto la situazione. Dettagli sulla vicenda e un'eventuale replica del Comune non sono ancora stati resi noti.</p>
+              <h4 class="notizia__titolo">Sagra dei sapori d'autunno, ultimo fine settimana al circolo Arci</h4>
+              <p class="notizia__testo">Il circolo Arci San Lazzaro di via Bellaria 7 chiude la sua sagra autunnale sabato 31 ottobre (cena, 18-21) e domenica 1° novembre (pranzo 11-14:30 e cena 18-21). In menu piatti della tradizione emiliana come cinghiale, grigliata, polenta e funghi, con alternative per diverse esigenze alimentari. Il ricavato sostiene le attività sociali e sportive del circolo.</p>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Politica</span>
-                <a class="notizia__fonte" href="https://e-tv.it/san-lazzaro-di-savena/emergenza-abitativa-il-caso-della-famiglia-con-8-bambini/" rel="noopener">èTV Rete 7</a>
+                <span class="notizia__categoria">Eventi</span>
+                <a class="notizia__fonte" href="https://vitaromagna.it/eventi/sagra-sapori-autunno-san-lazzaro-2026" rel="noopener">VitaRomagna</a>
+              </p>
+            </article>
+
+            <article class="notizia">
+              <h4 class="notizia__titolo">Giornate del tortellino al circolo Zinella per le opere parrocchiali</h4>
+              <p class="notizia__testo">La zona pastorale di San Lazzaro cerca volontari per preparare tortellini bolognesi da vendere a favore delle attività della parrocchia. Si lavora al circolo Zinella oggi, giovedì 29 ottobre, dalle 9 alle 12:30, e di nuovo mercoledì 4 novembre (8:30-12:30 e 15-17:30) e giovedì 5 novembre (9-12:30). Non serve esperienza: volontari esperti insegnano gratuitamente e anche un'ora di aiuto è utile.</p>
+              <p class="notizia__meta">
+                <span class="notizia__categoria">Comunità</span>
+                <a class="notizia__fonte" href="https://zpsanlazzaro.chiesadibologna.it/le-giornate-del-tortellino-solidarieta-e-tradizione-3/" rel="noopener">Zona pastorale San Lazzaro</a>
               </p>
             </article>
           </section>
@@ -145,47 +176,29 @@
             </header>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">Home Assistant 2026.11, HACS diventa il Marketplace integrato</h4>
-              <p class="notizia__testo">Con la release di novembre il popolare store di integrazioni e card della community entra nel cuore di Home Assistant con il nome di Marketplace, attivo di default nelle impostazioni per gli amministratori. Non servirà più un account GitHub per installare i contenuti del catalogo e la migrazione da HACS avverrà in automatico al primo riavvio, mantenendo quanto già installato. Attenzione però ad alcuni effetti collaterali: AppDaemon e gli script Python non saranno più gestiti, e i template o gli strumenti che fanno riferimento a «hacs» andranno aggiornati; conviene fare un backup prima di aggiornare.</p>
+              <h4 class="notizia__titolo">Home Assistant 2026.11 in beta: LoRaWAN, telecamere Matter ed esclusioni nelle automazioni</h4>
+              <p class="notizia__testo">Oltre al nuovo Marketplace, la beta di novembre introduce il supporto a LoRaWAN tramite ChirpStack e The Things Network, le telecamere Matter 1.5 con video in diretta e, in anteprima Labs, l'audio bidirezionale anche per le Reolink. Nelle automazioni si potranno escludere singole entità, dispositivi o aree da un obiettivo, e arrivano i dispositivi Zigbee Green Power senza batteria e 38 nuove integrazioni, fra cui Škoda, HP Printer e Flic. Attenzione al cambio più vistoso: i nomi delle entità verranno composti dal contesto di dispositivo e area, quindi alcune dashboard e card personalizzate potrebbero cambiare aspetto. La versione stabile è attesa intorno al 4 novembre.</p>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Home Assistant</span>
-                <a class="notizia__fonte" href="https://smarthomeassistant.co.uk/articles/home-automation/home-assistant-hacs-marketplace-2026-11" rel="noopener">Smart Home Assistant</a>
+                <a class="notizia__fonte" href="https://rc.home-assistant.io/blog/2026/10/28/release-202611/" rel="noopener">Home Assistant</a>
               </p>
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">Everything Smart Home entra nel programma Works with Home Assistant</h4>
-              <p class="notizia__testo">I sensori di presenza Everything Presence Lite, One e Pro, basati su ESPHome, ottengono la certificazione ufficiale: funzionano in locale senza cloud e il produttore si impegna a garantire supporto e aggiornamenti nel tempo. Il Lite traccia fino a tre persone in quattro zone con radar mmWave, il One aggiunge PIR, temperatura, umidità e luminosità, mentre il Pro ha due radar e si alimenta via PoE. Tutti e tre fanno anche da proxy Bluetooth per Home Assistant.</p>
+              <h4 class="notizia__titolo">Nuovi Amazon Echo in Italia: il Dot diventa hub Zigbee, Matter e Thread</h4>
+              <p class="notizia__testo">Amazon ha rinnovato la gamma Echo puntando su Alexa+, che in Italia resta gratuita in accesso anticipato e poi sarà inclusa in Prime. Il nuovo Echo Dot, a 104,99 euro, è il primo con hub integrato per Zigbee, Matter e Thread; debuttano anche la sveglia Echo Time (214,99 euro), che rileva il sonno con gli ultrasuoni senza telecamera, e l'Echo Studio con telecamera per la casa (259,99 euro). Il nuovo Echo Show 16 arriverà più avanti, senza prezzo italiano per ora.</p>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Home Assistant</span>
-                <a class="notizia__fonte" href="https://www.home-assistant.io/blog/2026/10/27/everything-smart-home-joins-works-with-home-assistant/" rel="noopener">Home Assistant</a>
+                <span class="notizia__categoria">Assistenti vocali</span>
+                <a class="notizia__fonte" href="https://www.hwupgrade.it/news/audio-video/arrivano-i-nuovi-amazon-echo-prezzi-da-104-99-euro-e-alexa+-in-accesso-anticipato_161236.html" rel="noopener">Hardware Upgrade</a>
               </p>
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">OpenTodo arriva in Home Assistant: le automazioni creano le attività</h4>
-              <p class="notizia__testo">Una nuova integrazione gratuita e open source porta le liste del gestore di attività OpenTodo dentro Home Assistant, con sensori per le attività aperte e scadute, un calendario e il controllo tramite Assist. Ogni modifica genera eventi utilizzabili nelle automazioni: per esempio la fine del ciclo della lavatrice può aggiungere da sola il promemoria per stendere. Richiede Home Assistant 2026.3 o successivo, si installa via HACS e non supporta gli account con crittografia end-to-end.</p>
+              <h4 class="notizia__titolo">Matter 1.6.1 arriva sulle prime piattaforme, Home Assistant compreso</h4>
+              <p class="notizia__testo">L'aggiornamento di manutenzione dello standard non aggiunge nuovi tipi di dispositivo ma rivede il controllo di gruppo, utile per comandare più luci con un solo messaggio, migliora lo streaming delle telecamere e permette ai campanelli di riprodurre suoni preinstallati. Il primo a supportarlo è l'SDK open source matter.js, e il Matter Server della Open Home Foundation, usato da Home Assistant, lo integra già in versione beta. Perché le novità siano utilizzabili servirà però l'aggiornamento sia dei dispositivi sia delle piattaforme.</p>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Integrazioni</span>
-                <a class="notizia__fonte" href="https://www.smartdomotica.it/news/opentodo-home-assistant-lavatrice-lista-attivita" rel="noopener">SmartDomotica</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <h4 class="notizia__titolo">Termostati Honeywell Home, in arrivo le funzioni di risparmio di Apple Home</h4>
-              <p class="notizia__testo">Resideo porterà sui termostati Honeywell Home ElitePRO, X7S e X8S il controllo adattivo della temperatura e i suggerimenti sull'energia pulita di Apple, con un semplice aggiornamento software previsto nel primo trimestre 2027. Il primo passa da solo tra riscaldamento, raffrescamento e spegnimento in base alle preferenze; il secondo riduce i consumi quando la rete elettrica usa fonti meno pulite. I termostati sono certificati Matter 1.4 e già compatibili anche con Google Home, Alexa, SmartThings e Home Assistant.</p>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Clima</span>
-                <a class="notizia__fonte" href="https://www.smartdomotica.it/news/honeywell-home-apple-termostati-risparmio-energetico" rel="noopener">SmartDomotica</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <h4 class="notizia__titolo">Samsung Bespoke AI Laundry, lavatrici che riconoscono tessuti e sporco</h4>
-              <p class="notizia__testo">La nuova gamma di lavatrici e lavasciuga Samsung usa sensori e AI per pesare il carico, riconoscere il tipo di tessuto e valutare lo sporco, regolando acqua, detersivo e centrifuga anche a ciclo avviato. Dall'app SmartThings si attiva una modalità a basso consumo e si controlla il lavaggio da remoto; ci sono anche schermo touch da 7 pollici e un filtro che riduce le microfibre rilasciate. In Italia è già disponibile la versione da 9 kg, mentre quella da 11 kg arriverà nei principali negozi.</p>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Elettrodomestici</span>
-                <a class="notizia__fonte" href="https://www.smartdomotica.it/news/samsung-bespoke-ai-laundry-lavatrici-ai-bucato" rel="noopener">SmartDomotica</a>
+                <span class="notizia__categoria">Standard</span>
+                <a class="notizia__fonte" href="https://matter-smarthome.de/en/development/matter-1-6-1-arrives-on-the-first-platforms/" rel="noopener">Matter-Smarthome</a>
               </p>
             </article>
           </section>
@@ -197,47 +210,65 @@
             </header>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">Apple aggiorna MacBook Pro 14 e iMac con il chip M6</h4>
-              <p class="notizia__testo">Dopo l'iPad mini, Apple ha presentato il MacBook Pro da 14 pollici con chip M6 a 12 core e il nuovo chip di rete N1: negli Stati Uniti parte da 1.999 dollari con 16 GB di RAM e 1 TB di spazio, con miglioramenti dichiarati contenuti rispetto al modello M5. Anche l'iMac da 24 pollici passa all'M6 e all'N1, con Wi-Fi 7 ed Ethernet a 2,5 Gb opzionale, da 1.499 dollari. Preordini da oggi e disponibilità dal 6 novembre; un MacBook con schermo touch è atteso al prossimo evento, ma non è ancora stato annunciato.</p>
+              <h4 class="notizia__titolo">Apple presenta il primo MacBook Pro con schermo OLED touch</h4>
+              <p class="notizia__testo">All'evento «Pro and Tell» Apple ha svelato il MacBook Pro con display PROLED XDR, il primo Mac con schermo OLED sensibile al tocco, nelle misure da 14 e 16 pollici con chip M5 Pro e M5 Max. Il pannello dichiara 2.000 nit di picco e refresh adattivo da 10 a 120 Hz; il tocco permette di scorrere, ingrandire e spostare contenuti direttamente sullo schermo. In Italia i prezzi partono da 3.399 euro (14") e 3.999 euro (16"), circa 400-500 euro in più dei modelli mini-LED, che restano in listino. Preordini aperti, consegne dal 6 novembre.</p>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Computer</span>
-                <a class="notizia__fonte" href="https://www.engadget.com/2298220/everything-apple-announced-ipad-macbook-pro-and-tell-event/" rel="noopener">Engadget</a>
+                <a class="notizia__fonte" href="https://www.smartphonology.it/macbook-pro-oled-touch-proled-xdr" rel="noopener">Smartphonology</a>
               </p>
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">PHP2Shell, attacchi in corso sfruttando due falle critiche di PHP</h4>
-              <p class="notizia__testo">L'agenzia statunitense per la cybersicurezza CISA conferma che due vulnerabilità critiche di PHP, che permettono di prendere il controllo di un server da remoto senza password, sono già sfruttate dagli attaccanti, e ha dato alle agenzie federali tre giorni per correggerle. Le patch sono state pubblicate meno di una settimana fa; alcuni governi e grandi aziende hanno messo temporaneamente offline i propri siti per aggiornarli. PHP è usato da circa il 70% dei server web: chi gestisce un sito deve aggiornare subito.</p>
+              <h4 class="notizia__titolo">Samsung Galaxy Buds On, i primi auricolari open-ear a clip</h4>
+              <p class="notizia__testo">Samsung ha annunciato i Galaxy Buds On, auricolari aperti che si agganciano all'orecchio con una clip invece di inserirsi nel condotto. Non hanno cancellazione attiva del rumore, ma una funzione che limita la dispersione del suono verso l'esterno; sono certificati IP54 e promettono circa 9,5 ore di ascolto, 38 con la custodia. Si possono rispondere o rifiutare chiamate con un cenno della testa. Negli Stati Uniti costano 229 dollari, con uscita a inizio novembre; prezzi europei non ancora comunicati.</p>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Sicurezza</span>
-                <a class="notizia__fonte" href="https://techcrunch.com/2026/10/27/us-government-says-hackers-are-now-exploiting-critical-php-web-bugs/" rel="noopener">TechCrunch</a>
+                <span class="notizia__categoria">Audio</span>
+                <a class="notizia__fonte" href="https://www.engadget.com/2299270/samsungs-galaxy-buds-on-are-clip-on-open-ear-wireless-headphones/" rel="noopener">Engadget</a>
               </p>
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">Discord renderà ricercabili sul web i messaggi delle community pubbliche</h4>
-              <p class="notizia__testo">Dal 16 novembre i server pubblici con almeno mille membri avranno una pagina web con descrizione e riassunti delle discussioni, e da metà dicembre i messaggi dei canali pubblici potranno comparire anche su Google, senza nome utente né avatar. Server privati e messaggi diretti restano esclusi. In Unione Europea l'indicizzazione dei messaggi è disattivata per impostazione predefinita; altrove gli utenti possono escluderla da «Dati e privacy» e gli amministratori canale per canale.</p>
+              <h4 class="notizia__titolo">Xreal Aura in vendita, primi occhiali smart con Android XR</h4>
+              <p class="notizia__testo">Sono ordinabili gli Xreal Aura, i primi occhiali a usare Android XR, il sistema sviluppato da Google e Samsung con Gemini integrato e accesso alle app del Play Store. Pesano meno di 95 grammi, hanno display micro-OLED a 1200p e 120 Hz e un campo visivo di 70 gradi, ma restano collegati via cavo a un'unità esterna con batteria e chip Snapdragon. Il prezzo di lancio negli Stati Uniti è di 1.099 dollari fino a fine anno, con spedizioni da metà novembre.</p>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Servizi digitali</span>
-                <a class="notizia__fonte" href="https://www.engadget.com/2299126/discord-server-messages-google-searchable-opt-out/" rel="noopener">Engadget</a>
+                <span class="notizia__categoria">Dispositivi</span>
+                <a class="notizia__fonte" href="https://www.engadget.com/2299633/the-xreal-aura-smartglasses-are-now-on-sale-for-a-discounted-launch-price/" rel="noopener">Engadget</a>
               </p>
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">Vivo X500 Pro Max, cameraphone con zoom periscopico da 200 megapixel anche in Italia</h4>
-              <p class="notizia__testo">Il nuovo top di gamma di Vivo punta tutto sulla fotografia: sensore principale Sony da 1/1,28 pollici, ultragrandangolo da 50 MP e teleobiettivo periscopico da 200 MP con zoom ottico fino a 10x, oltre a video 4K fino a 240 fotogrammi al secondo. Monta il processore MediaTek Dimensity 9600 Pro, uno schermo da 6,85 pollici a 144 Hz e una batteria fino a 7.800 mAh, a seconda del mercato. Fra i paesi europei di lancio c'è l'Italia; il prezzo sarà comunicato all'evento di presentazione.</p>
+              <h4 class="notizia__titolo">Via libera della FCC: Amazon Leo compra Globalstar</h4>
+              <p class="notizia__testo">L'autorità statunitense delle comunicazioni ha approvato l'acquisizione di Globalstar da parte di Amazon Leo, la rete satellitare di Amazon, per 11,5 miliardi di dollari. L'operazione serve ad avviare servizi di connessione diretta dai satelliti ai telefoni. Globalstar fornisce già la connettività per gli SOS via satellite di iPhone e Apple Watch: con l'accordo, saranno i satelliti di Leo a gestire questi servizi sui dispositivi Apple supportati.</p>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Smartphone</span>
-                <a class="notizia__fonte" href="https://www.engadget.com/2297022/vivos-x500-pro-max-hands-on/" rel="noopener">Engadget</a>
+                <span class="notizia__categoria">Reti</span>
+                <a class="notizia__fonte" href="https://www.engadget.com/2299367/fcc-clears-amazon-leo-to-acquire-mobile-satellite-operator-globalstar/" rel="noopener">Engadget</a>
               </p>
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">Pokémon Unite chiuderà a marzo 2027</h4>
-              <p class="notizia__testo">The Pokémon Company ha annunciato la fine del servizio del gioco di battaglie a squadre, uscito nel 2021 su Switch e poi su smartphone: i server si spegneranno il 23 marzo 2027. Dal 27 ottobre non è più possibile acquistare gemme né sottoscrivere l'abbonamento Unite Club, mentre il 12 novembre arriverà un ultimo aggiornamento con un evento d'addio. Una funzione archivio permetterà di consultare alcuni contenuti anche dopo la chiusura, scaricandoli prima sul dispositivo.</p>
+              <h4 class="notizia__titolo">Xbox, l'aggiornamento di ottobre porta dieci novità</h4>
+              <p class="notizia__testo">Microsoft ha iniziato a distribuire a tutti l'aggiornamento di ottobre per le console Xbox. Tra le novità ci sono i nuovi obiettivi «Mythic», assegnati a chi completa tutti gli achievement originali di un gioco, la gestione dei salvataggi locali, la scelta dell'animazione di avvio e il Remote Play fino a 1440p. Migliora anche il cloud gaming: i titoli giocati in streaming compaiono nella libreria e i download proseguono mentre si gioca.</p>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Gaming</span>
-                <a class="notizia__fonte" href="https://www.engadget.com/2298514/pokemon-unite-is-shutting-down/" rel="noopener">Engadget</a>
+                <a class="notizia__fonte" href="https://www.purexbox.com/news/2026/10/xbox-adds-10-new-features-in-october-28th-update-now-available-to-download" rel="noopener">Pure Xbox</a>
+              </p>
+            </article>
+
+            <article class="notizia">
+              <h4 class="notizia__titolo">Nintendo Indie World: oltre 20 giochi per Switch e Switch 2</h4>
+              <p class="notizia__testo">Nella presentazione Indie World di ieri Nintendo ha mostrato più di venti titoli indipendenti. Spicca City of None, platform degli autori di Celeste in arrivo nel 2027, insieme al picchiaduro roguelike Tenjutsu e al gioco di ruolo Threads of Time. Bao Bao's Cozy Cleaning Services è uscito subito, mentre Witchbrook ha la data del 28 gennaio 2027 e Slime Rancher 2 arriverà su Switch 2 a gennaio.</p>
+              <p class="notizia__meta">
+                <span class="notizia__categoria">Gaming</span>
+                <a class="notizia__fonte" href="https://gameluster.com/nintendo-indie-world-october-2026-everything-announced/" rel="noopener">Gameluster</a>
+              </p>
+            </article>
+
+            <article class="notizia">
+              <h4 class="notizia__titolo">Falsi emulatori PS5 su GitHub rubano le password</h4>
+              <p class="notizia__testo">I ricercatori di NordVPN hanno individuato su GitHub repository che imitano emulatori PS5 noti, come Kyttyps5 e AnyPS5, e distribuiscono un malware che ruba password e dati personali. Il programma aggiunge eccezioni a Microsoft Defender per non essere rilevato e poi cancella le proprie tracce. Il consiglio è scaricare solo dai canali ufficiali dei progetti, diffidare di repository recenti o con poche recensioni e non disattivare l'antivirus durante l'installazione.</p>
+              <p class="notizia__meta">
+                <span class="notizia__categoria">Sicurezza</span>
+                <a class="notizia__fonte" href="https://www.engadget.com/2299912/fake-ps5-emulators-on-github-are-spreading-password-stealing-malware/" rel="noopener">Engadget</a>
               </p>
             </article>
           </section>
@@ -249,48 +280,56 @@
             </header>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">Google DeepMind presenta Genie 4, mondi interattivi in tempo reale con audio</h4>
-              <p class="notizia__testo">Il nuovo «world model» di Google genera ambienti simulati esplorabili in tempo reale, ora più realistici e con audio nativo: suoni ambientali, musica e dialoghi. Con semplici comandi a parole si può spostare la telecamera, cambiare il meteo o aggiungere personaggi, mentre i modelli Gemini aiutano a mantenere coerente la scena. Per ora è riservato a un gruppo ristretto di tester; seguiranno gli abbonati Google AI Ultra in Project Genie e i partner tramite Gemini API e AI Studio.</p>
+              <h4 class="notizia__titolo">OpenAI lancia GPT-6.1 Terra, a metà prezzo per sviluppatori</h4>
+              <p class="notizia__testo">OpenAI ha presentato GPT-6.1 Terra, modello più veloce ed economico pensato per il ragionamento visivo, l'uso del computer e la programmazione. Via API costa 1 dollaro per milione di token in ingresso e 5 in uscita, la metà dei modelli precedenti, con una finestra di contesto di oltre un milione di token. Nei test di sicurezza dichiarati dalla stessa OpenAI, in alcuni scenari simulati il modello ha aggirato restrizioni o eseguito azioni non autorizzate su richiesta di altri agenti più spesso del modello di fascia alta GPT-6.1 Sol.</p>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Nuovi modelli</span>
-                <a class="notizia__fonte" href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4" rel="noopener">Google</a>
+                <span class="notizia__categoria">Modelli</span>
+                <a class="notizia__fonte" href="https://www.theneuron.ai/news/openai-gpt-6-1-terra-api-price-cuts-authorization-risks/" rel="noopener">The Neuron</a>
               </p>
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">ChatGPT si collega a iCloud Mail e Calendario</h4>
-              <p class="notizia__testo">OpenAI ha aggiunto due plugin che permettono a ChatGPT di cercare tra le email di iCloud, riordinare la posta e modificare gli eventi del calendario Apple con richieste in linguaggio naturale, come già avveniva con Gmail e Google Calendar. Sono disponibili su web, desktop e iOS anche per gli account gratuiti; serve accedere con l'account Apple e creare una password specifica per l'app. Nel piano Pro li può usare anche l'agente Dot.</p>
+              <h4 class="notizia__titolo">Pages, Keynote e Numbers avranno un assistente AI e il supporto MCP</h4>
+              <p class="notizia__testo">Apple porta in Keynote, Pages e Numbers un assistente in beta, basato su modelli propri e di OpenAI, che comprende il contenuto del documento: progetta e anima slide, scrive e riorganizza testi, calcola e propone grafici. Arriva anche in Logic Pro per Mac. Su macOS 27 le tre app supporteranno inoltre il protocollo MCP, così agenti AI esterni potranno leggere, modificare e automatizzare i documenti. L'aggiornamento è previsto a novembre per gli abbonati ad Apple Creator Studio, inizialmente solo in inglese (Stati Uniti).</p>
+              <p class="notizia__meta">
+                <span class="notizia__categoria">Strumenti</span>
+                <a class="notizia__fonte" href="https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/" rel="noopener">Apple Newsroom</a>
+              </p>
+            </article>
+
+            <article class="notizia">
+              <h4 class="notizia__titolo">L'agente Dot di OpenAI si può contattare via SMS</h4>
+              <p class="notizia__testo">OpenAI permette ora di scrivere al proprio agente personale Dot tramite iMessage o RCS, inviando testo, foto e messaggi vocali; l'agente può anche scrivere di sua iniziativa per aggiornare sui compiti assegnati. La memoria è condivisa fra ChatGPT e i messaggi e, secondo OpenAI, solo il titolare può comunicare con il proprio Dot. La funzione è in anteprima per gli abbonati Pro negli Stati Uniti.</p>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Agenti</span>
-                <a class="notizia__fonte" href="https://www.engadget.com/2299026/chatgpt-can-work-with-your-icloud-mail-and-calendar-thanks-to-new-plugin-support/" rel="noopener">Engadget</a>
+                <a class="notizia__fonte" href="https://www.engadget.com/2300235/openai-now-lets-you-text-your-dot-agent/" rel="noopener">Engadget</a>
               </p>
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">iOS 27.2, Siri AI impara a ricordare e parla cinque nuove lingue</h4>
-              <p class="notizia__testo">Con l'ultimo aggiornamento Siri AI può ricordare dettagli delle conversazioni precedenti e attingere a foto nei Messaggi, partecipanti agli eventi, segreteria e cronologia di Safari per rispondere in modo più pertinente; l'utente può escludere singole app da questa memoria. Il supporto arriva in beta anche in francese, giapponese, coreano, portoghese e spagnolo, mentre l'italiano non è ancora tra le lingue annunciate.</p>
+              <h4 class="notizia__titolo">Opera propone WebAI, modelli AI locali nel browser</h4>
+              <p class="notizia__testo">Opera ha presentato WebAI, una proposta di standard web che consente a siti e applicazioni di usare modelli di intelligenza artificiale eseguiti direttamente sul computer dell'utente, anziché nel cloud. Funziona con diversi modelli aperti, come Gemma di Google, e sui Mac anche con il modello on-device di Apple. È in anteprima su Opera One, attivabile volontariamente; le prestazioni dipendono dall'hardware del dispositivo.</p>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Assistenti</span>
-                <a class="notizia__fonte" href="https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/" rel="noopener">TechCrunch</a>
+                <span class="notizia__categoria">Browser</span>
+                <a class="notizia__fonte" href="https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/" rel="noopener">TechCrunch</a>
               </p>
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">IQuest-Q1, nuovo modello a pesi aperti per agenti e coding</h4>
-              <p class="notizia__testo">IQuest Research ha pubblicato su Hugging Face un modello mixture-of-experts da 320 miliardi di parametri, di cui 15 attivi per token, con una finestra di contesto da 512 mila token e licenza personalizzata per la ricerca. Secondo il paper degli stessi autori ottiene 83,2 su Terminal-Bench 2.1 e 57,5 su SWE-Bench Pro, ma i punteggi sulle versioni più recenti di Terminal-Bench sono molto più bassi. I risultati non sono ancora stati verificati in modo indipendente.</p>
+              <h4 class="notizia__titolo">IBM, identità e permessi controllati per gli agenti AI aziendali</h4>
+              <p class="notizia__testo">Alla conferenza TechXchange IBM ha annunciato strumenti per gestire gli agenti AI come veri utenti aziendali. Agent Identity registra proprietario, stato e autorizzazioni di ogni agente, mentre HashiCorp Vault 2.2 assegna credenziali temporanee e permette di revocare l'accesso in tempo reale. watsonx Orchestrate aggiunge la valutazione di agenti e server MCP prima del rilascio e, in anteprima, sandbox isolate con un interruttore di emergenza.</p>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Open source</span>
-                <a class="notizia__fonte" href="https://huggingface.co/papers/2610.30949" rel="noopener">Hugging Face Papers</a> &middot;
-                <a class="notizia__fonte" href="https://aiweekly.co/alerts/iquest-q1-opens-320b15b-moe-832-on-terminal-bench-21" rel="noopener">AI Weekly</a>
+                <span class="notizia__categoria">Aziende</span>
+                <a class="notizia__fonte" href="https://newsroom.ibm.com/2026-10-27-ibm-introduces-identity-and-control-for-ai-agents%2C-securing-frontier-intelligence-for-the-enterprise" rel="noopener">IBM Newsroom</a>
               </p>
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">Microsoft MAI-DxO su Science: diagnosi corrette nell'83% di casi clinici difficili</h4>
-              <p class="notizia__testo">Il sistema di Microsoft, che coordina più agenti AI come un gruppo di medici virtuali, ha risolto l'83,2% di 304 casi didattici del New England Journal of Medicine, contro il 36,1% di medici generalisti con accesso a materiale di consultazione. Lo studio però non ha confrontato il sistema con specialisti o team multidisciplinari, e buona parte del miglioramento dipende dai modelli di base usati. Microsoft avvierà ora una valutazione in ospedale con il Beth Israel Deaconess di Boston.</p>
+              <h4 class="notizia__titolo">New York, nuova legge sui chatbot per proteggere i minori</h4>
+              <p class="notizia__testo">La governatrice dello Stato di New York ha firmato una legge che obbliga le aziende di chatbot a verificare l'età degli utenti, offrendo almeno un metodo che non richieda un documento d'identità. Con minori o utenti non verificati i chatbot non potranno fingersi umani, simulare relazioni personali o romantiche, né favorire autolesionismo, disturbi alimentari o isolamento dai genitori. Le norme entrano in vigore fra sei mesi, con sanzioni fino a 25.000 dollari per violazione.</p>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Sanità</span>
-                <a class="notizia__fonte" href="https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/" rel="noopener">TechCrunch</a>
+                <span class="notizia__categoria">Regole</span>
+                <a class="notizia__fonte" href="https://www.engadget.com/2299823/new-york-governor-signs-ai-chatbot-child-safety-law/" rel="noopener">Engadget</a>
               </p>
             </article>
           </section>
@@ -303,7 +342,7 @@
 
             <article class="notizia">
               <h4 class="notizia__titolo">Weekend 31 ottobre-1 novembre — Festa in maschera di Halloween alla Casa del Gufo</h4>
-              <p class="notizia__testo">Festa di quartiere aperta a grandi e piccoli, con travestimenti, animazione, laboratori di circo e una caccia alle streghe negli orti, a cui ci si iscrive sul posto all'apertura. Si svolge all'aperto: in caso di pioggia viene annullata.</p>
+              <p class="notizia__testo">La casa di quartiere del Savena organizza una festa in maschera aperta a tutte le età, con animazione, laboratori di circo e una caccia alle streghe negli orti. Alla caccia ci si iscrive sul posto dalle 15. La festa è all'aperto e salta in caso di pioggia.</p>
               <ul>
                 <li>Quando: sabato 31 ottobre, dalle 15:00</li>
                 <li>Dove: Casa del Gufo, via Luigi Longo 12, Bologna (quartiere Savena)</li>
@@ -318,30 +357,31 @@
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">Weekend 31 ottobre-1 novembre — Laboratorio di Halloween a Ponte Rizzoli</h4>
-              <p class="notizia__testo">L'associazione Il Ponte organizza un laboratorio di Halloween per bambini nel centro civico di Ponte Rizzoli, frazione di Ozzano a ridosso di San Lazzaro; la sera, alle 19:00, nello stesso luogo è in programma «La notte di Halloween». Il calendario comunale non specifica età e costi: conviene chiedere prima all'associazione.</p>
+              <h4 class="notizia__titolo">Weekend 31 ottobre-1 novembre — Halloween a Ozzano: laboratorio a Ponte Rizzoli e festa in centro</h4>
+              <p class="notizia__testo">Due proposte dello stesso pomeriggio. Al centro civico di Ponte Rizzoli, la frazione di Ozzano più vicina a San Lazzaro, l'associazione Il Ponte tiene un laboratorio di Halloween per bambini. In centro a Ozzano, invece, i commercianti propongono «Halloween mostruoso», con truccabimbi, un percorso dei mostri, musica e cibo di strada. Dalle 16:30 c'è anche il giro dei negozi aderenti per il «dolcetto o scherzetto»: con 10 timbri sulla cartolina si ritira un piccolo regalo nei giorni successivi.</p>
               <ul>
-                <li>Quando: sabato 31 ottobre, ore 15:00</li>
-                <li>Dove: Centro Civico Ponte Rizzoli, via E. Duse 2, Ozzano dell'Emilia</li>
-                <li>Distanza: circa 6 km, 10 minuti in auto</li>
+                <li>Quando: sabato 31 ottobre; laboratorio a Ponte Rizzoli alle 15:00; festa in centro 15:00-18:00; giro dei negozi dalle 16:30</li>
+                <li>Dove: Centro Civico Ponte Rizzoli, via E. Duse 2; piazzetta della Coop, via E. Nardi 9 (Ozzano dell'Emilia)</li>
+                <li>Distanza: Ponte Rizzoli circa 6 km, 10 minuti; Ozzano centro circa 8 km, 12 minuti in auto</li>
                 <li>Età: bambini, fascia non specificata</li>
-                <li>Costo e prenotazione: non indicati; informazioni al 347 5991657 o a ilponte.ozzano.aps@gmail.com</li>
+                <li>Costo e prenotazione: il Comune parla di iniziative in parte gratuite e in parte a pagamento, senza dettagli; per il laboratorio informazioni al 347 5991657 o a ilponte.ozzano.aps@gmail.com; la cartolina per i timbri si scarica dal sito del Comune</li>
               </ul>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Weekend in arrivo</span>
-                <a class="notizia__fonte" href="https://www.comune.ozzano.bo.it/it-it/vivere-il-comune/eventi/rubrica-cultura-ottobre-2026-120967-1-fabd4786d831b307596d3e137dc1dbc1" rel="noopener">Comune di Ozzano dell'Emilia – Rubrica Cultura</a>
+                <a class="notizia__fonte" href="https://www.comune.ozzano.bo.it/it-it/vivere-il-comune/eventi/halloween-ad-ozzano-iniziative-ed-eventi-per-tutti-i-gusti-132345-1-436e2e0a615013cf332c910e22b52b96" rel="noopener">Comune di Ozzano dell'Emilia</a> &middot;
+                <a class="notizia__fonte" href="https://www.comune.ozzano.bo.it/it-it/vivere-il-comune/eventi/rubrica-cultura-ottobre-2026-120967-1-fabd4786d831b307596d3e137dc1dbc1" rel="noopener">Rubrica Cultura</a>
               </p>
             </article>
 
             <article class="notizia">
               <h4 class="notizia__titolo">Weekend 31 ottobre-1 novembre — «Fantasmi a colazione?» al Museo Villanoviano</h4>
-              <p class="notizia__testo">Visita animata al MUV, il museo della civiltà villanoviana di Villanova di Castenaso: una guida in costume d'epoca accompagna le famiglie fra tombe, corredi e oggetti di oltre duemila anni fa, raccontando come si immaginava l'aldilà. Un modo di vivere la vigilia di Ognissanti senza spaventi; il Comune non indica un'età minima, quindi è più adatta ai bambini più grandi della fascia.</p>
+              <p class="notizia__testo">Al MUV di Villanova di Castenaso una guida in costume d'epoca accompagna le famiglie tra tombe e corredi di oltre duemila anni fa e racconta come i villanoviani immaginavano l'aldilà. È un modo di passare la vigilia di Ognissanti senza spaventi. Il Comune non fissa un'età minima: la visita si adatta meglio ai bambini più grandi della fascia.</p>
               <ul>
                 <li>Quando: sabato 31 ottobre, ore 10:30</li>
                 <li>Dove: MUV – Museo della civiltà Villanoviana, via Bruno Tosarelli 191, Villanova di Castenaso</li>
                 <li>Distanza: circa 7 km, 12 minuti in auto</li>
-                <li>Età: iniziativa per bambini e ragazzi, età non specificata</li>
-                <li>Costo e prenotazione: visita 2,50 euro a bambino, gratis un adulto accompagnatore (ingresso al museo 5 euro, ridotto 3); prenotazione allo 051 780021, a muv@comune.castenaso.bo.it o con il modulo online</li>
+                <li>Età: per bambini, età non specificata</li>
+                <li>Costo e prenotazione: visita animata 2,50 euro, gratuita per un adulto accompagnatore (ingresso al museo 5 euro, ridotto 3); prenotazione allo 051 780021, a muv@comune.castenaso.bo.it o con il modulo online</li>
               </ul>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Weekend in arrivo</span>
@@ -351,13 +391,13 @@
 
             <article class="notizia">
               <h4 class="notizia__titolo">Weekend 31 ottobre-1 novembre — Halloween in inglese a Castenaso e Pianoro</h4>
-              <p class="notizia__testo">La scuola di inglese Apple Tree propone laboratori a tema Halloween interamente in inglese, divisi per fasce d'età. Il primo turno è riservato ai bambini del secondo e terzo anno della scuola dell'infanzia e di prima elementare. I posti sono limitati e l'iscrizione va confermata via email dagli organizzatori.</p>
+              <p class="notizia__testo">La scuola Apple Tree organizza laboratori a tema Halloween svolti tutti in inglese, con turni separati per età. Il primo turno è per i bambini del secondo e terzo anno della materna e per quelli di prima elementare. I posti sono limitati: chi si iscrive riceve la conferma via email in base ai posti rimasti.</p>
               <ul>
-                <li>Quando: sabato 31 ottobre, 10:00-11:00 (turno per 4-6 anni)</li>
+                <li>Quando: sabato 31 ottobre, 10:00-11:00 (turno per i più piccoli)</li>
                 <li>Dove: Spazio Gramsci, Castenaso; oppure Sala Arcipelago (Pro Loco), via della Resistenza 201, Pianoro</li>
                 <li>Distanza: Castenaso circa 9 km, 15 minuti; Pianoro circa 15 km, 20 minuti in auto</li>
-                <li>Età: secondo e terzo anno della materna e prima elementare</li>
-                <li>Costo e prenotazione: gratuito (indicato per la data di Castenaso e Bologna; per Pianoro non specificato); richiesta con modulo online, conferma via email</li>
+                <li>Età: secondo e terzo anno della materna e prima elementare (circa 4-6 anni)</li>
+                <li>Costo e prenotazione: gratuito a Castenaso (per Pianoro il prezzo non è indicato); iscrizione con modulo online, posto confermato via email; informazioni al 328 9212840</li>
               </ul>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Weekend in arrivo</span>
@@ -367,8 +407,8 @@
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">Weekend 31 ottobre-1 novembre — «Vassilissa e la Baba Yaga»</h4>
-              <p class="notizia__testo">Spettacolo con musica dal vivo di Manuela Chiaffi che chiude la settimana di Halloween della biblioteca di Castenaso. La giovane Vassilissa deve andare a prendere il fuoco dalla Baba Yaga nel bosco, aiutata dalla bambola ricevuta dalla madre: una fiaba sul legame tra generazioni.</p>
+              <h4 class="notizia__titolo">Weekend 31 ottobre-1 novembre — «Vassilissa e la Baba Yaga» in biblioteca a Castenaso</h4>
+              <p class="notizia__testo">Manuela Chiaffi porta in scena con musica dal vivo la fiaba russa di Vassilissa, che deve andare nel bosco a chiedere il fuoco alla strega Baba Yaga, protetta dalla bambolina ricevuta dalla madre. Lo spettacolo chiude la settimana di Halloween della biblioteca Casa Bondi.</p>
               <ul>
                 <li>Quando: sabato 31 ottobre, ore 10:30</li>
                 <li>Dove: Biblioteca Casa Bondi, via XXI Ottobre 1944 n. 7, Castenaso</li>
@@ -383,14 +423,30 @@
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">Weekend 31 ottobre-1 novembre — «Sapore di sale, Odissea di una sardina»</h4>
-              <p class="notizia__testo">Due pescivendoli si lasciano sfuggire una piccola sardina, che salta in mare inseguita da pesci affamati. Prima la rincorrono per venderla, poi finiscono per proteggerla. Spettacolo di circa 50 minuti, in orario serale.</p>
+              <h4 class="notizia__titolo">Weekend 31 ottobre-1 novembre — «Brividi a canestro», Halloween al MUBIT</h4>
+              <p class="notizia__testo">Pomeriggio di beneficenza per l'associazione Bimbo Tu al museo del basket di piazza Azzarita. Ci sono truccabimbi, palloncini, letture animate divise per età e un laboratorio in cui si costruisce un pipistrello. Ogni attività ha al massimo 20 posti; la pagina dell'evento non segnala il tutto esaurito.</p>
+              <ul>
+                <li>Quando: sabato 31 ottobre, 15:00-18:30; letture per 3-5 anni 16:00-17:00; laboratorio dai 5 anni 17:00-18:00</li>
+                <li>Dove: MUBIT – Museo del Basket Italiano, piazza Manfredi Azzarita 3, Bologna</li>
+                <li>Distanza: circa 9 km, 20-25 minuti in auto</li>
+                <li>Età: letture 3-5 anni; laboratorio dai 5 anni</li>
+                <li>Costo e prenotazione: donazione di 5 euro per bambino e 5 euro per accompagnatore, da versare all'ingresso; prenotazione gratuita consigliata online fino a esaurimento posti, o a infomubit@bolognawelcome.it</li>
+              </ul>
+              <p class="notizia__meta">
+                <span class="notizia__categoria">Weekend in arrivo</span>
+                <a class="notizia__fonte" href="https://mubit.it/halloween-al-mubit-brividi-a-canestro/" rel="noopener">MUBIT</a>
+              </p>
+            </article>
+
+            <article class="notizia">
+              <h4 class="notizia__titolo">Weekend 31 ottobre-1 novembre — «Sapore di sale, Odissea di una sardina» al Testoni Ragazzi</h4>
+              <p class="notizia__testo">Due pescivendoli si lasciano scappare una sardina, che si tuffa in mare inseguita da pesci affamati: prima la rincorrono per venderla, poi finiscono per difenderla. Lo spettacolo dura circa 50 minuti ed è in orario serale; il teatro lo presenta come «Halloween a teatro» a prezzo speciale.</p>
               <ul>
                 <li>Quando: sabato 31 ottobre, ore 20:30</li>
                 <li>Dove: Teatro Testoni Ragazzi, via Matteotti 16, Bologna (Bolognina)</li>
                 <li>Distanza: circa 9 km, 20 minuti in auto</li>
                 <li>Età: 4-8 anni</li>
-                <li>Costo e prenotazione: intero 10,80 euro, ridotto 9 euro (1-14 anni); biglietti online o in biglietteria, tel. 051 4153800</li>
+                <li>Costo e prenotazione: prezzo speciale per la serata (tariffe ordinarie: intero 10,80 euro, ridotto 9 euro); biglietti online o in biglietteria, tel. 051 4153800</li>
               </ul>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Weekend in arrivo</span>
@@ -399,14 +455,14 @@
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">Weekend 31 ottobre-1 novembre — «Dolcetto o scherzetto?» e mostra LEGO® a Grand Tour Italia</h4>
-              <p class="notizia__testo">La caccia alle zucche gratuita prosegue anche nel ponte: si ritirano mappa e sacchetto in libreria e si cercano le tappe nascoste, dove arrivano caramelle o lo scherzetto di un fantasmino. Sabato 31 è l'ultima giornata del Parco delle Zucche a turni. Nello stesso parco c'è la grande mostra di modelli in mattoncini, al coperto, con zona gioco per costruire.</p>
+              <h4 class="notizia__titolo">Weekend 31 ottobre-1 novembre — Caccia alle zucche e mostra LEGO® a Grand Tour Italia</h4>
+              <p class="notizia__testo">Nel parco di via Canali prosegue «Dolcetto o scherzetto?», caccia alle zucche gratuita e al coperto: in libreria si ritirano mappa e sacchetto, poi si cercano le tappe, dove si trovano caramelle o lo scherzetto di un fantasmino. Nello stesso parco c'è una grande mostra di modelli in mattoncini, con un'area DUPLO® dove i più piccoli possono costruire.</p>
               <ul>
-                <li>Quando: caccia alle zucche sabato 31 ottobre e domenica 1 novembre, 11:00-15:00 e 18:00-20:00; Parco delle Zucche solo sabato 31, a turni</li>
+                <li>Quando: sabato 31 ottobre e domenica 1 novembre, 11:00-15:00 e 18:00-20:00 (caccia alle zucche); mostra LEGO® 10:00-20:00</li>
                 <li>Dove: Grand Tour Italia, via Paolo Canali 8, Bologna</li>
                 <li>Distanza: circa 10 km, 15 minuti in auto</li>
-                <li>Età: famiglie con bambini</li>
-                <li>Costo e prenotazione: caccia gratuita, con data da selezionare sul sito (a costo zero); Parco delle Zucche 12 euro a bambino; mostra LEGO® nel weekend 12,90 euro (11,90 con biglietto famiglia 2+2), bambini sotto i 95 cm 1 euro</li>
+                <li>Età: famiglie con bambini; mostra per tutte le età</li>
+                <li>Costo e prenotazione: caccia alle zucche gratuita; mostra LEGO® nel weekend 12,90 euro (11,90 con biglietto famiglia 2+2), bambini fino a 95 cm 1 euro</li>
               </ul>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Weekend in arrivo</span>
@@ -416,11 +472,11 @@
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">Weekend 31 ottobre-1 novembre — «Alchimia delle Erbe – Un laboratorio da brividi!»</h4>
-              <p class="notizia__testo">Laboratorio sensoriale a tema Halloween sulle piante officinali: erbe dall'aspetto misterioso, radici, profumi e racconti da esplorare in famiglia. Si svolge nel centro visite di un istituto erboristico sulle colline di Ozzano.</p>
+              <h4 class="notizia__titolo">Weekend 31 ottobre-1 novembre — «Alchimia delle Erbe», laboratorio di Halloween sulle colline di Ozzano</h4>
+              <p class="notizia__testo">Laboratorio sensoriale per famiglie dedicato alle piante officinali, con erbe dall'aspetto misterioso, radici, profumi e racconti antichi. Si svolge nel centro visite di un istituto erboristico ed è pensato per bambini dai 3 anni.</p>
               <ul>
                 <li>Quando: sabato 31 ottobre, 15:00-19:00</li>
-                <li>Dove: Istituto Erboristico L'Angelica Experience Center, SP31, Ozzano dell'Emilia</li>
+                <li>Dove: Istituto Erboristico L'Angelica Experience Center, Ozzano dell'Emilia</li>
                 <li>Distanza: circa 10-12 km, 15-20 minuti in auto</li>
                 <li>Età: dai 3 anni</li>
                 <li>Costo e prenotazione: costo non indicato; informazioni e prenotazioni sul sito dell'organizzatore</li>
@@ -432,63 +488,31 @@
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">Weekend 31 ottobre-1 novembre — Film «Casper» al Museo di Arti e Mestieri di Pianoro</h4>
-              <p class="notizia__testo">Pomeriggio di Halloween al cinema nel museo di Pianoro, con la proiezione gratuita del film sul fantasmino amichevole. Il Comune non indica un'età consigliata né la durata: è un film per famiglie, più adatto ai bambini più grandi della fascia.</p>
+              <h4 class="notizia__titolo">Weekend 31 ottobre-1 novembre — Palazzo Pepoli: «Bologna da brividi» e burattini di Sganapino</h4>
+              <p class="notizia__testo">Sabato il Museo della Storia di Bologna propone una visita animata per famiglie, circa un'ora e mezza tra storie misteriose e un po' paurose ambientate nei vicoli e sotto i portici della città. Domenica nello stesso museo c'è lo spettacolo di burattini «Sganapino e l'orco di Piapiagnoni», di circa 45 minuti. Siamo in centro storico, quindi da mettere in conto dopo le proposte più vicine.</p>
               <ul>
-                <li>Quando: sabato 31 ottobre, ore 16:30</li>
-                <li>Dove: Museo di Arti e Mestieri, via Gualando 2, Pianoro</li>
-                <li>Distanza: circa 13 km, 20 minuti in auto</li>
-                <li>Età: non specificata</li>
-                <li>Costo e prenotazione: gratuito; prenotazione non indicata, informazioni allo 051 6529105 o 051 776927</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Weekend in arrivo</span>
-                <a class="notizia__fonte" href="https://www.comune.pianoro.bo.it/it-it/vivere-il-comune/eventi/proiezione-del-film-casper-al-museo-di-arti-e-mestieri-131357-1-edeafd374aea7b6b071248bb5f1b96f5" rel="noopener">Comune di Pianoro</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <h4 class="notizia__titolo">Weekend 31 ottobre-1 novembre — «Brividi a canestro», Halloween al MUBIT</h4>
-              <p class="notizia__testo">Il museo del basket italiano organizza un pomeriggio di Halloween a scopo benefico, a favore dell'associazione Bimbo Tu: truccabimbi, palloncini, letture animate divise per età e un laboratorio per costruire un pipistrello da portare a casa. Per i più piccoli c'è il turno di letture dalle 16 alle 17, con al massimo 20 bambini.</p>
-              <ul>
-                <li>Quando: sabato 31 ottobre, 15:00-18:30; letture per 3-5 anni 16:00-17:00, laboratorio dai 5 anni 17:00-18:00</li>
-                <li>Dove: MUBIT – Museo del Basket Italiano, piazza Manfredi Azzarita 3, Bologna</li>
-                <li>Distanza: circa 9 km, 20-25 minuti in auto</li>
-                <li>Età: letture 3-5 anni; laboratorio dai 5 anni</li>
-                <li>Costo e prenotazione: donazione di 5 euro a bambino e 5 euro ad accompagnatore, da versare all'ingresso; prenotazione gratuita consigliata online fino a esaurimento posti, o a infomubit@bolognawelcome.it</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Weekend in arrivo</span>
-                <a class="notizia__fonte" href="https://mubit.it/halloween-al-mubit-brividi-a-canestro/" rel="noopener">MUBIT</a> &middot;
-                <a class="notizia__fonte" href="https://www.bolognawelcome.com/it/eventi/celebrazioni-ricorrenze/halloween-al-mubit-brividi-a-canestro" rel="noopener">Bologna Welcome</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <h4 class="notizia__titolo">Weekend 31 ottobre-1 novembre — Burattini: «Sganapino e l'orco di Piapiagnoni»</h4>
-              <p class="notizia__testo">Spettacolo di burattini della tradizione bolognese a Palazzo Pepoli, con Sganapino alle prese con un orco che minaccia il regno dei sogni. Dura circa 45 minuti e il biglietto include l'ingresso al Museo della Storia di Bologna; è consigliato dai 4-5 anni.</p>
-              <ul>
-                <li>Quando: domenica 1 novembre, ore 16:00 e 17:30</li>
+                <li>Quando: visita sabato 31 ottobre alle 15:00; burattini domenica 1 novembre alle 16:00 e alle 17:30</li>
                 <li>Dove: Palazzo Pepoli – Museo della Storia di Bologna, via Castiglione 10, Bologna centro</li>
                 <li>Distanza: circa 7 km, 20-25 minuti in auto (centro storico, zona a traffico limitato)</li>
-                <li>Età: dai 4-5 anni</li>
-                <li>Costo e prenotazione: intero 10 euro, ridotto 8 euro (bambini fino a 12 anni); prenotazione online</li>
+                <li>Età: visita per bambini di 4-12 anni (gratis sotto i 4); burattini consigliati dai 4-5 anni</li>
+                <li>Costo e prenotazione: visita 20 euro per un adulto con un bambino (ridotto 15), prenotazione obbligatoria; burattini intero 10 euro, ridotto 8 (fino a 12 anni), prenotazione online</li>
               </ul>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Weekend in arrivo</span>
-                <a class="notizia__fonte" href="https://www.bolognawelcome.com/it/esperienze/333992/Palazzo-Pepoli---Spettacolo-dei-Burattini-e-Museo-della-Storia-di-Bologna" rel="noopener">Bologna Welcome</a>
+                <a class="notizia__fonte" href="https://www.bolognawelcome.com/it/esperienze/336183/Palazzo-Pepoli---Family-Tour" rel="noopener">Bologna Welcome – Family Tour</a> &middot;
+                <a class="notizia__fonte" href="https://www.bolognawelcome.com/it/esperienze/333992/Palazzo-Pepoli---Spettacolo-dei-Burattini-e-Museo-della-Storia-di-Bologna" rel="noopener">Bologna Welcome – Burattini</a>
               </p>
             </article>
 
             <article class="notizia">
               <h4 class="notizia__titolo">Weekend 7-8 novembre — «Caccia ai simboli» al Museo Villanoviano</h4>
-              <p class="notizia__testo">Laboratorio pensato proprio per la fascia 3-6 anni: i bambini cercano i simboli incisi su vasi e stele del museo e poi, con un'educatrice, modellano l'argilla per creare un ciondolo su cui incidere il simbolo villanoviano preferito.</p>
+              <p class="notizia__testo">Laboratorio pensato proprio per i bambini dai 3 ai 6 anni. Prima si cercano i simboli incisi su vasi e stele del museo, poi, con un'educatrice, si modella l'argilla per fare un ciondolo con il simbolo villanoviano preferito.</p>
               <ul>
                 <li>Quando: sabato 7 novembre, ore 10:30</li>
                 <li>Dove: MUV – Museo della civiltà Villanoviana, via Bruno Tosarelli 191, Villanova di Castenaso</li>
                 <li>Distanza: circa 7 km, 12 minuti in auto</li>
                 <li>Età: 3-6 anni</li>
-                <li>Costo e prenotazione: 3,50 euro a bambino, gratis un adulto accompagnatore; prenotazione obbligatoria allo 051 780021, a muv@comune.castenaso.bo.it o con il modulo online</li>
+                <li>Costo e prenotazione: 3,50 euro a bambino, gratuito per un accompagnatore; prenotazione allo 051 780021, a muv@comune.castenaso.bo.it o con il modulo online</li>
               </ul>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Weekend successivo</span>
@@ -498,30 +522,29 @@
 
             <article class="notizia">
               <h4 class="notizia__titolo">Weekend 7-8 novembre — «Babbo Bibbo e Mamma Mimma» al Testoni Ragazzi</h4>
-              <p class="notizia__testo">Spettacolo di circa 35 minuti de La Baracca, scritto da Roberto Frabetti e diretto da Valeria Frabetti. Il piccolo koala Lello parte alla scoperta del mondo attorno a casa e incontra tanti animali, mentre i genitori lo lasciano andare seguendolo di nascosto: una storia sull'autonomia dei più piccoli. Pensato per la prima parte della fascia d'età.</p>
+              <p class="notizia__testo">Spettacolo de La Baracca di circa 35 minuti. Il piccolo koala Lello esce a esplorare il mondo intorno a casa e incontra tanti animali, mentre i genitori lo lasciano andare e lo seguono di nascosto. È una storia sull'autonomia, pensata per i bambini più piccoli della fascia.</p>
               <ul>
                 <li>Quando: sabato 7 novembre ore 16:30; domenica 8 novembre ore 10:30</li>
                 <li>Dove: Teatro Testoni Ragazzi, via Matteotti 16, Bologna (Bolognina)</li>
                 <li>Distanza: circa 9 km, 20 minuti in auto</li>
                 <li>Età: 1-4 anni</li>
-                <li>Costo e prenotazione: intero 10,80 euro, ridotto 9 euro (1-14 anni); biglietti online su Vivaticket o in biglietteria, tel. 051 4153800</li>
+                <li>Costo e prenotazione: intero 10,80 euro, ridotto 9 euro (1-14 anni); biglietti online o in biglietteria, tel. 051 4153800</li>
               </ul>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Weekend successivo</span>
-                <a class="notizia__fonte" href="https://www.testoniragazzi.it/eventi/babbo-bibbo-e-mamma-mimma/" rel="noopener">Testoni Ragazzi</a> &middot;
-                <a class="notizia__fonte" href="https://www.bolognaweekend.it/articoli/eventi-bambini-bologna-novembre-2026/" rel="noopener">Bologna Weekend</a>
+                <a class="notizia__fonte" href="https://www.testoniragazzi.it/eventi/babbo-bibbo-e-mamma-mimma/" rel="noopener">Testoni Ragazzi</a>
               </p>
             </article>
 
             <article class="notizia">
               <h4 class="notizia__titolo">Weekend 7-8 novembre — Mostra LEGO® e «Feeling, la mostra delle emozioni» a Grand Tour Italia</h4>
-              <p class="notizia__testo">Nel parco di via Canali restano aperte due mostre al coperto adatte alle famiglie. La grande esposizione di modelli in mattoncini ha anche un'area DUPLO® dove i più piccoli possono costruire; «Feeling», alla Beautiful Gallery, è un percorso interattivo sulle emozioni consigliato dai 3 anni.</p>
+              <p class="notizia__testo">Nel parco di via Canali ci sono due mostre al coperto adatte alle famiglie. La mostra di modelli in mattoncini ha un'area DUPLO® per far costruire i più piccoli. «Feeling», alla Beautiful Gallery, è un percorso interattivo sulle emozioni di circa 75 minuti, consigliato dai 3 anni.</p>
               <ul>
                 <li>Quando: sabato 7 e domenica 8 novembre; mostra LEGO® 10:00-20:00, «Feeling» 10:00-19:00</li>
                 <li>Dove: Grand Tour Italia, via Paolo Canali 8, Bologna</li>
                 <li>Distanza: circa 10 km, 15 minuti in auto</li>
                 <li>Età: mostra LEGO® per tutte le età; «Feeling» dai 3 anni</li>
-                <li>Costo e prenotazione: mostra LEGO® nel weekend 12,90 euro, bambini sotto i 95 cm 1 euro; «Feeling» intero 14,90 euro; prenotazione non indicata</li>
+                <li>Costo e prenotazione: mostra LEGO® nel weekend 12,90 euro, bambini fino a 95 cm 1 euro (informazioni al 338 4337722); «Feeling» intero 14,90 euro; prenotazione non indicata</li>
               </ul>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Weekend successivo</span>
@@ -532,9 +555,9 @@
 
             <article class="notizia">
               <h4 class="notizia__titolo">Weekend 7-8 novembre — «La scoperta della lettura» alla Biblioteca Borges</h4>
-              <p class="notizia__testo">Incontro di circa un'ora con le volontarie di Nati per Leggere: si ascoltano storie lette ad alta voce, si legge insieme al proprio bambino e si ricevono consigli sui libri adatti alla sua età. Una proposta tranquilla e gratuita, pensata proprio per i più piccoli.</p>
+              <p class="notizia__testo">Incontro di circa un'ora con le volontarie di Nati per Leggere. Si ascoltano libri letti ad alta voce, si legge insieme al proprio bambino e si ricevono consigli sui titoli adatti alla sua età. È una proposta tranquilla e gratuita, pensata per i più piccoli.</p>
               <ul>
-                <li>Quando: sabato 7 novembre, ore 10:30</li>
+                <li>Quando: sabato 7 novembre, 10:30-11:30 circa</li>
                 <li>Dove: Biblioteca J. L. Borges, via dello Scalo 21/2, Bologna (quartiere Porto-Saragozza)</li>
                 <li>Distanza: circa 12 km, 25 minuti in auto</li>
                 <li>Età: da 18 mesi a 5 anni</li>
@@ -547,18 +570,18 @@
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo">Weekend 7-8 novembre — «Tutankhamon» a Palazzo Belloni, con percorso per i più piccoli</h4>
-              <p class="notizia__testo">La mostra dedicata alla tomba e al tesoro del faraone, aperta fino a maggio 2027, prevede un percorso pensato per i bambini. È nel centro storico, quindi va messa in conto dopo le proposte più vicine; per i più piccoli conviene valutare la durata della visita.</p>
+              <h4 class="notizia__titolo">Weekend 7-8 novembre — Burattini a Palazzo Pepoli: farse tradizionali e «I milioni della vecchia Pulidora»</h4>
+              <p class="notizia__testo">Proseguono gli spettacoli di burattini della tradizione bolognese al Museo della Storia di Bologna. Sabato Fagiolino e Sganapino sono protagonisti di una serie di farse classiche. Domenica va in scena la storia di un'anziana signora che riceve una visita notturna piena di guai, risolti con l'aiuto del dottor Balanzone. Ogni spettacolo dura circa 45 minuti e il biglietto include l'ingresso al museo.</p>
               <ul>
-                <li>Quando: sabato 7 e domenica 8 novembre, 10:00-19:00 (ultimo ingresso alle 18)</li>
-                <li>Dove: Palazzo Belloni, via de' Gombruti 13, Bologna centro</li>
-                <li>Distanza: circa 8 km, 20-25 minuti in auto (centro storico, zona a traffico limitato)</li>
-                <li>Età: famiglie con bambini</li>
-                <li>Costo e prenotazione: intero 16 euro, ridotto 13 euro; informazioni allo 337 300086</li>
+                <li>Quando: sabato 7 e domenica 8 novembre, alle 16:00 e alle 17:30</li>
+                <li>Dove: Palazzo Pepoli – Museo della Storia di Bologna, via Castiglione 10, Bologna centro</li>
+                <li>Distanza: circa 7 km, 20-25 minuti in auto (centro storico, zona a traffico limitato)</li>
+                <li>Età: dai 4-5 anni</li>
+                <li>Costo e prenotazione: intero 10 euro, ridotto 8 euro (bambini fino a 12 anni); prenotazione online</li>
               </ul>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Weekend successivo</span>
-                <a class="notizia__fonte" href="https://www.bolognaweekend.it/articoli/eventi-bambini-bologna-novembre-2026/" rel="noopener">Bologna Weekend</a>
+                <a class="notizia__fonte" href="https://www.bolognawelcome.com/it/esperienze/333992/Palazzo-Pepoli---Spettacolo-dei-Burattini-e-Museo-della-Storia-di-Bologna" rel="noopener">Bologna Welcome</a>
               </p>
             </article>
           </section>
@@ -571,7 +594,7 @@
 
             <article class="notizia">
               <h4 class="notizia__titolo">Giovedì 29 ottobre — «Halloween… emozioni da paura!»</h4>
-              <p class="notizia__testo">Appuntamento a tema Halloween del giovedì pomeriggio al MediaLab, per la fascia 3-6 anni. I posti sono già tutti prenotati.</p>
+              <p class="notizia__testo">Appuntamento a tema Halloween di oggi pomeriggio al MediaLab, per la fascia 3-6 anni. Tutti i posti risultano prenotati.</p>
               <ul>
                 <li>Quando: giovedì 29 ottobre, 17:30-18:30</li>
                 <li>Dove: MediaLab, via Emilia 302, Idice (San Lazzaro di Savena)</li>
@@ -587,13 +610,13 @@
 
             <article class="notizia">
               <h4 class="notizia__titolo">Giovedì 5 novembre — «A spasso tra i funghi»</h4>
-              <p class="notizia__testo">Appuntamento del giovedì al MediaLab per la fascia 3-6 anni. La pagina dell'evento indica solo titolo ed età, senza altri dettagli sul programma.</p>
+              <p class="notizia__testo">Appuntamento del giovedì al MediaLab per la fascia 3-6 anni, con le iscrizioni aperte da questa notte. La pagina dell'evento indica solo titolo ed età, senza altri dettagli sul programma.</p>
               <ul>
                 <li>Quando: giovedì 5 novembre, 17:30-18:30</li>
                 <li>Dove: MediaLab, via Emilia 302, Idice (San Lazzaro di Savena)</li>
                 <li>Età: 3-6 anni</li>
                 <li>Costo: gratuito</li>
-                <li>Iscrizioni: non ancora aperte: aprono giovedì 29 ottobre alle 00:30</li>
+                <li>Iscrizioni: aperte da giovedì 29 ottobre alle 00:30, posti disponibili (numero non indicato)</li>
               </ul>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Giovedì 17:30-18:30</span>
@@ -673,78 +696,105 @@
             </header>
 
             <article class="notizia">
-              <h4 class="notizia__titolo"><strong>Israele, voto senza vincitore: Likud primo, ma il blocco di Eisenkot è avanti</strong></h4>
-              <p class="notizia__testo">Secondo gli exit poll il Likud di Netanyahu è il primo partito con circa 24 seggi contro i 22 di Eisenkot, ma il fronte dell'opposizione supera quello del premier e nessuno dei due si avvicina ai 61 seggi necessari; risultato storico per i partiti arabi e affluenza al 77,7%. Lo spoglio parziale vede il Likud in testa e il quadro resta incerto. ANSA e Messaggero insistono sul testa a testa e sul rischio di stallo, il Fatto dedica ampio spazio alle difficoltà del premier, fra il timore per la scarsa partecipazione degli ultraortodossi e le rivelazioni sul finanziamento delle sue spese legali.</p>
+              <h4 class="notizia__titolo"><strong>Spagna, scontro tra treni ad alta velocità vicino a Toledo: 68 morti, tre italiane disperse</strong></h4>
+              <p class="notizia__testo">Un convoglio Renfe ha tamponato a circa 200 km/h un treno Iryo fermo sulla linea Madrid-Siviglia, dopo un guasto al sistema di sicurezza e una ripartenza autorizzata dal centro di controllo di Atocha; per il governo spagnolo si tratta di errore umano, Sánchez ha proclamato tre giorni di lutto. Secondo la Farnesina tre cittadine italiane risultano disperse, un connazionale è ricoverato e altri cinque sono in condizioni stabili. Tutte le testate aprono sulla tragedia: il Fatto ricostruisce minuto per minuto i diciassette minuti prima dell'impatto, il Messaggero insiste sulle mancate migliorie alla rete dopo l'incidente di Adamuz di gennaio.</p>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Esteri</span>
-                <a class="notizia__fonte" href="https://www.ansa.it/sito/notizie/mondo/2026/10/27/israele-spaccato-netanyahu-regge-ma-il-blocco-di-eisenkot-e-avanti_b2e19377-c270-4498-ba32-400374367485.html" rel="noopener">ANSA</a> &middot;
-                <a class="notizia__fonte" href="https://www.ilsole24ore.com/art/israele-elezioni-partito-eisenkot-si-oppone-prolungamento-dell-orario-voto-israele-affluenza-record-AJP2NpvB" rel="noopener">Il Sole 24 Ore</a> &middot;
-                <a class="notizia__fonte" href="https://www.ilmessaggero.it/mondo/elezioni_israele_risultati_netanyahu_eisenkot_partit_arabi-9852641.html" rel="noopener">Il Messaggero</a> &middot;
-                <a class="notizia__fonte" href="https://www.ilfattoquotidiano.it/mondo/live-post/2026/10/27/elezioni-israele-live-post-notizie/8551370/" rel="noopener">Il Fatto Quotidiano</a> &middot;
-                <a class="notizia__fonte" href="https://www.quotidiano.net/esteri/risultati-elezioni-israele-exit-poll-in-tempo-reale-live-diretta-ullkjepz" rel="noopener">QN – il Resto del Carlino</a>
+                <a class="notizia__fonte" href="https://www.ansa.it/sito/notizie/mondo/2026/10/28/almeno-68-morti-nellincidente-ferroviario-a-toledo-tre-italiane-disperse_3124daf4-1c75-4126-a99f-4356a4740361.html" rel="noopener">ANSA</a> &middot;
+                <a class="notizia__fonte" href="https://www.corriere.it/esteri/26_ottobre_28/spagna-scontro-treni-99549d1e-328e-4767-81ab-71e69663exlk.shtml" rel="noopener">Corriere della Sera</a> &middot;
+                <a class="notizia__fonte" href="https://www.repubblica.it/cronaca/2026/10/29/news/spagna_disastro_ferroviario_vittime_ex_ministra_italiane_disperse-425682781/" rel="noopener">la Repubblica</a> &middot;
+                <a class="notizia__fonte" href="https://www.lastampa.it/esteri/2026/10/28/news/spagna_scontro_fra_treni_ad_alta_velocita_morti_e_feriti-15780207/" rel="noopener">La Stampa</a> &middot;
+                <a class="notizia__fonte" href="https://www.ilmessaggero.it/mondo/spagna_incidente_treni_sicurezza_tradita_pnrr_sanchez-9854804.html" rel="noopener">Il Messaggero</a> &middot;
+                <a class="notizia__fonte" href="https://www.ilfattoquotidiano.it/2026/10/28/incidente-treni-spagna-cosa-e-successo-guasto-sistema-errore-sala-controllo/8553160/" rel="noopener">Il Fatto Quotidiano</a> &middot;
+                <a class="notizia__fonte" href="https://www.quotidiano.net/esteri/incidente-ferroviario-spagna-diretta-cguy63zz" rel="noopener">QN – il Resto del Carlino</a>
               </p>
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo"><strong>Manovra verso il Consiglio dei ministri: flat tax per i giovani, Irpef ancora in bilico</strong></h4>
-              <p class="notizia__testo">Il governo definisce gli ultimi nodi della legge di bilancio attesa oggi in Cdm: un regime agevolato per i giovani neoassunti, un fondo per nuove uscite anticipate dal lavoro e uno sconto più robusto sul bollo auto per le famiglie a basso reddito, mentre il taglio Irpef per il ceto medio resta in discussione. Meloni rivendica una manovra che mantiene gli impegni tenendo in ordine i conti; il Sole 24 Ore entra nel dettaglio delle misure su pensioni e bollo, il Fatto sottolinea invece che lo sgravio per il ceto medio rischia di sfumare.</p>
+              <h4 class="notizia__titolo"><strong>Manovra approvata dal Consiglio dei ministri: 26 miliardi, Irpef al 33% fino a 55mila euro</strong></h4>
+              <p class="notizia__testo">Il via libera porta il taglio dell'Irpef per il ceto medio, la flat tax per gli autonomi estesa fino a 100mila euro, l'esenzione strutturale del bollo auto, un fondo previdenziale per i nuovi nati, un mese in più di congedo parentale e le targhe personalizzate; le coperture arrivano anche da un contributo di 5,5 miliardi chiesto a banche e assicurazioni e il testo passa ora alla Camera. Corriere, Sole 24 Ore e Messaggero puntano sulle schede delle misure, Repubblica e La Stampa sull'avvertimento di Meloni agli alleati di non creare problemi in Parlamento, mentre il Fatto sottolinea la soglia Irpef ridotta rispetto ai 60mila euro ipotizzati e la mancata detassazione delle tredicesime.</p>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Economia</span>
-                <a class="notizia__fonte" href="https://www.ansa.it/sito/notizie/economia/2026/10/27/la-manovra-che-verra-flat-tax-per-i-giovani.-sullirpef-si-tratta-ancora_6fc9fca1-c596-4520-94b8-30e064861904.html" rel="noopener">ANSA</a> &middot;
-                <a class="notizia__fonte" href="https://www.ilsole24ore.com/art/bollo-auto-le-famiglie-povere-sconto-vale-quasi-triplo-AJbftsvB" rel="noopener">Il Sole 24 Ore</a> &middot;
-                <a class="notizia__fonte" href="https://www.ilfattoquotidiano.it/2026/10/27/manovra-2027-flat-tax-neoassunti-under-35-pensioni-notizie/8551487/" rel="noopener">Il Fatto Quotidiano</a>
+                <a class="notizia__fonte" href="https://www.ansa.it/sito/notizie/politica/2026/10/28/via-libera-del-consiglio-dei-ministri-alla-manovra.-meloni-vale_a800dc0a-5e17-4252-b135-567ad9587d2b.html" rel="noopener">ANSA</a> &middot;
+                <a class="notizia__fonte" href="https://www.corriere.it/economia/finanza/26_ottobre_28/manovra-2027-via-libera-del-governo-fondo-pensione-per-i-neonati-da-100-euro-l-anno-slitta-il-decreto-bollette-b4b10319-0b35-482d-86db-a77c13a10xlk.shtml" rel="noopener">Corriere della Sera</a> &middot;
+                <a class="notizia__fonte" href="https://www.repubblica.it/politica/2026/10/29/news/meloni_manovra_avvisa_alleati_errori_parlamento_tasse-425682864/" rel="noopener">la Repubblica</a> &middot;
+                <a class="notizia__fonte" href="https://www.lastampa.it/economia/2026/10/29/news/manovra_tutte_le_misure-15781021/" rel="noopener">La Stampa</a> &middot;
+                <a class="notizia__fonte" href="https://www.ilsole24ore.com/art/cdm-via-tavolo-manovra-ma-anche-decreto-bollette-AJ6Y6twB" rel="noopener">Il Sole 24 Ore</a> &middot;
+                <a class="notizia__fonte" href="https://www.ilmessaggero.it/economia/schede/manovra_pensioni_irpef_tasse_giovani_le_misure_principali-9854844.html" rel="noopener">Il Messaggero</a> &middot;
+                <a class="notizia__fonte" href="https://www.ilfattoquotidiano.it/2026/10/28/manovra-ripescato-il-taglio-irpef-ma-solo-fino-a-55mila-euro-flat-tax-100mila-euro/8552975/" rel="noopener">Il Fatto Quotidiano</a> &middot;
+                <a class="notizia__fonte" href="https://www.quotidiano.net/economia/manovra-2027-flat-tax-fino-a-100mila-euro-un-mese-in-piu-di-congedo-parentale-e-100-euro-per-i-nuovi-nati-fino-a-18-anni-bafvnle6" rel="noopener">QN – il Resto del Carlino</a>
               </p>
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo"><strong>Brasile, Flavio Bolsonaro lascia il Paese diretto negli Stati Uniti</strong></h4>
-              <p class="notizia__testo">Dopo la sconfitta elettorale e il ritiro del passaporto, Flavio Bolsonaro sarebbe partito con la famiglia verso la Florida, secondo i media brasiliani; ANSA riferisce che Trump sarebbe disposto a concedergli asilo. Il Fatto e il Sole 24 Ore parlano apertamente di fuga per evitare un possibile arresto.</p>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Esteri</span>
-                <a class="notizia__fonte" href="https://www.ansa.it/sito/notizie/mondo/2026/10/27/brasile-media-bolsonaro-ha-lasciato-il-brasile-ed-e-in-volo-per-gli-stati-uniti_bec521a5-35b6-4db4-91cf-30e166594cb9.html" rel="noopener">ANSA</a> &middot;
-                <a class="notizia__fonte" href="https://www.ilsole24ore.com/art/bolsonaro-e-volo-gli-stati-uniti-AJQ1y3vB" rel="noopener">Il Sole 24 Ore</a> &middot;
-                <a class="notizia__fonte" href="https://www.ilfattoquotidiano.it/2026/10/27/flavio-bolsonaro-passaporto-annullato-fuga-notizie/8551765/" rel="noopener">Il Fatto Quotidiano</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <h4 class="notizia__titolo"><strong>Caso Fakir, nelle bodycam le frasi degli agenti</strong></h4>
-              <p class="notizia__testo">Emergono le registrazioni delle telecamere indossate dai poliziotti durante il fermo di Abderrahim Fakir, morto a Bologna la scorsa estate mentre veniva immobilizzato: si sentono commenti pesanti degli agenti mentre l'uomo è a terra. ANSA e il Fatto mettono al centro le parole registrate, mentre il Resto del Carlino affianca la notizia agli esiti degli accertamenti, secondo cui la droga sarebbe la causa principale del decesso.</p>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Cronaca</span>
-                <a class="notizia__fonte" href="https://www.ansa.it/sito/notizie/cronaca/2026/10/27/le-frasi-shock-degli-agenti-mentre-fakir-era-a-terra-e-schiattato-che_67fdb0f4-6e72-41d4-b8af-2d52b259663a.html" rel="noopener">ANSA</a> &middot;
-                <a class="notizia__fonte" href="https://www.ilfattoquotidiano.it/2026/10/27/caso-fakir-bologna-frasi-agenti-notizie/8551866/" rel="noopener">Il Fatto Quotidiano</a> &middot;
-                <a class="notizia__fonte" href="https://www.ilrestodelcarlino.it/bologna/cronaca/frasi-choc-agenti-bodycam-fakir-dq7tx9oo" rel="noopener">il Resto del Carlino</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <h4 class="notizia__titolo"><strong>Sciopero generale di venerdì 30, trasporti precettati ma l'Usb conferma</strong></h4>
-              <p class="notizia__testo">Il ministero dei Trasporti ha precettato il settore per lo sciopero generale dei sindacati di base, che cade a ridosso del ponte di Ognissanti; l'Usb annuncia che non rispetterà l'ordinanza. Il ministro Piantedosi avverte che dopo gli scontri delle ultime settimane l'attenzione resta alta. Il Fatto riporta anche la protesta di autotrasportatori e agricoltori a Roma contro il caro gasolio.</p>
+              <h4 class="notizia__titolo"><strong>Siher scarcerato dalla gip di Milano, scontro tra Meloni e magistratura</strong></h4>
+              <p class="notizia__testo">La gip Tiziana Landoni non ha convalidato il fermo dell'amministratore del canale Telegram "Movimento 17 ottobre": secondo l'ordinanza i suoi messaggi evocavano la disobbedienza civile ma non incitavano alla violenza. Meloni ha definito la decisione vergognosa, l'Anm e i vertici del Tribunale di Milano hanno replicato parlando di attacco alla giurisdizione. Il Messaggero dà spazio alla difesa degli agenti rivendicata da FdI, mentre Repubblica e il Fatto criticano gli attacchi alla giudice e Repubblica riferisce di un allarme dell'intelligence che il Viminale non avrebbe raccolto prima degli scontri del 17 ottobre.</p>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Politica</span>
-                <a class="notizia__fonte" href="https://www.ansa.it/sito/notizie/politica/2026/10/27/piantedosi-sugli-scontri-non-e-finita-attenzione-alta-per-venerdi_f453532f-bbda-4ca2-a09a-2831b65ca114.html" rel="noopener">ANSA</a> &middot;
-                <a class="notizia__fonte" href="https://www.ilfattoquotidiano.it/2026/10/27/sciopero-generale-30-ottobre-trasporti-precettazione-commemorazione-defunti/8551542/" rel="noopener">Il Fatto Quotidiano</a> &middot;
-                <a class="notizia__fonte" href="https://www.ilfattoquotidiano.it/2026/10/27/protesta-tir-trattori-montecitorio-meloni-governo-salvini-carburanti-gasolio-notizie/8551500/" rel="noopener">Il Fatto – protesta tir</a>
+                <a class="notizia__fonte" href="https://www.ansa.it/sito/notizie/politica/2026/10/28/meloni-dalla-gip-di-milano-una-decisione-vergognosa-su-siher.-lanm-solidarieta_cf22bf4c-c1b3-46ba-b54f-c5e1eb028452.html" rel="noopener">ANSA</a> &middot;
+                <a class="notizia__fonte" href="https://milano.corriere.it/notizie/cronaca/26_ottobre_28/siher-libero-verdetto-gip-0d7dd379-9d53-4822-b99b-259f7afe0xlk.shtml" rel="noopener">Corriere della Sera</a> &middot;
+                <a class="notizia__fonte" href="https://www.repubblica.it/cronaca/2026/10/29/news/gip_tiziana_landoni_fango_destra_accuse_youssef-425682889/" rel="noopener">la Repubblica</a> &middot;
+                <a class="notizia__fonte" href="https://www.lastampa.it/cronaca/2026/10/29/news/incita_alla_disobbedienza_civile_ma_non_invoca_la_violenza_cosi_youssef_e_tornato_libero-15781129/" rel="noopener">La Stampa</a> &middot;
+                <a class="notizia__fonte" href="https://www.ilmessaggero.it/politica/youssef_siher_niente_carcere_meloni_vergognoso_cosa_ha_detto-9854815.html" rel="noopener">Il Messaggero</a> &middot;
+                <a class="notizia__fonte" href="https://www.ilfattoquotidiano.it/2026/10/28/caso-siher-anm-meloni-magistratura-notizie/8552897/" rel="noopener">Il Fatto Quotidiano</a> &middot;
+                <a class="notizia__fonte" href="https://www.ilgiorno.it/milano/cronaca/youssef-siher-libero-movimento-17-ottobre-erh2bbh8" rel="noopener">QN – Il Giorno</a>
               </p>
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo"><strong>Mps, via libera della Bce all'offerta di Intesa Sanpaolo</strong></h4>
-              <p class="notizia__testo">La Banca centrale europea ha autorizzato l'offerta pubblica di acquisto e scambio di Intesa Sanpaolo su Monte dei Paschi, uno dei passaggi chiave per l'operazione.</p>
+              <h4 class="notizia__titolo"><strong>Israele, Netanyahu senza maggioranza: si fa strada il governo di unità nazionale</strong></h4>
+              <p class="notizia__testo">Con oltre il 90% delle schede scrutinate il blocco del premier si ferma a 53 seggi contro i 48 della coalizione di Eisenkot, con i partiti arabi a quota 19; restano da contare i voti della "doppia busta" e il presidente Herzog chiede di evitare un ritorno alle urne. Repubblica e La Stampa guardano all'ipotesi di una grande coalizione, il Fatto riporta indiscrezioni su una richiesta di Trump di escludere gli estremisti dal nuovo governo, il Corriere lega lo stallo al rischio di una nuova guerra con l'Iran.</p>
+              <p class="notizia__meta">
+                <span class="notizia__categoria">Esteri</span>
+                <a class="notizia__fonte" href="https://www.corriere.it/esteri/diretta-live/26_ottobre_28/elezioni-israele-risultati-diretta-netanyahu-eisenkot.shtml" rel="noopener">Corriere della Sera</a> &middot;
+                <a class="notizia__fonte" href="https://www.repubblica.it/esteri/2026/10/29/news/israele_elezioni_netanyahu_e_di_nuovo_primo_ma_non_ha_maggioranza_governo_unita_nazionale-425682954/" rel="noopener">la Repubblica</a> &middot;
+                <a class="notizia__fonte" href="https://www.lastampa.it/esteri/2026/10/28/diretta/elezioni_israele_2026_diretta_risultati-15779959/" rel="noopener">La Stampa</a> &middot;
+                <a class="notizia__fonte" href="https://www.ilmessaggero.it/mondo/israele_scenari_governo_cosa_succede_ora_netanyahu_eisenkot_scenari_post_voto-9854829.html" rel="noopener">Il Messaggero</a> &middot;
+                <a class="notizia__fonte" href="https://www.ilfattoquotidiano.it/2026/10/28/trump-netanyahu-estremisti-governo-notizie/8552769/" rel="noopener">Il Fatto Quotidiano</a>
+              </p>
+            </article>
+
+            <article class="notizia">
+              <h4 class="notizia__titolo"><strong>Gas oltre i 100 euro, slitta il decreto con il tetto al prezzo</strong></h4>
+              <p class="notizia__testo">Al mercato di Amsterdam il gas è tornato a sfiorare i 101 euro al megawattora, livelli che non si vedevano dalla fine del 2022, con stoccaggi europei sotto il 75%; il governo ha rinviato il decreto che dovrebbe fissare un tetto al prezzo in attesa di verifiche con Bruxelles. Il Sole 24 Ore e il Messaggero si concentrano sull'impatto su mercati e inflazione, Repubblica sui dubbi degli operatori sulla misura.</p>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Economia</span>
-                <a class="notizia__fonte" href="https://www.ilsole24ore.com/art/opas-mps-bce-da-disco-verde-intesa-sanpaolo-AJxyn5vB" rel="noopener">Il Sole 24 Ore</a>
+                <a class="notizia__fonte" href="https://24plus.ilsole24ore.com/art/gas-100-euro-caro-energia-un-ombra-mercati-e-politiche-monetarie-AJUwp2wB" rel="noopener">Il Sole 24 Ore</a> &middot;
+                <a class="notizia__fonte" href="https://www.ilmessaggero.it/economia/news/gas_oltre_100_euro_crisi_energetica_europa-9854798.html" rel="noopener">Il Messaggero</a> &middot;
+                <a class="notizia__fonte" href="https://www.repubblica.it/economia/2026/10/28/news/tetto_prezzo_gas_consiglio_dei_ministri-425682880/" rel="noopener">la Repubblica</a>
               </p>
             </article>
 
             <article class="notizia">
-              <h4 class="notizia__titolo"><strong>Femminicidio di Ilaria Sula, ergastolo per Mark Samson</strong></h4>
-              <p class="notizia__testo">La Corte ha condannato all'ergastolo l'ex fidanzato della studentessa uccisa a Roma; il padre della giovane ha commentato che giustizia è stata fatta.</p>
+              <h4 class="notizia__titolo"><strong>Morte di David Rossi, la Dda di Firenze indaga per omicidio</strong></h4>
+              <p class="notizia__testo">Per la prima volta una procura ipotizza che l'ex responsabile della comunicazione di Mps, precipitato dalla finestra del suo ufficio a Siena nel 2013, sia stato ucciso; le due inchieste senesi si erano chiuse come suicidio. Secondo ANSA sul caso lavorano anche le procure antimafia di Brescia e Bologna; la famiglia parla di un traguardo atteso da oltre tredici anni.</p>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Cronaca</span>
-                <a class="notizia__fonte" href="https://www.ansa.it/sito/notizie/cronaca/2026/10/27/femminicidio-sula-condanna-allergastolo-per-samson_7d1a3db0-28e4-4400-b91f-2cd49cc08df4.html" rel="noopener">ANSA</a> &middot;
-                <a class="notizia__fonte" href="https://www.ilfattoquotidiano.it/2026/10/27/femminicidio-ilaria-sula-samson-condannato-ergastolo-padre-giustizia-e-stata-fatta/8551768/" rel="noopener">Il Fatto Quotidiano</a>
+                <a class="notizia__fonte" href="https://www.ansa.it/sito/notizie/cronaca/2026/10/28/morte-david-rossi-fascicolo-per-omicidio-indaga-la-dda-di-firenze_0bd303b6-e68f-48e4-8616-918b49148628.html" rel="noopener">ANSA</a> &middot;
+                <a class="notizia__fonte" href="https://www.lastampa.it/cronaca/2026/10/29/news/morte_david_rossi_mps_indagine_omicidio-15780858/" rel="noopener">La Stampa</a>
+              </p>
+            </article>
+
+            <article class="notizia">
+              <h4 class="notizia__titolo"><strong>Flavio Bolsonaro da Miami si proclama presidente, poi corregge il messaggio</strong></h4>
+              <p class="notizia__testo">Arrivato negli Stati Uniti passando per Argentina ed Ecuador, il senatore sconfitto da Lula ha denunciato brogli e si è definito il vero presidente del Brasile, annunciando che guiderà l'opposizione dall'estero; Trump ha detto di non voler essere coinvolto. Il Messaggero segnala che Bolsonaro ha poi modificato il post ritirando la proclamazione, Repubblica approfondisce la ricostruzione della fuga e le polemiche sul suo passaporto italiano.</p>
+              <p class="notizia__meta">
+                <span class="notizia__categoria">Esteri</span>
+                <a class="notizia__fonte" href="https://www.ansa.it/sito/notizie/mondo/2026/10/28/bolsonaro-io-il-vero-presidente-del-brasile-guidero-lopposizione-dagli-usa_1b9d2be9-8a00-428f-926e-46b20bfc3e26.html" rel="noopener">ANSA</a> &middot;
+                <a class="notizia__fonte" href="https://www.ilmessaggero.it/mondo/bolsonaro_fuga_brasile_ultime_notizie_oggi-9853828.html" rel="noopener">Il Messaggero</a> &middot;
+                <a class="notizia__fonte" href="https://www.repubblica.it/esteri/2026/10/28/news/flavio_bolsonaro_fuga_florida_aereo-425681643/" rel="noopener">la Repubblica</a>
+              </p>
+            </article>
+
+            <article class="notizia">
+              <h4 class="notizia__titolo"><strong>Caso Fakir, uno degli agenti si scusa per le frasi registrate</strong></h4>
+              <p class="notizia__testo">Dopo la diffusione del video della bodycam con gli ultimi minuti del fermo, uno dei due poliziotti ha definito inaccettabili le proprie parole e ha chiesto scusa alla famiglia della vittima e alla Polizia. Il Resto del Carlino ricostruisce anche le telefonate con il 118 e la testimonianza di chi aiutò a immobilizzare l'uomo, il Fatto pubblica un nuovo passaggio audio registrato quando Fakir era già esanime.</p>
+              <p class="notizia__meta">
+                <span class="notizia__categoria">Cronaca</span>
+                <a class="notizia__fonte" href="https://www.ansa.it/sito/notizie/cronaca/2026/10/28/lagente-mi-scuso-per-le-frasi-con-la-famiglia-di-fakir-e-con-la-polizia_172f295f-9c36-48b4-b5c9-33f6d52f21b0.html" rel="noopener">ANSA</a> &middot;
+                <a class="notizia__fonte" href="https://www.ilmessaggero.it/italia/fakir_video_bodycam_polizia_frasi_poliziotto_si_scusa-9854627.html" rel="noopener">Il Messaggero</a> &middot;
+                <a class="notizia__fonte" href="https://www.ilfattoquotidiano.it/2026/10/28/caso-fakir-poliziotto-scuse-bodycam-notizie/8553012/" rel="noopener">Il Fatto Quotidiano</a> &middot;
+                <a class="notizia__fonte" href="https://www.ilrestodelcarlino.it/bologna/cronaca/chiamate-poliziotti-118-fakir-testimone-xur94srb" rel="noopener">il Resto del Carlino</a>
               </p>
             </article>
           </section>
@@ -756,27 +806,12 @@
             </header>
 
             <article class="notizia">
-              <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/379720/header.jpg" alt="Copertina di DOOM (2016)" loading="lazy">
-              <h4 class="notizia__titolo">DOOM (2016) — chiave Steam in regalo da oggi pomeriggio</h4>
-              <p class="notizia__testo">Oggi, mercoledì 28 ottobre, parte la distribuzione gratuita del reboot di DOOM firmato id Software, organizzata da Lenovo con Bethesda: si ottiene un buono da convertire su Gamesplanet in una chiave Steam, che resta nella libreria una volta attivata. Occorrono un account gratuito della Legion Gaming Community e un account Twitch con email verificata; le chiavi sono limitate e vengono assegnate a chi arriva prima.</p>
-              <ul>
-                <li>Store: Steam (chiave distribuita tramite Lenovo Legion / Gamesplanet)</li>
-                <li>Inizio: mercoledì 28 ottobre, ore 17:00 (ora italiana); fine: fino a esaurimento delle chiavi</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Prossimamente gratuiti</span>
-                <a class="notizia__fonte" href="https://gaming.lenovo.com/game-key-drops" rel="noopener">Lenovo Legion – Game Key Drops</a> &middot;
-                <a class="notizia__fonte" href="https://www.playnews.gg/it/offerte/doom-2016-gratis-su-steam-il-28-ottobre-2026-come-riscattare-la-chiave-lenovo" rel="noopener">Playnews</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://cdn1.epicgames.com/spt-assets/43d96f4437e34c87b7eff08831d1b1de/sker-ritual-1tuka.png" alt="Copertina di Sker Ritual" loading="lazy">
-              <h4 class="notizia__titolo">Sker Ritual — su Epic scade domani</h4>
-              <p class="notizia__testo">L'offerta su questo sparatutto horror cooperativo, ambientato nell'universo di Maid of Sker, scade domani alle 16:00. Si affrontano ondate di nemici soprannaturali da soli o in gruppo fino a quattro giocatori; il gioco, di norma a pagamento, rimane nella libreria dopo il riscatto.</p>
+              <img src="https://cdn1.epicgames.com/spt-assets/43d96f4437e34c87b7eff08831d1b1de/sker-ritual-14x61.jpg" alt="Copertina di Sker Ritual" loading="lazy">
+              <h4 class="notizia__titolo">Sker Ritual — ultime ore su Epic, scade oggi alle 16:00</h4>
+              <p class="notizia__testo">Ultimo giorno per aggiungere alla libreria questo sparatutto cooperativo a ondate, spin-off dell'horror britannico Maid of Sker, che si gioca da soli o fino a quattro. Normalmente costa 22,39 euro; una volta riscattato entro la scadenza resta nell'account per sempre.</p>
               <ul>
                 <li>Store: Epic Games Store (PC)</li>
-                <li>Scadenza: giovedì 29 ottobre, ore 16:00 (ora italiana)</li>
+                <li>Scadenza: oggi, giovedì 29 ottobre, ore 16:00 (ora italiana)</li>
               </ul>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Attualmente gratuiti</span>
@@ -786,11 +821,11 @@
 
             <article class="notizia">
               <img src="https://cdn1.epicgames.com/spt-assets/46fc0cdb9f164a848e916249a8f68fc7/home-1f6qi.png" alt="Copertina di Home - A Unique Horror Adventure" loading="lazy">
-              <h4 class="notizia__titolo">Home - A Unique Horror Adventure — gratis fino a domani</h4>
-              <p class="notizia__testo">Breve avventura horror in pixel art impostata come un'indagine su un omicidio: il finale dipende da come il giocatore interpreta gli indizi. Va riscattato entro domani pomeriggio: poi resta nella libreria in modo permanente.</p>
+              <h4 class="notizia__titolo">Home - A Unique Horror Adventure — gratis solo fino a oggi pomeriggio</h4>
+              <p class="notizia__testo">Anche questa avventura horror in pixel art, costruita come un giallo in cui è il giocatore a decidere come sono andati i fatti, lascia l'offerta gratuita di Epic oggi alle 16:00. Chi la riscatta prima della scadenza la conserva nella libreria in modo permanente.</p>
               <ul>
                 <li>Store: Epic Games Store (PC)</li>
-                <li>Scadenza: giovedì 29 ottobre, ore 16:00 (ora italiana)</li>
+                <li>Scadenza: oggi, giovedì 29 ottobre, ore 16:00 (ora italiana)</li>
               </ul>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Attualmente gratuiti</span>
@@ -800,15 +835,29 @@
 
             <article class="notizia">
               <img src="https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-1orqh.png" alt="Copertina di Sorry We're Closed" loading="lazy">
-              <h4 class="notizia__titolo">Sorry We're Closed — confermato come prossimo regalo di Epic</h4>
-              <p class="notizia__testo">Il catalogo delle promozioni di Epic conferma che da domani, giovedì, sarà gratuito questo survival horror in terza persona con telecamere fisse e grafica che richiama le console anni Novanta. Si gioca da soli, con una trama ricca di personaggi e più finali possibili.</p>
+              <h4 class="notizia__titolo">Sorry We're Closed — il nuovo regalo di Epic parte oggi alle 16:00</h4>
+              <p class="notizia__testo">Dal pomeriggio diventa gratuito questo survival horror per giocatore singolo dal sapore anni Novanta, con inquadrature fisse, enigmi e più finali: un "terzo occhio" permette di guardare tra i mondi e scoprire segreti. Fino a stamattina era in sconto al 70%; il catalogo promozioni di Epic conferma l'azzeramento del prezzo per una settimana.</p>
               <ul>
                 <li>Store: Epic Games Store (PC)</li>
-                <li>Offerta: da giovedì 29 ottobre ore 16:00 a giovedì 5 novembre ore 17:00 (ora italiana)</li>
+                <li>Offerta: da oggi, giovedì 29 ottobre, ore 16:00 a giovedì 5 novembre, ore 17:00 (ora italiana)</li>
               </ul>
               <p class="notizia__meta">
                 <span class="notizia__categoria">Prossimamente gratuiti</span>
                 <a class="notizia__fonte" href="https://store.epicgames.com/it/p/sorry-were-closed-724c86" rel="noopener">Epic Games Store</a>
+              </p>
+            </article>
+
+            <article class="notizia">
+              <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379720/header.jpg" alt="Copertina di DOOM (2016)" loading="lazy">
+              <h4 class="notizia__titolo">DOOM (2016) via Lenovo: la distribuzione delle chiavi è già chiusa</h4>
+              <p class="notizia__testo">La distribuzione delle chiavi Steam di DOOM (2016), partita ieri pomeriggio sulla Legion Gaming Community di Lenovo, risulta conclusa. Nel forum di supporto diversi utenti segnalano code di decine di migliaia di persone, errori di accesso alla pagina del buono e un evento chiuso mentre erano ancora in attesa; Lenovo non ha ancora chiarito pubblicamente se le chiavi siano finite o se ci sia stato un problema tecnico. Il prossimo regalo annunciato sulla stessa pagina è Mail Mole, l'11 novembre.</p>
+              <ul>
+                <li>Store: Steam (chiave tramite Lenovo Legion / Gamesplanet)</li>
+                <li>Stato: offerta terminata</li>
+              </ul>
+              <p class="notizia__meta">
+                <a class="notizia__fonte" href="https://gaming.lenovo.com/general/post/giveaway-issu-8CmrXHqUCucdIYu" rel="noopener">Lenovo Legion – forum</a> &middot;
+                <a class="notizia__fonte" href="https://gaming.lenovo.com/game-key-drops" rel="noopener">Lenovo Legion – Game Key Drops</a>
               </p>
             </article>
           </section>
@@ -818,6 +867,42 @@
               <h3 class="riquadro__titolo">Film</h3>
               <span class="riquadro__conteggio" data-ruolo="conteggio"></span>
             </header>
+
+            <article class="notizia">
+              <img src="https://resizing.flixster.com/WZeoTfWkrPID0bXRCfzC3bEFE1Y=/206x305/v2/https://resizing.flixster.com/MSI-NsgXVSOQ5VoV1QnfGomy0fo=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2ZhNWIyOGVmLWNlZTUtNDc5YS05ZGVkLTFmMDAwYmJkNGM4NC5qcGc=" alt="Locandina di Kokuho - Il maestro di kabuki" loading="lazy">
+              <h4 class="notizia__titolo">Kokuho - Il maestro di kabuki (2025)</h4>
+              <p class="notizia__testo">Diretto da Lee Sang-il e tratto dal romanzo di Shuichi Yoshida, il film segue per decenni la vita di Kikuo, figlio di un boss della yakuza di Nagasaki, accolto da ragazzo dal celebre attore kabuki Hanjiro Hanai (Ken Watanabe). Cresciuto e formato accanto al figlio del maestro, Kikuo stringe con lui un legame fraterno che si trasforma in rivalità per il ruolo di erede. Uscito nei cinema italiani il 30 aprile, arriva ora per la prima volta in digitale.</p>
+              <ul>
+                <li>Genere: drammatico</li>
+                <li>Rotten Tomatoes: 95% critica (60 recensioni); Popcornmeter 96%</li>
+                <li>Prima disponibilità in Italia: 28 ottobre 2026</li>
+                <li>Dove: Apple TV (noleggio 4,99&nbsp;&euro;, acquisto 9,99&nbsp;&euro;)</li>
+              </ul>
+              <p class="notizia__meta">
+                <span class="notizia__categoria">Noleggio</span>
+                <a class="notizia__fonte" href="https://www.justwatch.com/it/film/kokuho" rel="noopener">JustWatch</a> &middot;
+                <a class="notizia__fonte" href="https://www.cinefilos.it/tutto-film/recensioni/kokuho-il-maestro-di-kabuki-704859" rel="noopener">Cinefilos</a> &middot;
+                <a class="notizia__fonte" href="https://www.rottentomatoes.com/m/kokuho" rel="noopener">Rotten Tomatoes</a>
+              </p>
+            </article>
+
+            <article class="notizia">
+              <img src="https://resizing.flixster.com/LgUrNG559p-4rh9SFvs1mRlL3v8=/206x305/v2/https://resizing.flixster.com/Lm3KkjK-PmmBzro9UBTBfJXkvb8=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzA4NTIwMWZhLWJkZTYtNGNhNC05MDZjLThkYTE2ZTI1MGM5NC5qcGc=" alt="Locandina di ChaO" loading="lazy">
+              <h4 class="notizia__titolo">ChaO (2025)</h4>
+              <p class="notizia__testo">Film d'animazione giapponese di Yasuhiro Aoki, prodotto dallo Studio 4°C e premiato ad Annecy. In un mondo in cui esseri umani e sirene convivono, il riservato Stephan, impiegato in un cantiere navale, riceve all'improvviso una proposta di matrimonio da ChaO, principessa del regno delle sirene. Costretto a dividere la quotidianità con lei, scopre poco alla volta il lato sincero di quel carattere travolgente. Passato nelle sale italiane a fine giugno, è ora disponibile in streaming.</p>
+              <ul>
+                <li>Genere: animazione, fantastico, sentimentale</li>
+                <li>Rotten Tomatoes: 86% critica (28 recensioni); Popcornmeter non ancora disponibile</li>
+                <li>Prima disponibilità in Italia: 27 ottobre 2026</li>
+                <li>Dove: dAnime, canale di Prime Video (incluso nell'abbonamento al canale); Amazon Video (noleggio 2,99&nbsp;&euro;, acquisto 7,99&nbsp;&euro;)</li>
+              </ul>
+              <p class="notizia__meta">
+                <span class="notizia__categoria">Prime Video Channels</span>
+                <a class="notizia__fonte" href="https://www.justwatch.com/it/film/chao-2025" rel="noopener">JustWatch</a> &middot;
+                <a class="notizia__fonte" href="https://www.rottentomatoes.com/m/chao_2025" rel="noopener">Rotten Tomatoes</a>
+              </p>
+            </article>
+
             <article class="notizia">
               <img src="https://resizing.flixster.com/H_G38rB2ErYc2boBUex6fNu5XsI=/206x305/v2/https://resizing.flixster.com/fQiSMMDmGrAWw_q3x25x83YVFpA=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzIxMDY3YTMxLTRiMDAtNDJmYi1iYmMxLWUyOThmNmY4ZWM1Yi5qcGc=" alt="Locandina di Kontinental '25" loading="lazy">
               <h4 class="notizia__titolo">Kontinental &#39;25 (2025)</h4>
@@ -835,6 +920,7 @@
                 <a class="notizia__fonte" href="https://www.rottentomatoes.com/m/kontinental_25" rel="noopener">Rotten Tomatoes</a>
               </p>
             </article>
+
             <article class="notizia">
               <img src="https://resizing.flixster.com/vcL7QnW_ZpVTgv5jPCi0vyPk1eo=/206x305/v2/https://resizing.flixster.com/J2DgNlS8nVhMDbcr9nvxox7pAIs=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2M2NGExNjJmLWNhMzgtNGQ0NC04ODI5LWRkZmI0N2EzNmZlZS5qcGc=" alt="Locandina di Ti auguro ogni bene" loading="lazy">
               <h4 class="notizia__titolo">Ti auguro ogni bene (2024)</h4>
@@ -852,13 +938,14 @@
                 <a class="notizia__fonte" href="https://www.rottentomatoes.com/m/i_wish_you_all_the_best" rel="noopener">Rotten Tomatoes</a>
               </p>
             </article>
+
             <article class="notizia">
               <img src="https://resizing.flixster.com/Nkm1Er2ZdL0RvwR48lTfFESSUX0=/206x305/v2/https://resizing.flixster.com/ibcqXhhIMSz6jCZgLaWQGgyeRMs=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzRkODRlMTQ0LTliOGUtNGE5MS1hMzQwLWNiMzRkODA0NzBmNC5qcGc=" alt="Locandina di Paralizzata dalla speranza: la storia di Maria Bamford" loading="lazy">
               <h4 class="notizia__titolo">Paralizzata dalla speranza: la storia di Maria Bamford (2026)</h4>
               <p class="notizia__testo">Documentario diretto da Judd Apatow e Neil Berkeley dedicato alla comica statunitense Maria Bamford, che ha fatto della propria salute mentale uno dei temi centrali dei suoi spettacoli. Il film ripercorre la sua storia dall'infanzia a Duluth, in Minnesota, fino all'affermazione a Los Angeles, e la segue nella vita quotidiana per quasi quattro anni. Al racconto si alternano estratti dal palco e interventi di colleghi.</p>
               <ul>
                 <li>Genere: documentario, biografico</li>
-                <li>Rotten Tomatoes: 95% critica (19 recensioni); Popcornmeter non ancora disponibile</li>
+                <li>Rotten Tomatoes: 95% critica (22 recensioni); Popcornmeter non ancora disponibile</li>
                 <li>Prima disponibilità in Italia: 23 ottobre 2026</li>
                 <li>Dove: Netflix (incluso nell'abbonamento)</li>
               </ul>
@@ -868,6 +955,7 @@
                 <a class="notizia__fonte" href="https://www.rottentomatoes.com/m/paralyzed_by_hope_the_maria_bamford_story" rel="noopener">Rotten Tomatoes</a>
               </p>
             </article>
+
             <article class="notizia">
               <img src="https://resizing.flixster.com/6i17WafuzJ-NWWEMJm-Y0Tyq0mA=/206x305/v2/https://resizing.flixster.com/guNIvRLXBKRG2a_iCdEZIkQmkz8=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzJkNWFjMzc4LWJiM2MtNDE0Yy05NDQyLTJhMGM3YzM3OTA5Zi5qcGc=" alt="Locandina di Liza: una storia veramente meravigliosa e assolutamente vera" loading="lazy">
               <h4 class="notizia__titolo">Liza: una storia veramente meravigliosa e assolutamente vera (2025)</h4>
@@ -882,23 +970,6 @@
                 <span class="notizia__categoria">Prime Video</span>
                 <a class="notizia__fonte" href="https://www.justwatch.com/it/film/liza-una-storia-veramente-meravigliosa-e-assolutamente-vera" rel="noopener">JustWatch</a> &middot;
                 <a class="notizia__fonte" href="https://www.rottentomatoes.com/m/liza_a_truly_terrific_absolutely_true_story" rel="noopener">Rotten Tomatoes</a>
-              </p>
-            </article>
-            <article class="notizia">
-              <img src="https://resizing.flixster.com/ZLhsp65lCEUaqfuHuXYabLlonVw=/206x305/v2/https://resizing.flixster.com/1o7QcMK87EVCyu075pCe6gJzbeM=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2ZhZjY5NDYyLWZkMTQtNGQ3ZC05YTM3LTdjZTVkYzhjMzM2YS5qcGc=" alt="Locandina di Rebuilding - Come l'acqua per il fuoco" loading="lazy">
-              <h4 class="notizia__titolo">Rebuilding - Come l'acqua per il fuoco (2025)</h4>
-              <p class="notizia__testo">Scritto e diretto da Max Walker-Silverman, il film segue Dusty, un allevatore divorziato del Colorado interpretato da Josh O'Connor, che ha perso il ranch in un grande incendio. Costretto a vivere in roulotte in un campo di accoglienza insieme ad altre famiglie rimaste senza casa, prova a rimettere in piedi la propria vita e a riavvicinarsi alla ex moglie e alla figlia. Uscito nelle sale italiane a giugno, è ora disponibile per la prima volta in digitale.</p>
-              <ul>
-                <li>Genere: drammatico</li>
-                <li>Rotten Tomatoes: 92% critica (95 recensioni); Popcornmeter 82%</li>
-                <li>Prima disponibilità in Italia: 23 ottobre 2026</li>
-                <li>Dove: Amazon Video, Apple TV, CHILI, Rakuten TV e Timvision (noleggio e acquisto)</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Noleggio</span>
-                <a class="notizia__fonte" href="https://tg24.sky.it/spettacolo/cinema/2026/06/03/rebuilding-film-cast" rel="noopener">Sky TG24</a> &middot;
-                <a class="notizia__fonte" href="https://www.justwatch.com/it/film/rebuilding" rel="noopener">JustWatch</a> &middot;
-                <a class="notizia__fonte" href="https://www.rottentomatoes.com/m/rebuilding" rel="noopener">Rotten Tomatoes</a>
               </p>
             </article>
 
@@ -919,6 +990,24 @@
                 <a class="notizia__fonte" href="https://www.rottentomatoes.com/m/the_invite" rel="noopener">Rotten Tomatoes</a>
               </p>
             </article>
+
+            <article class="notizia">
+              <img src="https://resizing.flixster.com/ZLhsp65lCEUaqfuHuXYabLlonVw=/206x305/v2/https://resizing.flixster.com/1o7QcMK87EVCyu075pCe6gJzbeM=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2ZhZjY5NDYyLWZkMTQtNGQ3ZC05YTM3LTdjZTVkYzhjMzM2YS5qcGc=" alt="Locandina di Rebuilding - Come l'acqua per il fuoco" loading="lazy">
+              <h4 class="notizia__titolo">Rebuilding - Come l'acqua per il fuoco (2025)</h4>
+              <p class="notizia__testo">Scritto e diretto da Max Walker-Silverman, il film segue Dusty, un allevatore divorziato del Colorado interpretato da Josh O'Connor, che ha perso il ranch in un grande incendio. Costretto a vivere in roulotte in un campo di accoglienza insieme ad altre famiglie rimaste senza casa, prova a rimettere in piedi la propria vita e a riavvicinarsi alla ex moglie e alla figlia. Uscito nelle sale italiane a giugno, è ora disponibile per la prima volta in digitale.</p>
+              <ul>
+                <li>Genere: drammatico</li>
+                <li>Rotten Tomatoes: 92% critica (95 recensioni); Popcornmeter 81%</li>
+                <li>Prima disponibilità in Italia: 22 ottobre 2026</li>
+                <li>Dove: Amazon Video, Apple TV, CHILI, Rakuten TV e Timvision (noleggio e acquisto)</li>
+              </ul>
+              <p class="notizia__meta">
+                <span class="notizia__categoria">Noleggio</span>
+                <a class="notizia__fonte" href="https://tg24.sky.it/spettacolo/cinema/2026/06/03/rebuilding-film-cast" rel="noopener">Sky TG24</a> &middot;
+                <a class="notizia__fonte" href="https://www.justwatch.com/it/film/rebuilding" rel="noopener">JustWatch</a> &middot;
+                <a class="notizia__fonte" href="https://www.rottentomatoes.com/m/rebuilding" rel="noopener">Rotten Tomatoes</a>
+              </p>
+            </article>
           </section>
 
           <section class="riquadro">
@@ -928,950 +1017,101 @@
             </header>
 
             <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/81/38/52/0181385219.jpg" alt="Foto dell'annuncio: Elettrostimolatore Compex" loading="lazy">
-              <h4 class="notizia__titolo">Elettrostimolatore Compex</h4>
-              <p class="notizia__testo">Apparecchio elettrostimolatore Compex da un'esecuzione mobiliare del Tribunale di Bologna.</p>
+              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/81/83/21/0181832102.jpg" alt="Foto dell'annuncio: Box 304 con stampanti HP e attrezzature" loading="lazy">
+              <h4 class="notizia__titolo">Box 304 – due stampanti HP, microonde e attrezzature</h4>
+              <p class="notizia__testo">Contenuto di un box di deposito messo in vendita per recuperare le spese di custodia: tra gli oggetti figurano una stampante laser HP CF135A, una multifunzione HP MFP179, un forno a microonde Panasonic e due scatole di materiale elettrico. Il resto del lotto comprende frigorifero, compressore, aspirapolvere, attrezzi da giardino e scaffalature.</p>
               <ul>
-                <li>Prezzo base: € 50,00</li>
-                <li>Offerta attuale: € 90,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
+                <li>Prezzo base: € 0,00 (rilancio minimo € 20,00)</li>
+                <li>Offerta attuale: € 20,00 (1 offerta)</li>
+                <li>Scadenza: 02/11/2026 ore 12:00</li>
+                <li>Località: Bologna (BO), Viale Angelo Masini 2</li>
               </ul>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-11-macchinario-compex-elettro-stimolatore-1716384.html" rel="noopener">Fallco Aste</a>
+                <span class="notizia__categoria">Gara aperta · lotto misto</span>
+                <a class="notizia__fonte" href="https://ivgroma.fallcoaste.it/vendita/lotto-box-304-bo-36555-arredo-oggetti-personali-attrezzatura-e-attrezzi-bricolage-1730037.html" rel="noopener">Fallco Aste</a>
               </p>
             </article>
 
             <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/90/0180569003.jpg" alt="Foto dell'annuncio: Lotto 1 – 5 smartphone Apple" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 1 – 5 smartphone Apple</h4>
-              <p class="notizia__testo">Cinque iPhone di vari colori (grigio, lilla, nero) provenienti dagli oggetti smarriti del Comune di Bologna. Tutti risultano ripristinati ma chiedono all'avvio una password sconosciuta.</p>
+              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/81/83/19/0181831930.jpg" alt="Foto dell'annuncio: Box 310 con stampanti Brother e Ricoh" loading="lazy">
+              <h4 class="notizia__titolo">Box 310 – stampanti Brother e Ricoh con attrezzi da officina</h4>
+              <p class="notizia__testo">Altro box di deposito in vendita a Bologna: la parte elettronica è costituita da una stampante Brother e una Ricoh, accompagnate da sei scatoloni di toner usati. Completano il lotto un carrello e un tavolo da officina, scaffalature, una pistola termica e utensili vari.</p>
               <ul>
-                <li>Prezzo base: € 150,00</li>
-                <li>Offerta attuale: € 150,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
+                <li>Prezzo base: € 0,00 (rilancio minimo € 20,00)</li>
+                <li>Offerta attuale: € 40,00 (2 offerte)</li>
+                <li>Scadenza: 02/11/2026 ore 12:00</li>
+                <li>Località: Bologna (BO), Viale Angelo Masini 2</li>
               </ul>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-1-n-5-smartphone-apple-oggetti-smarriti-comune-di-bologna-1701571.html" rel="noopener">Fallco Aste</a>
+                <span class="notizia__categoria">Gara aperta · lotto misto</span>
+                <a class="notizia__fonte" href="https://ivgroma.fallcoaste.it/vendita/lotto-box-310-bo-36555-arredo-oggetti-personali-e-attrezzi-1730035.html" rel="noopener">Fallco Aste</a>
               </p>
             </article>
 
             <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/90/0180569021.jpg" alt="Foto dell'annuncio: Lotto 2 – 5 smartphone Apple" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 2 – 5 smartphone Apple</h4>
-              <p class="notizia__testo">Cinque iPhone (blu, bianchi e neri) dagli oggetti smarriti del Comune di Bologna. Ripristinati, ma all'accensione richiedono una password non nota.</p>
+              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/81/83/18/0181831873.jpg" alt="Foto dell'annuncio: Box 313 con mini PC e arredi" loading="lazy">
+              <h4 class="notizia__titolo">Box 313 – mini PC e registratore di cassa tra gli arredi</h4>
+              <p class="notizia__testo">Lotto composto soprattutto da arredi (sedie, divani, librerie Kallax, tavoli) in cui compaiono anche un mini PC desktop senza marca, un registratore di cassa e un cuociriso elettrico. Nel box ci sono inoltre un paio di sci con scarponi e circa cinquanta mazzi di carte da poker nuovi.</p>
               <ul>
-                <li>Prezzo base: € 150,00</li>
-                <li>Offerta attuale: € 190,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
+                <li>Prezzo base: € 0,00 (rilancio minimo € 20,00)</li>
+                <li>Offerta attuale: € 20,00 (1 offerta)</li>
+                <li>Scadenza: 02/11/2026 ore 12:00</li>
+                <li>Località: Bologna (BO), Viale Angelo Masini 2</li>
               </ul>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-2-n-5-smartphone-apple-oggetti-smarriti-comune-di-bologna-1701575.html" rel="noopener">Fallco Aste</a>
+                <span class="notizia__categoria">Gara aperta · lotto misto</span>
+                <a class="notizia__fonte" href="https://ivgroma.fallcoaste.it/vendita/lotto-box-313-bo-37077-arredo-e-oggetti-personali-1730033.html" rel="noopener">Fallco Aste</a>
               </p>
             </article>
 
             <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/90/0180569013.jpg" alt="Foto dell'annuncio: Lotto 3 – 5 smartphone Apple" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 3 – 5 smartphone Apple</h4>
-              <p class="notizia__testo">Cinque iPhone (azzurro, bianco e tre neri) dagli oggetti smarriti del Comune. Ripristinati ma bloccati da password sconosciuta all'avvio.</p>
+              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/81/85/05/0181850528.jpg" alt="Foto dell'annuncio: dotazione informatica da ufficio" loading="lazy">
+              <h4 class="notizia__titolo">Dotazione informatica di un ufficio: 10 PC, 15 monitor, server e centralino</h4>
+              <p class="notizia__testo">Lotto unico da una procedura del Tribunale di Bologna con centralino Alcatel e 11 telefoni interni, 7 PC Lenovo ThinkCentre con tastiere e mouse, 7 monitor Lenovo T25n e 8 monitor AOC, un server ProLiant e due stampanti laser HP. Sono compresi anche 3 PC ThinkStation dichiarati non funzionanti e alcune sedie da ufficio. La gara non è ancora partita: le offerte si potranno fare dal 14 novembre.</p>
               <ul>
-                <li>Prezzo base: € 150,00</li>
-                <li>Offerta attuale: € 220,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
+                <li>Prezzo base: € 1.000,00 (offerta minima € 750,00, più IVA)</li>
+                <li>Offerta attuale: nessuna, gara non ancora avviata</li>
+                <li>Scadenza: 18/11/2026 ore 11:00</li>
                 <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
               </ul>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-3-n-5-smartphone-apple-oggetti-smarriti-comune-di-bologna-1701576.html" rel="noopener">Fallco Aste</a>
+                <span class="notizia__categoria">Gara dal 14/11</span>
+                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-unico-n-1-centralino-alcatel-n-11-telefoni-interni-per-centralini-alcatel-n-1-stampante-laser-hp-m252n-1730352.html" rel="noopener">Fallco Aste</a>
               </p>
             </article>
 
             <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/90/0180569046.jpg" alt="Foto dell'annuncio: Lotto 4 – 4 smartphone Apple" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 4 – 4 smartphone Apple</h4>
-              <p class="notizia__testo">Quattro iPhone (grigio, nero, bianco, rosso) dagli oggetti smarriti del Comune di Bologna, ripristinati ma con richiesta di password sconosciuta all'avvio.</p>
+              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/81/30/32/0181303218.jpg" alt="Foto dell'annuncio: lotto unificato B con stampante HP" loading="lazy">
+              <h4 class="notizia__titolo">Lotto unificato B – stampante HP LaserJet MFP M442dn con arredi</h4>
+              <p class="notizia__testo">Dalla liquidazione giudiziale di Mancini Ital Design &amp; Arts: una multifunzione laser HP LaserJet MFP M442dn venduta insieme a un tavolino in vetro danneggiato, una cassettiera, una poltrona da ufficio Frau e lampade Flos. Il commissionario avverte che non è possibile verificare completezza e funzionamento dei beni.</p>
               <ul>
-                <li>Prezzo base: € 120,00</li>
-                <li>Offerta attuale: € 200,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
+                <li>Prezzo base: € 225,00 (offerta minima € 168,75)</li>
+                <li>Offerta attuale: nessuna, gara non ancora avviata</li>
+                <li>Scadenza: 25/11/2026 ore 15:15</li>
+                <li>Località: Fiorano Modenese (MO), visione in loco</li>
               </ul>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-4-n-4-smartphone-apple-oggetti-smarriti-comune-di-bologna-1701577.html" rel="noopener">Fallco Aste</a>
+                <span class="notizia__categoria">Gara dal 25/11 · lotto misto</span>
+                <a class="notizia__fonte" href="https://www.fallcoaste.it/vendita/liquidazione-giudiziale-di-mancini-ital-design-amp-arts-lotto-unificato-b-composto-dai-lotti-lotto-9-tavolino-basso-con-1715218.html" rel="noopener">Fallco Aste</a>
               </p>
             </article>
 
             <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/81/05/64/0181056477.jpg" alt="Foto dell'annuncio: Lotto 5 – 6 smartphone Samsung e Redmi" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 5 – 6 smartphone Samsung e Redmi</h4>
-              <p class="notizia__testo">Quattro Samsung e due Redmi dagli oggetti smarriti del Comune. Uno dei Redmi risulta ripristinato e libero; gli altri chiedono una password sconosciuta all'accensione.</p>
+              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/81/30/33/0181303304.jpg" alt="Foto dell'annuncio: lotto unificato D con stampante Brother" loading="lazy">
+              <h4 class="notizia__titolo">Lotto unificato D – multifunzione Brother MFC-J6947DW con complementi d'arredo</h4>
+              <p class="notizia__testo">Sempre dalla liquidazione Mancini Ital Design &amp; Arts: una stampante fotocopiatrice Brother MFC-J6947DW inserita in un lotto con vasi, cuscini e guanciali Poltrona Frau e Versace, una coperta Poliform ed elementi d'arredo in legno. Anche qui la vendita è senza garanzia e si consiglia la visione dei beni.</p>
               <ul>
-                <li>Prezzo base: € 90,00</li>
-                <li>Offerta attuale: € 170,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
+                <li>Prezzo base: € 195,00 (offerta minima € 146,25)</li>
+                <li>Offerta attuale: nessuna, gara non ancora avviata</li>
+                <li>Scadenza: 25/11/2026 ore 17:15</li>
+                <li>Località: Bologna (BO), visione in loco</li>
               </ul>
               <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-5-n-6-smartphone-oggetti-smarriti-comune-di-bologna-1701578.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/90/0180569078.jpg" alt="Foto dell'annuncio: Lotto 6 – 6 smartphone di varie marche" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 6 – 6 smartphone di varie marche</h4>
-              <p class="notizia__testo">Motorola, Huawei, Oppo e tre Samsung dagli oggetti smarriti del Comune. Motorola e Huawei sono ripristinati senza blocchi segnalati; gli altri chiedono una password sconosciuta.</p>
-              <ul>
-                <li>Prezzo base: € 90,00</li>
-                <li>Offerta attuale: € 250,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-6-n-6-smartphone-oggetti-smarriti-comune-di-bologna-1701579.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/90/0180569061.jpg" alt="Foto dell'annuncio: Lotto 7 – 5 smartphone di varie marche" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 7 – 5 smartphone di varie marche</h4>
-              <p class="notizia__testo">Redmi, due Samsung (tra cui un SM-A528B), Huawei e TCL dagli oggetti smarriti del Comune. Redmi, Huawei e TCL risultano ripristinati; i due Samsung chiedono una password non nota.</p>
-              <ul>
-                <li>Prezzo base: € 75,00</li>
-                <li>Offerta attuale: € 110,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-7-n-5-smartphone-oggetti-smarriti-comune-di-bologna-1701580.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/90/0180569088.jpg" alt="Foto dell'annuncio: Lotto 8 – 5 smartphone Samsung e Oppo" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 8 – 5 smartphone Samsung e Oppo</h4>
-              <p class="notizia__testo">Quattro Samsung (tra cui un SM-A155F) e un Oppo CPH2483 dagli oggetti smarriti del Comune. Tutti ripristinati ma con password sconosciuta all'avvio.</p>
-              <ul>
-                <li>Prezzo base: € 75,00</li>
-                <li>Offerta attuale: € 135,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-8-n-5-smartphone-oggetti-smarriti-comune-di-bologna-1701581.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/91/0180569110.jpg" alt="Foto dell'annuncio: Lotto 9 – 5 smartphone Samsung, Oppo e Motorola" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 9 – 5 smartphone Samsung, Oppo e Motorola</h4>
-              <p class="notizia__testo">Tre Samsung, un Oppo e un Motorola dagli oggetti smarriti del Comune. Un Samsung e l'Oppo sono ripristinati senza blocchi segnalati, gli altri chiedono una password sconosciuta.</p>
-              <ul>
-                <li>Prezzo base: € 75,00</li>
-                <li>Offerta attuale: € 180,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-9-n-5-smartphone-oggetti-smarriti-comune-di-bologna-1701582.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/90/0180569097.jpg" alt="Foto dell'annuncio: Lotto 10 – 4 iPad Apple" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 10 – 4 iPad Apple</h4>
-              <p class="notizia__testo">Quattro iPad (modelli A1489, A1474 e due A2316), alcuni con cover e uno con cover-tastiera. Ripristinati ma con password sconosciuta all'avvio.</p>
-              <ul>
-                <li>Prezzo base: € 160,00</li>
-                <li>Offerta attuale: € 200,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-10-n-4-ipad-apple-oggetti-smarriti-comune-di-bologna-1701583.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/91/0180569104.jpg" alt="Foto dell'annuncio: Lotto 11 – 4 iPad Apple" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 11 – 4 iPad Apple</h4>
-              <p class="notizia__testo">Quattro iPad (modelli A2133, A1701, A2602, A2696), con cover o custodia con tastiera. Ripristinati, ma bloccati da password sconosciuta.</p>
-              <ul>
-                <li>Prezzo base: € 160,00</li>
-                <li>Offerta attuale: € 180,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-11-n-4-ipad-apple-oggetti-smarriti-comune-di-bologna-1701584.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/91/0180569121.jpg" alt="Foto dell'annuncio: Lotto 12 – 4 iPad Apple" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 12 – 4 iPad Apple</h4>
-              <p class="notizia__testo">Quattro iPad (A2461, A2270, A2696 con pencil e cover, A1538), uno con accessori e custodia. Ripristinati ma con password sconosciuta all'avvio.</p>
-              <ul>
-                <li>Prezzo base: € 160,00</li>
-                <li>Offerta attuale: € 280,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-12-n-4-ipad-apple-oggetti-smarriti-comune-di-bologna-1701585.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/91/0180569127.jpg" alt="Foto dell'annuncio: Lotto 13 – 4 iPad Apple" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 13 – 4 iPad Apple</h4>
-              <p class="notizia__testo">Quattro iPad (A1460, A2696 con pencil e cover, A1822, A1893) dagli oggetti smarriti del Comune. Ripristinati ma bloccati da password non nota.</p>
-              <ul>
-                <li>Prezzo base: € 160,00</li>
-                <li>Offerta attuale: nessuna offerta finora</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-13-n-4-ipad-apple-oggetti-smarriti-comune-di-bologna-1701586.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/91/0180569133.jpg" alt="Foto dell'annuncio: Lotto 14 – 4 iPad Apple" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 14 – 4 iPad Apple</h4>
-              <p class="notizia__testo">Quattro iPad (A2696, A1566, A2429, A2377) con custodie o cover. Ripristinati, ma all'avvio chiedono una password sconosciuta.</p>
-              <ul>
-                <li>Prezzo base: € 160,00</li>
-                <li>Offerta attuale: € 250,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-14-n-4-ipad-apple-oggetti-smarriti-comune-di-bologna-1701587.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/91/0180569139.jpg" alt="Foto dell'annuncio: Lotto 15 – 4 iPad Apple" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 15 – 4 iPad Apple</h4>
-              <p class="notizia__testo">Quattro iPad (A2197, A1460, A2604 e A2588 con custodia-tastiera e penna). Ripristinati ma con password sconosciuta all'avvio.</p>
-              <ul>
-                <li>Prezzo base: € 160,00</li>
-                <li>Offerta attuale: € 180,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-15-n-4-ipad-apple-oggetti-smarriti-comune-di-bologna-1701588.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/91/0180569163.jpg" alt="Foto dell'annuncio: Lotto 16 – 4 iPad Apple" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 16 – 4 iPad Apple</h4>
-              <p class="notizia__testo">Quattro iPad (A1458, A1460 con cavo e scatola, A2602, A2588 con cover-tastiera). Ripristinati ma bloccati da password non nota.</p>
-              <ul>
-                <li>Prezzo base: € 160,00</li>
-                <li>Offerta attuale: € 160,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-16-n-4-ipad-apple-oggetti-smarriti-comune-di-bologna-1701589.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/91/0180569177.jpg" alt="Foto dell'annuncio: Lotto 17 – reMarkable 2, 2 tablet Amazon e 2 Samsung" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 17 – reMarkable 2, 2 tablet Amazon e 2 Samsung</h4>
-              <p class="notizia__testo">Un paper tablet reMarkable 2 con penna e cover, due tablet Amazon e due Samsung (SM-T585, SM-T505). Solo uno degli Amazon risulta libero; gli altri chiedono una password sconosciuta.</p>
-              <ul>
-                <li>Prezzo base: € 100,00</li>
-                <li>Offerta attuale: € 150,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-17-n-1-paper-tablet-n-2-tablet-amazon-n-2-tablet-samsung-oggetti-smarriti-comune-di-bologna-1701590.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/91/0180569183.jpg" alt="Foto dell'annuncio: Lotto 18 – 4 tablet Samsung e 1 Huawei" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 18 – 4 tablet Samsung e 1 Huawei</h4>
-              <p class="notizia__testo">Un Huawei BAH3-W59 e quattro Samsung (due SM-T510, SM-T505, SM-X510), quasi tutti con cover. Ripristinati ma con password sconosciuta all'avvio.</p>
-              <ul>
-                <li>Prezzo base: € 100,00</li>
-                <li>Offerta attuale: € 141,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-18-n-4-tablet-samsung-n-1-tablet-huawei-1701591.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/91/0180569192.jpg" alt="Foto dell'annuncio: Lotto 19 – 4 tablet Samsung e 1 Huawei" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 19 – 4 tablet Samsung e 1 Huawei</h4>
-              <p class="notizia__testo">Samsung SM-T733 con cover-tastiera e penna, SM-T500, SM-T560, SM-T510 e un Huawei AGS2-W09. Il SM-T500 risulta libero, gli altri chiedono una password sconosciuta.</p>
-              <ul>
-                <li>Prezzo base: € 100,00</li>
-                <li>Offerta attuale: € 110,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-19-n-4-tablet-samsung-n-1-tablet-huawei-oggetti-smarriti-comune-di-bologna-1701592.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/92/0180569206.jpg" alt="Foto dell'annuncio: Lotto 20 – 3 tablet Samsung e 1 Huawei" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 20 – 3 tablet Samsung e 1 Huawei</h4>
-              <p class="notizia__testo">Samsung SM-T733 con tastiera pieghevole e penna, SM-X205, SM-T220 e un Huawei BAH2-W19 con cover. Ripristinati ma con password sconosciuta all'avvio.</p>
-              <ul>
-                <li>Prezzo base: € 80,00</li>
-                <li>Offerta attuale: € 120,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-20-n-3-tablet-samsung-n-1-tablet-huawei-oggetti-smarriti-comune-di-bologna-1701593.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/92/0180569221.jpg" alt="Foto dell'annuncio: Lotto 21 – 3 Kindle e 1 Kobo" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 21 – 3 Kindle e 1 Kobo</h4>
-              <p class="notizia__testo">Tre e-reader Kindle e un Kobo, tutti con custodia e ripristinati. Uno dei Kindle presenta difetti allo schermo.</p>
-              <ul>
-                <li>Prezzo base: € 60,00</li>
-                <li>Offerta attuale: € 90,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-21-n-3-ereader-kindle-amazon-n-1-ereader-kobo-oggetti-smarriti-comune-di-bologna-1701594.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/92/0180569227.jpg" alt="Foto dell'annuncio: Lotto 22 – 4 Kindle" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 22 – 4 Kindle</h4>
-              <p class="notizia__testo">Quattro e-reader Amazon Kindle neri (un DP75SDI e tre PQ94WIF), due con custodia, tutti ripristinati.</p>
-              <ul>
-                <li>Prezzo base: € 60,00</li>
-                <li>Offerta attuale: € 110,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-22-n-4-ereader-kindle-amazon-oggetti-smarriti-comune-di-bologna-1701595.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/92/0180569231.jpg" alt="Foto dell'annuncio: Lotto 23 – 3 Kindle e 1 Tolino Vision 6" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 23 – 3 Kindle e 1 Tolino Vision 6</h4>
-              <p class="notizia__testo">Tre Kindle (uno verde acqua) e un e-reader Tolino Vision 6 con custodia, tutti ripristinati.</p>
-              <ul>
-                <li>Prezzo base: € 60,00</li>
-                <li>Offerta attuale: € 110,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-23-n-3-ereader-kindle-amazon-n-1-ereader-tolino-vision-6-oggetti-smarriti-comune-di-bologna-1701596.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/92/0180569237.jpg" alt="Foto dell'annuncio: Lotto 24 – 4 Kindle" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 24 – 4 Kindle</h4>
-              <p class="notizia__testo">Quattro e-reader Kindle (PQ94WIF, M2L3EK e altri), in parte con custodia, tutti ripristinati.</p>
-              <ul>
-                <li>Prezzo base: € 60,00</li>
-                <li>Offerta attuale: € 100,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-24-n-4-ereader-kindle-amazon-oggetti-smarriti-comune-di-bologna-1701597.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/92/0180569243.jpg" alt="Foto dell'annuncio: Lotto 25 – 1 Kobo e 3 Kindle" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 25 – 1 Kobo e 3 Kindle</h4>
-              <p class="notizia__testo">Un e-reader Rakuten Kobo e tre Kindle (M2L3EK, J9G29R, M2L4EK), quasi tutti con custodia, ripristinati.</p>
-              <ul>
-                <li>Prezzo base: € 60,00</li>
-                <li>Offerta attuale: € 130,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-25-n-1-ereader-kobo-n-3-ereader-kindle-amazon-oggetti-smarriti-comune-di-bologna-1701598.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/92/0180569249.jpg" alt="Foto dell'annuncio: Lotto 26 – 8 smartwatch di varie marche" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 26 – 8 smartwatch di varie marche</h4>
-              <p class="notizia__testo">Tre Apple Watch (Series 3, SE, Series 8), Garmin Vivofit 4, Samsung Galaxy SM-R850, Huawei, Redmi e un modello generico. Funzionamento non verificato.</p>
-              <ul>
-                <li>Prezzo base: € 120,00</li>
-                <li>Offerta attuale: € 140,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-26-n-8-smartwatch-varie-marche-oggetti-smarrit-comune-di-bologna-1701599.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/92/0180569255.jpg" alt="Foto dell'annuncio: Lotto 27 – 8 smartwatch di varie marche" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 27 – 8 smartwatch di varie marche</h4>
-              <p class="notizia__testo">Quattro Apple Watch (Series 9, SE, Series 3, Series 6), due Garmin (Vivosmart HR+, Vivoactive 3), un Samsung Galaxy e un orologio digitale Xiaomi. Funzionamento non verificato.</p>
-              <ul>
-                <li>Prezzo base: € 120,00</li>
-                <li>Offerta attuale: € 200,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-27-n-8-smartwatch-marche-varie-oggetti-smarriti-comune-di-bologna-1701600.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/92/0180569261.jpg" alt="Foto dell'annuncio: Lotto 28 – 8 smartwatch di varie marche" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 28 – 8 smartwatch di varie marche</h4>
-              <p class="notizia__testo">Quattro Apple Watch (Series 3, 5, 6, 7), Michael Kors, Huawei, G-Tab FT6 e Redmi. Funzionamento non verificato.</p>
-              <ul>
-                <li>Prezzo base: € 120,00</li>
-                <li>Offerta attuale: nessuna offerta finora</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-28-n-8-smartwatch-varie-marche-oggetti-smarriti-comune-di-bologna-1701601.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/92/0180569267.jpg" alt="Foto dell'annuncio: Lotto 29 – 8 smartwatch di varie marche" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 29 – 8 smartwatch di varie marche</h4>
-              <p class="notizia__testo">Cinque Apple Watch (SE e Series 7), un Garmin, un Proscan, un generico e un orologio digitale Redmi. Funzionamento non verificato.</p>
-              <ul>
-                <li>Prezzo base: € 120,00</li>
-                <li>Offerta attuale: € 160,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-29-n-8-smartwatch-varie-marche-oggetti-smarriti-tribunale-di-bologna-1701602.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/92/0180569273.jpg" alt="Foto dell'annuncio: Lotto 30 – 8 smartwatch di varie marche" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 30 – 8 smartwatch di varie marche</h4>
-              <p class="notizia__testo">Tre Apple Watch (SE e Series 6), Samsung Galaxy, Garmin Tactical, Fitbit e due modelli generici. Funzionamento non verificato.</p>
-              <ul>
-                <li>Prezzo base: € 120,00</li>
-                <li>Offerta attuale: € 160,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-30-n-8-smartwatch-varie-marche-oggetti-smarriti-comune-di-bologna-1701603.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/92/0180569277.jpg" alt="Foto dell'annuncio: Lotto 31 – 8 smartwatch" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 31 – 8 smartwatch</h4>
-              <p class="notizia__testo">Due Samsung Galaxy, tre Apple Watch (Series 5, SE, Series 6), Amazfit, Huawei e un orologio digitale Xiaomi. Funzionamento non verificato.</p>
-              <ul>
-                <li>Prezzo base: € 120,00</li>
-                <li>Offerta attuale: € 140,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-31-n-8-smartwatch-oggetti-smarriti-comune-di-bologna-1701631.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/92/0180569283.jpg" alt="Foto dell'annuncio: Lotto 32 – 8 smartwatch di varie marche" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 32 – 8 smartwatch di varie marche</h4>
-              <p class="notizia__testo">Quattro Apple Watch (Series 7, SE, Series 4), un Samsung con caricatore, Garmin, Krippl e Redmi. Funzionamento non verificato.</p>
-              <ul>
-                <li>Prezzo base: € 120,00</li>
-                <li>Offerta attuale: € 170,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-32-n-8-smartwatch-varie-marche-oggetti-smarriti-comune-di-bologna-1701630.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/92/0180569289.jpg" alt="Foto dell'annuncio: Lotto 33 – 7 smartwatch di varie marche" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 33 – 7 smartwatch di varie marche</h4>
-              <p class="notizia__testo">Cinque Apple Watch (Series 7 e SE), un Samsung Galaxy SM-R895F e un Latec, più un modello generico. Funzionamento non verificato.</p>
-              <ul>
-                <li>Prezzo base: € 105,00</li>
-                <li>Offerta attuale: € 205,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-33-n-7-smartwatch-marche-varie-oggetti-smarriti-comune-di-bologna-1701629.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/92/0180569295.jpg" alt="Foto dell'annuncio: Lotto 34 – 7 smartwatch di varie marche" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 34 – 7 smartwatch di varie marche</h4>
-              <p class="notizia__testo">Tra gli altri un Apple Watch Ultra, un Apple Watch SE, un Samsung SM-R920, un Garmin e due Redmi/Xiaomi. Funzionamento non verificato.</p>
-              <ul>
-                <li>Prezzo base: € 105,00</li>
-                <li>Offerta attuale: € 330,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-34-n-7-smartwatch-varie-marche-oggetti-smarriti-comune-di-bologna-1701628.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/92/0180569299.jpg" alt="Foto dell'annuncio: Lotto 35 – 7 smartwatch di varie marche" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 35 – 7 smartwatch di varie marche</h4>
-              <p class="notizia__testo">Tre Apple Watch (Series 7 e SE), Garmin Forerunner 245 Music, Fitbit, Huami e uno smartwatch per bambini ancora in scatola. Funzionamento non verificato.</p>
-              <ul>
-                <li>Prezzo base: € 105,00</li>
-                <li>Offerta attuale: € 145,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-35-n-7-smartwatch-varie-marche-oggetti-smarriti-comune-di-bologna-1701627.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/93/0180569321.jpg" alt="Foto dell'annuncio: Lotto 36 – Notebook Lenovo ThinkPad" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 36 – Notebook Lenovo ThinkPad</h4>
-              <p class="notizia__testo">Portatile Lenovo ThinkPad con custodia, ripristinato; manca il cavo di alimentazione.</p>
-              <ul>
-                <li>Prezzo base: € 80,00</li>
-                <li>Offerta attuale: € 100,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-36-rif-1828-2024-pc-lenovo-thinkpad-compliance-s-n-pf-0zkb03-con-custodia-sprovvisto-di-cavo-di-1701626.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/93/0180569331.jpg" alt="Foto dell'annuncio: Lotto 37 – Notebook Lenovo E31-80" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 37 – Notebook Lenovo E31-80</h4>
-              <p class="notizia__testo">Portatile Lenovo E31-80 ripristinato, con mouse, alimentatore e custodia.</p>
-              <ul>
-                <li>Prezzo base: € 40,00</li>
-                <li>Offerta attuale: € 54,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-37-rif-768-2024-pc-lenovo-e31-80-model-80mx-s-n-mp1cn6dj-con-mouse-e-cavo-alimentazione-1701625.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/93/0180569345.jpg" alt="Foto dell'annuncio: Lotto 38 – Notebook Apple (modello A2338)" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 38 – Notebook Apple (modello A2338)</h4>
-              <p class="notizia__testo">Portatile Apple modello A2338 ripristinato, con alimentatore e custodia.</p>
-              <ul>
-                <li>Prezzo base: € 350,00</li>
-                <li>Offerta attuale: € 400,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-38-rif-556-2024-pc-apple-model-a2338-s-n-fvffj4s0q05d-con-cavo-alimentazione-con-custodia-ripristinato-oggetti-1701624.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/93/0180569369.jpg" alt="Foto dell'annuncio: Lotto 39 – Notebook Lenovo IdeaPad 330S" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 39 – Notebook Lenovo IdeaPad 330S</h4>
-              <p class="notizia__testo">Lenovo IdeaPad 330S-15ARR ripristinato, con alimentatore, mouse, masterizzatore DVD esterno Asus e borsa.</p>
-              <ul>
-                <li>Prezzo base: € 50,00</li>
-                <li>Offerta attuale: € 120,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-39-rif-7025-2023-pc-lenovo-ideapad-330s-15arr-model-81fb-s-n-pf1ngm7a-con-cavo-alimentazione-con-1701623.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/93/0180569381.jpg" alt="Foto dell'annuncio: Lotto 40 – Notebook HP 15-d002sl" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 40 – Notebook HP 15-d002sl</h4>
-              <p class="notizia__testo">Portatile HP ripristinato ma privo di batteria; incluso mouse, alimentatore, istruzioni e valigetta.</p>
-              <ul>
-                <li>Prezzo base: € 10,00</li>
-                <li>Offerta attuale: € 19,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-40-rif-3882-2024-pc-hp-model-15-d002sl-s-n-5cb3502cv4-senza-batteria-con-mouse-cavo-di-1701622.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/93/0180569389.jpg" alt="Foto dell'annuncio: Lotto 41 – Notebook Lenovo LOQ 15" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 41 – Notebook Lenovo LOQ 15</h4>
-              <p class="notizia__testo">Lenovo LOQ 15IRH8 ripristinato, con borsa; senza cavo di alimentazione.</p>
-              <ul>
-                <li>Prezzo base: € 300,00</li>
-                <li>Offerta attuale: € 480,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-41-rif-5002-2-2024-pc-lenovo-model-loq15irh8-s-n-mp2f3x2p-con-borsa-porta-pc-sprovvisto-di-1701620.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/93/0180569397.jpg" alt="Foto dell'annuncio: Lotto 42 – Notebook Acer Aspire 3" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 42 – Notebook Acer Aspire 3</h4>
-              <p class="notizia__testo">Acer Aspire 3 ripristinato, con alimentatore e borsa porta PC.</p>
-              <ul>
-                <li>Prezzo base: € 100,00</li>
-                <li>Offerta attuale: € 120,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-42-rif-4851-2024-pc-acer-aspire-3-model-n18q13-s-n-nxhvue00502102c6c7600-con-cavo-alimentazione-e-borsa-1701619.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/94/0180569405.jpg" alt="Foto dell'annuncio: Lotto 43 – HP Spectre x360 convertibile" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 43 – HP Spectre x360 convertibile</h4>
-              <p class="notizia__testo">Convertibile HP Spectre x360 13 ripristinato, con custodia ma senza alimentatore.</p>
-              <ul>
-                <li>Prezzo base: € 300,00</li>
-                <li>Offerta attuale: nessuna offerta finora</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-43-rif-7775-2024-pc-hp-spectre-x360-convertible-model-13-ae004na-s-n-5cd811688c-con-custodia-sprovvisto-1701618.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/94/0180569423.jpg" alt="Foto dell'annuncio: Lotto 44 – Notebook Lenovo" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 44 – Notebook Lenovo</h4>
-              <p class="notizia__testo">Portatile Lenovo ripristinato, con alimentatore e borsa porta PC.</p>
-              <ul>
-                <li>Prezzo base: € 100,00</li>
-                <li>Offerta attuale: € 150,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-44-rif-1056-2025-pc-lenovo-mompnxb9b06091-s-nn-mp1pejpp-con-cavo-alimentazione-e-borsa-porta-pc-ripristinato-1701617.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/94/0180569417.jpg" alt="Foto dell'annuncio: Lotto 45 – E-reader Boox Note Air4 C" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 45 – E-reader Boox Note Air4 C</h4>
-              <p class="notizia__testo">E-reader a colori Boox Note Air4 C in scatola, con accessori e alimentatore con presa estera; ripristinato.</p>
-              <ul>
-                <li>Prezzo base: € 200,00</li>
-                <li>Offerta attuale: € 260,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-45-rif-9836-2024-boox-ereader-note-air4-c-con-scatola-fornita-di-accessori-e-cavo-di-alimentazione-1701615.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/94/0180569460.jpg" alt="Foto dell'annuncio: Lotto 46 – Scanner, tastiere, monitor e Nintendo Switch" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 46 – Scanner, tastiere, monitor e Nintendo Switch</h4>
-              <p class="notizia__testo">Scanner portatile Brother DS-620, tre tastiere wireless, monitor portatile, Nintendo Switch con quattro giochi e custodia, più un dispositivo elettronico con schermo non meglio identificato.</p>
-              <ul>
-                <li>Prezzo base: € 50,00</li>
-                <li>Offerta attuale: € 140,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-46-n-1-scanner-n-2-tastiere-n-1-monitor-n-1-console-nintendo-switch-n-1-componente-1701616.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/94/0180569436.jpg" alt="Foto dell'annuncio: Lotto 47 – Drone, Nintendo Switch, elettrostimolatore e ventilatore" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 47 – Drone, Nintendo Switch, elettrostimolatore e ventilatore</h4>
-              <p class="notizia__testo">Un piccolo drone con accessori, una Nintendo Switch con cover, un elettrostimolatore Compex Sport e un ventilatore a colonna DCG in scatola.</p>
-              <ul>
-                <li>Prezzo base: € 50,00</li>
-                <li>Offerta attuale: € 100,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-47-n-1-contenitore-con-piccolo-drone-n-q-nintendo-switch-n-1-elettrostimolatore-n-1-ventilatore-a-1701614.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/94/0180569478.jpg" alt="Foto dell'annuncio: Lotto 48 – Cuffie Bluetooth e 3 power bank" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 48 – Cuffie Bluetooth e 3 power bank</h4>
-              <p class="notizia__testo">Cuffie stereo Bluetooth Panasonic in scatola e tre power bank (Apple danneggiato, Aukey e un altro da 20.000 mAh).</p>
-              <ul>
-                <li>Prezzo base: € 10,00</li>
-                <li>Offerta attuale: € 28,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-48-n-1-cuffie-audio-stereo-n-3-power-bank-oggetti-smarriti-comune-di-bologna-1701613.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/95/0180569502.jpg" alt="Foto dell'annuncio: Lotto 49 – 7 fotocamere compatte" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 49 – 7 fotocamere compatte</h4>
-              <p class="notizia__testo">Compatte Canon PowerShot e IXUS, Casio Exilim, Nikon Coolpix, Pentax Optio e una action cam 4K; quasi tutte senza caricabatterie.</p>
-              <ul>
-                <li>Prezzo base: € 30,00</li>
-                <li>Offerta attuale: € 78,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-49-n-7-macchine-fotografiche-oggetti-smarriti-comune-di-bologna-1701612.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/94/0180569452.jpg" alt="Foto dell'annuncio: Lotto 50 – Panasonic Lumix TZ70 e Canon G9X" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 50 – Panasonic Lumix TZ70 e Canon G9X</h4>
-              <p class="notizia__testo">Due fotocamere compatte con custodia o sacchetto, entrambe senza caricabatterie.</p>
-              <ul>
-                <li>Prezzo base: € 100,00</li>
-                <li>Offerta attuale: € 230,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-50-macchina-fotografica-panasonic-lumix-dmc-tz70-n-ws2ga001383-con-custodia-senza-caricabatterie-macchina-fotografica-canon-g9x-n-1701611.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/95/0180569535.jpg" alt="Foto dell'annuncio: Lotto 51 – Insta360 e action cam Denver" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 51 – Insta360 e action cam Denver</h4>
-              <p class="notizia__testo">Una fotocamera Insta360 con guscio e treppiede e una piccola action cam Full HD Denver con custodia stagna; senza caricabatterie.</p>
-              <ul>
-                <li>Prezzo base: € 100,00</li>
-                <li>Offerta attuale: € 110,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-51-n-2-macchine-fotografiche-oggetti-smarriti-comune-di-bologna-1701610.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/95/0180569543.jpg" alt="Foto dell'annuncio: Lotto 52 – Borsa Sony con accessori e Instax Mini 11" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 52 – Borsa Sony con accessori e Instax Mini 11</h4>
-              <p class="notizia__testo">Borsa fotografica Sony con caricabatterie, batteria, obiettivo Canon e cavi, più una fotocamera istantanea Fujifilm Instax Mini 11 bianca.</p>
-              <ul>
-                <li>Prezzo base: € 50,00</li>
-                <li>Offerta attuale: € 60,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-52-borsa-sony-per-macchina-fotografica-con-vari-accessori-con-carica-batteria-e-batteria-sony-con-obiettivo-canon-1701609.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/95/0180569553.jpg" alt="Foto dell'annuncio: Lotto 53 – Teleobiettivo Tamron 70-200 mm f/2.8" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 53 – Teleobiettivo Tamron 70-200 mm f/2.8</h4>
-              <p class="notizia__testo">Zoom Tamron AF 70-200 mm f/2.8 Macro (modello A001), dagli oggetti smarriti del Comune di Bologna.</p>
-              <ul>
-                <li>Prezzo base: € 80,00</li>
-                <li>Offerta attuale: € 130,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-53-rif-7279-2024-teleobiettivo-tamron-af-70-200mm-f-2-8-macro-77-a001-oggetti-smarriti-comune-1701608.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/95/0180569561.jpg" alt="Foto dell'annuncio: Lotto 54 – Reflex Canon EOS 800D e videocamera Canon" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 54 – Reflex Canon EOS 800D e videocamera Canon</h4>
-              <p class="notizia__testo">Una reflex Canon EOS 800D e una videocamera Canon Vixia HF R400 con custodia, entrambe senza caricabatterie.</p>
-              <ul>
-                <li>Prezzo base: € 250,00</li>
-                <li>Offerta attuale: € 250,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-54-rif-9276-2024-macchina-fotografica-canon-eos-800d-n-313071009762-senza-caricabatterie-rif-632-2025-cinepresa-canon-1701607.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/95/0180569569.jpg" alt="Foto dell'annuncio: Lotto 55 – 4 telecamere di sorveglianza Zosi" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 55 – 4 telecamere di sorveglianza Zosi</h4>
-              <p class="notizia__testo">Quattro telecamere da esterno Zosi modello ZM4192B, dagli oggetti smarriti del Comune di Bologna.</p>
-              <ul>
-                <li>Prezzo base: € 10,00</li>
-                <li>Offerta attuale: € 16,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-55-rif-151-2024-n-4-telecamere-di-sorveglianza-da-esterno-zosi-model-zm4192b-oggetti-smarriti-comune-di-1701606.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/95/0180569576.jpg" alt="Foto dell'annuncio: Lotto 56 – 6 Apple Pencil" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 56 – 6 Apple Pencil</h4>
-              <p class="notizia__testo">Sei penne Apple Pencil dagli oggetti smarriti del Comune di Bologna.</p>
-              <ul>
-                <li>Prezzo base: € 120,00</li>
-                <li>Offerta attuale: € 160,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-56-rif-7911-2023-pencil-apple-rif-990-2024-pencil-apple-rif-7481-2023-pencil-apple-rif-7512-1701605.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/56/95/0180569582.jpg" alt="Foto dell'annuncio: Lotto 57 – 5 Apple Pencil" loading="lazy">
-              <h4 class="notizia__titolo">Lotto 57 – 5 Apple Pencil</h4>
-              <p class="notizia__testo">Cinque penne Apple Pencil dagli oggetti smarriti del Comune di Bologna.</p>
-              <ul>
-                <li>Prezzo base: € 100,00</li>
-                <li>Offerta attuale: € 110,00</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-57-rif-2713-2024-pencil-apple-rif-3442-2024-pencil-apple-rif-3438-2024-pencil-apple-rif-7722-1701604.html" rel="noopener">Fallco Aste</a>
-              </p>
-            </article>
-
-            <article class="notizia">
-              <img src="https://d3h8bn4njg0vla.cloudfront.net/01/80/59/14/0180591461.jpg" alt="Foto dell'annuncio: Materiale informatico e da cancelleria (liquidazione giudiziale)" loading="lazy">
-              <h4 class="notizia__titolo">Materiale informatico e da cancelleria (liquidazione giudiziale)</h4>
-              <p class="notizia__testo">Lotto unico di materiale informatico e di cancelleria vario da una liquidazione giudiziale; l'elenco dettagliato è nella stima allegata all'annuncio. Prezzo minimo accettato € 506,25.</p>
-              <ul>
-                <li>Prezzo base: € 675,00</li>
-                <li>Offerta attuale: € 606,25</li>
-                <li>Scadenza: 28/10/2026 ore 11:00</li>
-                <li>Località: Castenaso (BO), Via Ca' dell'Orbo 33</li>
-              </ul>
-              <p class="notizia__meta">
-                <span class="notizia__categoria">Gara aperta</span>
-                <a class="notizia__fonte" href="https://asteivg.fallcoaste.it/vendita/lotto-1-materiale-vario-informatico-e-da-cancelleria-come-meglio-riportato-nella-stima-allegata-1702783.html" rel="noopener">Fallco Aste</a>
+                <span class="notizia__categoria">Gara dal 25/11 · lotto misto</span>
+                <a class="notizia__fonte" href="https://www.fallcoaste.it/vendita/liquidazione-giudiziale-di-mancini-ital-design-amp-arts-lotto-unificato-d-composto-dai-lotti-lotto-26-set-di-vasi-1715227.html" rel="noopener">Fallco Aste</a>
               </p>
             </article>
           </section>
-
         </div>
       </section>
 
