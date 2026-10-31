@@ -282,7 +282,9 @@ Se un annuncio non contiene fotografie, indicalo chiaramente senza sostituirle c
   https://www.seeedstudio.com/reTerminal-E1003-frame-bundle.html
   Considera solo lo store ufficiale Seeed Studio (seeedstudio.com), non rivenditori
   terzi ne' l'acquisto separato di display e cornice.
-  Quando risulta acquistabile (non esaurito, non "notify me"), indica prezzo,
-  eventuale magazzino di spedizione (CN/US/EU) e link diretto alla pagina.
-  Segnalalo ogni giorno finche' resta disponibile, anche se l'avviso era gia'
-  presente nell'edizione precedente. Se non e' acquistabile, non scrivermi.
+  Conta solo la disponibilita' con spedizione dal magazzino EU di Seeed:
+  se e' acquistabile solo dal magazzino CN, US o da altri magazzini, non vale.
+  Quando risulta acquistabile dal magazzino EU (non esaurito, non "notify me",
+  non pre-order), indica prezzo e link diretto alla pagina.
+  Segnalalo ogni giorno finche' resta disponibile dal magazzino EU, anche se
+  l'avviso era gia' presente nell'edizione precedente. Altrimenti non scrivermi.
