@@ -1,0 +1,58 @@
+{#-
+  Fascia "Casa" de Il Quotidiano: legge da Home Assistant gli stati grezzi che
+  scripts/casa.py trasforma in HTML.
+
+  La routine quotidiana passa questo file, cosi' com'e', al tool
+  ha_eval_template del connettore Home Assistant e salva la risposta
+  (una riga di JSON) in .cache/casa.json, senza ritoccarla. Qui si leggono
+  solo gli stati: soglie, anomalie e formattazione stanno in casa.py, cosi'
+  nessun numero passa dall'AI.
+
+  Stanze: sensori Tado (temperatura, umidita', finestra aperta) e
+  temperatura desiderata da input_number.temperatura_<stanza>_desiderata.
+  Le temperature interne dei Daikin non si usano (leggono 3-5 gradi in piu'),
+  ne' la loro temperatura esterna (sovrastimata col sole).
+-#}
+{%- set stanze = [
+  ('sala', 'Sala'),
+  ('cucina', 'Cucina'),
+  ('ingresso', 'Ingresso'),
+  ('camera_matrimoniale', 'Camera matrimoniale'),
+  ('cameretta', 'Cameretta'),
+  ('stanza_delle_bimbe', 'Stanza delle bimbe'),
+  ('bagno', 'Bagno'),
+  ('bagnetto', 'Bagnetto'),
+  ('tavernetta', 'Tavernetta'),
+  ('garage', 'Garage'),
+] -%}
+{%- set daikin = [
+  ('sala', 'Sala'),
+  ('matrimoniale', 'Camera matrimoniale'),
+  ('cameretta', 'Cameretta'),
+  ('bimbe', 'Stanza delle bimbe'),
+] -%}
+{%- set ns = namespace(stanze=[], daikin=[]) -%}
+{%- for id, nome in stanze -%}
+  {%- set ns.stanze = ns.stanze + [{
+    'id': id,
+    'nome': nome,
+    'temperatura': states('sensor.' ~ id ~ '_temperature'),
+    'umidita': states('sensor.' ~ id ~ '_humidity'),
+    'desiderata': states('input_number.temperatura_' ~ id ~ '_desiderata'),
+    'finestra': states('binary_sensor.' ~ id ~ '_window_open'),
+  }] -%}
+{%- endfor -%}
+{%- for id, nome in daikin -%}
+  {%- set ns.daikin = ns.daikin + [{
+    'nome': nome,
+    'stato': states('climate.daikin_' ~ id ~ '_room_temperature'),
+  }] -%}
+{%- endfor -%}
+{{ {
+  'versione': 1,
+  'letto_alle': now().isoformat(),
+  'modalita': states('input_select.modalita_riscaldamento'),
+  'esterna': states('sensor.temperatura_esterna_meteo'),
+  'stanze': ns.stanze,
+  'daikin': ns.daikin,
+} | tojson }}

@@ -47,12 +47,16 @@ a carico dell'agente.
    ricrea `public/` da `template/` e lascia in `public/index.html` lo scheletro
    del giorno. Va eseguito **una sola volta, all'inizio**: rilanciarlo a lavoro
    avviato cancella i riquadri gia' scritti.
-2. Riempire `public/index.html` seguendo `details.info` e le regole di questo
+2. Scrivere la fascia casa (vedi **Fascia casa**): leggere i dati da Home
+   Assistant con `scripts/casa.jinja` e lanciare `scripts/casa.py`. Si fa
+   subito, prima delle notizie, ed e' un solo tentativo: se non riesce si va
+   avanti senza.
+3. Riempire `public/index.html` seguendo `details.info` e le regole di questo
    file, un riquadro alla volta.
-3. Prima di chiudere, rileggere la pagina: un `<section class="riquadro">` per
+4. Prima di chiudere, rileggere la pagina: un `<section class="riquadro">` per
    ogni voce di `[NOTIZIE]` che ha prodotto risultati, nessuna traccia di
    `data-edizione` o di link a `esempio.it`.
-4. Committare **solo `public/`** direttamente su `main`, con messaggio
+5. Committare **solo `public/`** direttamente su `main`, con messaggio
    `Edizione del GG/MM/AAAA`, e fare push. Cloudflare Pages pubblica il sito a
    ogni push. Un'edizione ridotta si committa lo stesso; non si committa solo
    se la pagina non contiene neanche una notizia (resta online quella di ieri).
@@ -102,8 +106,9 @@ quadre, le voci iniziano con `-`.
 
 1. Avvisi da `[INFORMAZIONI]` (se ce ne sono)
 2. Fascia meteo (scritta da `scripts/prepara-public.sh`)
-3. Notizie
-4. Eventuali sezioni future
+3. Fascia casa (scritta da `scripts/casa.py`)
+4. Notizie
+5. Eventuali sezioni future
 
 ## Fascia meteo
 
@@ -114,6 +119,31 @@ successivi. I numeri non passano dall'AI. L'agente non la crea, non la
 modifica e non la sposta; se le previsioni non erano disponibili la fascia
 manca e va bene cosi'. Gli avvisi, quando ci sono, vanno **prima** della
 fascia meteo.
+
+## Fascia casa
+
+La fascia `.casa`, subito sotto il meteo, riporta le temperature di casa lette
+da Home Assistant: minima e massima delle stanze, temperatura esterna,
+modalita' di riscaldamento, Daikin accesi, i controlli del mattino (stanze
+oltre 1,5 °C sotto la desiderata, bagno sotto 18 °C, finestre aperte, umidita'
+fuori da 35-65%, sensori o Daikin non disponibili, consiglio di passare a
+"Pompe di calore e caldaia") e una tessera per stanza. Sostituisce il report
+che Home Assistant mandava su Telegram alle 6:45. I numeri non passano
+dall'AI: l'agente legge e salva, lo script calcola e scrive.
+
+1. Con il connettore Home Assistant chiamare `ha_eval_template` passando come
+   `template` il contenuto di `scripts/casa.jinja`, **senza modificarlo**.
+2. Salvare la risposta del tool, cosi' com'e', in `.cache/casa.json` (va bene
+   sia la risposta intera con `result`, sia il solo `result`). Non ritoccare
+   i valori.
+3. Eseguire `python3 scripts/casa.py public/index.html .cache/casa.json`.
+   Lo script sostituisce il segnaposto `<!-- FASCIA-CASA -->` lasciato da
+   `prepara-public.sh` e rifiuta dati vecchi di oltre 6 ore.
+
+Se il connettore Home Assistant non e' disponibile, il tool fallisce o lo
+script esce con errore, si va avanti senza fascia: il segnaposto resta come
+commento HTML e non si vede. L'agente non scrive la fascia a mano, non la
+modifica e non la sposta, e non segnala la sua assenza nella pagina.
 
 ## Regole redazionali
 
@@ -134,6 +164,7 @@ Classi e ruoli definiti in `template/index.html` e `template/css/style.css`:
 | --- | --- |
 | Area avvisi (opzionale) | `.avvisi` > `.avviso` |
 | Fascia meteo (dallo script) | `.meteo` > `.meteo__oggi` + `.meteo__pioggia` |
+| Fascia casa (dallo script) | `.casa` > `.casa__oggi` + `.casa__controlli` + `.casa__stanze` |
 | Riquadro di categoria | `.riquadro` > `.riquadro__testata` + `.notizia` |
 | Notizia | `.notizia__titolo`, `.notizia__testo`, `.notizia__meta`, `.notizia__fonte` |
 | Etichetta categoria (facoltativa) | `.notizia__categoria` |

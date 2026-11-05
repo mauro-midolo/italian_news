@@ -743,6 +743,200 @@ code {
 
 .meteo__fonte a { color: var(--tenue); text-underline-offset: 3px; }
 
+/* --- 6b. Casa (fascia scritta da scripts/casa.py) ------------------------- */
+/*
+   Temperature di casa da Home Assistant, subito sotto il meteo e con la
+   stessa impaginazione: a sinistra la sintesi, a destra i controlli del
+   mattino (arancio quando c'e' qualcosa da guardare, neutri altrimenti),
+   sotto una riga di tessere, una per stanza.
+*/
+
+.meteo:has(+ .casa) { margin-bottom: 1rem; }
+
+.casa {
+  background: var(--superficie);
+  border: 1px solid var(--filetto);
+  border-radius: var(--raggio-l);
+  padding: 1.25rem 1.5rem 1.1rem;
+  margin-bottom: 2.75rem;
+  box-shadow: var(--ombra);
+}
+
+.casa__titolo {
+  margin: 0 0 1rem;
+  font-family: var(--ui);
+  font-size: .74rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--tenue);
+}
+
+.casa__corpo {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+  gap: 1rem 1.5rem;
+  align-items: stretch;
+}
+
+.casa__etichetta {
+  margin: 0;
+  font-family: var(--ui);
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--tenue);
+}
+
+.casa__oggi {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.casa__icona {
+  flex: none;
+  width: 3.5rem;
+  height: 3.5rem;
+  color: var(--inchiostro-2);
+}
+
+.casa__sintesi {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -.01em;
+  font-variant-numeric: tabular-nums;
+}
+
+.casa__dati {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .2rem 1rem;
+  margin: .35rem 0 0;
+  font-family: var(--ui);
+  font-size: .9rem;
+  color: var(--inchiostro-2);
+  font-variant-numeric: tabular-nums;
+}
+
+.casa__dati abbr {
+  text-decoration: none;
+  font-size: .7rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--tenue);
+}
+
+/* Controlli del mattino */
+
+.casa__controlli {
+  padding: .9rem 1.1rem;
+  background: var(--superficie-2);
+  border: 1px solid var(--filetto);
+  border-left: 4px solid var(--filetto-forte);
+  border-radius: var(--raggio);
+}
+
+.casa__controlli[data-anomalie="si"] {
+  background: linear-gradient(135deg, var(--avviso-fondo) 0%, var(--superficie) 120%);
+  border-color: color-mix(in srgb, var(--avviso-bordo) 45%, transparent);
+  border-left-color: var(--avviso-bordo);
+}
+
+.casa__esito {
+  margin: .2rem 0 0;
+  font-family: var(--display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--inchiostro-2);
+}
+
+.casa__controlli[data-anomalie="si"] .casa__esito { color: var(--avviso-ink); }
+
+.casa__anomalie {
+  margin: .5rem 0 0;
+  padding-left: 1.1rem;
+  font-family: var(--ui);
+  font-size: .88rem;
+  line-height: 1.45;
+  color: var(--inchiostro-2);
+}
+
+.casa__anomalie li + li { margin-top: .2rem; }
+.casa__anomalie strong { color: var(--inchiostro); }
+
+.casa__consiglio {
+  margin: .6rem 0 0;
+  font-family: var(--ui);
+  font-size: .86rem;
+  font-weight: 600;
+  color: var(--avviso-badge);
+}
+
+/* Una tessera per stanza */
+
+.casa__stanze {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
+  gap: .5rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--ui);
+}
+
+.casa__stanza {
+  display: flex;
+  flex-direction: column;
+  gap: .05rem;
+  min-width: 0;
+  padding: .55rem .75rem .6rem;
+  border: 1px solid var(--filetto);
+  border-radius: var(--raggio);
+  background: var(--superficie);
+}
+
+.casa__stanza[data-stato="anomalia"] {
+  border-color: var(--avviso-bordo);
+  background: color-mix(in srgb, var(--avviso-fondo) 70%, var(--superficie));
+}
+
+.casa__nome {
+  font-size: .74rem;
+  font-weight: 600;
+  color: var(--tenue);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.casa__valore {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--inchiostro);
+  font-variant-numeric: tabular-nums;
+}
+
+.casa__stanza[data-stato="anomalia"] .casa__valore { color: var(--avviso-ink); }
+
+.casa__dettaglio {
+  font-size: .74rem;
+  color: var(--tenue);
+  font-variant-numeric: tabular-nums;
+}
+
+.casa__fonte {
+  margin: .9rem 0 0;
+  font-family: var(--ui);
+  font-size: .74rem;
+  color: var(--tenue);
+}
+
 /* --- 7. Notizie ----------------------------------------------------------- */
 
 .sezione__titolo {
@@ -1083,6 +1277,9 @@ code {
   .avvisi { padding: 1.2rem 1.1rem 1.25rem; }
   .meteo { padding: 1.1rem 1.1rem 1rem; }
   .meteo__corpo { grid-template-columns: 1fr; }
+  .casa { padding: 1.1rem 1.1rem 1rem; }
+  .casa__corpo { grid-template-columns: 1fr; }
+  .casa__stanze { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 /* --- 11. Preferenze utente ------------------------------------------------ */
@@ -1102,7 +1299,7 @@ code {
   .comando, .ricerca, .su, .salta, .sommario { display: none !important; }
   .testata::before, .riquadro::before, .avvisi::before { display: none; }
   .riquadro { break-inside: avoid; box-shadow: none; border-color: #bbb; animation: none; background: #fff; }
-  .avvisi, .meteo { box-shadow: none; break-inside: avoid; }
+  .avvisi, .meteo, .casa { box-shadow: none; break-inside: avoid; }
   .notizia:hover { background: none; }
   .notizia__fonte { padding: 0; background: none; }
   .notizia__fonte::after { content: ""; }

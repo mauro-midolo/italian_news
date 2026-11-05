@@ -12,7 +12,7 @@
   1. La generazione non copia questo file cosi' com'e': ne ricava lo SCHELETRO
      dell'edizione del giorno (scripts/prepara-public.sh). Toglie
      l'attributo data-edizione di prova, mette la data di oggi nella testata
-     e svuota le due aree delimitate dai marcatori SCHELETRO:*-INIZIO /
+     e svuota le aree delimitate dai marcatori SCHELETRO:*-INIZIO /
      SCHELETRO:*-FINE. L'agente parte da quello scheletro e lo riempie.
      Il contenuto dentro i marcatori e' quindi solo un esempio di struttura:
      e' li' perche' l'agente abbia un modello da cui copiare il markup.
@@ -23,6 +23,9 @@
      Quando c'e', sta in cima al <main>, prima della fascia .meteo.
   3b. La fascia .meteo la scrive scripts/prepara-public.sh con dati reali
      (Open-Meteo): l'agente non la crea e non la modifica.
+  3c. La fascia .casa (temperature di casa) sta subito dopo il meteo. La
+     scrive scripts/casa.py con i dati letti da Home Assistant tramite
+     scripts/casa.jinja: l'agente lancia lo script, non scrive l'HTML a mano.
   4. Classi, struttura e nomi dei file CSS/JS non vanno cambiati: css/style.css
      e js/main.js vengono copiati invariati in public/.
   5. Il contenuto di esempio presente qui sotto e' segnaposto e va sostituito
@@ -163,6 +166,61 @@
         <p class="meteo__fonte">Previsioni <a href="https://open-meteo.com/" rel="noopener">Open-Meteo</a> delle 06:30</p>
       </section>
       <!-- SCHELETRO:METEO-FINE -->
+
+      <!-- SCHELETRO:CASA-INIZIO -->
+      <!--
+        ===================== CASA =====================
+        Temperature di casa da Home Assistant (sensori Tado). La scrive
+        scripts/casa.py con i dati letti dalla routine tramite il connettore
+        Home Assistant (scripts/casa.jinja): l'agente non la scrive a mano.
+        prepara-public.sh lascia al suo posto il segnaposto FASCIA-CASA; se i
+        dati non sono disponibili la fascia manca e resta solo il segnaposto.
+        Lato destro: data-anomalie="no" e "Tutto regolare" se non c'e' nulla
+        da segnalare, altrimenti l'elenco delle cose da controllare.
+      -->
+      <section class="casa" aria-labelledby="casa-titolo">
+        <h2 class="casa__titolo" id="casa-titolo">Casa &middot; temperature</h2>
+        <div class="casa__corpo">
+          <div class="casa__oggi">
+            <svg class="casa__icona" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9v11h14V9"/><path d="M12 11.5v5"/><circle cx="12" cy="17.5" r="1.5"/></svg>
+            <div>
+              <p class="casa__etichetta">Dentro casa</p>
+              <p class="casa__sintesi">Tra 16,2 °C e 19,4 °C</p>
+              <p class="casa__dati">
+                <span><abbr title="temperatura esterna">fuori</abbr> 7,4 °C</span>
+                <span><abbr title="modalità di riscaldamento">modalità</abbr> Solo pompe di calore</span>
+                <span><abbr title="climatizzatori Daikin">daikin</abbr> Sala in riscaldamento</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="casa__controlli" data-anomalie="si">
+            <p class="casa__etichetta">Controlli del mattino</p>
+            <p class="casa__esito">3 cose da controllare</p>
+            <ul class="casa__anomalie">
+              <li><strong>Cucina</strong> (17,1 °C): 1,9 °C sotto la desiderata (19,0 °C)</li>
+              <li><strong>Bagnetto</strong> (17,4 °C): finestra aperta; umidità alta (67%)</li>
+              <li><strong>Daikin non disponibili</strong>: Stanza delle bimbe</li>
+            </ul>
+            <p class="casa__consiglio">Modalità solo pompe di calore con bagnetto a 17,4 °C: valuta di passare a pompe di calore e caldaia.</p>
+          </div>
+        </div>
+
+        <ul class="casa__stanze">
+          <li class="casa__stanza" data-stato="ok"><span class="casa__nome">Sala</span><span class="casa__valore">19,4°</span><span class="casa__dettaglio">52% · obiettivo 19,0°</span></li>
+          <li class="casa__stanza" data-stato="anomalia"><span class="casa__nome">Cucina</span><span class="casa__valore">17,1°</span><span class="casa__dettaglio">54% · obiettivo 19,0°</span></li>
+          <li class="casa__stanza" data-stato="ok"><span class="casa__nome">Ingresso</span><span class="casa__valore">18,3°</span><span class="casa__dettaglio">51% · obiettivo 18,0°</span></li>
+          <li class="casa__stanza" data-stato="ok"><span class="casa__nome">Camera matrimoniale</span><span class="casa__valore">18,6°</span><span class="casa__dettaglio">58% · obiettivo 18,0°</span></li>
+          <li class="casa__stanza" data-stato="ok"><span class="casa__nome">Cameretta</span><span class="casa__valore">19,2°</span><span class="casa__dettaglio">55% · obiettivo 18,0°</span></li>
+          <li class="casa__stanza" data-stato="ok"><span class="casa__nome">Stanza delle bimbe</span><span class="casa__valore">19,0°</span><span class="casa__dettaglio">56% · obiettivo 18,0°</span></li>
+          <li class="casa__stanza" data-stato="ok"><span class="casa__nome">Bagno</span><span class="casa__valore">18,8°</span><span class="casa__dettaglio">61% · obiettivo 18,0°</span></li>
+          <li class="casa__stanza" data-stato="anomalia"><span class="casa__nome">Bagnetto</span><span class="casa__valore">17,4°</span><span class="casa__dettaglio">67% · obiettivo 17,0°</span></li>
+          <li class="casa__stanza" data-stato="ok"><span class="casa__nome">Tavernetta</span><span class="casa__valore">16,9°</span><span class="casa__dettaglio">55% · obiettivo 17,0°</span></li>
+          <li class="casa__stanza" data-stato="ok"><span class="casa__nome">Garage</span><span class="casa__valore">16,2°</span><span class="casa__dettaglio">57% · obiettivo 17,0°</span></li>
+        </ul>
+        <p class="casa__fonte">Sensori Tado via Home Assistant, letti alle 06:30</p>
+      </section>
+      <!-- SCHELETRO:CASA-FINE -->
 
       <!-- ===================== NOTIZIE ===================== -->
       <section aria-labelledby="notizie-titolo">

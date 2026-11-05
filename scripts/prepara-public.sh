@@ -82,7 +82,16 @@ if ! python3 scripts/meteo.py "$pagina" "$ora_hm"; then
   sed -i '/SCHELETRO:METEO-INIZIO/,/SCHELETRO:METEO-FINE/d' "$pagina"
 fi
 
-# 7. Rete di sicurezza: se qualcosa qui sopra non ha agganciato, meglio
+# 7. Fascia casa (temperature da Home Assistant): qui non ci sono le
+#    credenziali per leggerla, la legge l'agente con il connettore Home
+#    Assistant e la scrive scripts/casa.py. Nello scheletro resta solo il
+#    segnaposto che casa.py sostituisce; se i dati non arrivano, la fascia
+#    manca e il segnaposto (un commento HTML) non si vede.
+sed -i \
+  -e '/SCHELETRO:CASA-INIZIO/,/SCHELETRO:CASA-FINE/c\      <!-- FASCIA-CASA -->' \
+  "$pagina"
+
+# 8. Rete di sicurezza: se qualcosa qui sopra non ha agganciato, meglio
 #    saperlo adesso che dopo dieci minuti di ricerche.
 for residuo in 'data-edizione' 'esempio\.it' 'edizione di esempio' 'SCHELETRO:'; do
   if grep -q "$residuo" "$pagina"; then
