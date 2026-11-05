@@ -122,14 +122,11 @@ fascia meteo.
 
 ## Fascia casa
 
-La fascia `.casa`, subito sotto il meteo, riporta le temperature di casa lette
-da Home Assistant: minima e massima delle stanze, temperatura esterna,
-modalita' di riscaldamento, Daikin accesi, i controlli del mattino (stanze
-oltre 1,5 °C sotto la desiderata, bagno sotto 18 °C, finestre aperte, umidita'
-fuori da 35-65%, sensori o Daikin non disponibili, consiglio di passare a
-"Pompe di calore e caldaia") e una tessera per stanza. Sostituisce il report
-che Home Assistant mandava su Telegram alle 6:45. I numeri non passano
-dall'AI: l'agente legge e salva, lo script calcola e scrive.
+La fascia `.casa`, subito sotto il meteo, riporta **solo la temperatura di
+ogni stanza** letta da Home Assistant (sensori Tado): nome e gradi, nient'altro,
+perche' il giornale e' pubblico. Sostituisce il report che Home Assistant
+mandava su Telegram alle 6:45. I numeri non passano dall'AI: l'agente legge e
+salva, lo script scrive.
 
 1. Con il connettore Home Assistant chiamare `ha_eval_template` passando come
    `template` il contenuto di `scripts/casa.jinja`, **senza modificarlo**.
@@ -164,7 +161,7 @@ Classi e ruoli definiti in `template/index.html` e `template/css/style.css`:
 | --- | --- |
 | Area avvisi (opzionale) | `.avvisi` > `.avviso` |
 | Fascia meteo (dallo script) | `.meteo` > `.meteo__oggi` + `.meteo__pioggia` |
-| Fascia casa (dallo script) | `.casa` > `.casa__oggi` + `.casa__controlli` + `.casa__stanze` |
+| Fascia casa (dallo script) | `.casa` > `.casa__stanze` > `.casa__stanza` |
 | Riquadro di categoria | `.riquadro` > `.riquadro__testata` + `.notizia` |
 | Notizia | `.notizia__titolo`, `.notizia__testo`, `.notizia__meta`, `.notizia__fonte` |
 | Etichetta categoria (facoltativa) | `.notizia__categoria` |
