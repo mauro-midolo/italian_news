@@ -4,3 +4,6 @@
 # File di sistema
 .DS_Store
 Thumbs.db
+
+# Bytecode Python
+__pycache__/

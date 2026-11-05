@@ -47,12 +47,15 @@ a carico dell'agente.
    ricrea `public/` da `template/` e lascia in `public/index.html` lo scheletro
    del giorno. Va eseguito **una sola volta, all'inizio**: rilanciarlo a lavoro
    avviato cancella i riquadri gia' scritti.
-2. Riempire `public/index.html` seguendo `details.info` e le regole di questo
+2. Scrivere la fascia casa (vedi **Fascia casa**): controllare la casa con
+   il connettore Home Assistant e lanciare `scripts/casa.py`. Si fa subito,
+   prima delle notizie; se non riesce si va avanti senza.
+3. Riempire `public/index.html` seguendo `details.info` e le regole di questo
    file, un riquadro alla volta.
-3. Prima di chiudere, rileggere la pagina: un `<section class="riquadro">` per
+4. Prima di chiudere, rileggere la pagina: un `<section class="riquadro">` per
    ogni voce di `[NOTIZIE]` che ha prodotto risultati, nessuna traccia di
    `data-edizione` o di link a `esempio.it`.
-4. Committare **solo `public/`** direttamente su `main`, con messaggio
+5. Committare **solo `public/`** direttamente su `main`, con messaggio
    `Edizione del GG/MM/AAAA`, e fare push. Cloudflare Pages pubblica il sito a
    ogni push. Un'edizione ridotta si committa lo stesso; non si committa solo
    se la pagina non contiene neanche una notizia (resta online quella di ieri).
@@ -102,8 +105,9 @@ quadre, le voci iniziano con `-`.
 
 1. Avvisi da `[INFORMAZIONI]` (se ce ne sono)
 2. Fascia meteo (scritta da `scripts/prepara-public.sh`)
-3. Notizie
-4. Eventuali sezioni future
+3. Fascia casa (scritta da `scripts/casa.py`)
+4. Notizie
+5. Eventuali sezioni future
 
 ## Fascia meteo
 
@@ -114,6 +118,73 @@ successivi. I numeri non passano dall'AI. L'agente non la crea, non la
 modifica e non la sposta; se le previsioni non erano disponibili la fascia
 manca e va bene cosi'. Gli avvisi, quando ci sono, vanno **prima** della
 fascia meteo.
+
+## Fascia casa
+
+Sotto il meteo, un breve testo sullo stato della casa: dice che e' tutto in
+ordine oppure elenca solo le cose da controllare. Sostituisce il report
+mattutino che Home Assistant mandava ogni giorno.
+
+### Privacy: il repository e il sito sono pubblici
+
+- **Nel repository non va nessuna informazione sulla casa**: niente nomi di
+  stanze, dispositivi, entita', marche, helper, automazioni o valori. Non
+  scriverli in `scripts/`, `template/`, in questo file, nei messaggi di commit
+  o in file tracciati. Tutto si scopre **a runtime** dal connettore Home
+  Assistant e resta in `.cache/` (ignorata da git).
+- **Nella pagina mai informazioni su di noi o su dove siamo**: stato
+  dell'allarme, vacanza, fuori casa, presenza, rientri, posizione, telefoni.
+  Si usano per i controlli, non si scrivono, neanche indirettamente (per
+  esempio "temperatura di vacanza" o "riscaldamento ridotto perche' siamo via").
+- Mai l'elenco delle stanze o dei dispositivi: si nomina una stanza o un
+  dispositivo solo nella frase che segnala un suo problema.
+
+### Che cosa controllare, ogni mattina
+
+Esplorare Home Assistant con il connettore (ricerca di entita', stati,
+storico, automazioni e helper) senza dare nulla per scontato: stanze e
+dispositivi possono cambiare.
+
+1. **Stanze molto fredde stanotte.** Il controllo si fa sempre, anche quando
+   siamo via, ma rispetto alla temperatura che il riscaldamento doveva tenere
+   in quel momento: capire dalle automazioni e dagli helper del riscaldamento
+   come viene scelta (di solito desiderata, fuori casa o vacanza) e usare
+   quella in vigore stanotte; se la desiderata cambia durante la notte, vale
+   la piu' bassa fra mezzanotte e le 7. Per ogni stanza la temperatura e'
+   quella del sensore della stanza (non quella interna dei climatizzatori, se
+   l'automazione la indica come inaffidabile). Minima della notte: statistiche
+   orarie `min` di `ha_get_history` fra mezzanotte e le 7 di oggi. Segnalare
+   le stanze con minima di almeno 1 °C sotto il riferimento, con la minima:
+   "La temperatura del <stanza> questa notte e' stata molto fredda: 17,0 °C."
+2. **Batterie** da ricaricare o sostituire: sensori di batteria sotto il 20%
+   o sensori "batteria scarica" attivi. Esclusi telefoni e tablet (app mobile).
+3. **Dispositivi importanti che non rispondono**: termostati, valvole,
+   climatizzatori, sensori di temperatura delle stanze (`unavailable`). Non
+   le centinaia di entita' secondarie spesso non disponibili.
+4. **Faccende** dell'integrazione Chore Helper (calendario/sensori delle
+   faccende): in ritardo o in scadenza entro 3 giorni, con quanto ritardo o
+   quando scadono.
+5. **Altro** solo se richiede un intervento in casa ed e' chiaro (per esempio
+   una riparazione segnalata da Home Assistant su un dispositivo importante).
+
+Valori sempre letti dai tool, mai stimati, con un decimale e la virgola.
+
+### Come si scrive
+
+1. Scrivere `.cache/casa.json`:
+   `{"letto_alle": "<ora della lettura, ISO con fuso>", "frasi": [...]}`.
+   Una frase per segnalazione (al massimo 8: raggruppare, per esempio tutte
+   le batterie in una frase), in italiano semplice; `frasi` vuota se non c'e'
+   niente da segnalare.
+2. Eseguire `python3 scripts/casa.py public/index.html .cache/casa.json`.
+   Lo script impagina la fascia al posto del segnaposto `<!-- FASCIA-CASA -->`
+   e rifiuta frasi con parole su persone, presenza, vacanze o allarme: in quel
+   caso riscrivere la frase senza quell'informazione, non aggirare il
+   controllo.
+
+Se il connettore Home Assistant non e' disponibile o i controlli falliscono,
+si va avanti senza fascia: il segnaposto resta come commento HTML e non si
+vede. La fascia non si scrive a mano nell'HTML e non si segnala la sua assenza.
 
 ## Regole redazionali
 
@@ -134,6 +205,7 @@ Classi e ruoli definiti in `template/index.html` e `template/css/style.css`:
 | --- | --- |
 | Area avvisi (opzionale) | `.avvisi` > `.avviso` |
 | Fascia meteo (dallo script) | `.meteo` > `.meteo__oggi` + `.meteo__pioggia` |
+| Fascia casa (dallo script) | `.casa` > `.casa__testo` + `.casa__voci` |
 | Riquadro di categoria | `.riquadro` > `.riquadro__testata` + `.notizia` |
 | Notizia | `.notizia__titolo`, `.notizia__testo`, `.notizia__meta`, `.notizia__fonte` |
 | Etichetta categoria (facoltativa) | `.notizia__categoria` |

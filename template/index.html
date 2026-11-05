@@ -12,7 +12,7 @@
   1. La generazione non copia questo file cosi' com'e': ne ricava lo SCHELETRO
      dell'edizione del giorno (scripts/prepara-public.sh). Toglie
      l'attributo data-edizione di prova, mette la data di oggi nella testata
-     e svuota le due aree delimitate dai marcatori SCHELETRO:*-INIZIO /
+     e svuota le aree delimitate dai marcatori SCHELETRO:*-INIZIO /
      SCHELETRO:*-FINE. L'agente parte da quello scheletro e lo riempie.
      Il contenuto dentro i marcatori e' quindi solo un esempio di struttura:
      e' li' perche' l'agente abbia un modello da cui copiare il markup.
@@ -23,6 +23,9 @@
      Quando c'e', sta in cima al <main>, prima della fascia .meteo.
   3b. La fascia .meteo la scrive scripts/prepara-public.sh con dati reali
      (Open-Meteo): l'agente non la crea e non la modifica.
+  3c. La fascia .casa sta subito dopo il meteo: un breve testo sullo stato
+     della casa, impaginato da scripts/casa.py con le frasi che l'agente
+     ricava a runtime da Home Assistant. Nessun dato della casa nel repository.
   4. Classi, struttura e nomi dei file CSS/JS non vanno cambiati: css/style.css
      e js/main.js vengono copiati invariati in public/.
   5. Il contenuto di esempio presente qui sotto e' segnaposto e va sostituito
@@ -163,6 +166,32 @@
         <p class="meteo__fonte">Previsioni <a href="https://open-meteo.com/" rel="noopener">Open-Meteo</a> delle 06:30</p>
       </section>
       <!-- SCHELETRO:METEO-FINE -->
+
+      <!-- SCHELETRO:CASA-INIZIO -->
+      <!--
+        ===================== CASA =====================
+        Breve testo sullo stato della casa. Lo impagina scripts/casa.py con le
+        frasi che l'agente ricava ogni mattina da Home Assistant (vedi CLAUDE.md,
+        "Fascia casa"). Nessun dato della casa sta nel repository, nemmeno qui:
+        le frasi qui sotto sono solo esempi di forma.
+        data-anomalie="no" e una sola riga se non c'e' niente da segnalare.
+      -->
+      <section class="casa" aria-labelledby="casa-titolo" data-anomalie="si">
+        <h2 class="casa__titolo" id="casa-titolo">Casa</h2>
+        <div class="casa__corpo">
+          <svg class="casa__icona" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9v11h14V9"/><path d="M10 20v-5h4v5"/></svg>
+          <div>
+            <p class="casa__testo">Questa mattina in casa c'è qualcosa da controllare.</p>
+            <ul class="casa__voci">
+              <li>La temperatura di una stanza questa notte è stata molto fredda: 16,5 °C.</li>
+              <li>C'è una batteria da ricaricare o sostituire: sensore di esempio (12%).</li>
+              <li>C'è una faccenda da fare: attività di esempio (scade domani).</li>
+            </ul>
+          </div>
+        </div>
+        <p class="casa__fonte">Da Home Assistant, controllo delle 06:30</p>
+      </section>
+      <!-- SCHELETRO:CASA-FINE -->
 
       <!-- ===================== NOTIZIE ===================== -->
       <section aria-labelledby="notizie-titolo">
