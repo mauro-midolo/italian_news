@@ -249,7 +249,79 @@
             </article>
           </section>
 
-          <!-- BOX-04 -->
+          <section class="riquadro">
+            <header class="riquadro__testata">
+              <h3 class="riquadro__titolo">Intelligenza Artificiale</h3>
+              <span class="riquadro__conteggio" data-ruolo="conteggio"></span>
+            </header>
+
+            <article class="notizia">
+              <h4 class="notizia__titolo">OpenAI presenta GPT-6 Cyber, il modello che trova falle e propone le correzioni</h4>
+              <p class="notizia__testo">Il nuovo modello è addestrato per cercare vulnerabilità nel software, costruire exploit funzionanti e suggerire le patch. In una campagna sul kernel Linux costata circa 1,2 milioni di dollari di calcolo ha prodotto 948 exploit funzionanti per l'escalation dei privilegi, oltre cinque volte il modello precedente, e in Firefox ha trovato 81 falle gravi già corrette da Mozilla. OpenAI lo classifica a rischio «critico» nel proprio quadro di sicurezza: per ora è accessibile via API e Codex solo a un gruppo ristretto di clienti del programma Daybreak Red. I dati sulle prestazioni sono dell'azienda e non ancora verificati in modo indipendente.</p>
+              <p class="notizia__meta">
+                <span class="notizia__categoria">Sicurezza</span>
+                <a class="notizia__fonte" href="https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/" rel="noopener">The Decoder</a>
+                <a class="notizia__fonte" href="https://cyberscoop.com/openai-gpt-6-cyber-security-model/" rel="noopener">CyberScoop</a>
+              </p>
+            </article>
+
+            <article class="notizia">
+              <h4 class="notizia__titolo">Thinking Machines lancia Inkling 2 Small, pesi aperti in arrivo</h4>
+              <p class="notizia__testo">Il laboratorio di Mira Murati ha pubblicato il suo modello di seconda generazione: un mixture-of-experts da 594 miliardi di parametri, 17 miliardi attivi, che accetta anche immagini e permette di regolare lo sforzo di ragionamento. Per ora si usa e si può affinare sulla piattaforma Tinker; i pesi completi dovrebbero uscire la settimana prossima con licenza Apache 2.0, dopo i test di sicurezza esterni. Secondo Artificial Analysis il modello si colloca al livello di Gemini 3.8 Flash e, una volta aperto, sarebbe il migliore a pesi aperti fuori dalla Cina.</p>
+              <p class="notizia__meta">
+                <span class="notizia__categoria">Modelli</span>
+                <a class="notizia__fonte" href="https://thinkingmachines.ai/news/inkling-2-small/" rel="noopener">Thinking Machines Lab</a>
+                <a class="notizia__fonte" href="https://artificialanalysis.ai/articles/thinking-machines-releases-inkling-2-small-highest-scoring-open-weights-model-outside-of-chinia-upon-weights-release-it" rel="noopener">Artificial Analysis</a>
+              </p>
+            </article>
+
+            <article class="notizia">
+              <h4 class="notizia__titolo">Gemini Omni 1.2 Flash: video fino a 15 secondi e prezzo ridotto del 30%</h4>
+              <p class="notizia__testo">Google ha aggiornato il suo modello per generare e modificare video: le clip arrivano a 15 secondi, regolabili da 3 a 15, contro i 10 della versione precedente. Migliorano l'aderenza alle immagini di riferimento, la coerenza fra inquadrature, il labiale e i movimenti di camera. Il costo scende a 0,07 dollari al secondo in 720p; il modello è disponibile nella Gemini API e su Google Cloud, e sta arrivando nell'app Gemini per gli abbonati AI Ultra.</p>
+              <p class="notizia__meta">
+                <span class="notizia__categoria">Video</span>
+                <a class="notizia__fonte" href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/" rel="noopener">Google</a>
+              </p>
+            </article>
+
+            <article class="notizia">
+              <h4 class="notizia__titolo">ChatGPT Images 2.6 crea GIF animate e ricorda i riferimenti</h4>
+              <p class="notizia__testo">Dal 4 novembre ChatGPT può trasformare un testo o un'immagine in una GIF animata, con velocità e singoli fotogrammi modificabili. Le immagini di persone, animali o personaggi possono essere salvate come riferimento e riusate senza ricaricarle, e arrivano anche annotazioni ed esportazione in SVG. Per gli sviluppatori sono annunciati due modelli API: Flare, più rapido, e Sunburst, più accurato nelle modifiche.</p>
+              <p class="notizia__meta">
+                <span class="notizia__categoria">Immagini</span>
+                <a class="notizia__fonte" href="https://community.openai.com/t/images-upgraded-introducing-chatgpt-images-2-6/1412901" rel="noopener">OpenAI Developer Community</a>
+                <a class="notizia__fonte" href="https://thenextweb.com/news/chatgpt-animated-gifs-images-2-6-openai" rel="noopener">The Next Web</a>
+              </p>
+            </article>
+
+            <article class="notizia">
+              <h4 class="notizia__titolo">Claude si collega al conto in banca con Personal Finance</h4>
+              <p class="notizia__testo">Anthropic ha avviato la beta di una sezione dedicata alle finanze personali: tramite Plaid si collegano conti e carte, e Claude risponde a domande su saldi e movimenti, divide le spese per categoria e segnala addebiti doppi o commissioni inattese. L'accesso è in sola lettura, non permette di spostare denaro e le conversazioni della sezione non vengono usate per l'addestramento. Per ora è riservata agli abbonati Pro, Max e Ultra negli Stati Uniti.</p>
+              <p class="notizia__meta">
+                <span class="notizia__categoria">Assistenti</span>
+                <a class="notizia__fonte" href="https://claude.com/resources/articles/introducing-personal-finance-in-claude" rel="noopener">Anthropic</a>
+              </p>
+            </article>
+
+            <article class="notizia">
+              <h4 class="notizia__titolo">Postman ritira l'installazione automatica di plugin in Codex e Claude Code</h4>
+              <p class="notizia__testo">Un utente aveva segnalato che un aggiornamento dell'app desktop di Postman aveva installato da solo plugin e un hook di avvio negli assistenti di programmazione Codex e Claude Code, tentando anche di approvarlo al posto dell'utente. Dopo molte proteste, il 5 novembre l'azienda ha comunicato che annullerà la modifica e ripenserà la funzione con un consenso esplicito. Chi usa Postman con questi strumenti fa bene a controllare le proprie configurazioni.</p>
+              <p class="notizia__meta">
+                <span class="notizia__categoria">Coding</span>
+                <a class="notizia__fonte" href="https://github.com/postmanlabs/postman-app-support/issues/14370" rel="noopener">GitHub</a>
+              </p>
+            </article>
+
+            <article class="notizia">
+              <h4 class="notizia__titolo">METR: lo sviluppo dei modelli di Anthropic è quasi raddoppiato di velocità</h4>
+              <p class="notizia__testo">L'organizzazione indipendente di valutazione stima che dall'ottobre 2025 le capacità dei modelli di Anthropic crescano circa 1,9 volte più in fretta di prima, con un margine d'incertezza ampio. Secondo METR l'accelerazione non dipende da un aumento del calcolo per l'addestramento e sarebbe in gran parte merito dell'uso dell'AI nella ricerca stessa. L'organizzazione avverte però che parte delle prove è stata oscurata da Anthropic.</p>
+              <p class="notizia__meta">
+                <span class="notizia__categoria">Ricerca</span>
+                <a class="notizia__fonte" href="https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/" rel="noopener">METR</a>
+              </p>
+            </article>
+          </section>
+
           <!-- BOX-05 -->
           <section class="riquadro">
             <header class="riquadro__testata">
