@@ -68,6 +68,41 @@ leggibili.
 ---
 
 
+## ✏️ Modificare le richieste dal sito
+
+Oltre che a mano, `details.info` si modifica dalla pagina **`/modifica/`**
+del giornale (link "modifica le richieste" in fondo a ogni edizione): ogni
+sezione è una scheda con titolo e testo, i pulsanti **+ Nuova sezione** e
+**+ Nuovo avviso** aggiungono voci, le frecce cambiano l'ordine, il cestino
+elimina. **Salva** crea un commit su `main` e la modifica vale dall'edizione
+del mattino dopo. Le modifiche non salvate restano come bozza nel browser.
+
+Come funziona: il sito gira su un Cloudflare Worker con asset statici.
+`worker/index.js` gestisce solo `/modifica/api/…`, che controlla la password e
+legge e scrive il file con l'API di GitHub; tutto il resto è servito da
+`public/` senza passare dal codice.
+
+L'accesso è protetto da una password: una volta inserita, il browser resta
+collegato per 30 giorni (pulsante **Esci** per chiudere prima). Sono ammessi
+al massimo 5 tentativi al minuto per indirizzo; cambiare la password chiude
+tutte le sessioni aperte.
+
+### Configurazione (una volta sola)
+
+1. **Token GitHub**: GitHub → Settings → Developer settings →
+   *Personal access tokens* → *Fine-grained tokens* → *Generate new token*.
+   *Repository access*: **Only select repositories** → `italian_news`.
+   *Permissions → Repository permissions → Contents*: **Read and write**.
+2. **Segreti del Worker**: dashboard Cloudflare → Workers & Pages →
+   `italian_news` → Settings → *Variables and Secrets* → *Add*, tipo
+   **Secret**:
+   - `GITHUB_TOKEN` — il token del punto 1;
+   - `EDITOR_PASSWORD` — la password dell'editor, **almeno 12 caratteri**.
+
+Senza questi due valori l'editor resta chiuso e non modifica nulla.
+
+---
+
 ## ⚠️ Disclaimer
 
 - I contenuti sono **generati automaticamente da un'intelligenza artificiale** e
