@@ -36,12 +36,12 @@ export default {
     const url = new URL(request.url);
     if (url.pathname === PERCORSO_API || url.pathname === PERCORSO_ACCESSO) {
       try {
-        if (!env.GITHUB_TOKEN || !env.EDITOR_PASSWORD) {
+        if (!env.GITHUB_TOKEN || !pulisci(env.EDITOR_PASSWORD)) {
           return risposta(503, {
             errore: "Editor non configurato: mancano i segreti GITHUB_TOKEN o EDITOR_PASSWORD.",
           });
         }
-        if (env.EDITOR_PASSWORD.length < LUNGHEZZA_MINIMA_PASSWORD) {
+        if (pulisci(env.EDITOR_PASSWORD).length < LUNGHEZZA_MINIMA_PASSWORD) {
           return risposta(503, {
             errore: `Editor non configurato: EDITOR_PASSWORD deve avere almeno ${LUNGHEZZA_MINIMA_PASSWORD} caratteri.`,
           });
@@ -91,9 +91,9 @@ async function gestisciAccesso(request, env) {
   } catch {
     return risposta(400, { errore: "JSON non valido." });
   }
-  const password = corpo && typeof corpo.password === "string" ? corpo.password : "";
+  const password = pulisci(corpo && typeof corpo.password === "string" ? corpo.password : "");
 
-  if (!(await uguali(password, env.EDITOR_PASSWORD, env))) {
+  if (!(await uguali(password, pulisci(env.EDITOR_PASSWORD), env))) {
     // Rallenta i tentativi a raffica anche senza limite configurato.
     await new Promise((fatto) => setTimeout(fatto, 1000));
     return risposta(401, { errore: "Password errata." });
@@ -224,6 +224,12 @@ function cookieSessione(valore, durata) {
 }
 
 // --- Utilita' ------------------------------------------------------------------
+
+// Spazi e a capo all'inizio e alla fine non contano (capita di incollarli
+// insieme alla password); forma Unicode uniforme per le lettere accentate.
+function pulisci(testo) {
+  return String(testo || "").normalize("NFC").trim();
+}
 
 function risposta(stato, corpo, extra) {
   return new Response(JSON.stringify(corpo), {
