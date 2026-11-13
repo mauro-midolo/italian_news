@@ -13,7 +13,7 @@ worker/        ->  API dell'editor delle richieste (Cloudflare Worker)
 L'utente puo' modificare `details.info` anche dal sito, con l'editor in
 `/modifica/` (`template/modifica/`, `js/modifica.js`, `css/modifica.css`): la
 pagina salva con un commit su `main` tramite `worker/index.js`, protetto da
-Cloudflare Access. Nella generazione quotidiana `worker/` e `wrangler.jsonc`
+una password (segreto `EDITOR_PASSWORD` del Worker). Nella generazione quotidiana `worker/` e `wrangler.jsonc`
 non si toccano.
 
 ## Regole invarianti

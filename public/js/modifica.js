@@ -145,6 +145,7 @@
   /* --- Editor ------------------------------------------------------------- */
 
   var API = "api/details";
+  var API_ACCESSO = "api/accesso";
   var CHIAVE_BOZZA = "quotidiano:bozza-richieste";
 
   var $ = function (sel) { return document.querySelector(sel); };
@@ -157,6 +158,8 @@
   var bottoneSalva = $("[data-azione='salva']");
   var bottoneAnnulla = $("[data-azione='annulla']");
   var boxErrore = $("[data-ruolo='errore']");
+  var formAccesso = $("[data-ruolo='accesso']");
+  var erroreAccesso = $("[data-ruolo='errore-accesso']");
 
   var base = null;      /* modello come sta su GitHub */
   var testoBase = "";   /* base ricomposta: termine di paragone per "modificato" */
@@ -332,6 +335,12 @@
       }
     } else if (azione === "salva") {
       salva();
+    } else if (azione === "esci") {
+      if (modificato() && !window.confirm("Ci sono modifiche non salvate: uscire lo stesso? (restano come bozza in questo browser)")) return;
+      chiama("DELETE", null, API_ACCESSO).then(function () {
+        window.removeEventListener("beforeunload", avvisaUscita);
+        window.location.reload();
+      }, function (errore) { scriviStato(errore.message, "errore"); });
     }
   });
 
@@ -351,17 +360,18 @@
     document.querySelectorAll(".scheda textarea").forEach(adattaAltezza);
   });
 
-  window.addEventListener("beforeunload", function (e) {
+  function avvisaUscita(e) {
     if (modificato()) {
       e.preventDefault();
       e.returnValue = "";
     }
-  });
+  }
+  window.addEventListener("beforeunload", avvisaUscita);
 
   /* --- Rete --------------------------------------------------------------- */
 
-  function chiama(metodo, corpo) {
-    return fetch(API, {
+  function chiama(metodo, corpo, indirizzo) {
+    return fetch(indirizzo || API, {
       method: metodo,
       headers: corpo ? { "Content-Type": "application/json" } : {},
       body: corpo ? JSON.stringify(corpo) : undefined,
@@ -369,13 +379,55 @@
       credentials: "same-origin"
     }).then(function (r) {
       return r.json().catch(function () { return {}; }).then(function (dati) {
-        if (!r.ok) throw new Error(dati.errore || "Errore del server (HTTP " + r.status + ").");
+        if (!r.ok) {
+          var errore = new Error(dati.errore || "Errore del server (HTTP " + r.status + ").");
+          errore.stato = r.status;
+          errore.accesso = !!dati.accesso;
+          throw errore;
+        }
         return dati;
       });
     }, function () {
-      throw new Error("Il server non risponde: forse la sessione di accesso e' scaduta. Ricarica la pagina (la bozza resta salvata in questo browser).");
+      throw new Error("Il server non risponde: controlla la connessione e riprova (la bozza resta salvata in questo browser).");
     });
   }
+
+  /* --- Accesso ------------------------------------------------------------ */
+
+  function chiediPassword(messaggio) {
+    $("[data-ruolo='caricamento']").hidden = true;
+    mostraErrore("");
+    $("[data-ruolo='spiega-accesso']").textContent = messaggio || "Inserisci la password dell\u2019editor.";
+    erroreAccesso.hidden = true;
+    formAccesso.hidden = false;
+    formAccesso.querySelector("#password").focus();
+  }
+
+  formAccesso.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var campo = formAccesso.querySelector("#password");
+    var bottone = formAccesso.querySelector("button[type='submit']");
+    bottone.disabled = true;
+    erroreAccesso.hidden = true;
+    chiama("POST", { password: campo.value }, API_ACCESSO).then(function () {
+      campo.value = "";
+      formAccesso.hidden = true;
+      bottone.disabled = false;
+      if (base) {
+        /* Sessione rinnovata durante il lavoro: le modifiche sono ancora qui. */
+        aggiornaStato();
+        if (modificato()) scriviStato("Accesso rinnovato: ora puoi salvare", "sporco");
+      } else {
+        $("[data-ruolo='caricamento']").hidden = false;
+        avvia();
+      }
+    }, function (errore) {
+      bottone.disabled = false;
+      erroreAccesso.textContent = errore.message;
+      erroreAccesso.hidden = false;
+      campo.select();
+    });
+  });
 
   function salva() {
     var mancanti = [];
@@ -407,9 +459,15 @@
       scriviStato("Salvato alle " + ora + ": vale dall'edizione di domattina", "ok");
     }, function (errore) {
       salvando = false;
-      scriviStato(errore.message, "errore");
       bottoneSalva.disabled = false;
       bottoneAnnulla.disabled = false;
+      if (errore.accesso) {
+        scriviStato("Sessione scaduta: inserisci di nuovo la password e salva", "errore");
+        chiediPassword("La sessione è scaduta. Le modifiche non sono perse: inserisci la password e poi premi Salva.");
+        formAccesso.scrollIntoView({ behavior: "smooth", block: "center" });
+      } else {
+        scriviStato(errore.message, "errore");
+      }
     });
   }
 
@@ -437,6 +495,7 @@
       popola(modelloIniziale);
       if (bozzaRipristinata) scriviStato("Ripristinate le modifiche non salvate dell'ultima volta", "sporco");
     }, function (errore) {
+      if (errore.accesso) return chiediPassword();
       $("[data-ruolo='caricamento']").hidden = true;
       mostraErrore(errore.message);
     });

@@ -2,7 +2,7 @@
 <!--
   Editor delle richieste (details.info). Non e' un'edizione del giornale:
   prepara-public.sh la copia in public/ cosi' com'e'. Legge e salva il file
-  tramite l'API del Worker (worker/index.js), protetta da Cloudflare Access.
+  tramite l'API del Worker (worker/index.js), protetta da una password.
 -->
 <html lang="it">
 <head>
@@ -44,6 +44,18 @@
     <p class="editor__stato-iniziale" data-ruolo="caricamento">Carico le richieste&hellip;</p>
     <div class="editor__errore" data-ruolo="errore" role="alert" hidden></div>
 
+    <form class="accesso" data-ruolo="accesso" hidden>
+      <h2 class="accesso__titolo">Accesso</h2>
+      <p class="accesso__spiega" data-ruolo="spiega-accesso">Inserisci la password dell&rsquo;editor.</p>
+      <input type="text" name="username" value="editor" autocomplete="username" hidden>
+      <label class="accesso__etichetta" for="password">Password</label>
+      <div class="accesso__riga">
+        <input class="accesso__campo" id="password" name="password" type="password" autocomplete="current-password" required>
+        <button class="salva" type="submit">Entra</button>
+      </div>
+      <p class="accesso__errore" data-ruolo="errore-accesso" role="alert" hidden></p>
+    </form>
+
     <section class="editor__blocco" data-blocco="notizie" aria-labelledby="titolo-notizie" hidden>
       <h2 class="sezione__titolo" id="titolo-notizie">Notizie</h2>
       <p class="editor__spiega">
@@ -74,6 +86,7 @@
     <div class="contenitore barra-salva__interno">
       <p class="barra-salva__stato" data-ruolo="stato" aria-live="polite">Nessuna modifica</p>
       <div class="barra-salva__comandi">
+        <button class="comando" type="button" data-azione="esci">Esci</button>
         <button class="comando" type="button" data-azione="annulla" disabled>Annulla</button>
         <button class="salva" type="button" data-azione="salva" disabled>Salva</button>
       </div>

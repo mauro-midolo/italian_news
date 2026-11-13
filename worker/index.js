@@ -4,33 +4,53 @@
 // Il giornale e' un sito statico (public/, servito dagli asset del Worker).
 // Questo codice gestisce solo l'API dell'editor delle richieste:
 //
-//   GET  /modifica/api/details   legge details.info da GitHub
-//   PUT  /modifica/api/details   lo riscrive con un commit su GitHub
+//   POST   /modifica/api/accesso   verifica la password, apre la sessione
+//   DELETE /modifica/api/accesso   chiude la sessione
+//   GET    /modifica/api/details   legge details.info da GitHub
+//   PUT    /modifica/api/details   lo riscrive con un commit su GitHub
 //
 // Tutte le altre richieste vanno agli asset statici.
 //
-// Sicurezza: la pagina /modifica e l'API vanno protette con Cloudflare
-// Access. L'API verifica comunque il token di Access (firma, audience,
-// scadenza) e, se manca la configurazione o il token non e' valido, rifiuta:
-// senza Access configurato l'editor non funziona, non resta aperto.
+// Sicurezza: l'editor e' protetto da una password. Se e' giusta il Worker
+// imposta un cookie di sessione firmato (HMAC, HttpOnly, Secure,
+// SameSite=Strict) valido 30 giorni; cambiare la password chiude tutte le
+// sessioni aperte. I tentativi sbagliati sono limitati per indirizzo IP.
+// Senza configurazione l'editor resta chiuso.
 //
 // Configurazione (Worker > Settings > Variables and Secrets, tipo "Secret"):
-//   GITHUB_TOKEN        token GitHub fine-grained, solo questo repository,
-//                       permesso "Contents: Read and write"
-//   ACCESS_TEAM_DOMAIN  es. nometeam.cloudflareaccess.com
-//   ACCESS_AUD          "Application Audience (AUD) Tag" dell'app di Access
+//   GITHUB_TOKEN     token GitHub fine-grained, solo questo repository,
+//                    permesso "Contents: Read and write"
+//   EDITOR_PASSWORD  la password dell'editor (almeno 12 caratteri)
 // In wrangler.jsonc (vars): GITHUB_REPO, GITHUB_BRANCH, DETAILS_PATH.
 // ===========================================================================
 
 const PERCORSO_API = "/modifica/api/details";
+const PERCORSO_ACCESSO = "/modifica/api/accesso";
+const COOKIE = "quotidiano_sessione";
+const DURATA_SESSIONE = 30 * 24 * 60 * 60; // secondi
+const LUNGHEZZA_MINIMA_PASSWORD = 12;
 const DIMENSIONE_MASSIMA = 200 * 1024;
 
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-    if (url.pathname === PERCORSO_API) {
+    if (url.pathname === PERCORSO_API || url.pathname === PERCORSO_ACCESSO) {
       try {
-        return await gestisciApi(request, env, url);
+        if (!env.GITHUB_TOKEN || !env.EDITOR_PASSWORD) {
+          return risposta(503, {
+            errore: "Editor non configurato: mancano i segreti GITHUB_TOKEN o EDITOR_PASSWORD.",
+          });
+        }
+        if (env.EDITOR_PASSWORD.length < LUNGHEZZA_MINIMA_PASSWORD) {
+          return risposta(503, {
+            errore: `Editor non configurato: EDITOR_PASSWORD deve avere almeno ${LUNGHEZZA_MINIMA_PASSWORD} caratteri.`,
+          });
+        }
+        if (request.method !== "GET" && !stessaOrigine(request, url)) {
+          return risposta(403, { errore: "Origine non consentita." });
+        }
+        if (url.pathname === PERCORSO_ACCESSO) return await gestisciAccesso(request, env);
+        return await gestisciApi(request, env);
       } catch (errore) {
         console.error(errore);
         return risposta(500, { errore: "Errore interno del server." });
@@ -40,34 +60,56 @@ export default {
   },
 };
 
-async function gestisciApi(request, env, url) {
-  if (!env.GITHUB_TOKEN || !env.ACCESS_TEAM_DOMAIN || !env.ACCESS_AUD) {
-    return risposta(503, {
-      errore: "Editor non configurato: mancano GITHUB_TOKEN, ACCESS_TEAM_DOMAIN o ACCESS_AUD.",
-    });
+function stessaOrigine(request, url) {
+  // Difesa da richieste incrociate, oltre a SameSite=Strict: le scritture
+  // devono arrivare dalla stessa origine e con corpo JSON.
+  const origine = request.headers.get("Origin");
+  if (origine && origine !== url.origin) return false;
+  if (request.method === "DELETE") return true;
+  return (request.headers.get("Content-Type") || "").includes("application/json");
+}
+
+async function gestisciAccesso(request, env) {
+  if (request.method === "DELETE") {
+    return risposta(200, { ok: true }, { "Set-Cookie": cookieSessione("", 0) });
+  }
+  if (request.method !== "POST") {
+    return risposta(405, { errore: "Metodo non consentito." }, { Allow: "POST, DELETE" });
   }
 
-  const utente = await verificaAccesso(request, env);
-  if (!utente) {
-    return risposta(401, {
-      errore: "Accesso non autorizzato: apri la pagina dal dominio protetto da Cloudflare Access.",
-    });
+  if (env.LIMITE_ACCESSI) {
+    const ip = request.headers.get("CF-Connecting-IP") || "sconosciuto";
+    const { success } = await env.LIMITE_ACCESSI.limit({ key: ip });
+    if (!success) {
+      return risposta(429, { errore: "Troppi tentativi: riprova fra un minuto." });
+    }
   }
 
+  let corpo;
+  try {
+    corpo = await request.json();
+  } catch {
+    return risposta(400, { errore: "JSON non valido." });
+  }
+  const password = corpo && typeof corpo.password === "string" ? corpo.password : "";
+
+  if (!(await uguali(password, env.EDITOR_PASSWORD, env))) {
+    // Rallenta i tentativi a raffica anche senza limite configurato.
+    await new Promise((fatto) => setTimeout(fatto, 1000));
+    return risposta(401, { errore: "Password errata." });
+  }
+
+  const scadenza = Math.floor(Date.now() / 1000) + DURATA_SESSIONE;
+  const valore = `${scadenza}.${await firma(String(scadenza), env)}`;
+  return risposta(200, { ok: true }, { "Set-Cookie": cookieSessione(valore, DURATA_SESSIONE) });
+}
+
+async function gestisciApi(request, env) {
+  if (!(await sessioneValida(request, env))) {
+    return risposta(401, { errore: "Serve la password per modificare le richieste.", accesso: true });
+  }
   if (request.method === "GET") return leggi(env);
-
-  if (request.method === "PUT") {
-    // Difesa da richieste incrociate: stessa origine e corpo JSON.
-    const origine = request.headers.get("Origin");
-    if (origine && origine !== url.origin) {
-      return risposta(403, { errore: "Origine non consentita." });
-    }
-    if (!(request.headers.get("Content-Type") || "").includes("application/json")) {
-      return risposta(415, { errore: "Il corpo deve essere JSON." });
-    }
-    return scrivi(request, env, utente);
-  }
-
+  if (request.method === "PUT") return scrivi(request, env);
   return risposta(405, { errore: "Metodo non consentito." }, { Allow: "GET, PUT" });
 }
 
@@ -98,7 +140,7 @@ async function leggi(env) {
   return risposta(200, { contenuto: base64InTesto(dati.content || ""), sha: dati.sha });
 }
 
-async function scrivi(request, env, utente) {
+async function scrivi(request, env) {
   let corpo;
   try {
     corpo = await request.json();
@@ -139,79 +181,46 @@ async function scrivi(request, env, utente) {
     return risposta(502, { errore: `GitHub ha rifiutato il salvataggio (HTTP ${r.status}).` });
   }
   const dati = await r.json();
-  console.log(`details.info aggiornato da ${utente}`);
+  console.log("details.info aggiornato dall'editor");
   return risposta(200, { sha: dati.content && dati.content.sha, commit: dati.commit && dati.commit.sha });
 }
 
-// --- Cloudflare Access ---------------------------------------------------------
+// --- Sessione -------------------------------------------------------------------
 
-let certificati = { dominio: "", chiavi: null, scadenza: 0 };
-
-function dominioTeam(env) {
-  return String(env.ACCESS_TEAM_DOMAIN).replace(/^https?:\/\//, "").replace(/\/+$/, "");
+// Chiave HMAC ricavata dai segreti: cambiare la password (o il token)
+// invalida tutte le sessioni.
+async function chiaveSessione(env) {
+  const materiale = new TextEncoder().encode(`quotidiano-sessione\u0000${env.EDITOR_PASSWORD}\u0000${env.GITHUB_TOKEN}`);
+  const impronta = await crypto.subtle.digest("SHA-256", materiale);
+  return crypto.subtle.importKey("raw", impronta, { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
 }
 
-async function chiaviAccess(dominio, forza) {
-  if (!forza && certificati.dominio === dominio && certificati.chiavi && Date.now() < certificati.scadenza) {
-    return certificati.chiavi;
-  }
-  const r = await fetch(`https://${dominio}/cdn-cgi/access/certs`);
-  if (!r.ok) throw new Error(`Certificati di Access non disponibili (HTTP ${r.status})`);
-  const dati = await r.json();
-  certificati = { dominio, chiavi: dati.keys || [], scadenza: Date.now() + 60 * 60 * 1000 };
-  return certificati.chiavi;
+async function firma(testo, env) {
+  const chiave = await chiaveSessione(env);
+  const mac = await crypto.subtle.sign("HMAC", chiave, new TextEncoder().encode(testo));
+  return byteInBase64(new Uint8Array(mac)).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
 }
 
-// Restituisce l'email (o l'identificativo) dell'utente se il token di Access
-// e' valido, altrimenti null.
-async function verificaAccesso(request, env) {
-  const token = request.headers.get("Cf-Access-Jwt-Assertion");
-  if (!token) return null;
-  const parti = token.split(".");
-  if (parti.length !== 3) return null;
+// Confronto a tempo costante: si confrontano le firme, non i testi.
+async function uguali(a, b, env) {
+  const [fa, fb] = await Promise.all([firma(`confronto:${a}`, env), firma(`confronto:${b}`, env)]);
+  let diversi = fa.length ^ fb.length;
+  for (let i = 0; i < Math.min(fa.length, fb.length); i++) diversi |= fa.charCodeAt(i) ^ fb.charCodeAt(i);
+  return diversi === 0;
+}
 
-  let testata, dati;
-  try {
-    testata = JSON.parse(base64UrlInTesto(parti[0]));
-    dati = JSON.parse(base64UrlInTesto(parti[1]));
-  } catch {
-    return null;
-  }
-  if (testata.alg !== "RS256" || !testata.kid) return null;
+async function sessioneValida(request, env) {
+  const cookie = request.headers.get("Cookie") || "";
+  const m = cookie.match(new RegExp(`(?:^|;\\s*)${COOKIE}=([^;]+)`));
+  if (!m) return false;
+  const [scadenza, mac] = m[1].split(".");
+  if (!/^\d+$/.test(scadenza || "") || !mac) return false;
+  if (Number(scadenza) < Math.floor(Date.now() / 1000)) return false;
+  return uguali(mac, await firma(scadenza, env), env);
+}
 
-  const dominio = dominioTeam(env);
-  let chiavi = await chiaviAccess(dominio, false);
-  let jwk = chiavi.find((k) => k.kid === testata.kid);
-  if (!jwk) {
-    // Le chiavi di Access ruotano: riprova una volta con quelle aggiornate.
-    chiavi = await chiaviAccess(dominio, true);
-    jwk = chiavi.find((k) => k.kid === testata.kid);
-  }
-  if (!jwk) return null;
-
-  const chiave = await crypto.subtle.importKey(
-    "jwk",
-    { kty: jwk.kty, n: jwk.n, e: jwk.e, alg: "RS256", ext: true },
-    { name: "RSASSA-PKCS1-v1_5", hash: "SHA-256" },
-    false,
-    ["verify"],
-  );
-  const valida = await crypto.subtle.verify(
-    "RSASSA-PKCS1-v1_5",
-    chiave,
-    base64UrlInByte(parti[2]),
-    new TextEncoder().encode(`${parti[0]}.${parti[1]}`),
-  );
-  if (!valida) return null;
-
-  const adesso = Math.floor(Date.now() / 1000);
-  const audience = Array.isArray(dati.aud) ? dati.aud : [dati.aud];
-  if (!audience.includes(env.ACCESS_AUD)) return null;
-  if (typeof dati.exp !== "number" || dati.exp < adesso) return null;
-  if (typeof dati.nbf === "number" && dati.nbf > adesso + 60) return null;
-  if (dati.iss !== `https://${dominio}`) return null;
-
-  return dati.email || dati.sub || "utente";
+function cookieSessione(valore, durata) {
+  return `${COOKIE}=${valore}; Max-Age=${durata}; Path=/modifica; HttpOnly; Secure; SameSite=Strict`;
 }
 
 // --- Utilita' ------------------------------------------------------------------
@@ -251,12 +260,3 @@ function base64InTesto(b64) {
   return new TextDecoder().decode(base64InByte(b64));
 }
 
-function base64UrlInByte(s) {
-  let b64 = s.replace(/-/g, "+").replace(/_/g, "/");
-  while (b64.length % 4) b64 += "=";
-  return base64InByte(b64);
-}
-
-function base64UrlInTesto(s) {
-  return new TextDecoder().decode(base64UrlInByte(s));
-}
