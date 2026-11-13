@@ -1,0 +1,116 @@
+<!doctype html>
+<!--
+  Editor delle richieste (details.info). Non e' un'edizione del giornale:
+  prepara-public.sh la copia in public/ cosi' com'e'. Legge e salva il file
+  tramite l'API del Worker (worker/index.js), protetta da Cloudflare Access.
+-->
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Il Quotidiano — Le tue richieste</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f6f5f1" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d0f13" media="(prefers-color-scheme: dark)">
+
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/modifica.css">
+</head>
+
+<body class="editor">
+  <header class="editor__testata">
+    <div class="contenitore">
+      <div class="testata__barra">
+        <a class="testata__marchio editor__torna" href="../">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+          Torna al giornale
+        </a>
+      </div>
+      <h1 class="editor__titolo">Le tue richieste</h1>
+      <p class="editor__occhiello">
+        Quello che scrivi qui guida l&rsquo;edizione di domattina: ogni sezione
+        diventa un riquadro del giornale, ogni avviso una condizione da
+        controllare.
+      </p>
+    </div>
+  </header>
+
+  <main class="contenitore" id="contenuto">
+    <p class="editor__stato-iniziale" data-ruolo="caricamento">Carico le richieste&hellip;</p>
+    <div class="editor__errore" data-ruolo="errore" role="alert" hidden></div>
+
+    <section class="editor__blocco" data-blocco="notizie" aria-labelledby="titolo-notizie" hidden>
+      <h2 class="sezione__titolo" id="titolo-notizie">Notizie</h2>
+      <p class="editor__spiega">
+        Una sezione per riquadro, nello stesso ordine del giornale. Il titolo
+        diventa il titolo del riquadro; nel testo spiega che cosa cercare e
+        come presentarlo.
+      </p>
+      <ol class="schede" data-lista="notizie"></ol>
+      <button class="aggiungi" type="button" data-azione="aggiungi-notizia">
+        <span class="aggiungi__piu" aria-hidden="true">+</span> Nuova sezione
+      </button>
+    </section>
+
+    <section class="editor__blocco" data-blocco="informazioni" aria-labelledby="titolo-informazioni" hidden>
+      <h2 class="sezione__titolo" id="titolo-informazioni">Avvisi</h2>
+      <p class="editor__spiega">
+        Condizioni da verificare ogni mattina. Compaiono in cima al giornale
+        solo quando si avverano: se non succede niente, non si vede niente.
+      </p>
+      <ol class="schede" data-lista="informazioni"></ol>
+      <button class="aggiungi" type="button" data-azione="aggiungi-informazione">
+        <span class="aggiungi__piu" aria-hidden="true">+</span> Nuovo avviso
+      </button>
+    </section>
+  </main>
+
+  <div class="barra-salva" data-ruolo="barra" hidden>
+    <div class="contenitore barra-salva__interno">
+      <p class="barra-salva__stato" data-ruolo="stato" aria-live="polite">Nessuna modifica</p>
+      <div class="barra-salva__comandi">
+        <button class="comando" type="button" data-azione="annulla" disabled>Annulla</button>
+        <button class="salva" type="button" data-azione="salva" disabled>Salva</button>
+      </div>
+    </div>
+  </div>
+
+  <template id="modello-notizia">
+    <li class="scheda">
+      <div class="scheda__testata">
+        <span class="scheda__numero" aria-hidden="true"></span>
+        <div class="scheda__comandi">
+          <button class="icona" type="button" data-azione="su" aria-label="Sposta su" title="Sposta su"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg></button>
+          <button class="icona" type="button" data-azione="giu" aria-label="Sposta giù" title="Sposta giù"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+          <button class="icona icona--elimina" type="button" data-azione="elimina" aria-label="Elimina" title="Elimina"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></svg></button>
+        </div>
+      </div>
+      <textarea class="scheda__titolo" data-campo="titolo" rows="1" placeholder="Titolo della sezione" aria-label="Titolo della sezione" maxlength="200"></textarea>
+      <textarea class="scheda__testo" data-campo="testo" rows="3" placeholder="Che cosa cercare, da quali fonti, come presentarlo&hellip;" aria-label="Richiesta della sezione"></textarea>
+      <button class="scheda__espandi" type="button" data-azione="espandi" aria-expanded="false">Mostra tutto</button>
+    </li>
+  </template>
+
+  <template id="modello-informazione">
+    <li class="scheda scheda--avviso">
+      <div class="scheda__testata">
+        <span class="scheda__numero" aria-hidden="true"></span>
+        <div class="scheda__comandi">
+          <button class="icona" type="button" data-azione="su" aria-label="Sposta su" title="Sposta su"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg></button>
+          <button class="icona" type="button" data-azione="giu" aria-label="Sposta giù" title="Sposta giù"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+          <button class="icona icona--elimina" type="button" data-azione="elimina" aria-label="Elimina" title="Elimina"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></svg></button>
+        </div>
+      </div>
+      <textarea class="scheda__testo" data-campo="testo" rows="2" placeholder="Avvisami quando&hellip;" aria-label="Condizione da verificare"></textarea>
+      <button class="scheda__espandi" type="button" data-azione="espandi" aria-expanded="false">Mostra tutto</button>
+    </li>
+  </template>
+
+  <script src="../js/modifica.js" defer></script>
+</body>
+</html>

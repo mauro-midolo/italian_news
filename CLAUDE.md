@@ -7,14 +7,22 @@ Code e pubblicato su Cloudflare Pages.
 details.info   ->  che cosa l'utente vuole sapere
 template/      ->  come il giornale deve essere visualizzato
 public/        ->  il giornale del giorno, pronto per il deploy
+worker/        ->  API dell'editor delle richieste (Cloudflare Worker)
 ```
+
+L'utente puo' modificare `details.info` anche dal sito, con l'editor in
+`/modifica/` (`template/modifica/`, `js/modifica.js`, `css/modifica.css`): la
+pagina salva con un commit su `main` tramite `worker/index.js`, protetto da
+Cloudflare Access. Nella generazione quotidiana `worker/` e `wrangler.jsonc`
+non si toccano.
 
 ## Regole invarianti
 
 1. **`template/` non si tocca** durante la generazione quotidiana. Si modifica
    solo quando viene chiesto esplicitamente di cambiare la grafica del giornale;
    in quel caso la modifica va fatta in `template/` e si rigenera `public/`.
-2. **`details.info` non si tocca**: lo modifica solo l'utente.
+2. **`details.info` non si tocca**: lo modifica solo l'utente, a mano o con
+   l'editor del sito (commit "Richieste aggiornate dall'editor del giornale").
 3. **`public/` deve essere autosufficiente**: nessun riferimento a file fuori da
    `public/`. Percorsi relativi (`css/style.css`, `js/main.js`, `assets/…`).
 4. Nella generazione quotidiana l'agente scrive **solo `public/index.html`**.
@@ -84,14 +92,18 @@ si riempie di un branch al giorno.
 Righe che iniziano con `#` sono commenti. Le intestazioni sono tra parentesi
 quadre, le voci iniziano con `-`.
 
-- **`[NOTIZIE]`** — ogni voce genera **un riquadro** (`<section class="riquadro">`)
-  dentro `.griglia`, nell'ordine in cui compare nel file. Il titolo del riquadro
-  riprende il testo della voce. Da 3 a 8 notizie per riquadro, ordinate per
+- **`[NOTIZIE]`** — ogni sezione `## Titolo` (con il testo che la segue, fino
+  al separatore `---` o alla sezione successiva) genera **un riquadro**
+  (`<section class="riquadro">`) dentro `.griglia`, nell'ordine in cui compare
+  nel file. Il titolo del riquadro riprende il titolo della sezione; il testo
+  dice che cosa cercare e come presentarlo. Una voce `- testo` su una riga,
+  se presente, vale come una sezione con quel titolo. Da 3 a 8 notizie per riquadro, ordinate per
   rilevanza, ciascuna con titolo, riassunto di 2-4 frasi e link alla fonte.
   Niente hardcoding delle categorie esistenti: aggiungere una voce deve bastare
   a far comparire un nuovo riquadro.
-- **`[INFORMAZIONI]`** — ogni voce è una **condizione da verificare**, non un
-  contenuto da mostrare per forza.
+- **`[INFORMAZIONI]`** — ogni voce (`- ` piu' le righe rientrate che la
+  seguono) è una **condizione da verificare**, non un contenuto da mostrare
+  per forza.
   - Se non c'è nulla da segnalare, **la sezione `.avvisi` va omessa del tutto**.
     Non scrivere mai messaggi come "il film non è ancora disponibile".
   - Se una o più condizioni risultano soddisfatte, inserire `.avvisi` **in cima

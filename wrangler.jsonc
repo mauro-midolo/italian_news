@@ -1,8 +1,21 @@
 {
   "name": "italian_news",
   "compatibility_date": "2026-09-02",
+  // Il Worker gestisce solo l'API dell'editor (/modifica/api/...): tutto il
+  // resto sono gli asset statici di public/, serviti senza passare dal codice.
+  "main": "worker/index.js",
   "assets": {
     "directory": "./public",
-    "not_found_handling": "404-page"
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/modifica/api/*"]
+  },
+  // Configurazione non segreta dell'editor. I segreti (GITHUB_TOKEN,
+  // ACCESS_TEAM_DOMAIN, ACCESS_AUD) si impostano nella dashboard di
+  // Cloudflare come "Secret": vedi worker/index.js.
+  "vars": {
+    "GITHUB_REPO": "mauro-midolo/italian_news",
+    "GITHUB_BRANCH": "main",
+    "DETAILS_PATH": "details.info"
   }
 }

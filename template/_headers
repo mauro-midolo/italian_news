@@ -19,3 +19,12 @@
   Cache-Control: public, max-age=3600
 /assets/*
   Cache-Control: public, max-age=86400
+
+# Editor delle richieste: mai in cache, mai indicizzato.
+/modifica/*
+  Cache-Control: no-store
+  X-Robots-Tag: noindex, nofollow
+/css/modifica.css
+  Cache-Control: no-cache
+/js/modifica.js
+  Cache-Control: no-cache
